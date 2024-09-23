@@ -1,0 +1,225 @@
+{% style %}
+    .custom-testimonials-section-{{ section.id}} {
+        background-image: url({{ section.settings.image | img_url: '1500x' }});
+        background-size: cover;
+        padding: {{ section.settings.padding_top }}px 0px {{ section.settings.padding_bottom }}px 0px;
+    }
+
+    .testimonials-heading-{{ section.id}} {
+        color: {{ section.settings.heading_color }};
+        max-width: {{ section.settings.heading_width }}%;
+    }
+
+    .testimonial-author-{{ section.id }} {
+        color: {{ section.settings.heading_color }};
+    }
+
+    .carousel-cell.testimonial-cell {
+        width: 30%;
+        height: 380px;
+        /* margin-right: 10px; */
+        background: transparent;
+        border-radius: 5px;
+        counter-increment: carousel-cell;
+    }
+
+    .carousel-cell.testimonial-cell.is-selected .testimonial-card {
+        scale: 1;
+    }
+
+    .flickity-prev-next-button {
+        border-radius: 50%;
+    }
+
+    @media only screen and (max-width: 1500px){
+        .custom-testimonials-section-{{ section.id}} {
+            background-position: right;
+        }
+    }
+
+    @media only screen and (max-width: 749px) {
+        .custom-testimonials-section-{{ section.id}} {
+            background-image: url({{ section.settings.mobile_image | img_url: 'medium' }});
+            background-size: cover;
+            padding: {{ section.settings.padding_top }}px 0px {{ section.settings.padding_bottom }}px 0px;
+        }
+        
+        .carousel-cell.testimonial-cell {
+            width: 66%;
+            height: 400px;
+        }
+
+        .testimonials-heading-{{ section.id}} {
+            max-width: calc({{ section.settings.heading_width }}% + 30%);
+        }
+
+        .custom-testimonials-container .flickity-button {
+            display: none;
+        }
+
+    }
+
+{% endstyle %}
+
+<section class="custom-testimonials-section-{{ section.id}}">
+    <h2 class="testimonials-heading-{{ section.id}} testimonials-heading {{ section.settings.text-align-class }}">{{ section.settings.heading | remove: '<p>' | remove: '</p>' | remove: '<h1>' | remove: '</h1>' | remove: '<h2>' | remove: '</h2>' | remove: '<h3>' | remove: '</h3>' | remove: '<h4>' | remove: '</h4>' | remove: '<h5>' | remove: '</h5>' | remove: '<h6>' | remove: '</h6>' }}</h2>
+    <div class="custom-testimonials-container carousel" data-flickity='{ "wrapAround": true, "arrowShape": "M18.5 12H6m0 0l6-6m-6 6l6 6", "pageDots": false, "autoPlay": true, "selectedAttraction": 0.01, "friction": 0.15 }'>
+        {% for block in section.blocks %}
+            <div id="testimonial-{{ forloop.index }}" class="carousel-cell testimonial-cell">
+                <div class="testimonial-card">
+                    <h3 class="testimonial-title">{{ block.settings.title }}</h3>
+                    <p class="testimonial-text">{{ block.settings.rating_text }}</p>
+                    <p class="testimonial-author-{{ section.id }} testimonial-author">{{ block.settings.author }}</p>
+                    {% if block.settings.show_stars %}
+                        <div>{% render 'icon-stars' %}</div>
+                    {% endif %}
+                    <div class="absolute-centered-container">
+                        <a href="{{ block.settings.product.url | default: '#'  }}" class="testimonial-link">
+                            <img class="testimonial-image" src="{{ block.settings.product.featured_image | img_url: 'medium' }}" alt="Rating image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+<script>
+    document.addEventListener('shopify:section:load', function(event) {
+        if(event.target.id == 'shopify-section-{{ section.id}}') {
+            setTimeout(() => {
+                window.location.reload();
+            }, 1000)
+        }
+    });
+</script>
+
+{% schema %}
+    {
+        "name": "Custom Testimonials",
+        "class": "section-custom-testimonials",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Images"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Desktop Image"
+            },
+            {
+                "type": "image_picker",
+                "id": "mobile_image",
+                "label": "Mobile Image"
+            },
+            {
+                "type": "header",
+                "content": "Text"
+            },
+            {
+                "type": "richtext",
+                "id": "heading",
+                "label": "Heading",
+                "default": "<h2><em>Results That Keep You Coming Back For More</em></h2>"
+            },
+            {
+                "type": "range",
+                "id": "heading_width",
+                "label": "Heading max width",
+                "min": 40,
+                "max": 100,
+                "step": 2,
+                "default": 60
+            },
+            {
+                "type": "select",
+                "id": "text-align-class",
+                "label": "Title alignment",
+                "default": "hero-text-center",
+                "options": [
+                    { "value": "hero-text-center", "label": "Center" },
+                    { "value": "hero-text-left", "label": "Left"},
+                    { "value": "hero-text-right", "label": "Right"},
+                    { "value": "hero-text-justify", "label": "Justify"}
+                ]
+            },
+            {
+                "type": "color",
+                "id": "heading_color",
+                "label": "Heading color",
+                "default": "#848080"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "label": "Padding Top",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "default": 20
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "label": "Padding Bottom",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "default": 20
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rating",
+                "name": "Rating",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Rating Title"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "rating_text",
+                        "label": "Rating Text"
+                    },
+                    {
+                        "type": "text",
+                        "id": "author",
+                        "label": "Author"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "show_stars",
+                        "label": "Show stars",
+                        "default": true
+                    },
+                    {
+                        "type": "product",
+                        "id": "product",
+                        "label": "Product"
+                    }
+                ]
+            }
+        ],
+        "max_blocks": 4,
+        "presets": [
+            {
+                "name": "Custom Testimonials",
+                "category": "Text",
+                "blocks": [
+                    {
+                        "type": "rating"
+                    },
+                    {
+                        "type": "rating"
+                    },
+                    {
+                        "type": "rating"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

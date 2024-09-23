@@ -1,0 +1,526 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Introducing: Skin by Blair's All-In-One Eye Cream<\/h1>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>My patients are constantly coming in complaining about their eye concerns, whether they be fine lines, sagging skin, wrinkles, bags, dark circles, crepey skin or puffiness – just to name a few! But what I almost always notice is that it’s typically never just one concern, but a combination of concerns that trouble them. Dark circles and puffiness, fine lines and under-eye bags, dry and crepey skin. And I found myself having to recommend two or even three products to address all of their concerns. It was frustrating to me to tell my patients to spend more, add more, and layer multiple eye creams morning and night. My goal is to simplify skincare, and it felt like I was making eye care harder. So, I set out to create the solution, and after almost two years of testing formulations, endless hours in the lab, back and forth with the chemists, and pushing to get the absolute BEST combination of the most potent and effective ingredients, I could not be more proud and excited to bring all of you this revolutionary product… Drum Roll, please…. It’s finally here y’all… The <a href=\"https:\/\/www.skinbyblair.com\/products\/skin-by-blair-all-in-one-eye-cream\" target=\"_self\">Skin by Blair, All-In-One Eye Cream<\/a>! Get ready for visible results, brighter eyes, and a youthful complexion!<\/p><p>All-In-One Eye Cream was born from this idea of providing more value for my patients, but as I researched the industry and tried out different products already on the market, it became clear that I needed to provide the same value for my online community as well. Instead of using that product for hyaluronic acid and this other product for peptides, I fused all of my favorite eye cream ingredients into one, never-before-combined formulation.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-13_at_4.52.22_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>All-In-One Eye Cream Ingredients<\/h3><p><\/p><p>This is the first product I’ve developed and known right off the bat exactly what ingredients I wanted (and really needed) to include. I had seen what works for each of my patients’ eye concerns, I just needed to figure out the correct amounts to create the perfect ingredient synergy. So what’s in it?<\/p><p><strong>Caffeine: <\/strong>This could be the biggest differentiator – it helps so much with depuffing. Plus, caffeine constricts the dilated blood vessels under your eyes, which allows it to decrease dark circles at the same time.<br\/><br\/><strong>Peptides:<\/strong>I use a very special peptide in my eye cream. It’s called DDBD (or dipeptide diaminobutyroyl benzylamide diacetate for my fellow science nerds) and it specifically targets wrinkles by sending a message to your little eye muscles telling them to relax, similar to the effects of Botox.<br\/><br\/><span style=\"text-decoration:underline\"><strong>Antioxidants<\/strong><\/span>: I included a few different ingredients with antioxidant properties for extra protection and brightening. The first is jojoba, which is rich in vitamins E and B to help repair the effects of environmental stressors and protect against future damage. The second is tocopherol, which is the most biologically active form of vitamin E. Tocopherol helps to improve your skin’s physical health and appearance through its anti-inflammatory and healing effects.<br\/><br\/><strong>Ceramides:<\/strong> Since the skin under our eyes is much thinner and has fewer oil glands than on the rest of our bodies, our under-eye area is more sensitive to products. Ceramides help protect this susceptible skin barrier, sealing in moisture and sealing out harmful elements.<br\/><br\/><strong>Hyaluronic Acid:<\/strong> Hyaluronic acid’s main function is to retain water to keep your skin more hydrated. Hydrated skin leads to a visibly smoother appearance and reduced fine lines and wrinkles.<br\/><br\/><span style=\"text-decoration:underline\"><strong>Arnica:<\/strong><\/span> This is most likely the most surprising ingredient included because it is not commonly found in eye creams. Arnica is typically used to reduce bruising and control swelling, but it has also been shown to help with under-eye darkness!<\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1",
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-13_at_4.53.08_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>How To Properly Apply Eye Cream<\/h3><p><\/p><p>One of my favorite things about the <a href=\"\/products\/skin-by-blair-all-in-one-eye-cream\" title=\"All-In-One Eye Cream\">Skin by Blair All-In-One Eye Cream<\/a> is actually the design of the product packaging. I chose a rounded, metal applicator tip to provide additional support for depuffing under the eyes. Puffiness is caused by fluid retention from lymphatic build up, so this tip works to apply just the right amount of pressure to drain that fluid around your eyes.<\/p><p>To properly use the applicator tip, you should start under the eye near your nose and slowly work your way outward for lymphatic drainage. You never want to push more fluid into the eye! Then you can do the same thing above your eye – on your brow bone, start near your nose and work your way outward. Then I like to gently pat the cream around that area, being sure to use my fingertips to get the cream onto my eyelids rather than using the applicator there.<\/p><p>I recommend repeating this process in your morning and evening skincare routine. The cream itself is thin enough to easily apply makeup on top of, and still thick enough to give you that soothing, replenishing feeling at night. One pump is all you need and it goes on best after serums. My only caveat with product layering is for those who have very sensitive skin under the eyes. If you frequently experience irritation in this area, it’s best to apply eye cream before your serums because it will act as a barrier for that skin.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-13_at_4.53.52_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>A Truly All-Encompassing Eye Care Solution<\/h3><p><\/p><p>To wrap it all up, Skin by Blair exists to make it easier for everyone to achieve healthier, radiant skin. My All-In-One Eye Cream is the latest addition to my product lineup that aims to do just that. After using it myself for the past 18 months and sharing it with multiple patients who gave me extremely helpful feedback, I can confidently say that this eye cream will:<br\/><br\/>1. brighten up your dark circles<br\/>2. depuff your under-eye bags<br\/>3. reduce the appearance of fine lines and wrinkles<br\/>4. tighten up sagginess<br\/>5. and, last but certainly not least, deliver intense moisture to your thinnest skin<br\/><br\/>And all without any irritation for all skin types! I can’t wait to hear how you like it.<br\/><br\/>xoxo,B<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "967819a1-a504-4580-b170-da1a5be9f557": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop ALL-IN-ONE EYE CREAM",
+            "button_url": "shopify:\/\/products\/skin-by-blair-all-in-one-eye-cream",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1",
+        "967819a1-a504-4580-b170-da1a5be9f557"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Recommended products<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

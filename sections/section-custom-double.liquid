@@ -1,0 +1,371 @@
+<!-- /sections/section-double.liquid -->
+
+{%- render 'section-custom-double' -%}
+ 
+{% schema %}
+{
+  "name": "Custom Image with text",
+  "settings": [
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full",
+      "options": [
+        { "value": "wrapper--full", "label": "Full width" },
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Normal" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image on Desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image on Mobile"
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment_class",
+      "label": "Content Alignment",
+      "default": "justify-content--right",
+      "options": [
+        { "value": "justify-content--left", "label": "Left" },
+        { "value": "justify-content--right", "label": "Right" },
+        { "value": "justify-content--center", "label": "center" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Alignment on desktop",
+      "default": "text-left",
+      "options": [
+        { "value": "text-left", "label": "Left" },
+        { "value": "text-center", "label": "Centered" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "mobile_text_alignment",
+      "label": "Alignment on mobile",
+      "default": "mobile-text-center",
+      "options": [
+        { "value": "moble-text-left", "label": "Left" },
+        { "value": "mobile-text-center", "label": "Centered" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "label": "Custom id",
+      "id": "custom_id",
+      "info": "in case you want to do a custom redirection, be careful with the id you choose"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 8
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "label": "Style",
+          "default": "font-body",
+          "options": [
+            {"value": "font-heading", "label": "Heading"},
+            {"value": "font-subheading", "label": "Subheading"},
+            {"value": "font-body", "label": "Body"}
+          ]
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Independent Alignment on desktop",
+          "default": "inherit",
+          "options": [
+            { "value": "inherit", "label": "Section level setting" },
+            { "value": "hero-text-left", "label": "Left" },
+            { "value": "hero-text-center", "label": "Centered" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "mobile_text_alignment",
+          "label": "Independent Alignment on mobile",
+          "default": "inherit",
+          "options": [
+            { "value": "inherit", "label": "Section level setting" },
+            { "value": "mobile-hero-text-left", "label": "Left" },
+            { "value": "mobile-hero-text-center", "label": "Centered" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "label": "Style",
+          "default": "font-body",
+          "options": [
+            { "value": "font-heading", "label": "Heading" },
+            { "value": "font-subheading", "label": "Subheading" },
+            { "value": "font-body", "label": "Body" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Independent Alignment on desktop",
+          "default": "inherit",
+          "options": [
+            { "value": "inherit", "label": "Section level setting" },
+            { "value": "hero-text-left", "label": "Left" },
+            { "value": "hero-text-center", "label": "Centered" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "mobile_text_alignment",
+          "label": "Independent Alignment on mobile",
+          "default": "inherit",
+          "options": [
+            { "value": "inherit", "label": "Section level setting" },
+            { "value": "mobile-hero-text-left", "label": "Left" },
+            { "value": "mobile-hero-text-center", "label": "Centered" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Text",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "button_type",
+          "label": "Color",
+          "default": "btn--primary",
+          "options": [
+            { "value": "btn--primary", "label": "Primary" },
+            { "value": "btn--secondary", "label": "Secondary" },
+            { "value": "btn--tertiary", "label": "Pink" },
+            { "value": "btn--quaternary", "label": "Blue" },
+            { "value": "btn--quinary", "label": "Outline" },
+            { "value": "btn--senary", "label": "White borderless" },
+            { "value": "btn--white", "label": "White" },
+            { "value": "btn--black", "label": "Black" },
+            { "value": "btn--text-cl", "label": "Text" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_size",
+          "label": "Size",
+          "default": "",
+          "options": [
+            { "label": "Small", "value": "btn--small" },
+            { "label": "Medium", "value": "" },
+            { "label": "Large", "value": "btn--large" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Style",
+          "default": "btn--solid",
+          "options": [
+            { "label": "Solid", "value": "btn--solid" },
+            { "label": "Outline", "value": "btn--outline" },
+            { "label": "Text", "value": "btn--text" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "show_arrow",
+          "label": "Show arrow",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "name": "Divider",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Desktop"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_line",
+          "label": "Show line",
+          "default": true
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding top",
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 20
+        },
+        {
+          "type": "header",
+          "content": "Mobile"
+        },
+        {
+          "type": "range",
+          "id": "mobile_padding_top",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding top",
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "mobile_padding_bottom",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 20
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Image with text",
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "aside", "footer"]
+  }
+}
+{% endschema %}

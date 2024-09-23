@@ -1,0 +1,122 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "91cd4bc5-359b-401c-9453-c2ae519db725": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enjoy free shipping on orders over $99<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "91cd4bc5-359b-401c-9453-c2ae519db725"
+      ],
+      "custom_css": [
+        "p {font-family: \"Gotham\"; font-size: calc(9px + (11 - 9) * ((100vw - 300px) \/ (1600 - 300))); font-style: normal; font-weight: 400; line-height: 200%; letter-spacing: 4px; text-transform: uppercase; padding: 6px 0;}"
+      ],
+      "settings": {
+        "layout": "slider",
+        "slider_speed": 5,
+        "text_alignment": "center",
+        "show_arrows": false,
+        "marquee_speed": 75,
+        "text_size": 2,
+        "bg_color": "#dbe3ee",
+        "color": "#848080"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "2b5509de-bcae-47a4-b4ac-4adf3dd9886d": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "display_on": "desktop",
+            "image": "shopify:\/\/shop_images\/personalized-skincare-quiz.webp",
+            "aspect_ratio": 0.7,
+            "wide_image": false,
+            "overlay_opacity": 0,
+            "overlay_color": "rgba(0,0,0,0)",
+            "title": "TAKE SKIN QUIZ",
+            "link_text": "",
+            "link": "shopify:\/\/blogs\/news\/my-customized-skincare-quiz-is-finally-here",
+            "text_color": "#ffffff",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "button_size": ""
+          }
+        },
+        "a72fd983-69f2-4d6f-ac4a-af2f78759507": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "display_on": "desktop",
+            "image": "shopify:\/\/shop_images\/the-skin-quiz.webp",
+            "aspect_ratio": 0.8,
+            "wide_image": false,
+            "overlay_opacity": 0,
+            "overlay_color": "rgba(0,0,0,0)",
+            "title": "Find a solution for your skin – Take the skin quiz",
+            "link_text": "",
+            "link": "https:\/\/www.skinbyblair.com\/#finder-quiz-4820",
+            "text_color": "#ffffff",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "2b5509de-bcae-47a4-b4ac-4adf3dd9886d",
+        "a72fd983-69f2-4d6f-ac4a-af2f78759507"
+      ],
+      "settings": {
+        "header_sticky": true,
+        "header_style": "logo_center_menu_left",
+        "show_separator_line": true,
+        "separator_opacity": 50,
+        "show_icons": true,
+        "icon_as_circle": false,
+        "cart_icon_family": "bag",
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_limit": 250,
+        "logo_max_limit_mobile": 145,
+        "main_menu_linklist": "redesign-header-left",
+        "b_linklist": "redesign-header-right-desktop",
+        "enable_search": true,
+        "show_social_icons": false,
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "type": "currency",
+        "highlight_item": "Sale",
+        "highlight_item_color": "#d02e2e",
+        "transparent_home": true,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_logo": "shopify:\/\/shop_images\/skin_by_blair-Logo-white.svg",
+        "mobile_menu_linklist": "",
+        "secondary_menu_linklist": "",
+        "tertiary_menu_linklist": "",
+        "show_social_icons_mobile": true,
+        "padding_top": 15,
+        "padding_bottom": 15
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

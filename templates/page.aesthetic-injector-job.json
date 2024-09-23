@@ -1,0 +1,463 @@
+{
+  "sections": {
+    "section_custom_standard_double_rinXmG": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_etbTXR": {
+          "type": "heading",
+          "settings": {
+            "title": "Experienced Aesthetic Injector",
+            "title2": "Experienced Aesthetic Injector",
+            "text_size": 8
+          }
+        },
+        "text_kzhLLH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>Do you have dreams of something bigger and have this little voice inside your head that is nudging you because you know you’re meant for more? Well you may just be the right fit for our team.<\/p><p><br\/>We are seeking a full time, experienced and passionate Aesthetic Injector to join our team and contribute to our mission of empowering our patients to look and feel their best.<\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_FhgpXj": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_etbTXR",
+        "text_kzhLLH",
+        "buttons_FhgpXj"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/treatment_room_bh_7d5dd92a-2bcb-492a-9ee0-29465675d99f.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_qT8VAh": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_wFAF9G": {
+          "type": "heading",
+          "settings": {
+            "title": "The Position",
+            "title2": "The Position",
+            "text_size": 8
+          }
+        },
+        "text_dUjFrq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>• Conduct comprehensive consultations to assess patient needs and develop personalized treatment plans<\/p><p><br\/>• Provide thorough education to patients on treatment procedures, including pre- and post-care instructions, ensuring informed decision-making<\/p><p><br\/>• Administer injectable treatments including neurotoxins, dermal fillers, and other advanced injectables with attention to detail and precision, ensuring the highest standards of patient safety and comfort<\/p><p><br\/>• Prioritize caution when considering external factors or individual patient variables that may influence treatment safety or desired outcomes<\/p><p><br\/>• Maintain accurate and detailed patient records and documentation of information related to treatments, outcomes, and medical history<\/p><p><br\/>• Adhere to all federal and state regulations governing medical practices to maintain the highest level of patient safety and privacy<\/p><p><br\/>• Stay informed about industry trends, new products, and techniques through continuing education and training<\/p><p><br\/>• Consistently demonstrate professionalism when interacting with patients and team members, fostering a positive and respectful environment within the team and instilling confidence in patients<\/p><p><br\/>• Collaborate effectively with other team members to deliver seamless client experiences<\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_xjBAXk": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_wFAF9G",
+        "text_dUjFrq",
+        "buttons_xjBAXk"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/treatment_room_a47eb251-6871-42fa-b689-c8dbbdec9636.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_aFEWKJ": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_mV7JLf": {
+          "type": "heading",
+          "settings": {
+            "title": "Must Haves",
+            "title2": "Must Haves",
+            "text_size": 8
+          }
+        },
+        "text_MJ6NYg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>• Current licensure as a Physician Assistant (PA-C),  Nurse Practitioner (NP), or Registered Nurse (RN) in the state of North Carolina<\/p><p><br\/>• Minimum of 3 years of experience performing aesthetic injections in a clinical setting<\/p><p><br\/>• Strong knowledge of facial anatomy and experience with injectable techniques<\/p><p><br\/>• Excellent communication and interpersonal skills with a focus on providing exceptional patient care<\/p><p><br\/>• Ability to work independently as well as collaboratively within a team environment<\/p><p><br\/>• Commitment to upholding the highest standards of professionalism, ethics, and safety<\/p><p><\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_EwQdrq": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_mV7JLf",
+        "text_MJ6NYg",
+        "buttons_EwQdrq"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/botox.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_YUJFj4": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_hWgJHH": {
+          "type": "heading",
+          "settings": {
+            "title": "The Right Fit",
+            "title2": "The Right Fit",
+            "text_size": 8
+          }
+        },
+        "text_QDA4bH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>• Passionate about aesthetics, driven by a genuine love for the field and helping others<\/p><p><br\/>• Curious and motivated individual with the ability to multitask, work independently, and be open to learning<\/p><p><br\/>• A quick learner with problem-solving and critical thinking skills - someone who takes the initiative to figure out what needs to be done through creativity and resourcefulness<\/p><p><br\/>•  Obsessed with learning and continuously seeking opportunities for growth and refinement of skills<\/p><p><br\/>• Highly motivated, reliable, and resourceful <\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_tXDwEY": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_hWgJHH",
+        "text_QDA4bH",
+        "buttons_tXDwEY"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/couch_2.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_F7c8UG": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_kBmFcd": {
+          "type": "heading",
+          "settings": {
+            "title": "Not The Right Fit",
+            "title2": "Not The Right Fit",
+            "text_size": 8
+          }
+        },
+        "text_qDeQTD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>• Someone without 3 years of experience as an aesthetic injector<\/p><p><br\/>• Lacks a passion for the field of aesthetics and views the position purely as a job<\/p><p><br\/>• Not willing to jump in as needed on tasks that aren’t “yours”<\/p><p><br\/>• Working multiple jobs or side gigs<\/p><p><br\/>• Lacks dedication, reliability, or communication skills<\/p><p><br\/>• Not open to constructive feedback or resistant to making changes to improve their skills or practices<\/p><p><br\/>• Someone who struggles to work independently<\/p><p><\/p><p><\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_hNheUR": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_kBmFcd",
+        "text_qDeQTD",
+        "buttons_hNheUR"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/front_desk_alone_87897770-adc2-4e6c-b380-0ed123065b0a.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "4da2123f-4d0b-4ca7-88fb-6cf942c53647": {
+      "type": "section-custom-hero",
+      "blocks": {
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<h3>Current Openings<\/h3>",
+            "heading_size": 15,
+            "color": "#ffffff",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 4,
+            "mobile_title": "<p>Current Openings<\/p>",
+            "mobile_heading_size": 11,
+            "mobile_color": "#ffffff",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 4
+          }
+        },
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-text-1": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_style": "font-body",
+            "color": "#848080",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 1,
+            "mobile_description": "",
+            "mobile_text_size": 14,
+            "mobile_text_style": "font-body",
+            "mobile_color": "#848080",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 1
+          }
+        },
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "View Open Roles",
+            "link": "",
+            "button_id": "",
+            "button_type": "btn--text-cl",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button-align-class": "hero-button-center",
+            "mobile_link_text": "View Open Roles",
+            "mobile_link": "",
+            "mobile_button_id": "",
+            "mobile_button_type": "btn--text-cl",
+            "mobile_button_size": "",
+            "mobile_button_style": "btn--solid",
+            "mobile_show_arrow": false,
+            "mobile_color": "#474545",
+            "mobile_button-align-class": "hero-button-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-heading-1",
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-text-1",
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".btn {padding: 14px 30px; width: 90vw; max-width: 400px;}",
+        "@media only screen and (min-width: 750px) {.btn {width: 400px; bottom: 1rem; }}"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "content_special_margin": 0,
+        "content_width": 100,
+        "mobile_content_width": 100,
+        "image_1": "shopify:\/\/shop_images\/current_openings.png",
+        "link": "",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/haute-stock-photography-design-studio-final-2_1_49e45474-4ee0-4f77-a196-8d1905f7272d.png",
+        "same_content_as_desktop": false,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_margin_bottom": 0,
+        "flex_align_mobile": "align--bottom-center-mobile",
+        "mobile_content_margin_bottom": 1,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "8e8c282a-5129-4ef5-856f-2c82c4996025": {
+      "type": "section-careers",
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full-padded",
+        "padding_top": 68,
+        "padding_bottom": 20
+      }
+    },
+    "98f53fdf-edd4-4e6b-8126-76e52f12d628": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "If this opportunity excites you, please complete this brief application below.",
+            "text_size": 8
+          }
+        },
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>If this opportunity excites you, please complete this brief application below. <\/h3>",
+            "text_size": 6,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_6RdQfn": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Apply Here",
+            "button_url": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdzMlCmLJrXnwId24png4lIUiw46N1RzeMTIxWRXphL8oKkmA\/viewform",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-heading-1",
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-text-1",
+        "buttons_6RdQfn"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "Careers-anchor",
+        "padding_top": 20,
+        "padding_bottom": 42
+      }
+    }
+  },
+  "order": [
+    "section_custom_standard_double_rinXmG",
+    "section_custom_standard_double_qT8VAh",
+    "section_custom_standard_double_aFEWKJ",
+    "section_custom_standard_double_YUJFj4",
+    "section_custom_standard_double_F7c8UG",
+    "main",
+    "4da2123f-4d0b-4ca7-88fb-6cf942c53647",
+    "8e8c282a-5129-4ef5-856f-2c82c4996025",
+    "98f53fdf-edd4-4e6b-8126-76e52f12d628"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "pf-1f7c4fac": {
+      "type": "pf-1f7c4fac",
+      "custom_css": [
+        ".pf-ari {display: none!important;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "pf-1f7c4fac"
+  ]
+}

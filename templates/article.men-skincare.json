@@ -1,0 +1,594 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "Do men really need a skincare routine?",
+            "text_size": 9
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Ever wondered what you can do to help the men in your life look and feel their best? Well, let's talk about how skincare can help. Men might not always admit it, but they need it just as much as we do. Whether it’s for your husband, father, brother, or any special guy, a good skincare routine can make a world of difference. So, let's get into it!<\/h3>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_XncBbY": {
+      "type": "page_content",
+      "blocks": {
+        "text_BXrcph": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Why men need skincare<\/h2><p>First things first, why should men bother with skincare? Their skin faces daily challenges like shaving, environmental stress, and natural oil production. Without proper care, these factors can lead to issues like acne, dryness, and premature aging. Good skincare can help maintain healthy, vibrant skin and boost their confidence. If men are working outside, they are more susceptible to sun damage if they aren't wearing SPF every day. More sun damage = aging quicker!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_BXrcph"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/skincare-for-men-best-skincare-for-men-men-skincare-routine-mens-skincare-tijuana-mexico-dermatologist-tijuana-does-gender-matter-for-skincare.webp",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_richtext_BctJE3": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_h86Yyq": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Everything he needs: simple yet effective products<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_h86Yyq"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_EecVdq": {
+      "type": "page_content",
+      "blocks": {
+        "text_wjHbtd": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>1. Cleanser<\/h2><p>A quality cleanser is the foundation of any good skincare routine. It helps remove dirt, oil, and impurities, preventing clogged pores and breakouts. <br\/><br\/>My favorite for men is<a href=\"\/products\/brightening-wash\" target=\"_blank\" title=\"Brightening Facial Wash\"> Brightening Facial Wash<\/a> because it has AHAs and BHAs in it to gently exfoliate and polish the skin. It removes both the day's impurities and dead surface cells, leaving skin clean, hydrated and smooth.<br\/><br\/>If he has sensitive skin, <a href=\"\/products\/gentle-foaming-cleanser\" target=\"_blank\" title=\"Gentle Foaming Cleanser\">Gentle Foaming Cleanser<\/a> is a great alternative. It gently and effectively cleanses skin with a rich, velvety foam while also calming and moisturizing skin leaving it smooth and soft.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_wjHbtd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/61ndbbvUYrL._AC_UF1000_1000_QL80.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>2. Exfoliant<\/h2><p>An exfoliating toner might sound like a luxury, but it’s actually a game-changer. Y'all already know, my ride-or-die recommendation: <a href=\"\/products\/tonic\" target=\"_blank\" title=\"Tonic\">Tonic<\/a>. <br\/><br\/>It helps remove dead skin cells, promotes cell turnover, and can help prevent ingrown hairs after shaving. A couple of swipes after cleansing can instantly improve skin texture and clarity.<br\/><br\/>Another reason it's great for men is it targets pore size and blackheads - especially around the nose where men often struggle with the most.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-30_at_11.06.49_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 33,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_3DCH9f": {
+      "type": "page_content",
+      "blocks": {
+        "text_fQpYyD": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>3. Retinoid<\/h2><p>Incorporating a retinoid is great for  targeting signs of aging - think forehead wrinkles, crow's feet, and signs of aging on the neck. <a href=\"\/products\/ret-de-la-blair-new\" target=\"_blank\" title=\"RET+\">RET+<\/a> is the #1 product I recommend when it comes to retinoids. It's gentle enough for sensitive skin and contains retinal which is MORE potent and LESS irritating than retinol (win win)! <br\/><br\/>He can use this nightly, and follow with a moisturizer. He may notice purging at first, but encourage him to push through! The purging is getting all of the junk out of his pores and should only last for a few weeks. For more info on purging vs breakouts, you can read the blog post <a href=\"\/blogs\/news\/purging-vs-breakouts\" target=\"_blank\" title=\"Purging vs Breakouts\">here<\/a>!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_fQpYyD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_1406_3.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 15,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_K6YWkh": {
+      "type": "page_content",
+      "blocks": {
+        "text_ChQ8C9": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>4. Moisturizer<\/h2><p>Keeping the skin hydrated is crucial.   I always say dry skin is aging skin! A good face cream will lock in moisture and protect the skin from environmental stressors.<br\/><br\/>The product I always recommend to my male patients is <a href=\"\/products\/dej-face-cream\" target=\"_blank\" title=\"DEJ Face Cream\">DEJ Face Cream<\/a>! It's an anti-aging and skin-renewing moisturizer inspired by the Dermal-Epidermal Junction (DEJ), a critical factor in skin aging, that helps improve the visible signs of aging from multiple pathways and features Prebiotic Innovation to promote a healthy Microbiome.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ChQ8C9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4FDD2814-E2D5-4E34-BD28-D3774A25E720.webp",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 15,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_4eDacD": {
+      "type": "page_content",
+      "blocks": {
+        "text_eELdeJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>5. SPF<\/h2><p>Sunscreen is non-negotiable. Protecting the skin from harmful UV rays prevents premature aging and reduces the risk of skin cancer. Encourage him to use it daily, even on cloudy days. <br\/><br\/>A lot of men don't like the white cast of sunscreen, which is why I recommend <a href=\"\/products\/intellishade-clear\" target=\"_blank\" title=\"Intellishade Clear\">Intellishade Clear<\/a>. It is a non-tinted SPF that corrects, protects, brightens and hydrates the skin with an oil-free, lightweight formula.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_eELdeJ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IntellishadeClear_a4ee130b-dd79-4a06-913d-ca5136c4f047.webp",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 15,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_richtext_zWmGJ3": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_cRYDrf": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Shop all the products great for men<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_cRYDrf"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_g3LkcX": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_7e9LdX": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "men-skincare",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_7e9LdX"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 9,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "page_content_XncBbY",
+    "section_custom_richtext_BctJE3",
+    "page_content_EecVdq",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "page_content_3DCH9f",
+    "page_content_K6YWkh",
+    "page_content_4eDacD",
+    "section_custom_richtext_zWmGJ3",
+    "section_tab_collections_g3LkcX",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

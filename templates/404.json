@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "main": {
+      "type": "section-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "497e79db-17c7-4dd8-ab2a-9f5eff288e28": {
+      "type": "section-double",
+      "blocks": {
+        "template--14600091893844__497e79db-17c7-4dd8-ab2a-9f5eff288e28-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Oops! It seems you've taken a wrong turn.<\/h5><h1>404 Page Error<\/h1><p>The page you're looking for may have been moved, deleted, or never existed. Don't worry; we'll help you get back on track.<\/p><h5>Suggestions<\/h5><ul><li>Double-check the URL for typos and try again.<\/li><li>Return to our Homepage to explore more.<\/li><li>If you arrived here from a link, please let the website administrator know it's broken.<br\/><\/li><\/ul><p>Contact Information (if applicable): If you believe this is a technical issue, feel free to contact us for assistance.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14600091893844__497e79db-17c7-4dd8-ab2a-9f5eff288e28-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "return to homepage",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14600091893844__497e79db-17c7-4dd8-ab2a-9f5eff288e28-text-1",
+        "template--14600091893844__497e79db-17c7-4dd8-ab2a-9f5eff288e28-buttons-1"
+      ],
+      "custom_css": [
+        "li {font-size: calc(var(--small-paragraph) * var(--FONT-ADJUST-BODY)); font-weight: 400; line-height: 130%; \/* 18.2px *\/ letter-spacing: 0.75px;}",
+        "h5 {max-width: 345px;}"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/door.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "497e79db-17c7-4dd8-ab2a-9f5eff288e28"
+  ]
+}

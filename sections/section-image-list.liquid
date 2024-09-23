@@ -1,0 +1,101 @@
+<!-- /sections/section-image_list.liquid -->
+{%- liquid
+  assign bg_color = section.settings.bg_color
+  assign text_color = section.settings.color
+  assign overlay_color = section.settings.overlay_color
+  assign overlay_opacity = section.settings.overlay_opacity | times: 0.01
+  assign show_overlay_text = section.settings.show_overlay_text
+  assign animation_anchor = '#Image-List--' | append: section.id
+  assign full_url = request.host | append: request.path
+  assign animation_order = 1
+-%}
+
+{%- style -%}
+  #Image-List--{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+
+    {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+      --bg: {{ bg_color }};
+    {%- endunless -%}
+
+    {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+      --text: {{ text_color }};
+    {%- endunless -%}
+  }
+{%- endstyle -%}
+
+<div
+  class="index-hero wide-image image-list-container {{ section.settings.width }}"
+  id="Image-List--{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="hero"
+  data-overlay-header
+>
+  {% assign evaluate =section.settings.title %}
+  {%for i in shop.metaobjects.services.values%}
+  {% if i.title.value == evaluate%}
+    <div class="image_list_true_container">
+  {%for image in i.images.value%}
+  <img src="{{image | image_url }}">
+  {% endfor %}
+</div>
+  {%endif%}
+  {%endfor%}
+
+</div>
+{% schema %}
+{
+  "name": "Service Image List",
+  "class": "section-overlay-header",
+  "settings": [
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full",
+      "options": [
+        { "value": "wrapper--full", "label": "Full width" },
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Normal" },
+        { "value": "wrapper--narrow", "label": "Narrow" }
+      ]
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Service name"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 20
+    }
+  ],
+  "presets": [
+    {
+      "name": "Service Image List",
+      "category": "image"
+    }
+  ]
+}
+{% endschema %}

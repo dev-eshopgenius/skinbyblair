@@ -1,0 +1,462 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "4651949f-4fa0-4902-87a8-8bf424313122": {
+      "type": "section-custom-double",
+      "blocks": {
+        "0e6bde5b-1ada-4cf4-8879-628de4c0fa84": {
+          "type": "heading",
+          "settings": {
+            "title": "FREQUENTLY ASKED QUESTIONS",
+            "text_size": 6,
+            "text_style": "font-body",
+            "text_alignment": "inherit",
+            "mobile_text_alignment": "inherit"
+          }
+        },
+        "template--14549487059028__4651949f-4fa0-4902-87a8-8bf424313122-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>We aim to help you create a <em>streamlined & effective<\/em> self-care routine.<\/h2><p>We understand the aesthetics industry can be overwhelming. Trust that you can find reliable answers to your questions here.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "text_alignment": "inherit",
+            "mobile_text_alignment": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "0e6bde5b-1ada-4cf4-8879-628de4c0fa84",
+        "template--14549487059028__4651949f-4fa0-4902-87a8-8bf424313122-text-1"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/faq-skin-by-blair-desktop.webp",
+        "content_alignment_class": "justify-content--right",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b4ea4f09-d3af-4af9-af54-93bbc2542d6b": {
+      "type": "section-custom-accordion-group",
+      "blocks": {
+        "template--14549487059028__b4ea4f09-d3af-4af9-af54-93bbc2542d6b-header-1": {
+          "type": "header",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "template--14549487059028__b4ea4f09-d3af-4af9-af54-93bbc2542d6b-accordion-1": {
+          "type": "accordion",
+          "settings": {
+            "title": "HOW DO I RECEIVE A PERSONALIZED SKINCARE ROUTINE?",
+            "content": "<p>Easy! Simply take our <a href=\"https:\/\/www.skinbyblair.com\/#finder-quiz-4820\" title=\"https:\/\/www.skinbyblair.com\/#finder-quiz-4820\">free skin care quiz<\/a> to receive customized routine recommendations based on your skin type, concerns, and lifestyle.<\/p>"
+          }
+        },
+        "template--14549487059028__b4ea4f09-d3af-4af9-af54-93bbc2542d6b-accordion-2": {
+          "type": "accordion",
+          "settings": {
+            "title": "ARE ALL SKIN BY BLAIR PRODUCTS PREGNANCY AND\/OR NURSING SAFE?",
+            "content": "<p>While not everything in our shop is pregnancy and nursing safe, we do offer a large selection of pregnancy and nursing-safe products. On the <span style=\"text-decoration:underline\">Shop page,<\/span> be sure to filter your browsing as ‘Pregnancy Safe’ in the Skin Concern sidebar. You can also take the <a href=\"https:\/\/www.skinbyblair.com\/#finder-quiz-4820\" title=\"https:\/\/www.skinbyblair.com\/#finder-quiz-4820\">free skin care quiz<\/a> to receive product recommendations customized to your skin type, concerns, and lifestyle.<\/p>"
+          }
+        },
+        "template--14549487059028__b4ea4f09-d3af-4af9-af54-93bbc2542d6b-accordion-3": {
+          "type": "accordion",
+          "settings": {
+            "title": "ARE YOUR PRODUCTS SUITABLE FOR ALL SKIN TYPES?",
+            "content": "<p>Not every product is suitable for every skin type. You can ensure you’re choosing the right products for your skin type by taking our <a href=\"https:\/\/www.skinbyblair.com\/#finder-quiz-4820\" title=\"https:\/\/www.skinbyblair.com\/#finder-quiz-4820\">free skincare quiz<\/a> or by shopping by skin type on the <a href=\"\/collections\/all\" title=\"Todos los productos\">Shop page<\/a><span style=\"text-decoration:underline\">.<\/span> We also offer <a href=\"\/pages\/request-an-appointment\" title=\"Appointment Request Form\">skin consults<\/a> where you can tell us about your skin type, concerns, and lifestyle and we’ll provide personalized recommendations for you.<\/p>"
+          }
+        },
+        "494d7e14-7fb9-4596-9896-37bac7dfaeab": {
+          "type": "accordion",
+          "settings": {
+            "title": "WHERE ARE SKIN BY BLAIR PRODUCTS MADE?",
+            "content": "<p>Our products are manufactured in the USA!<\/p>"
+          }
+        },
+        "02c54d5e-56d5-40b1-9b3d-1b77b01e22f5": {
+          "type": "accordion",
+          "settings": {
+            "title": "ARE YOUR PRODUCTS SOLD IN STORES?",
+            "content": "<p>If you are in the Charlotte area, we would love for you to drop by the Skin By Blair office to shop in person! If you’re not in the area, don’t worry — we carry all of our products in the online store, too.<\/p>"
+          }
+        },
+        "c0993d36-4f51-4cbe-bc40-4bc9e3d3df48": {
+          "type": "accordion",
+          "settings": {
+            "title": "ARE SKIN BY BLAIR PRODUCTS VEGAN AND CRUELTY-FREE?",
+            "content": "<p>Yes! None of our Skin by Blair products or any other product lines we carry have been tested on animals. Everything in our shop is vegan and cruelty-free!<\/p>"
+          }
+        },
+        "70fe0d19-83ca-4373-8a1d-30fe823c9f14": {
+          "type": "accordion",
+          "settings": {
+            "title": "CAN I PURCHASE A GIFT CARD ONLINE? DO THEY EXPIRE?",
+            "content": "<p>You can purchase <a href=\"\/collections\/gift-card\" title=\"Gift Cards\">gift cards online <\/a>or in our Charlotte office at 512 East Blvd. We offer both electronic and physical gift cards. Skin By Blair gift cards never expire!<\/p>"
+          }
+        },
+        "7dad07b0-4315-4c00-8949-7dd366e99a61": {
+          "type": "accordion",
+          "settings": {
+            "title": "WHICH PAYMENT METHODS DO YOU ACCEPT ONLINE?",
+            "content": "<p>We accept Visa, MasterCard, American Express, and Discover cards. You can also choose to pay with PayPal.<\/p>"
+          }
+        },
+        "9c3a36cb-8e79-4ec8-b4b1-b81c245254d0": {
+          "type": "header",
+          "settings": {
+            "title": "Product Usage"
+          }
+        },
+        "07e96c33-c4f3-4724-8857-6e52f822abd6": {
+          "type": "accordion",
+          "settings": {
+            "title": "WHAT ORDER SHOULD I APPLY MY SKINCARE PRODUCTS?",
+            "content": "<p>While it can depend on several factors, a good rule of thumb to follow is outlined below. And when in doubt, applying your products from thinnest to thickest is always a safe bet!<\/p><p><span style=\"text-decoration:underline\"><em><br\/><\/em><\/span><span style=\"text-decoration:underline\">Morning Routine<\/span>:<\/p><ol><li>Cleanse <\/li><li>Tone<\/li><li>Serum <\/li><li>Vitamin C<\/li><li>Eye Cream<\/li><li>Moisturizer<\/li><li>Sunscreen<\/li><\/ol><p><span style=\"text-decoration:underline\">Evening Routine:<\/span><\/p><ol><li>Cleanse<\/li><li>Tone<\/li><li>Serum <\/li><li>Eye Cream<\/li><li>Retinoid<\/li><li>Moisturizer<\/li><\/ol>"
+          }
+        },
+        "92d6675e-7fdd-4524-b2df-141476c7c55d": {
+          "type": "accordion",
+          "settings": {
+            "title": "DO I NEED TO WAIT BETWEEN APPLYING PRODUCTS?",
+            "content": "<p>Most products can be applied back to back. We do recommend you take your time and enjoy the experience of applying high-quality, luxe products to your beautiful skin. The process should feel relaxing – skincare is our favorite form of self-care!<\/p>"
+          }
+        },
+        "4cfe62b6-901a-4fa2-a42f-5730ae957a47": {
+          "type": "accordion",
+          "settings": {
+            "title": "HOW DO I INCORPORATE NEW PRODUCTS INTO MY ROUTINE?",
+            "content": "<p>It’s safest to add products into your routine one at a time. This allows your skin to adjust to each product and limits confusion about what product could be causing a particular skin response. Let your skin adjust to the product for 1-2 weeks before adding in another product.<\/p>"
+          }
+        },
+        "cc2f9743-3c7d-4a4a-be38-0502a6bedf4b": {
+          "type": "accordion",
+          "settings": {
+            "title": "HOW MUCH OF EACH PRODUCT SHOULD I USE?",
+            "content": "<p><span style=\"text-decoration:underline\">Retinoids<\/span>: pea-sized amount at night<\/p><p><span style=\"text-decoration:underline\">Tonic<\/span>: quarter-sized amount<\/p><p><span style=\"text-decoration:underline\">Cleanser<\/span>: nickel-sized amount<\/p><p><span style=\"text-decoration:underline\">Eye cream<\/span>: pea-sized amount<\/p><p><span style=\"text-decoration:underline\">Serum<\/span>: 3-5 drops<\/p><p><span style=\"text-decoration:underline\">Moisturizer<\/span>: quarter-sized amount<\/p><p><span style=\"text-decoration:underline\">Sunscreen<\/span>: two finger lengths for the face and neck<\/p>"
+          }
+        },
+        "80ba75f0-f65e-441c-9ff0-6a5ed9c7193a": {
+          "type": "accordion",
+          "settings": {
+            "title": "I STARTED A NEW PRODUCT AND NOW I’M BREAKING OUT. IS THAT NORMAL?",
+            "content": "<p>A temporary flare-up of acne (known as purging) is totally normal and can occur shortly after starting a product that increases cell turnover such as retinoids or exfoliating acids. Purging can last up to  6-8 weeks, but is well worth the clear, bright skin that follows!<\/p>"
+          }
+        },
+        "47a121f7-fdaa-409c-bf6e-8c914ea3833b": {
+          "type": "accordion",
+          "settings": {
+            "title": "I STARTED A NEW PRODUCT AND NOW MY SKIN IS RED AND\/OR IRRITATED. WHAT SHOULD I DO?",
+            "content": "<p>If your skin is red, flaky, or irritated after starting a new product, you’re likely experiencing a compromised skin barrier as a result of over-exfoliation. In other words, you’re using a product or products more often than your skin can tolerate. This doesn’t mean you can’t use the product at all, but that you should use it less frequently. When this happens, stop all of your skin actives (such as exfoliants, acids, retinoids, benzoyl peroxide, etc.) until your skin is feeling back to normal. Once it has normalized, you can slowly add your actives back into your routine — just be mindful not to overuse them.<\/p>"
+          }
+        },
+        "47e710e3-482a-47c4-ab9f-01ee3fd8ebac": {
+          "type": "accordion",
+          "settings": {
+            "title": "IS IT NORMAL FOR MY FACE TO STING OR BURN WHEN APPLYING MY PRODUCTS?",
+            "content": "<p>If your skin stings or burns when applying your skincare products, you are probably experiencing a compromised skin barrier which can be caused by factors such as over-exfoliation, change in climate, and allergens. In order to restore your skin barrier,  stop all of your skin actives (such as exfoliants,  acids, retinoids, benzoyl peroxide, etc.) and apply soothing and hydrating ingredients such as ceramides and lipids, both of which can be found in our best seller <a href=\"\/products\/creme-de-la-blair\" title=\"Crème de la Blair\">Crème de la Blair<\/a>. Once your skin has normalized and you’re no longer experiencing any burning or stinging,  slowly reintroduce your other products back into your routine.<\/p>"
+          }
+        },
+        "9af61f20-d37d-48e8-9520-efbd4e84fc32": {
+          "type": "accordion",
+          "settings": {
+            "title": "WHAT IS THE “KEY THREE”?",
+            "content": "<p>Sunscreen, Vitamin C, and Retinoid are the key three products that EVERYONE needs in their routine. To learn more about the Key 3 than the information included here, check out <a href=\"https:\/\/www.skinbyblair.com\/blogs\/news\/the-key-3-why-you-need-them\" title=\"https:\/\/www.skinbyblair.com\/blogs\/news\/the-key-3-why-you-need-them\">this blog post<\/a>!<\/p><p><span style=\"text-decoration:underline\">Sunscreen<\/span>: Apply to full face and neck every morning (rain or shine!) and reapply every 2 hours. <\/p><p><span style=\"text-decoration:underline\">Vitamin C<\/span>:  Apply to the full face and neck every morning. Vitamin C and sunscreen together give 11x more protection against aging than sunscreen alone!<\/p><p><span style=\"text-decoration:underline\">Retinoid<\/span>: Apply to full face and neck at night after cleansing and toning. Retinoids are basically the anti-aging miracle worker - for more information on why you need a retinoid and what it does for the skin, check out <a href=\"https:\/\/www.skinbyblair.com\/blogs\/news\/deep-dive-into-retinoids\" title=\"https:\/\/www.skinbyblair.com\/blogs\/news\/deep-dive-into-retinoids\">this blog post<\/a>!<\/p>"
+          }
+        },
+        "1fdbcc07-dca0-40a3-8255-2003c80f7034": {
+          "type": "accordion",
+          "settings": {
+            "title": "HOW OFTEN SHOULD I USE TONIC?",
+            "content": "<p>Since Tonic contains a blend of AHA & BHA skin acids,  we recommend taking caution when first starting this product. <\/p><p>For dry or sensitive skin, we recommend starting out by using it once every 2-3 days. If you’re tolerating it well, slowly increase the frequency to once a day.<\/p><p>For normal or combination skin, we recommend starting out using it once every other day. If you’re tolerating it well, you can increase the frequency to once a day.<\/p><p>For oily skin, we recommend starting out using it once a day. If you’re tolerating it well, you can increase the frequency to twice a day.<\/p>"
+          }
+        },
+        "22bb5e88-2bfe-4a22-8eb3-75c821738088": {
+          "type": "accordion",
+          "settings": {
+            "title": "HOW OFTEN CAN I USE BRIGHTENING FACIAL WASH?",
+            "content": "<p>Since Brightening Facial Wash contains glycolic and salicylic acid, we recommend taking caution when first starting this product. <br\/><\/p><p>For dry or sensitive skin, we recommend starting out using it once every 2-3 days. If you’re tolerating it well, slowly increase the frequency to once a day.<\/p><p>For normal or combination skin, we recommend starting out using it once every other day. If you’re tolerating it well, you can increase the frequency to once a day.<\/p><p>For oily skin, we recommend starting out using it once a day. If you’re tolerating it well, you can increase the frequency to twice a day.<\/p>"
+          }
+        },
+        "ed25a36f-ea41-4e5e-8309-b6da2a0aedb3": {
+          "type": "header",
+          "settings": {
+            "title": "Order Inquiries"
+          }
+        },
+        "367a8934-d968-4bc1-bd4c-8b9e3e66348f": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I change or cancel my order?",
+            "content": "<p>We pride ourselves in speedy shipping so you can start using your products as quickly as possible!  Unfortunately, this means that once your order has been submitted our team is already working to fulfill your order.  However, we will try our best to accommodate any changes if your order is not already in process.  Please email info@skinbyblair.com with your order # and our team will be in touch shortly!<\/p>"
+          }
+        },
+        "6efbcd77-8722-4f21-b0d3-8ac526b78060": {
+          "type": "accordion",
+          "settings": {
+            "title": "What do I do if there is a problem with my order?",
+            "content": "<p>We are so sorry if there has been a problem with your order! Please email info@skinbyblair.com and we will be happy to assist you!<\/p>"
+          }
+        },
+        "fb331dbb-ccb1-45c1-8dd7-1e49f75289ba": {
+          "type": "accordion",
+          "settings": {
+            "title": "How long will my order take to arrive?",
+            "content": "<p>Orders received before 11:00 am EST Monday through Thursday are shipped out the same day. Any orders received after this time will be shipped out the following business day and shipping times will vary according to the carrier and destination.<\/p>"
+          }
+        },
+        "d1d96faa-bc80-45a3-99b6-3422fba5b3ee": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I return an item?",
+            "content": "<p>To initiate a return, please review our <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">return policy<\/a>. Please note that we can only process a return if it meets our Return Policy criteria outlined above. Gift cards are not eligible for a return.<\/p>"
+          }
+        },
+        "dae30894-3fd1-4164-812a-19da07f9abb0": {
+          "type": "accordion",
+          "settings": {
+            "title": "Does Skin by Blair ship outside of the US?",
+            "content": "<p>While we currently only ship within the US, we are hoping to extend to other countries in the near future!<\/p>"
+          }
+        },
+        "3ab116da-9649-4913-a317-f0cad473e9f4": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I pickup my order in-store?",
+            "content": "<p>If you are local and would like to pick up your order at our office located at 512 East Blvd,  you can select “in-store pick-up” at checkout and you will receive an email when your order is ready for pick up!<\/p>"
+          }
+        },
+        "a9a6a88f-b224-4ef8-a4c5-f6a6bdb92607": {
+          "type": "accordion",
+          "settings": {
+            "title": "My package says it was delivered but I never received it. What should I do?",
+            "content": "<p>It has been our experience with shipping carriers  that “delivered” is not always accurate and can actually occur several days later. For this reason, please allow 3 business days for actual delivery. If you still have not received your order, please reach out to info@skinbyblair.com and we will be happy to assist you!<\/p>"
+          }
+        },
+        "6ed2391e-99f5-44db-be92-73467764f3a3": {
+          "type": "accordion",
+          "settings": {
+            "title": "My product arrived damaged. What should I do?",
+            "content": "<p>We are so sorry that your product arrived damaged! Please email info@skinbyblair.com and we will be happy to assist you!<\/p>"
+          }
+        },
+        "b44e640f-af51-4d38-aff9-1c5aaa944253": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I get in touch with your customer service team?",
+            "content": "<p>​​If you have questions or need assistance with an order, you can reach our customer service team at info@skinbyblair.<\/p>"
+          }
+        },
+        "56933705-526b-4968-aa17-799cd8981ea0": {
+          "type": "accordion",
+          "settings": {
+            "title": "",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "47d4f5d5-cd2d-4fda-be38-5afd10ea4e02": {
+          "type": "header",
+          "settings": {
+            "title": "Subscriptions"
+          }
+        },
+        "b1c75f97-199a-49eb-b4c5-439f007bacf0": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do Skin by Blair subscriptions work?",
+            "content": "<p>Subscriptions are the most convenient (and cost effective!) way to ensure your favorite products are delivered to your doorstep exactly when you need them. Simply choose 'Subscribe & Save' and select your desired delivery frequency for each of your favorite products. We’ll do the rest!<\/p>"
+          }
+        },
+        "bc74211c-2596-4d15-8178-e611a9403992": {
+          "type": "accordion",
+          "settings": {
+            "title": "Are there any other benefits to subscribing other than saving 15%?",
+            "content": "<p>So many! Not only will you automatically receive 15% off when you subscribe, but you will also receive bonus Rewards points (Coming soon - don’t worry, subscribers will retroactively receive these points!), and early access to new product launches and restocks.<\/p>"
+          }
+        },
+        "e624230d-f00f-4991-8647-92f09af65d4e": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I access my customer portal to view and\/or make changes to my subscription?",
+            "content": "<p>Click <a href=\"\/pages\/subscription-benefits\" title=\"Subscription Benefits\">here<\/a> to log in to your Skin by Blair account! Once you are logged in, you will be able to view all of your past orders and manage any active subscriptions. If you have not yet created an online account, you can do so at this link. Just remember to save your password somewhere safe!<\/p>"
+          }
+        },
+        "e9971b3f-2797-478a-ba00-958115f82f30": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I cancel my subscription at any time?",
+            "content": "<p>Yes, you can cancel your subscription by managing your subscription <a href=\"\/pages\/subscription-benefits\" title=\"Subscription Benefits\">here<\/a>. You can also email info@skinbyblair.com for assistance in cancelling.<\/p>"
+          }
+        },
+        "73b3438e-4288-42cb-843e-25b600afa07d": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I skip a delivery?",
+            "content": "<p>Yes! If you have too much product on hand, we offer flexibility to skip as many non-consecutive orders as you need! Simply log into your account, select ‘Manage Subscriptions’, navigate to ‘See More Details’ on the subscription you wish to skip, and select ‘Skip Order’. It’s that easy!<\/p>"
+          }
+        },
+        "0763c5a4-57fe-4e9c-be22-b91195b1b81e": {
+          "type": "accordion",
+          "settings": {
+            "title": "When will I be charged for my subscription?",
+            "content": "<p>The initial charge will occur at the time of purchase, and all subsequent charges will follow the frequency that you selected when initiating your subscription.<\/p>"
+          }
+        },
+        "f7f60ab8-5ed5-4942-ac49-4021f989f473": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I change the delivery frequency of my subscription?",
+            "content": "<p>Yes, you can! After logging into your account, select ‘Manage Subscriptions’, choose the subscription you wish to edit, and select ‘Edit Frequency’ to update your desired delivery date.<\/p>"
+          }
+        },
+        "6e207ca3-8180-44e1-bebd-7ec7d0988323": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I change the shipping address for my subscription?",
+            "content": "<p>To change your shipping address on existing subscriptions, simply log into your account, select ‘Manage Subscriptions’ and click on the subscription you wish to change. From there, scroll down to ‘Shipping Info’ and update your address accordingly.<\/p>"
+          }
+        },
+        "c4cf95d8-2ca8-4a2d-a649-e578cf2402fe": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I change the products in my subscription?",
+            "content": "<p>You can freely edit your subscription or add a new product to your recurring order at any time using your customer portal. If you are hoping to switch from one product subscription to another, you will have to cancel your existing subscription and start a new one for that product.<\/p><p>However, there is no limit to the number of products you can include in your subscription. Subscribe to your whole routine to keep your skin happy, healthy, and glowing!<\/p>"
+          }
+        },
+        "59d52828-5046-4a3c-a78b-51d93733a003": {
+          "type": "accordion",
+          "settings": {
+            "title": "How far in advance do I need to make adjustments to my subscription?",
+            "content": "<p>You can make adjustments to your subscription up to 3 days before your next scheduled shipment date. We will send you an email reminder before each delivery so you have the opportunity to make changes to the delivery date, frequency, or address as needed!<\/p>"
+          }
+        },
+        "2d300dfc-a650-4d45-98fe-813e66ba2b40": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I change the billing information for my subscription?",
+            "content": "<p>To update your billing information, simply log into your account, select ‘Manage Subscriptions’ and click on the subscription you wish to change. From there, scroll down to ‘Billing Info’ and update your payment information accordingly.<\/p>"
+          }
+        },
+        "3b269cfa-18f7-4837-8bc1-ad5511deae44": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I gift a Skin by Blair product subscription?",
+            "content": "<p>Yes – and they will love you for it! Gift subscriptions can be ordered the exact same way you order a product for yourself. Just select your desired delivery frequency and add the subscription to your cart. Be sure to enter the shipping address of your gift recipient at checkout!<\/p>"
+          }
+        },
+        "cbe6f921-042f-4585-a4fd-77117b6deba0": {
+          "type": "header",
+          "settings": {
+            "title": "Gift Cards + Payments"
+          }
+        },
+        "a4ef6add-717d-4593-a22f-d63147568c6e": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I buy a Skin by Blair gift card?",
+            "content": "<p>You can purchase gift cards on our website using this link or you can purchase in-office at 512 East Blvd. We offer both electronic and physical gift cards that can both be used in-office or online.<\/p>"
+          }
+        },
+        "e548489c-887a-4394-baa8-b0b96035dfd2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do gift cards expire?",
+            "content": "<p>Nope! Skin By Blair gift cards never expire!<\/p>"
+          }
+        },
+        "e2e228bf-2ac0-4455-9179-08f23e49fbb6": {
+          "type": "accordion",
+          "settings": {
+            "title": "What payment methods do you accept?",
+            "content": "<p>We accept Visa, MasterCard, American Express, and Discover cards. You can also choose to pay with PayPal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487059028__b4ea4f09-d3af-4af9-af54-93bbc2542d6b-header-1",
+        "template--14549487059028__b4ea4f09-d3af-4af9-af54-93bbc2542d6b-accordion-1",
+        "template--14549487059028__b4ea4f09-d3af-4af9-af54-93bbc2542d6b-accordion-2",
+        "template--14549487059028__b4ea4f09-d3af-4af9-af54-93bbc2542d6b-accordion-3",
+        "494d7e14-7fb9-4596-9896-37bac7dfaeab",
+        "02c54d5e-56d5-40b1-9b3d-1b77b01e22f5",
+        "c0993d36-4f51-4cbe-bc40-4bc9e3d3df48",
+        "70fe0d19-83ca-4373-8a1d-30fe823c9f14",
+        "7dad07b0-4315-4c00-8949-7dd366e99a61",
+        "9c3a36cb-8e79-4ec8-b4b1-b81c245254d0",
+        "07e96c33-c4f3-4724-8857-6e52f822abd6",
+        "92d6675e-7fdd-4524-b2df-141476c7c55d",
+        "4cfe62b6-901a-4fa2-a42f-5730ae957a47",
+        "cc2f9743-3c7d-4a4a-be38-0502a6bedf4b",
+        "80ba75f0-f65e-441c-9ff0-6a5ed9c7193a",
+        "47a121f7-fdaa-409c-bf6e-8c914ea3833b",
+        "47e710e3-482a-47c4-ab9f-01ee3fd8ebac",
+        "9af61f20-d37d-48e8-9520-efbd4e84fc32",
+        "1fdbcc07-dca0-40a3-8255-2003c80f7034",
+        "22bb5e88-2bfe-4a22-8eb3-75c821738088",
+        "ed25a36f-ea41-4e5e-8309-b6da2a0aedb3",
+        "367a8934-d968-4bc1-bd4c-8b9e3e66348f",
+        "6efbcd77-8722-4f21-b0d3-8ac526b78060",
+        "fb331dbb-ccb1-45c1-8dd7-1e49f75289ba",
+        "d1d96faa-bc80-45a3-99b6-3422fba5b3ee",
+        "dae30894-3fd1-4164-812a-19da07f9abb0",
+        "3ab116da-9649-4913-a317-f0cad473e9f4",
+        "a9a6a88f-b224-4ef8-a4c5-f6a6bdb92607",
+        "6ed2391e-99f5-44db-be92-73467764f3a3",
+        "b44e640f-af51-4d38-aff9-1c5aaa944253",
+        "56933705-526b-4968-aa17-799cd8981ea0",
+        "47d4f5d5-cd2d-4fda-be38-5afd10ea4e02",
+        "b1c75f97-199a-49eb-b4c5-439f007bacf0",
+        "bc74211c-2596-4d15-8178-e611a9403992",
+        "e624230d-f00f-4991-8647-92f09af65d4e",
+        "e9971b3f-2797-478a-ba00-958115f82f30",
+        "73b3438e-4288-42cb-843e-25b600afa07d",
+        "0763c5a4-57fe-4e9c-be22-b91195b1b81e",
+        "f7f60ab8-5ed5-4942-ac49-4021f989f473",
+        "6e207ca3-8180-44e1-bebd-7ec7d0988323",
+        "c4cf95d8-2ca8-4a2d-a649-e578cf2402fe",
+        "59d52828-5046-4a3c-a78b-51d93733a003",
+        "2d300dfc-a650-4d45-98fe-813e66ba2b40",
+        "3b269cfa-18f7-4837-8bc1-ad5511deae44",
+        "cbe6f921-042f-4585-a4fd-77117b6deba0",
+        "a4ef6add-717d-4593-a22f-d63147568c6e",
+        "e548489c-887a-4394-baa8-b0b96035dfd2",
+        "e2e228bf-2ac0-4455-9179-08f23e49fbb6"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_sidebar_on_mobile": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4651949f-4fa0-4902-87a8-8bf424313122",
+    "b4ea4f09-d3af-4af9-af54-93bbc2542d6b"
+  ]
+}

@@ -1,0 +1,49 @@
+<script type="text/javascript">var af_shop_id = 1710; var af_is_allowed = 0; var af_copy_data_to_customer_note = 0; var af_has_redirect_to_page = 0; var af_redirect_to_page = ""; var ar_base_uri = "https://storage.googleapis.com/singleton-software-bucket/advancedregistration/prod/main.js";</script><style>
+    #AFRegistrationFormPreload {
+        background: url({{ 'lightbox/v204/loading.gif' | global_asset_url }}) center no-repeat;
+        background-size: 30px;
+        text-indent: -9999999px;
+        display: block;
+        width: 100%;
+        height: 200px;
+    }
+</style>
+<script type="text/javascript">
+    var af_is_home_page = false;
+    {% if template.name == "index" %}
+        af_is_home_page = true;
+    {% endif %}
+</script>
+<script type="text/javascript">
+    var intervalId = null;
+    var varCounter = 0;
+    var containScriptTagFirstControll = false;
+    var containScriptTagSecondControll = false;
+    window.onload = function() {
+        scripts = document.getElementsByTagName("script");
+        for (var i = 0; i < scripts.length; i++) {
+            if (scripts[i].src.includes(ar_base_uri)) {
+                containScriptTagFirstControll = true;
+            }
+        }
+        if (!containScriptTagFirstControll) {
+            intervalId = setInterval(function() {
+                if (varCounter < 5) {
+                    varCounter++;
+                    scripts = document.getElementsByTagName("script");
+                    for (var i = 0; i < scripts.length; i++) {
+                        if (scripts[i].src.includes(ar_base_uri)) {
+                            containScriptTagSecondControll = true;
+                        }
+                    }
+                } else {
+                    if (!containScriptTagSecondControll) {
+                        document.getElementById("AFRegistrationFormPreload").style.display = "none";
+                        document.getElementById("AFOriginalRegistrationWrapper").style.display = "block";
+                    }
+                    clearInterval(intervalId);
+                }
+            }, 150);
+        }
+    }
+</script>

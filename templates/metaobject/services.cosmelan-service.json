@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "a89d0d5d-0720-4896-bad0-8370d0b88721": {
+      "type": "section-hero",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/service_banner_example.png",
+        "link": "",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "c34ae6c1-c48d-4f2c-915d-01dcfa6210a0": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14642045255764__c34ae6c1-c48d-4f2c-915d-01dcfa6210a0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The Benefits<br\/><\/strong><br\/>Cosmelan MD is a two-step intensive topical treatment used to reduce and <br\/>regulate benign stubborn and dense pigmentation of the skin.<\/p><p><br\/><strong>Most Common Uses<br\/><\/strong>Reduction of hyperpigmentation caused by melasma<br\/><br\/><\/p><p><strong>What to Expect During and After Treatment<\/strong><br\/>Your <br\/>first appointment will be a consultation and treatment, which is simply <br\/>the application of the topical cream. I will give you all the <br\/>post-treatment instructions and products needed for aftercare. The <br\/>treatment will remain on your skin for 6-8 hours depending on your skin <br\/>type. Your second treatment will be scheduled for approximately 30 days <br\/>later.<\/p><p><br\/><strong>Aftercare<\/strong><br\/>You must have 7-10 days following <br\/>treatment for downtime, including no sun exposure at all. You will be <br\/>given instructions regarding the correct products to apply for 6 months.<br\/> Do not get another treatment or procedure (including peels, facials, or<br\/> microdermabrasion) on the treated area for 30 days following Cosmelan <br\/>MD application. After a few days you will notice skin blemishes fading, <br\/>and a brighter skin complexion breaking through. After a couple of <br\/>weeks, the skin will start to take on a shiny, healthier glow. Full <br\/>results are typically seen after 4-6 weeks.<\/p><p><br\/><strong>Is It for You?<\/strong><br\/>If you are bothered by <br\/>hyperpigmentation caused by melasma, this is the treatment for you! <br\/>However, if you are pregnant or nursing, I cannot do this treatment for <br\/>you.<\/p><p><br\/><strong>The Science<\/strong><br\/>Active ingredients in Cosmelan MD<br\/> include hydroquinone, retinoic acid, azelaic acid, kojic acid, arbutin,<br\/> phytic acid, and ascorbic acid. Cosmelan MD contains substances that <br\/>inhibit tyrosinase, an enzyme the skin uses to make melanin (pigment). <br\/>The retinoic acid increases cell turnover, which not only sheds the <br\/>darker skin cells but brings out new cells more quickly. Cosmelan MD <br\/>contains prescription ingredients and can only be dispensed by a <br\/>licensed medical professional.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14642045255764__c34ae6c1-c48d-4f2c-915d-01dcfa6210a0-text-1"
+      ],
+      "custom_css": [
+        ".custom-rt-hero__rte {max-width: 640px;}",
+        ".custom-rte-hero__content__wrapper {justify-content: center;}",
+        "li,ul {font-size: calc(var(--font-2) * var(--FONT-ADJUST-BODY)); font-weight: 300;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 72,
+        "padding_bottom": 0
+      }
+    },
+    "bb924575-6fab-4744-b0ee-0ead9ba94435": {
+      "type": "section-image-list",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "title": "{{ metaobject.title.value }}",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "68ab5acc-21e9-44f7-b518-b9606fbbefc6": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14642256314452__68ab5acc-21e9-44f7-b518-b9606fbbefc6-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Request an appointment",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14642256314452__68ab5acc-21e9-44f7-b518-b9606fbbefc6-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "a89d0d5d-0720-4896-bad0-8370d0b88721",
+    "c34ae6c1-c48d-4f2c-915d-01dcfa6210a0",
+    "bb924575-6fab-4744-b0ee-0ead9ba94435",
+    "68ab5acc-21e9-44f7-b518-b9606fbbefc6"
+  ]
+}

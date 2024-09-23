@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "9db29659-d00e-4fb8-821a-5f449a8ec27c": {
+      "type": "section-featured-products",
+      "disabled": true,
+      "settings": {
+        "subheading": "Subheading",
+        "heading": "Best Sellers",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Shop Now",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "product_list": [
+          "product",
+          "acne-prone-bundle-1",
+          "the-age-defying-duo",
+          "elastiderm-facial-serum"
+        ],
+        "style": "grid",
+        "width": "wrapper",
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "7104848c-4635-4470-a050-7c568fd62afb": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14708672659540__7104848c-4635-4470-a050-7c568fd62afb-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14708672659540__7104848c-4635-4470-a050-7c568fd62afb-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "12 Days Of Gifting",
+            "text_size": 8
+          }
+        },
+        "9682f664-5014-4efd-babf-e1db9ce049c5": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>November 14 - 25, 2023<\/p>",
+            "text_size": 4,
+            "text_style": "font-subheading"
+          }
+        },
+        "template--14708672659540__7104848c-4635-4470-a050-7c568fd62afb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>12 Days of <em>Gifting<\/em><\/h2><h4><\/h4><h4>November 14 - 25, 2023<\/h4><p><strong>Promotion Details: <\/strong><em>Offers cannot be combined with additional discounts. All sales are final - no refunds, returns or exchanges. Offers exclude gift cards, subscriptions, bundle & save items, and prescriptions. <\/em><\/p>",
+            "text_size": 7,
+            "text_style": "font-body"
+          }
+        },
+        "template--14708672659540__7104848c-4635-4470-a050-7c568fd62afb-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14708672659540__7104848c-4635-4470-a050-7c568fd62afb-subheading-1",
+        "template--14708672659540__7104848c-4635-4470-a050-7c568fd62afb-heading-1",
+        "9682f664-5014-4efd-babf-e1db9ce049c5",
+        "template--14708672659540__7104848c-4635-4470-a050-7c568fd62afb-text-1",
+        "template--14708672659540__7104848c-4635-4470-a050-7c568fd62afb-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9db29659-d00e-4fb8-821a-5f449a8ec27c",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "7104848c-4635-4470-a050-7c568fd62afb"
+  ]
+}

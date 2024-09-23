@@ -1,0 +1,295 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "",
+        "color": "",
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "94274629-93f8-4d88-be6a-ff60a928b75a": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14549487485012__94274629-93f8-4d88-be6a-ff60a928b75a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Elevated Skincare<\/h2><h4>DEVELOPED IN THE DETAILS<\/h4>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487485012__94274629-93f8-4d88-be6a-ff60a928b75a-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "#f4f1ef",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "761f4eb5-d65d-4c9d-bd62-be7a43705c8d": {
+      "type": "custom-collection-nav",
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out"
+      }
+    },
+    "7f97dae2-313f-4138-bb1d-3a9a665a8b80": {
+      "type": "custom-subcollections",
+      "settings": {
+        "padding_top": 70,
+        "padding_bottom": 24,
+        "text_color": "#848080"
+      }
+    },
+    "collection-key-three": {
+      "type": "section-key-three",
+      "blocks": {
+        "template--14549487190100__7be749d7-fa38-436c-8ad6-68bbb7a7559f-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "long_text": "<h2><a href=\"\/blogs\/news\" title=\"Beauty Explained.\">The <em>Core Four<\/em><\/a><\/h2><h4>For age defying skin<\/h4><p>With countless products on the market, it can feel overwhelming to know where to begin. That’s where The Core Four come in.<\/p><p>These are the <em>four essential products<\/em> that every skincare routine needs to achieve youthful, radiant skin. <\/p>",
+            "link_text": "Learn More",
+            "link": "shopify:\/\/blogs\/news\/the-core-4-your-skincare-essentials",
+            "color": "#dcbd7e",
+            "text_color": "#ffffff"
+          }
+        },
+        "e5b5273c-de83-4c29-8ccb-ff8a2efde818": {
+          "type": "article",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-key-three-3.jpg",
+            "title": "Sunscreen",
+            "text": "To protect from harmful sun rays and prevent wrinkles & collagen breakdown",
+            "link": "shopify:\/\/products\/intellishade-truphysical"
+          }
+        },
+        "template--14549487190100__7be749d7-fa38-436c-8ad6-68bbb7a7559f-article-1": {
+          "type": "article",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SBBxAshland-90_copy.jpg",
+            "title": "Vitamin c",
+            "text": "To stop the formation of free radicals that cause collagen & elastin breakdown.",
+            "link": "shopify:\/\/products\/vitamin-c-20"
+          }
+        },
+        "template--14549487190100__7be749d7-fa38-436c-8ad6-68bbb7a7559f-article-2": {
+          "type": "article",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-30_at_10.51.40_PM.png",
+            "title": "Retinoid",
+            "text": "To increase cellular turnover to repair skin damage & prevent future damage.",
+            "link": "shopify:\/\/products\/retivance-skin-rejuvenating-complex"
+          }
+        },
+        "a74d31eb-0fe6-4196-aac1-d284141d6f10": {
+          "type": "article",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-30_at_10.50.13_PM.png",
+            "title": "Exfoliant",
+            "text": "To improve overall skin tone and texture & brighten dull skin.",
+            "link": "shopify:\/\/products\/tonic"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__7be749d7-fa38-436c-8ad6-68bbb7a7559f-richtext-1",
+        "e5b5273c-de83-4c29-8ccb-ff8a2efde818",
+        "template--14549487190100__7be749d7-fa38-436c-8ad6-68bbb7a7559f-article-1",
+        "template--14549487190100__7be749d7-fa38-436c-8ad6-68bbb7a7559f-article-2",
+        "a74d31eb-0fe6-4196-aac1-d284141d6f10"
+      ],
+      "settings": {
+        "hide_gc": true,
+        "show_all_only": true,
+        "padding_top": 0,
+        "padding_bottom": 10,
+        "text_color": "#848080"
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "custom-collection",
+      "settings": {
+        "show_navbar": false,
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out",
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "product_limit": 16,
+        "padding_top": 15,
+        "padding_bottom": 0
+      }
+    },
+    "personalized-skin-quiz": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "8a347081-301c-4ef0-9f7e-ee5aba344259": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TAKE THE FREE Skin QUIZ<\/p>",
+            "text_size": 6,
+            "text_style": "font-subheading"
+          }
+        },
+        "template--14549487190100__b6f35a0b-5690-428b-b000-7959b473fa97-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Personalize<\/em> Your Skincare Routine<\/h2><p>Don’t waste another hour comparing and deciphering which products will deliver real results for your skin concerns and goals. Take this quick quiz and receive a custom routine designed to unveil your best skin yet.<\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--14549487190100__b6f35a0b-5690-428b-b000-7959b473fa97-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "I'm in – Quiz Me",
+            "button_url": "https:\/\/www.skinbyblair.com\/#finder-quiz-4820",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "8a347081-301c-4ef0-9f7e-ee5aba344259",
+        "template--14549487190100__b6f35a0b-5690-428b-b000-7959b473fa97-text-1",
+        "template--14549487190100__b6f35a0b-5690-428b-b000-7959b473fa97-buttons-1"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/personalized-skincare-quiz.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "collections-social-media-text": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14549487190100__bea58291-245f-4cb1-b946-493fd916eda8-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "NO MORE SKINCARE CONFUSION — WE TELL IT TO YOU STRAIGHT.",
+            "text_size": 6,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14549487190100__bea58291-245f-4cb1-b946-493fd916eda8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Get tips & education straight from an aesthetics professional you can genuinely trust.",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__bea58291-245f-4cb1-b946-493fd916eda8-subheading-1",
+        "template--14549487190100__bea58291-245f-4cb1-b946-493fd916eda8-heading-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "169412416884344aae": {
+      "type": "apps",
+      "blocks": {
+        "e072967c-fa9f-42b3-b350-0ca31411e991": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e072967c-fa9f-42b3-b350-0ca31411e991"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "055dc238-5ed4-4a8c-b791-2267f4612ea5": {
+      "type": "single-line-text",
+      "settings": {
+        "text": "<p>@skinbyblair<\/p>",
+        "align_text": "text-right",
+        "align_text_mobile": "mobile-hero-text-center",
+        "text_style": "font-subheading",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "color": "#848080"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "94274629-93f8-4d88-be6a-ff60a928b75a",
+    "761f4eb5-d65d-4c9d-bd62-be7a43705c8d",
+    "7f97dae2-313f-4138-bb1d-3a9a665a8b80",
+    "collection-key-three",
+    "subcollections",
+    "main",
+    "personalized-skin-quiz",
+    "collections-social-media-text",
+    "169412416884344aae",
+    "055dc238-5ed4-4a8c-b791-2267f4612ea5"
+  ]
+}

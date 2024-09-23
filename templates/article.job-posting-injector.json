@@ -1,0 +1,580 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "Rosacea: what it is and how to manage it",
+            "text_size": 9
+          }
+        },
+        "text_yxTaJQ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Being told you have rosacea can feel overwhelming, and managing its visible symptoms can be a daily concern. Today, my goal is to empower you to feel confident stepping out into the world. Together, we'll explore various strategies aimed at addressing and reducing the outward signs of rosacea. From personalized skincare routines to lifestyle tweaks to exploring professional treatments, we'll navigate this journey towards skin confidence together!<\/h3><h3><\/h3>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "text_yxTaJQ"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 22
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_XncBbY": {
+      "type": "page_content",
+      "blocks": {
+        "text_T8QhTk": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Do you have dreams of something bigger and <br\/>have this little voice inside your head that is nudging you because you <br\/>know you’re meant for more? Well you may just be the right fit for our <br\/>team.<\/h3><h3><br\/>We are seeking a full time, experienced and passionate<br\/> Aesthetic Injector to join our team and contribute to our mission of <br\/>empowering our patients to look and feel their best.<\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "text_BXrcph": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>What does rosacea look like?<\/h2><p>How rosacea looks and feels can vary from person to person, but there are a number of common symptoms, which include:<\/p><h5>• Redness and\/or Blushing<br\/>• Pustules<br\/>• Burning or stinging sensation<br\/>• Swelling<br\/>• Thickening of the skin<\/h5>",
+            "text_style": "font-body"
+          }
+        },
+        "text_rDfjAD": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_T8QhTk",
+        "text_BXrcph",
+        "text_rDfjAD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-04-04_at_4.11.46_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 6,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_richtext_Qtww6G": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_pHHaky": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>What does rosacea look like?<\/h2><p>How rosacea looks and feels can vary from person to person, but there are a number of common symptoms, which include:<\/p><p>- Redness<\/p><p>- Blushing<\/p><p>- Pustules<\/p><p>- Burning or stinging sensation<\/p><p>- Dryness<\/p><p>- Swelling<\/p><p>- Thickening of the skin<\/p><p><br\/>In most cases, rosacea will begin with the milder symptoms like flushing, and, if not managed effectively, escalate as time goes on. Rosacea tends to only be present on the face, but can in some cases spread to the scalp and chest too.<br\/><\/p><p><br\/>It’s worth noting that although rosacea affects all skin tones, redness and flushing is more apparent in those with fairer skin. If you have a darker complexion and are noticing that your skin stings when you go from cold to warm temperatures or feels especially warm after eating certain foods, you may have rosacea.<\/p><p><br\/>Understandably, rosacea can have a negative impact on your self-esteem. Being told you have a long-term condition can be overwhelming, and the outward signs of rosacea can be difficult to disguise. My goal is to help you feel confident in your skin - we want you to be able to leave the house without having to be worried about your appearance!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_pHHaky"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_W9z6bA": {
+      "type": "page_content",
+      "blocks": {
+        "text_8twmcz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s worth noting that although rosacea affects all skin tones, redness and flushing is more apparent in those with fairer skin. If you have a darker complexion and are noticing that your skin stings when you go from cold to warm temperatures or feels especially warm after eating certain foods, you may have rosacea.<\/p><p><\/p><h2><br\/>Common triggers of rosacea:<\/h2><p><\/p><p>Some of the most common triggers of rosacea flares include:<\/p><h5>• Spicy food<br\/>• Hot beverages<br\/>• Sun exposure<br\/>• Alcohol<br\/>• Extreme temperatures<br\/>• Hot baths\/showers<br\/>• Saunas<br\/>• Exercising<br\/>• Strong emotional responses (anger, stress, anxiety, etc.)<\/h5><p><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_8twmcz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-04-04_at_4.20.07_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 8,
+        "padding_bottom": 6
+      }
+    },
+    "section_custom_richtext_K6bxBg": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_TXcHDy": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>How to treat rosacea<\/h2><p><br\/>There is no set cure for rosacea, but there are ways to manage and treat it. As with all skin conditions, if you tick the boxes for rosacea symptoms, it’s a good idea to visit your dermatologist for an official diagnosis, as they may be able to prescribe oral or topical treatments that are more effective for severe cases. <br\/><br\/>Day-to-day, keeping on top of your rosacea triggers will help to keep things under control. As for skincare, think of your complexion as a beautiful silk blouse. It needs to be treated with the utmost care to keep it at its very best. That means no abrasive rubbing with flannels or scrubs, using cool not hot water when washing and dialing back the active ingredients. A simple, stripped-back regime focusing on soothing your skin and rebuilding its barrier will reward you with a calmer, more comfortable complexion. And of course, don’t forget your daily SPF!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_TXcHDy"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_xGNjNx": {
+      "type": "page_content",
+      "blocks": {
+        "text_3HAjfK": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Preventing flare ups<\/h2><p>You can help prevent rosacea flare-ups by identifying and avoiding your triggers. Keeping a diary of what you eat and drink, activities you participate in, and locations you visit, alongside your rosacea symptoms, may help isolate the cause for flare-ups!<\/p><h5>Here are some additional tips:<\/h5><p><strong>• Use sun protection:<\/strong> Apply a <a href=\"\/products\/intellishade-truphysical-clear\" target=\"_blank\" title=\"Intellishade TruPhysical Clear\">gentle broad-spectrum SPF<\/a> daily. Opt for fragrance-free, mineral sunscreens as these are often less irritating. You should also wear a hat and avoid the midday sun if you are prone to sun-related flare ups.<\/p><p><strong>• Reduce stress: <\/strong>Find activities that reduce your stress levels, such as journaling or reading. <\/p><p><strong>• Avoid the heat:<\/strong> This may look different for everyone, but could include avoiding hot baths, showers, and saunas, sitting away from direct heat sources such as fireplaces, avoiding, and opting for pilates instead of hot-yoga. Air conditioning, fans, and sipping cool drinks can also help people stay cool when you have to be in the heat!<\/p><p><strong>• Choose cold drinks:<\/strong> It may be beneficial to opt for iced instead of hot tea or coffee.<\/p><p><strong>• Rethink alcohol choices:<\/strong> Choose white wine over red and when possible, dilute your alcoholic drinks with soda or lemonade.<\/p><p><strong>• Select gentle skincare products:<\/strong> Keeping a healthy skin barrier is key, so avoiding harsh ingredients like alcohol, menthol, camphor, and sodium laurel sulfate (SLS) is often beneficial. <\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_3HAjfK"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-04-15_at_2.32.45_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 33,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_bWMAJR": {
+      "type": "page_content",
+      "blocks": {
+        "text_VDjAtN": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>How to calm flare ups:<\/h2><p>Flare ups happen, even to the best of us, so, it's important for you to be prepared when they do. Here are my favorite tips to soothe the skin during a flare:<\/p><p>• Apply cool compresses or an ice roller to affected areas to reduce redness and soothe inflammation.<\/p><p>• Keep your skin hydrated with a <a href=\"\/products\/creme-de-la-blair-new\" target=\"_blank\" title=\"Crème de la Blair 2.0\">gentle, fragrance-free moisturizer<\/a>.<\/p><p>• Use a humidifier to prevent dry air from removing moisture from the skin.<\/p><p>• Apply topical treatments containing ingredients like azelaic acid, metronidazole, or sulfur to help reduce redness and inflammation during flares. In severe cases, your dermatologist may recommend oral antibiotics or other prescription medications to control rosacea symptoms. Be sure to always consult with a dermatologist before starting any new treatment.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_VDjAtN"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-04-04_at_4.13.49_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 33,
+        "padding_bottom": 11
+      }
+    },
+    "section_custom_richtext_NXXnFx": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_HyLJNC": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Blair's Product Recommendations for Rosacea-Prone Skin<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_HyLJNC"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_LRCfpg": {
+      "type": "page_content",
+      "blocks": {
+        "text_ygEj3B": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>AM<\/strong>: <\/p><p>1. Cleanse with <a href=\"\/products\/gentle-foaming-cleanser\" target=\"_blank\" title=\"Gentle Foaming Cleanser\">Gentle Foaming Cleanser<\/a> - gentle, fragrance-free, effective cleanser<\/p><p>2. Tone with <a href=\"\/products\/soothing-facial-rinse\" target=\"_blank\" title=\"Soothing Facial Rinse\">Soothing Facial Rinse<\/a> - instantly soothes the skin and reduces visible redness upon application<\/p><p>3. Correct with <a href=\"\/products\/c-correcting-complex-30\" target=\"_blank\" title=\"C+ Correcting Complex 30%\">C+ Correcting Complex<\/a> - the only vitamin C I recommend for my rosacea patients!<\/p><p>4. Protect with a physical SPF - I personally love <a href=\"\/products\/intellishade-truphysical\" target=\"_blank\" title=\"Intellishade TruPhysical\">Intellishade TruPhysical<\/a> for a tinted finish or <a href=\"\/products\/intellishade-truphysical-clear\" target=\"_blank\" title=\"Intellishade TruPhysical Clear\">Intellishade TruPhysical Clear<\/a> for those who prefer an non-tinted option<br\/><br\/><strong>PM<\/strong>:<br\/>1. Cleanse with <a href=\"\/products\/gentle-foaming-cleanser\" target=\"_blank\" title=\"Gentle Foaming Cleanser\">Gentle Foaming Cleanser<br\/><\/a>2. Tone with <a href=\"\/products\/soothing-facial-rinse\" target=\"_blank\" title=\"Soothing Facial Rinse\">Soothing Facial Rinse<\/a><\/p><p>3. Treat with <a href=\"\/products\/ret-de-la-blair-new\" target=\"_blank\" title=\"RET+\">RET+<\/a> - while most retinoids exacerbate rosacea and further increase skin irritation, this one was formulated to be gentle, yet effective - making it a must-have for those with rosacea<br\/><a href=\"\/products\/creme-de-la-blair-new\" target=\"_blank\" title=\"Crème de la Blair 2.0\">4. Crème de la Blair<\/a> - supports the skin barrier to nourish, soothe irritated skin<\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "buttons_88QBQU": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP ALL PRODUCTS FOR ROSACEA",
+            "button_url": "shopify:\/\/collections\/rosacea-1",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_ygEj3B",
+        "buttons_88QBQU"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-04-04_at_4.23.29_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 0,
+        "padding_bottom": 11
+      }
+    },
+    "section_tab_collections_g3LkcX": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_7e9LdX": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "boost-cell-turnover",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_7e9LdX"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 9,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "1695220539793c408e",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "page_content_XncBbY",
+    "section_custom_richtext_Qtww6G",
+    "page_content_W9z6bA",
+    "section_custom_richtext_K6bxBg",
+    "page_content_xGNjNx",
+    "page_content_bWMAJR",
+    "section_custom_richtext_NXXnFx",
+    "page_content_LRCfpg",
+    "section_tab_collections_g3LkcX",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

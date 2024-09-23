@@ -1,0 +1,111 @@
+<div class="customer-box">
+<h2>Account Center</h2>
+{%if customer %}
+<h4>Hi, {{customer.first_name}}</h4>
+{%endif %}
+</div>
+<div class="nav--wrapper bg-light">
+  <ul class="nav__list--desktop rc_page-width rc_card_container">
+    <li class="js-subscriptions-page">
+      <a href="/account/" id="orders-page" class="title-bold"> Orders </a>
+    </li>
+
+    <li class="js-schedule-page">
+      <a href="/tools/recurring/login" id="subscription-page" class="title-bold">Subscriptions</a>
+    </li>
+
+    <li class="js-orders-page">
+      <a href="/account/addresses" id="addresses-page" class="title-bold">Addresses</a>
+    </li>
+    <li class="js-addresses-page">
+      <a href="/account/logout" id="logout" class="title-bold">Logout</a>
+    </li>
+  </ul>
+</div>
+
+{%style%}
+*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box}:root{--rc-spacing-1:4px;--rc-spacing-2:8px;--rc-spacing-3:12px;--rc-spacing-4:16px;--rc-spacing-5:20px;--rc-spacing-6:24px;--rc-spacing-7:28px}a{-ms-touch-action:manipulation;touch-action:manipulation;color:var(--primary-color)}% if settings.customer_portal.hosted_customer_portal % body#recharge-novum #recharge-te .rc_theme__header{height:72px;background-color:var(--color-white);display:flex;align-items:center;justify-content:center;position:relative}% endif % body#recharge-novum #recharge-te .nav--wrapper{padding:10px 0;margin-bottom:36px;display:flex;justify-content:center}#recharge-novum .shipping-page .rc-expandable-card :is(.edit-address,.change-payment-method){display:none!important}#recharge-novum .shipping-page .rc-expandable-card:is(.in,.open) :is(.edit-address,.change-payment-method){display:inline-flex!important}
+.nav__list--desktop.rc_page-width.rc_card_container{padding:10px 0!important}body#recharge-novum #recharge-te .rc_purchase_type.border-light:has(input):before{border-radius:100%;width:19px;height:19px;display:flex;justify-content:center;align-items:center;content:"";border:1px solid #dbd3ce;margin-right:10px}body#recharge-novum #recharge-te .rc_purchase_type.border-light:has(input:checked):before{content:"◉";font-size:30px;color:#d1d7e0;border:none}@media only screen and (max-width:749px){ul.nav__list--desktop.rc_page-width.rc_card_container{width:100%;overflow-x:scroll;gap:33px!important;height:14px!important;padding:13px 0!important}}
+
+.nav--wrapper.bg-light {
+}
+
+ul.nav__list--desktop.rc_page-width.rc_card_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 33px;
+    list-style-type: none;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 200% */
+    letter-spacing: 4px;
+    border-top: 1px solid var(--grayscale-line, #DBD3CE);
+    background: #F4F1EF;
+    text-transform: uppercase;
+    padding:  0px !important;
+    font-size: calc(var(--small-paragraph) * var(--FONT-ADJUST-BODY));
+    margin-left: 0px !important;
+    margin-bottom: 40px !important;
+}
+
+.nav__list--desktop li a {
+    text-decoration: none !important;
+}
+
+.nav__list--desktop li {
+    text-decoration: none !important;
+}
+
+.nav__list--desktop li::marker {
+    display: none !important;
+}
+
+ul.nav__list--desktop.rc_page-width.rc_card_container li {
+    padding: 14px 0px !important;
+    margin-bottom: 0px !important
+}
+
+ul.nav__list--desktop.rc_page-width.rc_card_container {
+    min-height: 50px;
+    width: 100%;
+}
+
+ul.nav__list--desktop.rc_page-width.rc_card_container li:has(#orders-page) {margin-left: 140px;}
+only screen and (max-width: 749px) {
+body#recharge-novum #recharge-te ul.nav__list--desktop li a {
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    line-height: 120% !important;
+    letter-spacing: 4px !important;
+    text-transform: uppercase !important;
+}
+
+ul.nav__list--desktop.rc_page-width.rc_card_container { 
+  overflow: scroll;
+}
+
+}
+
+
+.customer-box {
+    background: var(--grayscale-input-background, #F4F1EF);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.customer-box * {
+    margin: 0px;
+}
+
+@media only screen and (max-width: 750px) {
+  .customer-box {
+    display: none !important;
+  }
+}
+{%endstyle%}

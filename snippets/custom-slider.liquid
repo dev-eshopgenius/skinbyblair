@@ -1,0 +1,83 @@
+{% style %}
+#tk-carousel {
+  background: transparent;
+  margin: 2rem 0;
+  display: none;
+}
+
+#tk-carousel .carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: transparent;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  overflow: scroll;
+}
+#tk-carousel .carousel-cell::-webkit-scrollbar {
+    display: none;
+}
+
+/* cell number */
+
+
+@media only screen and (max-width: 749px) {
+    #tk-carousel {
+        display: block;
+        padding-bottom: 103%;
+    }
+
+    .flickity-prev-next-button {
+        display: block;
+        border-radius: 50%;
+    }
+    
+    .flickity-page-dot {
+        background: #DBD3CE;
+        border: none;
+    }
+    
+    .flickity-page-dot.is-selected {
+        background: #E3B2B2;
+    }
+
+    .flickity-prev-next-button:before {
+        background: #b5afab;
+    }
+
+    .borderless-card p {
+        opacity: 0.5
+    }
+
+    .is-selected .borderless-card p {
+        opacity: 1;
+    }
+
+    #tk-carousel .flickity-viewport {
+        position: absolute;
+        width: 100%;
+    }
+
+    /* cell inherit height from carousel */
+    #tk-carousel .carousel-cell {
+        height: 100%;
+    justify-content: center;
+    display: flex;
+    max-width: 41%;
+    }
+}
+
+{% endstyle %}
+
+<div class="carousel" id="tk-carousel"
+  data-flickity='{ "wrapAround": true, "arrowShape": "M18.5 12H6m0 0l6-6m-6 6l6 6", "setGallerySize": false }'>
+
+  {% for block in blocks %}
+        {% case block.type %}
+            {% when 'article' %}
+                <div class="carousel-cell">
+                    {% render 'key-three-article', block: block %}
+                </div>
+            {% endcase %}
+    {% endfor %}
+</div>

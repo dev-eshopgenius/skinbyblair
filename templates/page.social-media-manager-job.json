@@ -1,0 +1,581 @@
+{
+  "sections": {
+    "section_custom_standard_double_rinXmG": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_etbTXR": {
+          "type": "heading",
+          "settings": {
+            "title": "Social Media Manager",
+            "title2": "Social Media Manager",
+            "text_size": 8
+          }
+        },
+        "text_kzhLLH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our ideal candidate is a go-getter, highly creative, excellent communicator, and can drive results independently.<br\/><br\/>This just might be your dream job if you are mission-driven, highly motivated and committed to personal and professional growth, are obsessed with social media, crave mastery of new skills, and are fueled by making an impact.<br\/><br\/>If you are a resourceful, creative self-starter with a passion for aesthetics and social media, this may be a dream opportunity for you. <\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_FhgpXj": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_etbTXR",
+        "text_kzhLLH",
+        "buttons_FhgpXj"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/haute-stock-photography-subscription-pastel-workspace-collection-final-16_00876091-2274-41ab-91a8-d778c8973c0c.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_richtext_LMmB3L": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "subheading_qq4iwa": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "heading_txzELk": {
+          "type": "heading",
+          "settings": {
+            "title": "The Position:",
+            "text_size": 8
+          }
+        },
+        "text_r9xpAA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Develop and implement marketing strategies to drive traffic, sales, and customer acquisition<br\/><br\/>• Expertly design visually compelling marketing materials that align with our brand and business objectives<br\/><br\/>• Build recognition, consumption, engagement, and reviews for the Skin By Blair brand<br\/><br\/>• Implement and manage website updates and maintenance, including content creation, design updates, and bug fixes<br\/><br\/>• Develop effective, cohesive, and engaging brand messaging across all platforms<br\/><br\/>• Plan and execute email marketing campaigns, including newsletters, promotional offers, and automated flows<br\/><br\/>• Collaborate with internal teams to develop compelling content, such as product descriptions and blog posts, create landing pages, and optimize user experience<br\/><br\/>• Manage and maintain brand guidelines, ensuring all marketing materials align with our brand and business objectives<br\/><br\/>• Develop and execute SEO strategies to improve search engine rankings and drive traffic to our website<br\/><br\/>• Analyze data and provide insights to continually optimize marketing campaigns and improve ROI<br\/><br\/>• Plan and manage paid advertising campaigns across Google Ads, Facebook Ads, and other digital platforms to maximize ROI<br\/><br\/>• Evaluate and monitor campaign performance on an ongoing basis by analyzing key metrics and creating comprehensive reports<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_HaKHBK": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qq4iwa",
+        "heading_txzELk",
+        "text_r9xpAA",
+        "buttons_HaKHBK"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 48,
+        "padding_bottom": 100
+      }
+    },
+    "section_custom_standard_double_qT8VAh": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_wFAF9G": {
+          "type": "heading",
+          "settings": {
+            "title": "The Position",
+            "title2": "The Position",
+            "text_size": 8
+          }
+        },
+        "text_dUjFrq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>• Create and edit unique, innovative, and educational video and blog content for social channels, ensuring a consistent voice across all platforms to grow social engagement<br\/><br\/>• Expertly manage social platforms including Instagram, TikTok, YouTube, and Pinterest<br\/><br\/>• Create and maintain a strategic monthly content calendar, including copy and scheduling of daily posts across channels<br\/><br\/>• Research and brainstorm new topics and creative ways to share across channels<br\/><br\/>• Organize and strategically repurpose current video and written content<br\/><br\/>• Conduct market research and identify trends<br\/><br\/>• Evaluate and monitor campaign performance on an ongoing basis by analyzing key metrics and creating comprehensive reports<\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_xjBAXk": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_wFAF9G",
+        "text_dUjFrq",
+        "buttons_xjBAXk"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/haute-stock-photography-subscription-through-the-lens-collection-final-7.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_yX68kR": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_AVAM44": {
+          "type": "heading",
+          "settings": {
+            "title": "The Position",
+            "title2": "The Position",
+            "text_size": 8
+          }
+        },
+        "text_Xyt6Dn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong><br\/>Develop Brand Strategy and Messaging<\/strong><\/p><p>• Develop effective, cohesive, and engaging brand messaging across all platforms<\/p><p>• Manage and maintain brand guidelines, ensuring all marketing materials align with our brand and business objectives<\/p><p>• Build recognition, consumption, engagement, and reviews for the Skin By Blair brand<\/p><p><strong><br\/>Content Creation and Design<\/strong><\/p><p>• Expertly design visually compelling marketing materials that align with our brand and business objectives<\/p><p>• Collaborate with internal teams to develop compelling content, such as product descriptions and blog posts, create landing pages, and optimize user experience<\/p><p><strong><br\/>Digital Marketing Execution<\/strong><\/p><p>• Develop and implement marketing strategies to drive traffic, sales, and customer acquisition<\/p><p>• Plan and execute email marketing campaigns, including newsletters, promotional offers, and automated flows<\/p><p>• Plan and manage paid advertising campaigns across Google Ads, Facebook Ads, and other digital platforms to maximize ROI<\/p><p><strong><br\/>SEO and Website Management<\/strong><\/p><p>Develop and execute SEO strategies to improve search engine rankings and drive traffic to our website<\/p><p>• Implement and manage website updates and maintenance<\/p><p><strong><br\/>Data Analysis and Optimization<\/strong><\/p><p>Analyze data and provide insights to continually optimize marketing campaigns and improve ROI.<\/p><p>Evaluate and monitor campaign performance on an ongoing basis by analyzing key metrics and creating comprehensive reports.<\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_p6yTWG": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_AVAM44",
+        "text_Xyt6Dn",
+        "buttons_p6yTWG"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_aFEWKJ": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_mV7JLf": {
+          "type": "heading",
+          "settings": {
+            "title": "Must Haves",
+            "title2": "Must Haves",
+            "text_size": 8
+          }
+        },
+        "text_MJ6NYg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>• Prior social media marketing experience<br\/><br\/>• Passionate about social media and the aesthetics industry<br\/><br\/>• Expert knowledge on various social platforms, including Instagram, TikTok, YouTube, and Pinterest<br\/><br\/>• Highly creative, pay excellent attention to detail, and have a refined aesthetic eye<br\/><br\/>• Strong video editing skills and proficiency in Final Cut Pro or similar video editing software<br\/><br\/>• Outstanding copy-writing and proofreading skills, as well as excellent written and verbal communication skills<br\/><br\/>• Strong knowledge of aesthetics or willingness to learn<br\/><br\/>• Highly curious, extremely resourceful, and use credible sources when researching topics<br\/><br\/>• Eager to constantly learn and expand knowledge of skin, science, and aesthetics<br\/><br\/>• Able to accept feedback, take suggestions, and be eager to improve and grow<br\/><br\/>• Proactive and able to independently move projects forward, prioritize tasks, and meet deadlines<br\/><br\/>• Highly organized and dependable, have an eye for detail, and have strong analytical skills<br\/><br\/>• Motivated individual with the ability to multitask, work independently, and be open to learning and ready to “jump-in” to get the job done<br\/><br\/>• Positive and upbeat personality<\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_EwQdrq": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_mV7JLf",
+        "text_MJ6NYg",
+        "buttons_EwQdrq"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/haute-stock-photography-subscription-vintage-pink-collection-final-5.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_YUJFj4": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_hWgJHH": {
+          "type": "heading",
+          "settings": {
+            "title": "The Right Fit",
+            "title2": "The Right Fit",
+            "text_size": 8
+          }
+        },
+        "text_QDA4bH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>• Creative and motivated individual with the ability to multitask, work independently, and be open to learning<br\/><br\/>• A quick learner with problem-solving and critical thinking skills - someone who takes the initiative to figure out what needs to be done <br\/>through creativity and resourcefulness<br\/><br\/>• Superior organizational skills, follow-through skills and attention to detail<br\/><br\/>• Critical problem solver with excellent communication skills and ability to finish an assigned task under a deadline<br\/><br\/>• Obsessively motivated, reliable, and resourceful<br\/><br\/>• Passion for promoting brand and product education through marketing channels<br\/><br\/>• Independent thinker who can bring ideas to the table through prior experiences<br\/><br\/>• Ability to balance schedule and workload with minimal oversight<\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_tXDwEY": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_hWgJHH",
+        "text_QDA4bH",
+        "buttons_tXDwEY"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/haute-stock-photography-subscription-the-agency-collection-final-39.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_F7c8UG": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_kBmFcd": {
+          "type": "heading",
+          "settings": {
+            "title": "Not The Right Fit",
+            "title2": "Not The Right Fit",
+            "text_size": 8
+          }
+        },
+        "text_qDeQTD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>• An agency or part-time employee that works with multiple brands<br\/><br\/>• Someone who needs a ton of structure and consistency<br\/><br\/>• Not willing to jump in as needed on tasks that aren’t “yours”<br\/><br\/>• Working multiple jobs or side gigs<br\/><br\/>• Someone who struggles to work independently<br\/><br\/>• Someone who has never worked in social media marketing before<\/p>",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_hNheUR": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_kBmFcd",
+        "text_qDeQTD",
+        "buttons_hNheUR"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/haute-stock-photography-subscription-through-the-lens-collection-final-1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "4da2123f-4d0b-4ca7-88fb-6cf942c53647": {
+      "type": "section-custom-hero",
+      "blocks": {
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<h3>Current Openings<\/h3>",
+            "heading_size": 15,
+            "color": "#ffffff",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 4,
+            "mobile_title": "<p>Current Openings<\/p>",
+            "mobile_heading_size": 11,
+            "mobile_color": "#ffffff",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 4
+          }
+        },
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-text-1": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_style": "font-body",
+            "color": "#848080",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 1,
+            "mobile_description": "",
+            "mobile_text_size": 14,
+            "mobile_text_style": "font-body",
+            "mobile_color": "#848080",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 1
+          }
+        },
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "View Open Roles",
+            "link": "",
+            "button_id": "",
+            "button_type": "btn--text-cl",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button-align-class": "hero-button-center",
+            "mobile_link_text": "View Open Roles",
+            "mobile_link": "",
+            "mobile_button_id": "",
+            "mobile_button_type": "btn--text-cl",
+            "mobile_button_size": "",
+            "mobile_button_style": "btn--solid",
+            "mobile_show_arrow": false,
+            "mobile_color": "#474545",
+            "mobile_button-align-class": "hero-button-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-heading-1",
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-text-1",
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".btn {padding: 14px 30px; width: 90vw; max-width: 400px;}",
+        "@media only screen and (min-width: 750px) {.btn {width: 400px; bottom: 1rem; }}"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "content_special_margin": 0,
+        "content_width": 100,
+        "mobile_content_width": 100,
+        "image_1": "shopify:\/\/shop_images\/current_openings.png",
+        "link": "",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/haute-stock-photography-design-studio-final-2_1_49e45474-4ee0-4f77-a196-8d1905f7272d.png",
+        "same_content_as_desktop": false,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_margin_bottom": 0,
+        "flex_align_mobile": "align--bottom-center-mobile",
+        "mobile_content_margin_bottom": 1,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "8e8c282a-5129-4ef5-856f-2c82c4996025": {
+      "type": "section-careers",
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full-padded",
+        "padding_top": 68,
+        "padding_bottom": 20
+      }
+    },
+    "98f53fdf-edd4-4e6b-8126-76e52f12d628": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "If this opportunity excites you, please complete this brief application below.",
+            "text_size": 8
+          }
+        },
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>If this opportunity excites you, please complete this brief application below. <\/h3>",
+            "text_size": 6,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_6RdQfn": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Apply Here",
+            "button_url": "https:\/\/forms.gle\/Ls3J31t1pTnVnXh56",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-heading-1",
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-text-1",
+        "buttons_6RdQfn"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "Careers-anchor",
+        "padding_top": 46,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "section_custom_standard_double_rinXmG",
+    "section_custom_richtext_LMmB3L",
+    "section_custom_standard_double_qT8VAh",
+    "section_custom_standard_double_yX68kR",
+    "section_custom_standard_double_aFEWKJ",
+    "section_custom_standard_double_YUJFj4",
+    "section_custom_standard_double_F7c8UG",
+    "main",
+    "4da2123f-4d0b-4ca7-88fb-6cf942c53647",
+    "8e8c282a-5129-4ef5-856f-2c82c4996025",
+    "98f53fdf-edd4-4e6b-8126-76e52f12d628"
+  ]
+}

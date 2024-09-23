@@ -1,0 +1,50 @@
+{
+  "type": "custom.pre_footer",
+  "name": "Pre-footer",
+  "sections": {
+    "section-newsletter": {
+      "type": "section-newsletter",
+      "blocks": {
+        "newsletter-1": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "heading": "",
+            "heading_size": 7,
+            "text": "<h4><strong>SIGN UP FOR OUR NEWSLETTER<\/strong><\/h4>",
+            "text_size": 12,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "#848080",
+            "show_name": true,
+            "button_text": "SIGN UP",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "newsletter-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section-newsletter"
+  ]
+}

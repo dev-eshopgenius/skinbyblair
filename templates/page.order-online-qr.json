@@ -1,0 +1,836 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "9db29659-d00e-4fb8-821a-5f449a8ec27c": {
+      "type": "section-featured-products",
+      "disabled": true,
+      "settings": {
+        "subheading": "Subheading",
+        "heading": "Best Sellers",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Shop Now",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "product_list": [
+          "product",
+          "acne-prone-bundle-1",
+          "the-age-defying-duo",
+          "elastiderm-facial-serum"
+        ],
+        "style": "grid",
+        "width": "wrapper",
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {div#insta-feed {max-width: 94%; }}"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "a36332a3-3a91-4b13-b344-dc96f91ea079": {
+      "type": "section-double",
+      "blocks": {
+        "template--14618425884756__a36332a3-3a91-4b13-b344-dc96f91ea079-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>your order arrived!<br\/>now what?<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "fb9fe4fc-9fc2-4321-be1b-d95d7b86b03a": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Welcome, Beautiful,<\/em><\/h2>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "61681322-62d0-4fd1-8dfd-821f2ae696f4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>First and foremost, thank you for trusting Skin By Blair to provide the elevated skincare results you’ve been looking for. Know that we take your skin seriously, and every product we offer has been meticulously developed to enhance your skin, and subsequently, the way you carry yourself in the world.<\/p><p>As you scroll this page, you’ll find the information and inspiration needed to make the most out of your new products and routine.<\/p><p>Remember: skincare is the finest form of self-care — and you’re worthy of taking time for yourself. Get ready to feel truly beautiful in your own skin.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14618425884756__a36332a3-3a91-4b13-b344-dc96f91ea079-text-1",
+        "fb9fe4fc-9fc2-4321-be1b-d95d7b86b03a",
+        "61681322-62d0-4fd1-8dfd-821f2ae696f4"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify:\/\/shop_images\/bathrobe_girl.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 0,
+        "padding_bottom": 70
+      }
+    },
+    "7086139f-af33-4283-9b3f-1e03b7843942": {
+      "type": "browse_at_glance",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "alternative_style": false,
+        "bg_color": "",
+        "color": "#848080",
+        "desktop_text_alignment": "text-center",
+        "mobile_text_alignment": "mobile-text-center",
+        "title": "Browse at a Glance",
+        "content": "Quickly navigate to exactly what you’re looking for, or simply keep scrolling to familiarize yourself with all the need-to-know information regarding your new skincare.",
+        "menu": "browse-at-a-glance",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9bac0ae6-0b88-43f9-a5ae-e5df875c002f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "33e3d297-098f-43af-bd58-a35c9a294cd3": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "33e3d297-098f-43af-bd58-a35c9a294cd3"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "b2914a30-dd5b-4d6e-9bf1-63240a254599": {
+      "type": "section-custom-content",
+      "blocks": {
+        "10b044fc-8f52-47a3-951d-fa5c4311b67a": {
+          "type": "in-your-routine",
+          "settings": {
+            "title": "<h5>the routine basics<\/h5><h2>Implement your new skincare with ease<\/h2>",
+            "icon_1": "shopify:\/\/shop_images\/output-onlinepngtools.png",
+            "text_1": "your morning routine",
+            "content_1": "<p>Cleanse<\/p><p>Tone<\/p><p>Vitamin C<\/p><p>Serums<\/p><p>Eye Cream<\/p><p>Moisturizer<\/p><p>SPF<\/p>",
+            "icon_2": "shopify:\/\/shop_images\/output-onlinepngtools.png",
+            "text_2": "your evening routine",
+            "content_2": "<p>Cleanse<\/p><p>Tone<\/p><p>Serums<\/p><p>Eye cream<\/p><p>Retinoid<\/p><p>Moisturizer<\/p>",
+            "under_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "10b044fc-8f52-47a3-951d-fa5c4311b67a"
+      ],
+      "custom_css": [
+        "h2,h3,p,*::after,*::before {color: #848080;}"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d0756cf7-4441-4891-9f65-fcedd90dfcf7": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "a6568506-0e9e-41ed-92cf-3ffb679e35a3": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "a6568506-0e9e-41ed-92cf-3ffb679e35a3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "0c98aecf-d35f-44a0-81cd-540471f55340": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14618425884756__0c98aecf-d35f-44a0-81cd-540471f55340-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>guidelines for<\/h5><h2>Masks & Lifestyle Accessories<\/h2>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14618425884756__0c98aecf-d35f-44a0-81cd-540471f55340-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "223ad34d-e20c-4dec-8cae-973d27d8427d": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "template--14618425884756__223ad34d-e20c-4dec-8cae-973d27d8427d-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "FACE MASK",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "template--14618425884756__223ad34d-e20c-4dec-8cae-973d27d8427d-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Face Wipes",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "template--14618425884756__223ad34d-e20c-4dec-8cae-973d27d8427d-question-3": {
+          "type": "question",
+          "settings": {
+            "title": "Antioxidant Mist",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "f9cb3a26-70f8-47aa-9fa5-b4c3d266f68f": {
+          "type": "question",
+          "settings": {
+            "title": "Body and Neck Cream",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "ad374fb7-64e1-449b-bb52-46a3bb121cea": {
+          "type": "question",
+          "settings": {
+            "title": "Youthful Lip Replenisher",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "8c2e5cd5-0af7-4e48-ae0d-9928fe6f8148": {
+          "type": "question",
+          "settings": {
+            "title": "Lash & Brow Growth Serum",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14618425884756__223ad34d-e20c-4dec-8cae-973d27d8427d-question-1",
+        "template--14618425884756__223ad34d-e20c-4dec-8cae-973d27d8427d-question-2",
+        "template--14618425884756__223ad34d-e20c-4dec-8cae-973d27d8427d-question-3",
+        "f9cb3a26-70f8-47aa-9fa5-b4c3d266f68f",
+        "ad374fb7-64e1-449b-bb52-46a3bb121cea",
+        "8c2e5cd5-0af7-4e48-ae0d-9928fe6f8148"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "21074af1-7a07-42a4-9b2f-1f00b4ff8f89": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "ff883d58-e5fc-4956-b2dc-f986373f15e0": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        },
+        "7b88da3b-9f20-4602-aac7-5699a648267c": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Blair’s Glow Up Tip<\/h5><p>When in doubt, a good rule of thumb is to apply your products according to<br\/> consistency from the thinnest to thickest.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "c71657f3-af1f-403a-a82a-e266e042c809": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "ff883d58-e5fc-4956-b2dc-f986373f15e0",
+        "7b88da3b-9f20-4602-aac7-5699a648267c",
+        "c71657f3-af1f-403a-a82a-e266e042c809"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "#848080",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "0e27816f-5b15-4e04-b6fe-f036f16d31f2": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14618425884756__0e27816f-5b15-4e04-b6fe-f036f16d31f2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Find skincare clarity<\/h5><h3>The skincare & beauty world has its own language &<br\/>terminology—but don’t worry, we’ll break it down for you.<\/h3><p>See which skincare category your recent purchase falls under by browsing the dropdown menus below.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14618425884756__0e27816f-5b15-4e04-b6fe-f036f16d31f2-text-1"
+      ],
+      "custom_css": [
+        "p {font-size: 11px;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2cf21486-7f35-450e-bd79-f93c9fdc78fe": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "template--14618425884756__2cf21486-7f35-450e-bd79-f93c9fdc78fe-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "CLEANSERS",
+            "content": "<p>TEMPLATE<\/p>"
+          }
+        },
+        "template--14618425884756__2cf21486-7f35-450e-bd79-f93c9fdc78fe-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "TONERS",
+            "content": "<p>TONERS<\/p>"
+          }
+        },
+        "template--14618425884756__2cf21486-7f35-450e-bd79-f93c9fdc78fe-question-3": {
+          "type": "question",
+          "settings": {
+            "title": "VITAMIN C",
+            "content": "<p>VITAMIN C<\/p>"
+          }
+        },
+        "466be2aa-19b5-4506-82a8-af5135957705": {
+          "type": "question",
+          "settings": {
+            "title": "RETINOIDS",
+            "content": "<p>RETINOIDS<\/p>"
+          }
+        },
+        "bbc93be7-377a-4176-aea0-8d5106501c02": {
+          "type": "question",
+          "settings": {
+            "title": "SERUMS",
+            "content": "<p>SERUMS<\/p>"
+          }
+        },
+        "e37c07ca-3ed0-4c5e-8f08-ed7c2c0a3578": {
+          "type": "question",
+          "settings": {
+            "title": "EYE CREAMS",
+            "content": "<p>EYE CREAMS<\/p>"
+          }
+        },
+        "5f31b841-017c-4d8f-8362-93e0abd38fc7": {
+          "type": "question",
+          "settings": {
+            "title": "MOISTURIZERS",
+            "content": "<p>MOISTURIZERS<\/p>"
+          }
+        },
+        "4b1444d9-e80a-4668-a88c-6af951c80231": {
+          "type": "question",
+          "settings": {
+            "title": "SPFS",
+            "content": "<p>SPFS<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14618425884756__2cf21486-7f35-450e-bd79-f93c9fdc78fe-question-1",
+        "template--14618425884756__2cf21486-7f35-450e-bd79-f93c9fdc78fe-question-2",
+        "template--14618425884756__2cf21486-7f35-450e-bd79-f93c9fdc78fe-question-3",
+        "466be2aa-19b5-4506-82a8-af5135957705",
+        "bbc93be7-377a-4176-aea0-8d5106501c02",
+        "e37c07ca-3ed0-4c5e-8f08-ed7c2c0a3578",
+        "5f31b841-017c-4d8f-8362-93e0abd38fc7",
+        "4b1444d9-e80a-4668-a88c-6af951c80231"
+      ],
+      "settings": {
+        "width": "wrapper--medium",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "b3c41b6d-6d09-4d9f-a692-256bc4abe8d7": {
+      "type": "section-double",
+      "blocks": {
+        "template--14618425884756__b3c41b6d-6d09-4d9f-a692-256bc4abe8d7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>FREQUENTLY ASKED QUESTIONS<\/h5><h2>Feel confident about how & why you’re using your new skincare<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14618425884756__b3c41b6d-6d09-4d9f-a692-256bc4abe8d7-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "get answers",
+            "button_url": "shopify:\/\/pages\/contact",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14618425884756__b3c41b6d-6d09-4d9f-a692-256bc4abe8d7-text-1",
+        "template--14618425884756__b3c41b6d-6d09-4d9f-a692-256bc4abe8d7-buttons-1"
+      ],
+      "custom_css": [
+        ".section-custom-double__rte h2 {max-width: 450px;}"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify:\/\/shop_images\/desk.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "c9b7ea7a-25f2-4942-9899-052dea9e7d2c": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "2f44b5f9-3540-488b-9803-45b62f28a662": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>PERSONALIZE YOUR ENTIRE SKINCARE ROUTINE<\/h5><h3>Our results-driven signature products enhance your beauty from the inside out.<\/h3><p>You started with one new product, but now you’re ready to enhance even more of your skincare routine. Our skin quiz was designed to share recommendations that address your personal skin concerns & goals to unveil your best skin yet.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "8bfd1910-c357-4c7b-aa42-f59265d617f3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "take the skin quiz",
+            "button_url": "#finder-quiz-4820",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "2f44b5f9-3540-488b-9803-45b62f28a662",
+        "8bfd1910-c357-4c7b-aa42-f59265d617f3"
+      ],
+      "custom_css": [
+        "h3 {max-width: 550px; margin: auto;}",
+        "p {margin-top: 15px; max-width: 800px;}",
+        ".hero__rte.body-size-4.font-body.custom-rt-hero__rte {gap: 15px; display: flex; flex-direction: column;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "428efd8e-536d-4a89-9a3f-987533715455": {
+      "type": "section-custom-double",
+      "blocks": {
+        "template--14618425884756__428efd8e-536d-4a89-9a3f-987533715455-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>LEAVE A REVIEW<\/h5><h3>Your skin is glowing, now it’s time to rave about the results.<\/h3><p>When you leave a review of your recent purchase, you’ll be entered into a monthly drawing and have the chance to win a $100 gift card!<\/p><p>We so appreciate you sharing your experience with Skin By Blair. As a growing small business, it truly means the world to us!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "text_alignment": "inherit",
+            "mobile_text_alignment": "inherit"
+          }
+        },
+        "template--14618425884756__428efd8e-536d-4a89-9a3f-987533715455-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "leave a review",
+            "button_url": "shopify:\/\/pages\/reviews",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14618425884756__428efd8e-536d-4a89-9a3f-987533715455-text-1",
+        "template--14618425884756__428efd8e-536d-4a89-9a3f-987533715455-buttons-1"
+      ],
+      "custom_css": [
+        ".section-custom_double_banner_container {height: auto !important;}",
+        ".hero__rte.custom-section-double__rte.body-size-4.font-body {gap: 33px; display: flex; flex-direction: column;}",
+        "section {height: auto;}",
+        "h3 {margin-top: -30px;}"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/Rectangle_445.png",
+        "image_2": "shopify:\/\/shop_images\/pool_mobile.png",
+        "content_alignment_class": "justify-content--right",
+        "text_alignment": "text-center",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e08815d4-fedf-48e3-9828-d22557d594dd": {
+      "type": "section-double",
+      "blocks": {
+        "template--14618425884756__e08815d4-fedf-48e3-9828-d22557d594dd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>BECOME A SBB MEMBER<\/h5><h3>In love with your new <br\/>skincare routine?<\/h3><p>Subscribe to our membership to receive 10% off recurring orders of your favorite products.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "2ecbc7f7-97bf-4e4b-a7e7-5e45fa53e827": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SIGN UP HERE",
+            "button_url": "\/account\/register",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14618425884756__e08815d4-fedf-48e3-9828-d22557d594dd-text-1",
+        "2ecbc7f7-97bf-4e4b-a7e7-5e45fa53e827"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/reet_de_la_blair.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7e4d17a7-1a5e-47b9-92db-b47de9eba8b7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14557964271700__7e4d17a7-1a5e-47b9-92db-b47de9eba8b7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Elevate your feed with skin & self-care content from an aesthetics professional you can genuinely trust.<\/h2>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14557964271700__7e4d17a7-1a5e-47b9-92db-b47de9eba8b7-text-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "1692976257fb10dc69": {
+      "type": "apps",
+      "blocks": {
+        "be0e10ad-3ae3-4382-b1e9-4ac213de1020": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "be0e10ad-3ae3-4382-b1e9-4ac213de1020"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "d89866c7-e9e7-4927-b1b4-8eb3f7367161": {
+      "type": "single-line-text",
+      "settings": {
+        "text": "<p>@skinbyblair<\/p>",
+        "align_text": "text-right",
+        "align_text_mobile": "mobile-hero-text-center",
+        "text_style": "font-subheading",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "color": "#282c2e"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9db29659-d00e-4fb8-821a-5f449a8ec27c",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "a36332a3-3a91-4b13-b344-dc96f91ea079",
+    "7086139f-af33-4283-9b3f-1e03b7843942",
+    "9bac0ae6-0b88-43f9-a5ae-e5df875c002f",
+    "b2914a30-dd5b-4d6e-9bf1-63240a254599",
+    "d0756cf7-4441-4891-9f65-fcedd90dfcf7",
+    "0c98aecf-d35f-44a0-81cd-540471f55340",
+    "223ad34d-e20c-4dec-8cae-973d27d8427d",
+    "21074af1-7a07-42a4-9b2f-1f00b4ff8f89",
+    "0e27816f-5b15-4e04-b6fe-f036f16d31f2",
+    "2cf21486-7f35-450e-bd79-f93c9fdc78fe",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "b3c41b6d-6d09-4d9f-a692-256bc4abe8d7",
+    "c9b7ea7a-25f2-4942-9899-052dea9e7d2c",
+    "428efd8e-536d-4a89-9a3f-987533715455",
+    "e08815d4-fedf-48e3-9828-d22557d594dd",
+    "7e4d17a7-1a5e-47b9-92db-b47de9eba8b7",
+    "1692976257fb10dc69",
+    "d89866c7-e9e7-4927-b1b4-8eb3f7367161"
+  ]
+}

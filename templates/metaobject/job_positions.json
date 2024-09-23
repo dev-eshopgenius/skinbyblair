@@ -1,0 +1,748 @@
+{
+  "sections": {
+    "4e22d4de-8f1b-4533-8455-06627a30172c": {
+      "type": "section-hero",
+      "blocks": {
+        "template--14635053318228__4e22d4de-8f1b-4533-8455-06627a30172c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ metaobject.position_name.value }}",
+            "heading_size": 15
+          }
+        }
+      },
+      "block_order": [
+        "template--14635053318228__4e22d4de-8f1b-4533-8455-06627a30172c-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/career_banner.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#848080"
+      }
+    },
+    "7f82f7da-a1f0-4b64-8cb6-111eb5f1e089": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14635053318228__7f82f7da-a1f0-4b64-8cb6-111eb5f1e089-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.content | metafield_tag }}",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14635053318228__7f82f7da-a1f0-4b64-8cb6-111eb5f1e089-text-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__rte.body-size-1.font-body.custom-rt-hero__rte {max-width: 640px;}",
+        ".hero__content__wrapper.custom-rte-hero__content__wrapper {justify-content: center;}",
+        "li,ul {font-size: calc(var(--font-2) * var(--FONT-ADJUST-BODY)); font-weight: 300;}"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 30,
+        "padding_bottom": 46
+      }
+    },
+    "6a29576b-b3a3-42cd-a507-78a9089b5a19": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "custom_html": "{{ metaobject.form.value }}",
+        "padding_top": 0,
+        "padding_bottom": 46,
+        "limit_width": true
+      }
+    },
+    "d5da2b37-1b91-498b-bb3f-3e3633297de5": {
+      "type": "section-careers",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_standard_double_AVbCJy": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_9UxxtN": {
+          "type": "heading",
+          "settings": {
+            "title": "Experienced Aesthetic Injector",
+            "title2": "Experienced Aesthetic Injector",
+            "text_size": 8
+          }
+        },
+        "text_9Ggdhc": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Do you have dreams of something bigger and have this little voice inside your head that is nudging you because you know you’re meant for more? Well you may just be the right fit for our team.<\/h3><h3><br\/>We are seeking a full time, experienced and passionate Aesthetic Injector to join our team and contribute to our mission of empowering our patients to look and feel their best.<\/h3>",
+            "text_size": 12,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_MiWWRc": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Apply here",
+            "button_url": "https:\/\/forms.gle\/9cdKoR8oRdWBxbVs9",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_9UxxtN",
+        "text_9Ggdhc",
+        "buttons_MiWWRc"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/treatment_room_bh_7d5dd92a-2bcb-492a-9ee0-29465675d99f.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 10,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_8nUaG4": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_r4eMbY": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Experienced Aesthetic Injector",
+            "title2": "Experienced Aesthetic Injector",
+            "text_size": 8
+          }
+        },
+        "text_QbEBLV": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Experienced Aesthetic Injector<\/h2><p>Here at Skin By Blair, we are on a mission to uplift and inspire women to prioritize self-care and improve their overall quality of life by developing and delivering innovative, science-based, and results-driven products and aesthetics services that effectively transform the skin and improve self-confidence. We are seeking a full time, experienced and passionate Aesthetic Injector to join our team and contribute to our mission of empowering our patients to look and feel their best.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_pwUdU7": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Apply here",
+            "button_url": "https:\/\/forms.gle\/9cdKoR8oRdWBxbVs9",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_r4eMbY",
+        "text_QbEBLV",
+        "buttons_pwUdU7"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/treatment_room_bh_7d5dd92a-2bcb-492a-9ee0-29465675d99f.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 10,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_tDAn3X": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_dmhxji": {
+          "type": "heading",
+          "settings": {
+            "title": "The Position",
+            "title2": "The Position",
+            "text_size": 8
+          }
+        },
+        "text_tPJJ3y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Conduct comprehensive consultations to assess patient needs and develop personalized treatment plans<\/p><p><br\/>• Provide thorough education to patients on treatment procedures, including pre- and post-care instructions, ensuring informed decision-making<\/p><p><br\/>• Administer injectable treatments including neurotoxins, dermal fillers, and other advanced injectables with attention to detail and precision, ensuring the highest standards of patient safety and comfort<\/p><p><br\/>• Prioritize caution when considering external factors or individual patient variables that may influence treatment safety or desired outcomes<\/p><p><br\/>• Maintain accurate and detailed patient records and documentation of information related to treatments, outcomes, and medical history<\/p><p><br\/>• Adhere to all federal and state regulations governing medical practices to maintain the highest level of patient safety and privacy<\/p><p><br\/>• Stay informed about industry trends, new products, and techniques through continuing education and training<\/p><p><br\/>• Consistently demonstrate professionalism when interacting with patients and team members, fostering a positive and respectful environment within the team and instilling confidence in patients<\/p><p><br\/>• Collaborate effectively with other team members to deliver seamless client experiences<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_eVaYia": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Apply here",
+            "button_url": "https:\/\/forms.gle\/9cdKoR8oRdWBxbVs9",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_dmhxji",
+        "text_tPJJ3y",
+        "buttons_eVaYia"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/treatment_room_a47eb251-6871-42fa-b689-c8dbbdec9636.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 10,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_NLYe6D": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_zhcWQ8": {
+          "type": "heading",
+          "settings": {
+            "title": "Must Haves",
+            "title2": "Must Haves",
+            "text_size": 8
+          }
+        },
+        "text_FBREgn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Current licensure as a Physician Assistant (PA-C),  Nurse Practitioner (NP), or Registered Nurse (RN) in the state of North Carolina<\/p><p><br\/>• Minimum of 3 years of experience performing aesthetic injections in a clinical setting<\/p><p><br\/>• Strong knowledge of facial anatomy and experience with injectable techniques<\/p><p><br\/>• Excellent communication and interpersonal skills with a focus on providing exceptional patient care<\/p><p><br\/>• Ability to work independently as well as collaboratively within a team environment<\/p><p><br\/>• Commitment to upholding the highest standards of professionalism, ethics, and safety<\/p><p><\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_aDzxQr": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Apply here",
+            "button_url": "https:\/\/forms.gle\/9cdKoR8oRdWBxbVs9",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_zhcWQ8",
+        "text_FBREgn",
+        "buttons_aDzxQr"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/botox.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 10,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_z4maW8": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_YErhYa": {
+          "type": "heading",
+          "settings": {
+            "title": "Experienced Aesthetic Injector",
+            "title2": "Experienced Aesthetic Injector",
+            "text_size": 8
+          }
+        },
+        "text_HtVaRR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Conduct comprehensive consultations to assess patient needs and develop personalized treatment plans.<\/p><p>• Provide thorough education to patients on treatment procedures, including pre- and post-care instructions, ensuring informed decision-making.<\/p><p>• Administer injectable treatments including neurotoxins, dermal fillers, and other advanced injectables with attention to detail and precision, ensuring the highest standards of patient safety and comfort.<\/p><p>• Prioritize caution when considering external factors or individual patient variables that may influence treatment safety or desired outcomes.<\/p><p>• Maintain accurate and detailed patient records and documentation of information related to treatments, outcomes, and medical history.<\/p><p>• Adhere to all federal and state regulations governing medical practices to maintain the highest level of patient safety and privacy.<\/p><p>• Stay informed about industry trends, new products, and techniques through continuing education and training.<\/p><p>• Consistently demonstrate professionalism when interacting with patients and team members, fostering a positive and respectful environment within the team and instilling confidence in patients.<\/p><p>• Collaborate effectively with other team members to deliver seamless client experiences.<\/p>",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_N6kzKN": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Apply here",
+            "button_url": "https:\/\/forms.gle\/9cdKoR8oRdWBxbVs9",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_YErhYa",
+        "text_HtVaRR",
+        "buttons_N6kzKN"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/treatment_room_bh_7d5dd92a-2bcb-492a-9ee0-29465675d99f.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 10,
+        "button_width": 1
+      }
+    },
+    "section_custom_richtext_Dn6kB6": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_mKehx4": {
+          "type": "heading",
+          "settings": {
+            "title": "The Position",
+            "text_size": 8
+          }
+        },
+        "text_MWbftT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Conduct comprehensive consultations to assess patient needs and develop personalized treatment plans.<\/p><p>• Provide thorough education to patients on treatment procedures, including pre- and post-care instructions, ensuring informed decision-making.<\/p><p>• Administer injectable treatments including neurotoxins, dermal fillers, and other advanced injectables with attention to detail and precision, ensuring the highest standards of patient safety and comfort.<\/p><p>• Prioritize caution when considering external factors or individual patient variables that may influence treatment safety or desired outcomes.<\/p><p>• Maintain accurate and detailed patient records and documentation of information related to treatments, outcomes, and medical history.<\/p><p>• Adhere to all federal and state regulations governing medical practices to maintain the highest level of patient safety and privacy.<\/p><p>• Stay informed about industry trends, new products, and techniques through continuing education and training.<\/p><p>• Consistently demonstrate professionalism when interacting with patients and team members, fostering a positive and respectful environment within the team and instilling confidence in patients.<\/p><p>• Collaborate effectively with other team members to deliver seamless client experiences.<\/p>",
+            "text_size": 10,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_jBy9mx": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mKehx4",
+        "text_MWbftT",
+        "buttons_jBy9mx"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 38,
+        "padding_bottom": 38
+      }
+    },
+    "section_custom_richtext_XMVWN8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_PrW3KP": {
+          "type": "heading",
+          "settings": {
+            "title": "Must Haves",
+            "text_size": 8
+          }
+        },
+        "text_Pbcnfn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Current licensure as a Physician Assistant (PA-C),  Nurse Practitioner (NP), or Registered Nurse (RN) in the state of North Carolina<\/p><p>• Minimum of 3 years of experience performing aesthetic injections in a clinical setting<\/p><p>• Strong knowledge of facial anatomy and experience with injectable techniques<\/p><p>• Excellent communication and interpersonal skills with a focus on providing exceptional patient care<\/p><p>• Ability to work independently as well as collaboratively within a team environment<\/p><p>• Commitment to upholding the highest standards of professionalism, ethics, and safety<\/p><p><\/p>",
+            "text_size": 9,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_m6n4eG": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PrW3KP",
+        "text_Pbcnfn",
+        "buttons_m6n4eG"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 38
+      }
+    },
+    "section_custom_standard_double_UGcpW7": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_iUP73t": {
+          "type": "heading",
+          "settings": {
+            "title": "The Right Fit",
+            "title2": "The Right Fit",
+            "text_size": 8
+          }
+        },
+        "text_4Lfky7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Passionate about aesthetics, driven by a genuine love for the field and helping others<\/p><p><br\/>• Curious and motivated individual with the ability to multitask, work independently, and be open to learning<\/p><p><br\/>• A quick learner with problem-solving and critical thinking skills - someone who takes the initiative to figure out what needs to be done through creativity and resourcefulness<\/p><p><br\/>•  Obsessed with learning and continuously seeking opportunities for growth and refinement of skills<\/p><p><br\/>• Highly motivated, reliable, and resourceful <\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_NJGhkH": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_iUP73t",
+        "text_4Lfky7",
+        "buttons_NJGhkH"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/couch_2.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_dTUMQ9": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_RAQ9mQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Not The Right Fit",
+            "title2": "Not The Right Fit",
+            "text_size": 8
+          }
+        },
+        "text_r6BUHD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Someone without 3 years of experience as an aesthetic injector<\/p><p><br\/>• Lacks a passion for the field of aesthetics and views the position purely as a job<\/p><p><br\/>• Not willing to jump in as needed on tasks that aren’t “yours”<\/p><p><br\/>• Working multiple jobs or side gigs<\/p><p><br\/>• Lacks dedication, reliability, or communication skills<\/p><p><br\/>• Not open to constructive feedback or resistant to making changes to improve their skills or practices<\/p><p><br\/>• Someone who struggles to work independently<\/p><p><\/p><p><\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_Hkin8N": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_RAQ9mQ",
+        "text_r6BUHD",
+        "buttons_Hkin8N"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/front_desk_alone_87897770-adc2-4e6c-b380-0ed123065b0a.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_richtext_cy84VN": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_FBBUcw": {
+          "type": "heading",
+          "settings": {
+            "title": "The Right Fit",
+            "text_size": 8
+          }
+        },
+        "text_LpLwRg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Passionate about aesthetics, driven by a genuine love for the field and helping others<\/p><p>• Curious and motivated individual with the ability to multitask, work independently, and be open to learning<\/p><p>• A quick learner with problem-solving and critical thinking skills - someone who takes the initiative to figure out what needs to be done through creativity and resourcefulness<\/p><p>•  Obsessed with learning and continuously seeking opportunities for growth and refinement of skills<\/p><p>• Highly motivated, reliable, and resourceful <\/p>",
+            "text_size": 9,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_rrQatY": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FBBUcw",
+        "text_LpLwRg",
+        "buttons_rrQatY"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 38,
+        "padding_bottom": 8
+      }
+    },
+    "section_custom_richtext_UMEByi": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_rYbfKB": {
+          "type": "heading",
+          "settings": {
+            "title": "Not The Right Fit",
+            "text_size": 8
+          }
+        },
+        "text_jqHUTf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Someone without 3 years of experience as an aesthetic injector<\/p><p>• Lacks a passion for the field of aesthetics and views the position purely as a job <\/p><p>• Not willing to jump in as needed on tasks that aren’t “yours” <\/p><p>• Working multiple jobs or side gigs<\/p><p>• Lacks dedication, reliability, or communication skills<\/p><p>• Not open to constructive feedback or resistant to making changes to improve their skills or practices<\/p><p>• Someone who struggles to work independently<\/p><p><\/p><p><\/p>",
+            "text_size": 12,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_nARaFD": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "apply here",
+            "button_url": "https:\/\/forms.gle\/9cdKoR8oRdWBxbVs9",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rYbfKB",
+        "text_jqHUTf",
+        "buttons_nARaFD"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full-padded",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 38,
+        "padding_bottom": 38
+      }
+    },
+    "section_custom_richtext_KRNwRY": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_XwyzJL": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Must Haves",
+            "text_size": 8
+          }
+        },
+        "text_yMmdUN": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>If this opportunity excites you, please complete this brief application below. <\/h3>",
+            "text_size": 13,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_fKEmUX": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "APPLY HERE",
+            "button_url": "https:\/\/forms.gle\/9cdKoR8oRdWBxbVs9",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XwyzJL",
+        "text_yMmdUN",
+        "buttons_fKEmUX"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 38,
+        "padding_bottom": 54
+      }
+    }
+  },
+  "order": [
+    "4e22d4de-8f1b-4533-8455-06627a30172c",
+    "7f82f7da-a1f0-4b64-8cb6-111eb5f1e089",
+    "6a29576b-b3a3-42cd-a507-78a9089b5a19",
+    "d5da2b37-1b91-498b-bb3f-3e3633297de5",
+    "section_custom_standard_double_AVbCJy",
+    "section_custom_standard_double_8nUaG4",
+    "section_custom_standard_double_tDAn3X",
+    "section_custom_standard_double_NLYe6D",
+    "section_custom_standard_double_z4maW8",
+    "section_custom_richtext_Dn6kB6",
+    "section_custom_richtext_XMVWN8",
+    "section_custom_standard_double_UGcpW7",
+    "section_custom_standard_double_dTUMQ9",
+    "section_custom_richtext_cy84VN",
+    "section_custom_richtext_UMEByi",
+    "section_custom_richtext_KRNwRY"
+  ]
+}

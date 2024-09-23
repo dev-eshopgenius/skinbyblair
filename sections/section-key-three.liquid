@@ -1,0 +1,189 @@
+{% assign articleCount = 0 %}
+
+{% for block in section.blocks %}
+  {% if block.type == 'article' %}
+    {% assign articleCount = articleCount | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+
+{% style %}
+    #KThree--{{ section.id }} {
+        padding: {{ section.settings.padding_top }}px 0px {{ section.settings.padding_bottom }}px 0px;
+        {%- if section.settings.text_color != blank -%}
+            color: {{ section.settings.text_color }} !important;
+        {%- endif -%}
+    }
+
+    .borderless-card a {
+        color: {{ section.settings.text_color }};
+    }
+
+    .custom-richtext h2 a {
+        color: {{ section.settings.text_color }}
+    }
+{% endstyle %}
+
+<section id="KThree--{{ section.id }}" style="position: relative;">
+    <div class="key-three-container">
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when "richtext" %}
+                    {% render 'custom-richtext', block: block %}
+            {% endcase %}
+        {% endfor %}
+
+        <div class="articles-container">
+            {% for block in section.blocks %}
+                {% case block.type %}
+                    {% when "article" %}
+                        {% render 'key-three-article', block: block, articleCount: articleCount %}
+                {% endcase %}
+            {% endfor %}
+        </div>
+
+        {% render 'custom-slider' blocks: section.blocks, color: section.settings.text_color %}
+    </div>
+</section>
+
+<script>
+    {%- if section.settings.hide_gc -%}
+        if ( window.location.pathname == '/collections/gift-card') document.getElementById('KThree--{{ section.id }}').style.display = 'none';
+    {%- endif -%}
+    {% if template.name == 'collection' and section.settings.show_all_only %}
+        if ( window.location.pathname != '/collections/all') document.getElementById('KThree--{{ section.id }}').style.display = 'none';
+    {% endif %}
+
+    const searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.get('page') > 1) document.getElementById('KThree--{{ section.id }}').style.display = 'none';
+    </script>
+{% schema %}
+    {
+        "name": "The Key Three",
+        "class": "section-key-three",
+        "settings": [
+            {
+                "type": "checkbox",
+                "id": "hide_gc",
+                "label": "Hide for Gift Card Collection",
+                "default": true
+            },
+            {
+                "type": "checkbox",
+                "id": "show_all_only",
+                "label": "Show for 'All' Collection only",
+                "info": "This option is applied for the collection template only",
+                "default": false
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "label": "Padding Top",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "default": 20
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "label": "Padding Bottom",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "default": 20
+            },
+            {
+                "type": "color",
+                "id": "text_color",
+                "label": "Overall Text Color",
+                "default": "#000000"
+            }
+        ],
+        "max_blocks": 5,
+        "blocks": [
+            {
+                "type": "richtext",
+                "name": "Longer Text",
+                "limit": 1,
+                "settings": [
+                    {
+                        "type": "richtext",
+                        "id": "long_text",
+                        "label": "Text"
+                    },
+                    {
+                        "type": "text",
+                        "id": "link_text",
+                        "label": "Button Text",
+                        "default": "LEARN MORE"
+                    },
+                    {
+                        "type": "url",
+                        "id": "link",
+                        "label": "Link"
+                    },
+                    {
+                        "type": "color",
+                        "id": "color",
+                        "label": "Button Color",
+                        "default": "#DCBD7E"
+                    },
+                    {
+                        "type": "color",
+                        "id": "text_color",
+                        "label": "Button Text Color",
+                        "default": "#ffffff"
+                    }
+                ]
+            },
+            {
+                "type": "article",
+                "name": "Article",
+                "limit": 4,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "text",
+                        "id": "text",
+                        "label": "Text"
+                    },
+                    {
+                        "type": "url",
+                        "id": "link",
+                        "label": "Link"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "The Key Three",
+                "category": "Image",
+                "blocks": [
+                    {
+                        "type": "richtext"
+                    },
+                    {
+                        "type": "article"
+                    },
+                    {
+                        "type": "article"
+                    },
+                    {
+                        "type": "article"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

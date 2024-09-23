@@ -1,0 +1,418 @@
+{
+  "sections": {
+    "main": {
+      "type": "custom-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "show_rating": false,
+            "enable_star_rating": false,
+            "show_rating_count": false,
+            "padding_bottom": 8
+          }
+        },
+        "71f772b6-422c-478a-8066-b83bc8e01d45": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 10,
+            "require_reviews": true
+          }
+        },
+        "0c15e1bf-1b6f-4e3c-a763-c07de5092df8": {
+          "type": "testimonials",
+          "settings": {
+          }
+        },
+        "f74e7e0d-03d2-49d4-8f34-554123527639": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "c48be2b6-d229-418a-a719-24071779faf5": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 10,
+            "padding_bottom": 10,
+            "require_reviews": true
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "inline",
+            "title_1": "Tab",
+            "raw_content_1": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "title_2": "Info",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.<\/p>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 0
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 0
+          }
+        },
+        "72e3fab3-a647-4fa9-ae54-d3307433881a": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 0
+          }
+        },
+        "2b83a3dd-7fe5-4bdf-af5c-0e75eb4a0823": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 10,
+            "padding_bottom": 10,
+            "require_reviews": false
+          }
+        },
+        "f417e21a-885b-4423-b802-37bc8b7a9fb0": {
+          "type": "benefits",
+          "settings": {
+            "heading": "Subscriber Benefits",
+            "icon_1": "shopify:\/\/shop_images\/Calandar.png",
+            "text_1": "Set your schedule, never run out or have too much.",
+            "icon_2": "shopify:\/\/shop_images\/Tag.png",
+            "text_2": "Save 15% on every order + free shipping on order over $99",
+            "icon_3": "shopify:\/\/shop_images\/Refresh.png",
+            "text_3": "Skip, add or swap anytime to fit your needs"
+          }
+        },
+        "87667c78-6368-4ebf-8840-fbec6de791a2": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 10,
+            "padding_bottom": 0,
+            "require_reviews": false
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 32
+          }
+        },
+        "5396d781-895e-4c41-8b11-919d92f8a2a1": {
+          "type": "testimonial",
+          "repeater": "{{ product.metafields.custom.product_testimonials.value }}",
+          "settings": {
+            "avatar": "{{ block.repeater.custom_avatar.value }}",
+            "text": "{{ block.repeater.testimonial_text | metafield_tag }}"
+          }
+        },
+        "ad3aae55-df35-4d6d-92a9-5f11f545e4c6": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "104424",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        },
+        "3cf4a424-b33e-40b5-8193-d6768bef1751": {
+          "type": "accordions",
+          "settings": {
+            "title1": "{{ product.metafields.custom.accordion_1_title.value }}",
+            "content1": "{{ product.metafields.custom.accordion_1_text | metafield_tag }}",
+            "title2": "{{ product.metafields.custom.accordion_2_title.value }}",
+            "content2": "{{ product.metafields.custom.acordion_2_text | metafield_tag }}",
+            "title3": "{{ product.metafields.custom.accordion_3_title.value }}",
+            "content3": "{{ product.metafields.custom.accordion_3_text | metafield_tag }}",
+            "title4": "{{ product.metafields.custom.accordion_4_title.value }}",
+            "content4": "{{ product.metafields.custom.accordion_4_text | metafield_tag }}",
+            "title5": "{{ product.metafields.custom.accordion_5_title.value }}",
+            "content5": "{{ product.metafields.custom.accordion_5_text | metafield_tag }}",
+            "title6": "{{ product.metafields.custom.accordion_6_title.value }}",
+            "content6": "{{ product.metafields.custom.accordion_6_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "71f772b6-422c-478a-8066-b83bc8e01d45",
+        "0c15e1bf-1b6f-4e3c-a763-c07de5092df8",
+        "f74e7e0d-03d2-49d4-8f34-554123527639",
+        "c48be2b6-d229-418a-a719-24071779faf5",
+        "tabs",
+        "variants",
+        "72e3fab3-a647-4fa9-ae54-d3307433881a",
+        "buttons",
+        "2b83a3dd-7fe5-4bdf-af5c-0e75eb4a0823",
+        "f417e21a-885b-4423-b802-37bc8b7a9fb0",
+        "87667c78-6368-4ebf-8840-fbec6de791a2",
+        "pickup",
+        "5396d781-895e-4c41-8b11-919d92f8a2a1",
+        "ad3aae55-df35-4d6d-92a9-5f11f545e4c6",
+        "3cf4a424-b33e-40b5-8193-d6768bef1751"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "show_breadcrumbs": true,
+        "show_tags": true,
+        "image_layout": "thumbnails",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "slider",
+        "padding_top": 32,
+        "padding_bottom": 10,
+        "text_color": "#848080"
+      }
+    },
+    "47e7b3ce-a764-4ae5-9723-a322cc616f37": {
+      "type": "section-custom-double",
+      "blocks": {
+        "40dddce3-9a61-4060-92cb-58f9e9ab16ba": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ product.metafields.custom.benefits.value.sub_header.value }}",
+            "text_size": 2,
+            "text_style": "font-subheading",
+            "text_alignment": "inherit",
+            "mobile_text_alignment": "inherit"
+          }
+        },
+        "template--14550172565588__47e7b3ce-a764-4ae5-9723-a322cc616f37-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ product.metafields.custom.benefits.value.headerr.value }}",
+            "text_size": 8,
+            "text_style": "font-heading",
+            "text_alignment": "inherit",
+            "mobile_text_alignment": "inherit"
+          }
+        },
+        "template--14550172565588__47e7b3ce-a764-4ae5-9723-a322cc616f37-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.benefits.value.rich_text | metafield_tag }}<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "text_alignment": "hero-text-left",
+            "mobile_text_alignment": "mobile-hero-text-left"
+          }
+        }
+      },
+      "block_order": [
+        "40dddce3-9a61-4060-92cb-58f9e9ab16ba",
+        "template--14550172565588__47e7b3ce-a764-4ae5-9723-a322cc616f37-heading-1",
+        "template--14550172565588__47e7b3ce-a764-4ae5-9723-a322cc616f37-text-1"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "image_1": "{{ product.metafields.custom.benefits.value.background_image_desktop.value }}",
+        "image_2": "{{ product.metafields.custom.benefits.value.background_image_mobile.value }}",
+        "content_alignment_class": "justify-content--right",
+        "text_alignment": "text-center",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "f71bdc8e-7cdc-4913-9ff9-136d8d78b01e": {
+      "type": "section-custom-content",
+      "blocks": {
+        "73ac3350-aa37-41ec-9e15-72a29314a2bf": {
+          "type": "in-your-routine",
+          "settings": {
+            "title": "<h2>In Your <em>Routine<\/em><\/h2>",
+            "icon_1": "shopify:\/\/shop_images\/sun.png",
+            "text_1": "a.m.",
+            "content_1": "{{ product.metafields.custom.your_routine_am_text | metafield_tag }}",
+            "icon_2": "shopify:\/\/shop_images\/moon.png",
+            "text_2": "p.m.",
+            "content_2": "{{ product.metafields.custom.your_routine_pm_text | metafield_tag }}",
+            "under_text": "{{ product.metafields.custom.your_routine_undertext.value }}"
+          }
+        },
+        "template--14552956928084__f71bdc8e-7cdc-4913-9ff9-136d8d78b01e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.routine_image.value }}",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "73ac3350-aa37-41ec-9e15-72a29314a2bf",
+        "template--14552956928084__f71bdc8e-7cdc-4913-9ff9-136d8d78b01e-image-1"
+      ],
+      "custom_css": [
+        "h2 {color: #848080;}"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "55d30b26-f3f0-462c-947c-38df44119a77": {
+      "type": "section-science-slider",
+      "blocks": {
+        "template--14549487648852__55d30b26-f3f0-462c-947c-38df44119a77-slide-1": {
+          "type": "slide",
+          "repeater": "{{ product.metafields.custom.ingredient_science_slides.value }}",
+          "settings": {
+            "slide_text": "{{ block.repeater.rich_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487648852__55d30b26-f3f0-462c-947c-38df44119a77-slide-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.ingredient_science_desktop_image.value }}",
+        "image_mobile": "{{ product.metafields.custom.ingredient_science_mobile_image.value }}",
+        "heading": "The Science Behind Results",
+        "heading_text_style": "font-heading",
+        "subheading": "OUR INGREDIENTS",
+        "subheading_text_style": "font-subheading",
+        "popup_text": "SEE ALL INGREDIENTS",
+        "text_color": "{{ product.metafields.custom.ingredient_science_text_color_desktop.value }}",
+        "text_color_mobile": "{{ product.metafields.custom.ingredient_science_text_color_mobile.value }}",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "settings": {
+        "enable_product_reviews": false,
+        "enable_accordion": true,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "5824036b-1b87-47ce-90ad-00c0eeb14caa": {
+      "type": "section-featured-products",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "description": "<h4>Bundle & Save<\/h4><h2>Shop the bundles<\/h2>",
+        "layout": "below",
+        "link_text": "BUILD YOUR ROUTINE",
+        "link_url": "shopify:\/\/collections\/all",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
+        "style": "grid",
+        "width": "wrapper",
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "169221783381a0546f": {
+      "type": "apps",
+      "blocks": {
+        "bce22886-9c92-44db-adce-2cd745965d37": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "bce22886-9c92-44db-adce-2cd745965d37"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "{{ product.metafields.custom.recommended_products_rich_text | metafield_tag }}",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related"
+      ],
+      "custom_css": [
+        "h2 {display: block; max-width: 80%; font-style: normal; font-weight: 400; line-height: 123.81%; letter-spacing: 1px; margin-left: auto; margin-right: auto; margin-top: 10px;}",
+        ".grid__heading-text,.grid__description {color: #848080;}"
+      ],
+      "settings": {
+        "enable_tabs": false,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "47e7b3ce-a764-4ae5-9723-a322cc616f37",
+    "f71bdc8e-7cdc-4913-9ff9-136d8d78b01e",
+    "55d30b26-f3f0-462c-947c-38df44119a77",
+    "reviews",
+    "5824036b-1b87-47ce-90ad-00c0eeb14caa",
+    "169221783381a0546f",
+    "related"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "custom-footer",
+      "blocks": {
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "redesign-customer-care",
+            "title": "Customer Care",
+            "column_width": 15
+          }
+        },
+        "089d8f75-3c21-444c-a6e1-14ba7c3b5fc2": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "redesign-about-us-footer",
+            "title": "About Us",
+            "column_width": 15
+          }
+        },
+        "6f414431-dd26-4acb-b87c-0bbd3137a843": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "quick-links",
+            "title": "Quick Links",
+            "column_width": 15
+          }
+        },
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Join the Beauty Collective",
+            "text": "<p>Stay connected and hear from Blair about the latest in skincare, self-care, and Skin by Blair products & services.<\/p>",
+            "show_name": true,
+            "button_text": "Subscribe",
+            "show_arrow": false,
+            "terms": false,
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 50
+          }
+        },
+        "23af5bed-76b4-4888-9e88-b21fba320fdf": {
+          "type": "social",
+          "settings": {
+            "title": "Follow Us",
+            "text": "",
+            "column_width": 33,
+            "enable_follow_on_shop": false,
+            "show_on_mobile": false
+          }
+        },
+        "5dc16bf3-b33a-46ec-b6b1-4a92a7b4b844": {
+          "type": "logo",
+          "settings": {
+            "column_width": 33,
+            "show_on_mobile": false
+          }
+        },
+        "11550840-3737-4099-8c89-33365270bb81": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "",
+            "text": "<p>© 2023, SKIN BY BLAIR    |   <a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">TERMS & CONDITIONS<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\"> PRIVACY<\/a>  |    <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">REFUND POLICY<\/a><\/p>",
+            "column_width": 33
+          }
+        }
+      },
+      "block_order": [
+        "footer-1",
+        "089d8f75-3c21-444c-a6e1-14ba7c3b5fc2",
+        "6f414431-dd26-4acb-b87c-0bbd3137a843",
+        "footer-0",
+        "23af5bed-76b4-4888-9e88-b21fba320fdf",
+        "5dc16bf3-b33a-46ec-b6b1-4a92a7b4b844",
+        "11550840-3737-4099-8c89-33365270bb81"
+      ],
+      "settings": {
+        "logo": "{{ shop.brand.logo }}",
+        "show_logo": false,
+        "logo_image_width": 295,
+        "overlay_opacity": 75,
+        "overlay_color": "#ffffff",
+        "padding_top": 75,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

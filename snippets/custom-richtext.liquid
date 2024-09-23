@@ -1,0 +1,24 @@
+{% liquid
+    assign long_text = block.settings.long_text
+    assign link_text = block.settings.link_text
+    assign link_url = block.settings.link
+%}
+
+{% style %}
+    .custom-button--{{ block.id }} {
+        background-color: {{ block.settings.color }};
+        color: {{ block.settings.text_color }};
+    }
+{% endstyle %}
+
+<div class="custom-richtext-container">
+    {% if long_text != blank %}
+        <div class="custom-richtext">
+                {{ long_text }}
+        </div>
+    {% endif %}
+
+    {% if link_text != blank %}
+        <a class="btn custom-button--{{ block.id }} custom-button" href="{{ link_url | default: '#' }}">{{ link_text }}</a>
+    {% endif %}
+</div>

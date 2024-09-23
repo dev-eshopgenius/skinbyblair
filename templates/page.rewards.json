@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "custom_html_NU8RCJ": {
+      "type": "custom-html",
+      "custom_css": [
+        "div {height: 76px;}"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "custom_html": "<div><\/div>",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "limit_width": true
+      }
+    },
+    "172658137867afbd2b": {
+      "type": "apps",
+      "blocks": {
+        "flaunt_loyalty_flaunt_app_dcWUJd": {
+          "type": "shopify:\/\/apps\/flaunt-loyalty\/blocks\/flaunt_app\/5e8868dd-085f-4b04-ba77-35b3b28110d4",
+          "settings": {
+            "landingPage": "contact",
+            "allowUnauthenticated": true,
+            "dashSecondaryText": "How It Works",
+            "dashSecondaryLink": "https:\/\/www.skinbyblair.com\/",
+            "journeyHeaderText": "Begin Your Journey",
+            "journeySubtitleText": "Join the rest of the crew by completing simple steps to stay connected and accelerate your tier status!",
+            "challengesHeaderText": "Current Challenges",
+            "challengesSubtitleText": "Complete Challenges to earn rewards",
+            "rewardsHeaderText": "Current Rewards",
+            "rewardsSubtitleText": "Redeem Benefits for Rewards",
+            "cardOutline": "#a8a99f",
+            "tag": "#f5f5f2",
+            "activeTag": "#f5f5f2",
+            "inProgressTag": "#f0efe6",
+            "completeTag": "#dbf2d1",
+            "comingSoonTag": "#ede2d0",
+            "expiredTag": "#edeff1",
+            "background": "#ffffff",
+            "accent": "#000000",
+            "overlineCopy": "#51534a",
+            "link": "#51524a",
+            "navigation": "#757566",
+            "cardBackground": "#ffffff",
+            "text": "#a8a99e",
+            "success": "#54b86a"
+          }
+        }
+      },
+      "block_order": [
+        "flaunt_loyalty_flaunt_app_dcWUJd"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_NU8RCJ",
+    "172658137867afbd2b"
+  ]
+}

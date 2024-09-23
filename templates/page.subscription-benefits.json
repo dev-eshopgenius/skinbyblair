@@ -1,0 +1,456 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "7d26f954-9a72-4eb8-8432-b6347c0e3d9b": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14553324486740__7d26f954-9a72-4eb8-8432-b6347c0e3d9b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Subscribe & Save up to 15%<\/h1><h4>on all of your favorite products<\/h4>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14553324486740__7d26f954-9a72-4eb8-8432-b6347c0e3d9b-text-1"
+      ],
+      "custom_css": [
+        "h1 {line-height: 140%;}",
+        "h4 {line-height: 180%;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "#f4f1ef",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3e1247d1-c9f0-4bbc-bb74-160459d2b420": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "template--14553324486740__3e1247d1-c9f0-4bbc-bb74-160459d2b420-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Subscriber <em>Benefits<\/em><\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "d8ed9533-4f26-48a3-8ad2-9ecd5dc406dc": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Calandar.png",
+            "icon_text": "Set your schedule, never run out or have too much."
+          }
+        },
+        "c48e2697-6129-4383-bc6f-e5de0209ac9c": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 0,
+            "padding_bottom": 20,
+            "mobile_padding_top": 0,
+            "mobile_padding_bottom": 15
+          }
+        },
+        "42ff6492-2bc3-4fa8-8d21-0d5934429880": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Tag.png",
+            "icon_text": "save up to 15% on every order"
+          }
+        },
+        "5bbe836a-bce1-4121-97d9-1ff353e49760": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 0,
+            "padding_bottom": 20,
+            "mobile_padding_top": 0,
+            "mobile_padding_bottom": 15
+          }
+        },
+        "8e129725-0b10-491a-8815-890d51f701f3": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/box_1_1.svg",
+            "icon_text": "free shipping on orders over $99"
+          }
+        },
+        "73fc933a-efe5-4c78-9f7a-310360350041": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 0,
+            "padding_bottom": 20,
+            "mobile_padding_top": 0,
+            "mobile_padding_bottom": 15
+          }
+        },
+        "86df531c-6092-489b-a604-6cc87ba49adc": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Refresh.png",
+            "icon_text": "Skip, add or swap anytime to fit your needs without having to contact us"
+          }
+        },
+        "d6296738-9f32-45d0-a42e-c54da364b41a": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 15,
+            "padding_bottom": 15,
+            "mobile_padding_top": 0,
+            "mobile_padding_bottom": 0
+          }
+        },
+        "template--14553324486740__3e1247d1-c9f0-4bbc-bb74-160459d2b420-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Manage Your Subscriptions",
+            "button_url": "https:\/\/www.skinbyblair.com\/account\/login?return_url=%2Faccount",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "template--14553324486740__3e1247d1-c9f0-4bbc-bb74-160459d2b420-text-1",
+        "d8ed9533-4f26-48a3-8ad2-9ecd5dc406dc",
+        "c48e2697-6129-4383-bc6f-e5de0209ac9c",
+        "42ff6492-2bc3-4fa8-8d21-0d5934429880",
+        "5bbe836a-bce1-4121-97d9-1ff353e49760",
+        "8e129725-0b10-491a-8815-890d51f701f3",
+        "73fc933a-efe5-4c78-9f7a-310360350041",
+        "86df531c-6092-489b-a604-6cc87ba49adc",
+        "d6296738-9f32-45d0-a42e-c54da364b41a",
+        "template--14553324486740__3e1247d1-c9f0-4bbc-bb74-160459d2b420-buttons-1"
+      ],
+      "custom_css": [
+        "a.btn {max-width: none;}"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/skinbyblair-skincare-benefits-2.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "89c28604-a09e-4c74-beb5-4265aa0c1926": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14552263262292__89c28604-a09e-4c74-beb5-4265aa0c1926-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>NEVER RUN OUT OF YOUR FAVORITE PRODUCTS AGAIN<\/h4><h2>Here's How It Works<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14552263262292__89c28604-a09e-4c74-beb5-4265aa0c1926-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 26,
+        "padding_bottom": 26
+      }
+    },
+    "f28ebbf4-3c23-415a-a59c-56fc20f90f87": {
+      "type": "section-columns",
+      "blocks": {
+        "template--14552263262292__f28ebbf4-3c23-415a-a59c-56fc20f90f87-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pj-laptop.png",
+            "title": "",
+            "heading_size": 6,
+            "text": "<h4>1. SHOP<\/h4><p>Order and subscribe to your favorite SBB product.<\/p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--14552263262292__f28ebbf4-3c23-415a-a59c-56fc20f90f87-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/journaling.png",
+            "title": "",
+            "heading_size": 6,
+            "text": "<h4>2. SCHEDULE<\/h4><p>Choose the frequency you wish to automatically receive the product.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--14552263262292__f28ebbf4-3c23-415a-a59c-56fc20f90f87-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/packaging.png",
+            "title": "",
+            "heading_size": 6,
+            "text": "<h4>3. SHIP<\/h4><p>We’ll handle the rest, while you enjoy up to 15% in savings!<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14552263262292__f28ebbf4-3c23-415a-a59c-56fc20f90f87-image-1",
+        "template--14552263262292__f28ebbf4-3c23-415a-a59c-56fc20f90f87-image-2",
+        "template--14552263262292__f28ebbf4-3c23-415a-a59c-56fc20f90f87-image-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 9,
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ffffff",
+        "column_color": "#f4f1ef",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "text_content_padding": true,
+        "layout_mobile": "grid"
+      }
+    },
+    "a904490d-fa60-417d-b5be-ccb0aee3c966": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14552306516052__a904490d-fa60-417d-b5be-ccb0aee3c966-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>subscription<\/h4><h2>Frequently Asked Questions<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14552306516052__a904490d-fa60-417d-b5be-ccb0aee3c966-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4bbc11ed-062c-483f-aa28-b56acf842612": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "template--14552306516052__4bbc11ed-062c-483f-aa28-b56acf842612-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "how do skin by blair subscriptions work?",
+            "content": "<p>Subscriptions are the most convenient (and cost effective!) way to ensure your favorite products are delivered to your doorstep exactly when you need them. Simply choose 'Subscribe & Save' and select your desired delivery frequency for each of your favorite products. We’ll do the rest!<\/p>"
+          }
+        },
+        "template--14552306516052__4bbc11ed-062c-483f-aa28-b56acf842612-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Are there any Additional benefits to subscribing other than saving UP TO 15%?",
+            "content": "<p>So many! Not only will you automatically receive 15% off when you subscribe, but your savings can also increase to 20% off over time (excluding already discounted products).  Subscribers will also receive bonus Rewards points (Coming soon - don’t worry, subscribers will retroactively receive these points!), and early access to new product launches and restocks.<\/p>"
+          }
+        },
+        "template--14552306516052__4bbc11ed-062c-483f-aa28-b56acf842612-question-3": {
+          "type": "question",
+          "settings": {
+            "title": "How do I access my customer portal to view and\/or make changes to my subscription?",
+            "content": "<p>Click here to log in to your Skin by Blair account! Once you are logged in, you will be able to view all of your past orders and manage any active subscriptions. If you have not yet created an online account, you can do so at this link. Just remember to save your password somewhere safe!<\/p>"
+          }
+        },
+        "ffe02afe-acf3-4a3f-ab8c-1fe51792a510": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel my subscription at any time?",
+            "content": "<p>Yes, you can cancel your subscription at any time by emailing <a href=\"mailto:subscriptions@skinbyblair.com\">info@skinbyblair.com<\/a> or you can cancel through your subscription portal. <\/p><p>Due to fulfillment center limitations, we must be notified at least 3 business days before your next auto-shipment date in order to make any changes to the order, including pausing or canceling. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14552306516052__4bbc11ed-062c-483f-aa28-b56acf842612-question-1",
+        "template--14552306516052__4bbc11ed-062c-483f-aa28-b56acf842612-question-2",
+        "template--14552306516052__4bbc11ed-062c-483f-aa28-b56acf842612-question-3",
+        "ffe02afe-acf3-4a3f-ab8c-1fe51792a510"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 34,
+        "padding_bottom": 30
+      }
+    },
+    "1693938986fa78e7b8": {
+      "type": "apps",
+      "blocks": {
+        "ba9b4dbb-ede0-4729-851f-5663e6495957": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "104964",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "ba9b4dbb-ede0-4729-851f-5663e6495957"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "d9a53374-395d-409b-825f-c7ecac91fcf3": {
+      "type": "section-recent-products",
+      "disabled": true,
+      "settings": {
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/how-to-help-your-tween-teen-with-skincare",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7d26f954-9a72-4eb8-8432-b6347c0e3d9b",
+    "3e1247d1-c9f0-4bbc-bb74-160459d2b420",
+    "89c28604-a09e-4c74-beb5-4265aa0c1926",
+    "f28ebbf4-3c23-415a-a59c-56fc20f90f87",
+    "a904490d-fa60-417d-b5be-ccb0aee3c966",
+    "4bbc11ed-062c-483f-aa28-b56acf842612",
+    "1693938986fa78e7b8",
+    "d9a53374-395d-409b-825f-c7ecac91fcf3",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed"
+  ]
+}

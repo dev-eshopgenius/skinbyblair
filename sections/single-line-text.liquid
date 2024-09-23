@@ -1,0 +1,105 @@
+{% style %}
+    #SLT--{{ section.id }} {
+        padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px 0px;
+    }
+
+    .single-line-text-container--{{ section.id }} {
+        color: {{ section.settings.color }};
+    }
+    
+{% endstyle %}
+
+<section id="SLT--{{ section.id }}">
+    <div class="single-line-text-container single-line-text-container--{{ section.id }} {{ section.settings.align_text }} {{ section.settings.align_text_mobile }} {{ section.settings.text_style }}">
+        {{ section.settings.text }}
+    </div>
+</section>
+
+
+{% schema %}
+    {
+        "name": "Single Line text",
+        "settings": [
+            {
+                "type": "richtext",
+                "id": "text",
+                "label": "Text"
+            },
+            {
+                "type": "header",
+                "content": "Text alignment"
+            },
+            {
+                "type": "select",
+                "id": "align_text",
+                "label": "Text alignment on desktop",
+                "default": "text-left",
+                "options": [
+                    { "value": "text-left", "label": "Left" },
+                    { "value": "text-center", "label": "Centered" },
+                    { "value": "text-right", "label": "Right" }
+                ]
+            },
+            {
+                "type": "select",
+                "id": "align_text_mobile",
+                "label": "Text alignment on desktop",
+                "default": "mobile-hero-text-center",
+                "options": [
+                    { "value": "mobile-hero-text-left", "label": "Left" },
+                    { "value": "mobile-hero-text-center", "label": "Centered" },
+                    { "value": "mobile-hero-text-right", "label": "Right" }
+                ]
+            },
+            {
+                "type": "select",
+                "id": "text_style",
+                "label": "Text style",
+                "default": "font-body",
+                "options": [
+                    { "value": "font-heading", "label": "Heading" },
+                    { "value": "font-subheading", "label": "Subheading" },
+                    { "value": "font-body", "label": "Body" }
+                ]
+            },
+            {
+                "type": "header",
+                "content": "padding"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "label": "Padding Top",
+                "min": 0,
+                "max": 100,
+                "step": 2,
+                "default": 0
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "label": "Padding Bottom",
+                "min": 0,
+                "max": 100,
+                "step": 2,
+                "default": 0
+            },
+            {
+                "type": "header",
+                "content": "Color"
+            },
+            {
+                "type": "color",
+                "id": "color",
+                "label": "Text Color",
+                "default": "#282C2E"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Single Line Text",
+                "category": "text"
+            }
+        ]
+    }
+{% endschema %}

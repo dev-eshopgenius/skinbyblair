@@ -1,0 +1,561 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "7bf0ec64-b4d6-4fc9-b947-33eb58ca803b": {
+          "type": "heading",
+          "settings": {
+            "title": "5 Reasons Why a Skin Care Routine Is Good for Your Mental Health",
+            "text_size": 8
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Happy National Mental Health Day, friends! Today serves as a reminder to prioritize our mental well-being. While traditional self-care practices such as therapy and meditation are invaluable, it's essential to recognize that self-care can take many forms. My personal favorite form of self-care is - you guessed it, skincare! Taking care of your skin can have a significant positive impact on your mental health. Let's chat about 5 reasons why a skincare routine is good for your mental well-being!<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7bf0ec64-b4d6-4fc9-b947-33eb58ca803b",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>1. Routines Provide a Sense of Control<\/h2><p>Life can be chaotic and unpredictable, leaving us feeling overwhelmed and stressed. Establishing a daily skincare routine introduces a sense of order and control into our life. Knowing that you have a specific set of steps to follow, even in the midst of chaos, can help reduce feelings of anxiety and give you a sense of stability. When you dedicate time to your skincare, you are essentially dedicating time to yourself, reinforcing the idea that you are worthy of self-care. This act of self-compassion can significantly improve your self-esteem and mental health.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-13_at_4.55.32_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 37,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>2. Encourages Mindfulness<\/h2><p><br\/>Mindfulness, the practice of being present in the moment without judgment, is a powerful tool for improving mental well-being. Your skincare routine provides the perfect opportunity to practice mindfulness. As you cleanse, moisturize, and apply serums, you can focus on the sensations, scents, and textures of the products. This mindfulness can help alleviate stress and anxiety by diverting your attention from worrisome thoughts.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-color-story-collection-final-17.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>3. Boosts Self-Esteem and Confidence<\/h2><p>A clear, healthy complexion can boost your self-esteem and confidence. When you look in the mirror and see improvements in your skin, it can create a positive feedback loop, making you feel better about yourself. The confidence you gain from taking care of your skin can extend to other areas of your life, helping you face challenges and social interactions with greater self-assurance.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-bed-and-bath-collection-final-19.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708": {
+      "type": "page_content",
+      "blocks": {
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>4. Promotes Self-Care Beyond Skincare<\/h2><p><\/p><p>Establishing a skincare routine can serve as a gateway to practicing other forms of self-care. Once you experience the benefits of caring for your skin, you may become more motivated to engage in other self-care activities, such as exercise, healthy eating, and mindfulness meditation. This domino effect can have a profound impact on your overall mental health and well-being.<\/p><h3>   <\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-bed-and-bath-collection-final-7_1.jpg",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "e82e7444-118c-4c4c-8a8d-b14d4ff981df": {
+      "type": "page_content",
+      "blocks": {
+        "3708f990-4263-4163-9919-0fa6a9d42238": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>5. Relaxation and Stress Reduction<\/h2><p>The act of applying skincare products can be a soothing and calming experience. Massaging creams and serums into your skin, taking deep breaths as you go, can create a sense of relaxation. This relaxation can help reduce stress and anxiety, allowing you to unwind and de-stress after a long day.<br\/><br\/>In the quest for better mental health, it's crucial to explore various avenues of self-care, and skincare is a valuable addition to your toolkit. Establishing a skincare routine can provide you with a sense of control, promote mindfulness, boost self-esteem, encourage other self-care practices, and offer relaxation and stress reduction benefits. On this National Mental Health Day, I challenge you to find a new way to love yourself itentionally. You got this, beauty!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "3708f990-4263-4163-9919-0fa6a9d42238"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-bed-and-bath-collection-final-9_1.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Recommended products<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708",
+    "e82e7444-118c-4c4c-8a8d-b14d4ff981df",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

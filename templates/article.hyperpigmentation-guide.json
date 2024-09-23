@@ -1,0 +1,599 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "The ultimate guide to hyperpigmentation",
+            "text_size": 9
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Dark marks on your skin can linger for longer than desired — here's what you need to know about why its happening and how to use science-driven skincare to combat it.<\/h3>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_XncBbY": {
+      "type": "page_content",
+      "blocks": {
+        "text_BXrcph": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>What is hyperpigmentation?<\/h2><p>Think of hyperpigmentation as the uninvited guest that overstays its welcome after an acne flare up, exposure to the sun, or hormonal changes. It's the aftermath of those skin battles, where your skin, in its effort to heal, ends up producing extra melanin. This results in those stubborn dark patches that linger long after the trigger that started it.<br\/><br\/>There are three different types of hyperpigmentation: PIH (post-inflammatory hyperpigmentation), melasma, and sun spots + freckles. We'll dive into all three and speak on triggers, treatments, and targeted ingredients!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_BXrcph"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-06-19_at_3.31.25_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Type 1: Post Inflammatory Hyperpigmentation<\/h2><p>Ever noticed those lingering dark spots after an acne breakout has waved its goodbye? That's post-inflammatory hyperpigmentation (or PIH) making its mark. PIH is a very common — and manageable — skin concern. <\/p><p><br\/>Have you ever noticed that after your pimple calms down, you can no longer feel it risen on your skin, yet there is still a mark left? That's - you guessed it, PIH. PIH is the long-lasting result of an acne flare-up (or any sort of trauma caused to the skin). <br\/><br\/>PIH has a way of showing up differently depending on your skin tone. Lighter skins might see it manifest as pink or red spots, often mistaken for post-inflammatory erythema (PIE). For those with darker skin tones, it appears as brown or black spots, a more conspicuous reminder due to the higher melanin content. Importantly, PIH is all about pigmentation, which sets it apart from other types of skin marks.<br\/><br\/>PIH can take its time to disappear — sometimes months or even years, depending on how deep the initial skin trauma was and your unique skin type. But with a consistent skincare routine and a bit of patience, you can help speed up this fading process.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_45.webp",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 33,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_K6YWkh": {
+      "type": "page_content",
+      "blocks": {
+        "text_ChQ8C9": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Type 2: Melasma<\/h2><p><a href=\"\/blogs\/news\/what-is-melasma\" target=\"_blank\" title=\"What is Melasma?\">Melasma<\/a> is a common (and often life-long) skin condition in which the skin is discolored with brown or tan, often symmetrical, patches. While anyone can develop melasma, it is more prevalent in women, especially those with darker skin tones, and most commonly appears during their reproductive years.<br\/><br\/>The simplest way to differentiate melasma from other forms of hyperpigmentation is to look for its typical characteristics:<\/p><p><\/p><p>• Commonly located on the forehead, cheeks, & upper lip, but can sometimes appear on the jaw, neck and forearms<\/p><p>• Patches are oftentimes symmetrical - occurring in the same area on both sides of the face<\/p><p>• Areas are flat, painless, and devoid of scales or pimple-like bumps <\/p><p>•Can worsen or subside depending on varying exposure to triggers<br\/><br\/>While the exact cause of melasma is not fully understood, there are many internal and external factors that contribute to melasma, including:<\/p><p><br\/><strong>1. Hormonal changes<\/strong>, particularly increased levels of estrogen and progesterone (such as pregnancy, birth control pills, fertility drugs, etc) <\/p><p><strong>2. Sun exposure<\/strong> (including tanning beds)<\/p><p><strong>3. Darker skin tones <\/strong>(such as those of Hispanic, Asian, or African descent)<\/p><p><strong>4. Genetics predisposition <\/strong>(such as family history of melasma)<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ChQ8C9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/melasma-486x573.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 15,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_pntQcr": {
+      "type": "page_content",
+      "blocks": {
+        "text_gcQAxV": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Type 3: Sun spots<\/h2><p>Dark spots caused by sun damage are known as sun spots, or solar lentigo - they also go by other names such as ‘age spots’ or ‘liver spots’. Sun spots are characterized by flat, brown spots that can appear on sun-exposed skin, such as the face, hands, shoulders, and arms, and occur when UV radiation causes pigmented cells in the skin to multiply. In contrast to freckles, sun spots are common in people over the age of 40, although they can affect younger people, too. <br\/><br\/><\/p><p>Age spots may affect people of all skin types, but they're more common in adults with light skin. Unlike freckles, which are common in children and fade with no sun exposure, age spots don't fade.<br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_gcQAxV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sun-spot-removal-before-and-after.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 33,
+        "padding_bottom": 11
+      }
+    },
+    "section_custom_richtext_Yy89qc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "subheading_FKH6JQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "heading_r9bULA": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 8
+          }
+        },
+        "text_6XV8NK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Age spots are caused by overactive pigment cells. UV light speeds up the production of melanin, a natural pigment that gives skin its color. Age spots appear when melanin becomes clumped or is produced in high concentrations.<\/p><p><br\/>The most important thing to do in preventing sun spots is using sunscreen, avoiding peak hours in the sun (typically between 10am-2pm), and covering up when you are outside!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_A7VLqN": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FKH6JQ",
+        "heading_r9bULA",
+        "text_6XV8NK",
+        "buttons_A7VLqN"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_zmktwU": {
+      "type": "page_content",
+      "blocks": {
+        "text_EykWPy": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Ingredients that target hyperpigmentation<\/h2><p><\/p><p>Whether you have PIH, melasma, or sun spots, using targeted ingredients will help de-pigment the skin faster and speed up the healing process. Here are the ingredients you need to look for when purchasing pigment-fighting products:<br\/><br\/><strong>1. Kojic Acid: <\/strong>A naturally derived ingredient that inhibits melanin production, helping to lighten melasma. <a href=\"\/products\/tonic\" target=\"_blank\" title=\"Tonic\">Tonic<\/a> contains kojic acid and directly targets pigmentation. <br\/><br\/><strong>2. Vitamin C: <\/strong>Known for its antioxidant properties, vitamin C can help brighten the skin and reduce the appearance of dark spots. I love <a href=\"\/products\/c-correcting-complex-30\" target=\"_blank\" title=\"C+ Correcting Complex 30%\">C+ Correcting Complex<\/a> for treating hyperpigmentation, or <a href=\"\/products\/vitamin-c-20\" target=\"_blank\" title=\"Vitamin C 20% Serum\">Vitamin C 20% Serum<\/a> is a great option too!<br\/><br\/><strong>3. Niacinamide: <\/strong>Inhibits the transfer of melanin from melanocytes (pigment-producing cells) to surrounding skin cells, helping to prevent hyperpigmentation. <a href=\"\/products\/creme-de-la-blair-new\" target=\"_blank\" title=\"Crème de la Blair 2.0\">Crème de la Blair<\/a>, our anti-aging moisturizer, contains niacinamide & other antioxidants and peptides to target signs of aging.<br\/><br\/><strong>4. Retinoids<\/strong>: Vitamin A increases skin cell turnover, which helps fade dark spots and melasma. Instead of using retinol, use a retinadelhyde (stronger than retinol and less irritating)! Our 'power product', <a href=\"\/products\/ret-de-la-blair-new\" target=\"_blank\" title=\"RET+\">RET+<\/a> specifically targets hyperpigmentation while also fighting fine lines and wrinkles.<br\/><br\/><strong>5. Sunscreen: <\/strong>Provides a protective barrier against harmful UV rays that contribute to melasma. <a href=\"\/products\/melan130\" target=\"_blank\" title=\"Melan 130+\">Melan 130<\/a> is a high-factor SPF that was specifically formulated for pigment-prone skin.<br\/><strong><br\/>6. Hydroquinone<\/strong>: A skin-lightening agent that can help reduce the appearance of dark spots and hyperpigmentation.<br\/><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_EykWPy"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-04-04_at_4.23.29_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 33,
+        "padding_bottom": 11
+      }
+    },
+    "section_custom_richtext_BctJE3": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_7zQfzT": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Shop the pigment-fighting products<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_7zQfzT"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_g3LkcX": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_7e9LdX": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "hyperpigmentation-2",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_7e9LdX"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 9,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "page_content_XncBbY",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "page_content_K6YWkh",
+    "page_content_pntQcr",
+    "section_custom_richtext_Yy89qc",
+    "page_content_zmktwU",
+    "section_custom_richtext_BctJE3",
+    "section_tab_collections_g3LkcX",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

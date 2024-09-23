@@ -1,0 +1,197 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "ec71c49c-b40e-4c1d-91e9-3e70abf10936": {
+      "type": "section-double",
+      "blocks": {
+        "template--14653625106516__ec71c49c-b40e-4c1d-91e9-3e70abf10936-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Contact Us<\/h5><h3>We’re here to help your skin glow and your inner beauty shine beyond what meets the eye.<br\/><\/h3><p><br\/>No matter where you are on your skincare and self-care journey, know that you have a home with us at Skin By Blair. Feel welcome to reach out to us with questions or comments using the contact form below.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14653625106516__ec71c49c-b40e-4c1d-91e9-3e70abf10936-text-1"
+      ],
+      "custom_css": [
+        "h3 {max-width: 450px;}",
+        "p {max-width: 600px;}"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/table_and_phone.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d89866c7-e9e7-4927-b1b4-8eb3f7367161": {
+      "type": "single-line-text",
+      "custom_css": [
+        "h3 {margin-bottom: -2rem;}"
+      ],
+      "settings": {
+        "text": "<h3>Get in touch<\/h3>",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "text_style": "font-heading",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "color": "#474545"
+      }
+    },
+    "c59761ae-73b1-4800-8921-aa0785dcd09f": {
+      "type": "custom-html",
+      "custom_css": [
+        "a {background-position: 0% 105%;}"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "custom_html": "<div class=\"globo-formbuilder\" data-id=\"MTg4MzU=\"><\/div>",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "limit_width": true
+      }
+    },
+    "4696c07c-d9bc-475f-9342-5d9cdf06badc": {
+      "type": "section-map",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "title": "",
+        "address": "<h5><strong>address<\/strong><\/h5><p>512 East Blvd<br\/>Charlotte, NC 28203<\/p><h5><strong>Hours<\/strong><\/h5><p>Monday - Thursday 8 am - 4 pm<br\/>Friday 9 am - 1 pm<\/p><h5><strong>Get in touch<\/strong><\/h5><p>info@skinbyblair.com<br\/>704-713-0405<\/p>",
+        "button": "directions",
+        "bg_color": "",
+        "color": "",
+        "width": "wrapper--full-padded",
+        "api_key": "",
+        "map_address": "512 East Boulevard, Charlotte, North Carolina, USA",
+        "zoom": 11,
+        "style": "light",
+        "image": "shopify:\/\/shop_images\/Skin_by_Blair_Address_-_512_East_Boulevard_-_Charlotte_-_North_Carolina.png",
+        "enable_latlong": false,
+        "lat": "35.208610",
+        "long": "80.853974",
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    },
+    "7e4d17a7-1a5e-47b9-92db-b47de9eba8b7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14557964271700__7e4d17a7-1a5e-47b9-92db-b47de9eba8b7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Elevate your feed with skin & self-care content from an aesthetics professional you can genuinely trust.<\/h2>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14557964271700__7e4d17a7-1a5e-47b9-92db-b47de9eba8b7-text-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "1692976257fb10dc69": {
+      "type": "apps",
+      "blocks": {
+        "be0e10ad-3ae3-4382-b1e9-4ac213de1020": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "be0e10ad-3ae3-4382-b1e9-4ac213de1020"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {div#insta-feed {max-width: 94%; }}"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "15eac459-138a-47b5-b03a-285fbbd1cc99": {
+      "type": "single-line-text",
+      "settings": {
+        "text": "<p>@skinbyblair<\/p>",
+        "align_text": "text-right",
+        "align_text_mobile": "mobile-hero-text-center",
+        "text_style": "font-subheading",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "color": "#282c2e"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1695220539793c408e",
+    "ec71c49c-b40e-4c1d-91e9-3e70abf10936",
+    "d89866c7-e9e7-4927-b1b4-8eb3f7367161",
+    "c59761ae-73b1-4800-8921-aa0785dcd09f",
+    "4696c07c-d9bc-475f-9342-5d9cdf06badc",
+    "7e4d17a7-1a5e-47b9-92db-b47de9eba8b7",
+    "1692976257fb10dc69",
+    "15eac459-138a-47b5-b03a-285fbbd1cc99"
+  ]
+}

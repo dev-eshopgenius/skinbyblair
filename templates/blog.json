@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "featured": {
+      "type": "featured-posts",
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "paddingless": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "36824ee6-5d3f-4cfe-a3cb-5768c73dbaad": {
+      "type": "featured-posts",
+      "blocks": {
+        "template--14551138926676__36824ee6-5d3f-4cfe-a3cb-5768c73dbaad-featured_post-1": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "news\/skin-cell-turnover-what-it-is-and-why-it-matters",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "template--14551138926676__36824ee6-5d3f-4cfe-a3cb-5768c73dbaad-featured_post-1"
+      ],
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "paddingless": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f0ef159f-3ae7-46fe-a3da-9e4badd54ae7": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14600092188756__f0ef159f-3ae7-46fe-a3da-9e4badd54ae7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Beauty unveiled.<\/h4><h3><br\/>Skincare is personal. We share the ‘<em>why<\/em>’ behind products so you’re empowered to choose what’s best for you.<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14600092188756__f0ef159f-3ae7-46fe-a3da-9e4badd54ae7-text-1"
+      ],
+      "custom_css": [
+        "h3 {margin-top: -20px; max-width: 850px !important; color: #848080 !important; font-size: 28px !important;}",
+        "@media only screen and (max-width: 749px) {h3 {font-size: 18px !important; max-width: 300px !important; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 42,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "blog",
+      "custom_css": [
+        "section {margin-top: -60px;}"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "show_title": false,
+        "show_rss": false,
+        "show_tag_nav": true,
+        "grid": 3,
+        "rows": 3,
+        "aspect_ratio": 1,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "featured",
+    "36824ee6-5d3f-4cfe-a3cb-5768c73dbaad",
+    "f0ef159f-3ae7-46fe-a3da-9e4badd54ae7",
+    "main"
+  ]
+}

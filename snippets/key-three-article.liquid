@@ -1,0 +1,12 @@
+
+<div class="borderless-card kt-article">
+    {% if block.settings.link %}
+        <a href="{{ block.settings.link }}">
+    {% endif %}
+    <img src="{{ block.settings.image | img_url: '450x' }}" alt="Image" class="borderless-card-img">
+    <p class="h5 special-article-margin c{{ articleCount }}" style="margin-bottom: 15px;"><span class="borderless-card-title">{{ block.settings.title }}</span></p>
+    <p class="borderless-card-text special-article-margin c{{articleCount }}">{{ block.settings.text }}</p>
+    {% if block.settings.link %}
+        </a>
+    {% endif %}
+</div>

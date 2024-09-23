@@ -1,0 +1,161 @@
+{{ 'advanced-form.css' | asset_url | stylesheet_tag }}
+<div id="original_registration_form" style="display:none">
+    {% form 'create_customer' %}
+    <div class="formErrors">{{ form.errors | default_errors }}</div>
+    <input type="text" name="customer[first_name]" id="original_first_name" {% if form.first_name %} value="{{ form.first_name }}" {% endif %} />
+    <input type="text" name="customer[last_name]" id="original_last_name" {% if form.last_name %} value="{{ form.last_name }}" {% endif %} />
+    <input type="email" name="customer[email]" id="original_email" {% if form.email %} value="{{ form.email }}" {% endif %} />
+    <input type="password" name="customer[password]" id="original_password" />
+    <input type="submit" value="Submit" />
+    {% endform %}
+</div>
+<script type="text/javascript">
+    var ar_blank_fields_warning = 'These fields can not be empty, must be checked, or have to be valid';
+</script>
+<div class="plvr signup-form" id="registrationFormPreview">
+    <form id="custom_registration_form" action="javascript:void(0)" data-submit-url="https://advanced-form-cl.singleton-apps.com" data-shop-id="1710" enctype="multipart/form-data">
+        <div>
+            <h1 style="text-align: center">
+                                    {{ 'customer.register.title' | t }}
+                            </h1>
+                    </div>
+        <div class="formErrorsSection alert alert-danger" role="alert" style="display:none"></div>
+                                                                                                                    <div class="fieldWrapper ">
+                        <div class="form-group ">
+                            <label class="fieldLabel" style="color: #000000">First name </label>
+                            <div  data-name="First name" data-is-mandatory="0">
+                                                                    <input  type="text"  name="first_name_1" id="first_name_1" class="form-control first_name " />
+                                                                                            </div>
+                        </div>
+                                            </div>
+                                                                                                                                    <div class="fieldWrapper ">
+                        <div class="form-group ">
+                            <label class="fieldLabel" style="color: #000000">Last name </label>
+                            <div  data-name="Last name" data-is-mandatory="0">
+                                                                    <input  type="text"  name="last_name_2" id="last_name_2" class="form-control last_name " />
+                                                                                            </div>
+                        </div>
+                                            </div>
+                                                                                                                                    <div class="fieldWrapper ">
+                        <div class="form-group ">
+                            <label class="fieldLabel" style="color: #000000">Email  * </label>
+                            <div  data-name="Email" data-is-mandatory="1">
+                                                                    <input  type="text"  name="email_3" id="email_3" class="form-control email " />
+                                                                                            </div>
+                        </div>
+                                            </div>
+                                                                                                                                    <div class="fieldWrapper ">
+                        <div class="form-group ">
+                            <label class="fieldLabel" style="color: #000000">Password  * </label>
+                            <div  data-name="Password" data-is-mandatory="1">
+                                                                    <input  type="password"  name="password_4" id="password_4" class="form-control password " />
+                                                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="form-group" style="text-align: center;">
+            <span class="submitButtonWrapper">
+                <input type="submit" style="cursor: pointer; width: 100%; border: medium none; color: #000000; background-color: #999999" class="fieldLabel submitButtonPreview btn btn-primary btn-block" value="Submit" />
+                <span class="submitOverlay"></span>
+            </span>
+        </div>
+            </form>
+</div>
+
+<style>
+    #custom_registration_form .form-control:focus {
+        border-color:#5cd3b4 !important;
+    }
+    .file {
+        position: relative;
+        display: block !important;
+        cursor: pointer;
+        margin-bottom: 0px !important;
+    }
+    .file input {
+        margin: 0;
+        filter: alpha(opacity=0);
+        opacity: 0;
+    }
+    .file-custom {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 5;
+        height: 41px;
+        padding: 0.7rem 1.2rem;
+        line-height: 1.5;
+        color: #555;
+        background-color: #fff;
+        border: .075rem solid #ddd;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .file-custom::before {
+        position: absolute;
+        right: -.075rem;
+        bottom: -.075rem;
+        z-index: 6;
+        display: block;
+        content: " ";
+        height: 41px;
+        padding: 0.7rem 1.2rem;
+        line-height: 1.5;
+        color: #555;
+        background-color: #eee;
+        border-radius: 0 4px 4px 0;
+        -webkit-border-radius: 0 4px 4px 0;
+        -moz-border-radius: 0 4px 4px 0;
+        width:50px;
+    }
+    .file-custom::after {
+        font-weight: normal;
+    }
+
+    .file-custom .uploadIcon {
+        width: 26px;
+        position: absolute;
+        z-index: 999;
+        top: -2px;
+        fill: gray;
+        right: 12px;
+    }
+
+    .plvr .has-error .file-custom {
+        border: .075rem solid #a94442;
+    }
+
+
+
+    @keyframes  spinner {
+        to {transform: rotate(360deg);}
+    }
+
+    .spinner:before {
+        content: '';
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+        margin-left: -10px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        border-top-color: #000;
+        animation: spinner .6s linear infinite;
+    }
+
+    .submitButtonWrapper {
+        position: relative;
+    }
+
+    .signup-form .halfWidth {
+        display: inline-table !important;
+    }
+</style>

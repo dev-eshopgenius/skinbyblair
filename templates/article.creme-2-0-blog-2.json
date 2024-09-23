@@ -1,0 +1,573 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": true,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>reintroducing<\/h4><h2><em>Crème de la Blair 2.0<\/em><\/h2><p><br\/>Crème de la Blair has been a bestseller at Skin By Blair since its initial launch almost four years ago. It delivers a delicate balance of everything you want in a moisturizer— rich yet lightweight, hydrating yet firming, calming yet brightening, anti-aging and always luxurious. At Skin By Blair we are deeply committed to providing you with the best skincare on the market, and I saw an opportunity to enrich the Crème de la Blair formula to provide more benefits than you’d ever expect from a singular product. So that’s exactly what we did. More details below!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_8bacd0ea-6e55-43c5-b60c-024f242dcf54.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 18,
+        "padding_bottom": 15
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>The best-seller includes:<\/em><\/h2>",
+            "text_size": 14,
+            "text_style": "font-heading"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Palmitoyl Tripeptide-5<\/h2><p>An anti-aging peptide that supports collagen production and skin firmness.<\/p><h2><\/h2><h2>Ergothioneine<\/h2><p>An amino acid and recharge antioxidant that minimizes hyperpigmentation, improves skin barrier function, and has anti-inflammatory and anti-aging properties<\/p><h2><\/h2><h2>Palmitoyl Tripeptide-28<\/h2><p>A powerful peptide that enhances collagen and elastin stimulation to reduce fine lines and wrinkles<\/p><p><\/p><p><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-06_at_2.43.49_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 11,
+        "padding_bottom": 11
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Apigenin<\/h2><p>An adaptive antioxidant that quenches reactive oxygen species (ROS), reduces skin inflammation, and infuses added hydration<\/p><h2>Tetrapeptide-21<\/h2><p>An anti-aging peptide to visibly improve skin elasticity & firmness<\/p><h2><\/h2><h2>Niacinamide<\/h2><p>A form of vitamin B-3 that support collagen production, minimizes redness, reduces the appearance of large pores, brightens discoloration, and evens skin tone<\/p><h2><\/h2><h2>Hyaluronic Acid<\/h2><p>A molecule that binds water to the skin and provides short & long-term hydration and visibly smooths the skin<\/p><h2><\/h2><h2>Resveratrol<\/h2><p>An antioxidant that minimizes redness & inflammation and provides skin-soothing properties<\/p><p><\/p><p><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1",
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_2910a_b616e368-db84-4e1a-8dd7-40122e27c843.jpg",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 11,
+        "padding_bottom": 11
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Squalane<\/h2><p>An antioxidant that locks in moisture, soothes inflammation, and supports the skin barrier<\/p><h2><\/h2><h2>Caffeine<\/h2><p>A natural antixodiant that reduces puffiness and improves skin circulation<\/p><h2><\/h2><h2>Ceramides<\/h2><p>Essential lipids that strengthen the skin barrier to retain moisture, and improve visible signs of aging<\/p><h2><\/h2><h2>Cholesterol<\/h2><p>Work to assist ceramides in order to maximize moisture retention & strength the skin barrier<\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-06_at_2.43.49_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "005e3684-7873-4e43-9cfb-1262f643d343": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14703218032724__005e3684-7873-4e43-9cfb-1262f643d343-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "THE CREME 2.0 DIFFERENCE",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14703218032724__005e3684-7873-4e43-9cfb-1262f643d343-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14703218032724__005e3684-7873-4e43-9cfb-1262f643d343-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>You may be thinking: of course, I want even more result-driven ingredients in my moisturizer, but what makes this such an essential product for my skincare routine?<\/h3><p><br\/>• When your skin is properly moisturized, not only does it reduce the appearance of fine lines and wrinkles, but it also functions better. <br\/><br\/>• Expect retained hydration, an even skin tone, and smoother makeup application. Crème was developed to act as a seal that locks moisture into your skin. This is essential for your skincare routine, especially in the colder months. <br\/><br\/>• Crème is packed with ingredients that soothe, hydrate, protect the skin’s barrier, and reduce the appearance of fine lines and wrinkles. It’s nearly impossible to find a singular product that’s this powerful.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14703218032724__005e3684-7873-4e43-9cfb-1262f643d343-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP CREME 2.0",
+            "button_url": "shopify:\/\/products\/creme-de-la-blair-new",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14703218032724__005e3684-7873-4e43-9cfb-1262f643d343-subheading-1",
+        "template--14703218032724__005e3684-7873-4e43-9cfb-1262f643d343-heading-1",
+        "template--14703218032724__005e3684-7873-4e43-9cfb-1262f643d343-text-1",
+        "template--14703218032724__005e3684-7873-4e43-9cfb-1262f643d343-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><a href=\"\/products\/intellishade-original\" title=\"Intellishade Original\">INTELLISHADE ORIGINAL<\/a><\/h5><p><a href=\"https:\/\/www.skinbyblair.com\/products\/intellishade-original\" title=\"https:\/\/www.skinbyblair.com\/products\/intellishade-original\"><br\/><\/a>This is my desert island, must-have product! It's like wearing makeup without having to 1) take the time to apply it, and 2) worry about it matching your skin tone perfectly (because it does that for you!)! Aside from SPF, it also contains antioxidants, peptides, a moisturizers, and foundation. If you like a tinted sunscreen that gives you a nice dewy complexion, this is your new favorite product!<\/p><h5><a href=\"\/products\/intellishade-matte\" title=\"Intellishade Matte\">INTELLISHADE MATTE<\/a><\/h5><p>If you struggle with oily skin or prefer a matte finish, this tinted option is for you. It acts as a sunscreen, moisturizer, anti-aging treatment, and foundation all in one. The sheer color works to match any tone for a beautifully matte finish<\/p><h5><a href=\"\/products\/intellishade-clear\" title=\"Intellishade Clear\">INTELLISHADE CLEAR<\/a><\/h5><p>Don't want a tint in your sunscreen? Then you'll love Intellishade Clear - she's lightweight, oil-free, and anti-aging, all in one product! Formulated with 3 peptides and Vitamin C to brighten your skin. This is also a great one to gift to your husband - he doesn't have to know all the anti-aging benefits!<\/p><h5><a href=\"\/products\/intellishade-truphysical\" title=\"Intellishade TruPhysical\">INTELLISHADE TRUPHYSICAL<\/a><\/h5><p>This 5-in-1 moisturizer is a 100% mineral broad-spectrum sunscreen that corrects, conceals, brightens, and hydrates the skin, and is great for all of my sensitive skin ladies (and gents), or to use on post-procedure skin!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "967819a1-a504-4580-b170-da1a5be9f557": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop SUNSCREENS",
+            "button_url": "shopify:\/\/collections\/spf",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1",
+        "967819a1-a504-4580-b170-da1a5be9f557"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Recommended products<\/h4>",
+            "text_size": 7,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "005e3684-7873-4e43-9cfb-1262f643d343",
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

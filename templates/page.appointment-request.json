@@ -1,0 +1,112 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_richtext_qe77Qt": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "subheading_ppadw3": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 2,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "heading_TRp3zV": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text_size": 8
+          }
+        },
+        "text_RN889H": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please complete the below form to request an appointment at our Charlotte, NC office.<\/p>",
+            "text_size": 4,
+            "text_style": "font-subheading"
+          }
+        },
+        "text_eXpAhB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please note, Blair's schedule is currently at capacity. By joining our waitlist, you'll have priority access to any openings as they become available. However, we warmly welcome appointments for personalized skin consultations with one of our dedicated skin specialists. <\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_HiAKmc": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ppadw3",
+        "heading_TRp3zV",
+        "text_RN889H",
+        "text_eXpAhB",
+        "buttons_HiAKmc"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "3ed88477-fdee-4930-945e-5c36aa27fd9d": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTg2MDM=\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "3ed88477-fdee-4930-945e-5c36aa27fd9d"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_custom_richtext_qe77Qt",
+    "1695220539793c408e"
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "Why You Shouldn't Be Using Retinol (& What To Use Instead)",
+            "text_size": 8
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 48
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "page_content_Dg6X68": {
+      "type": "page_content",
+      "blocks": {
+        "text_pM4CUT": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Retinol... I'm sure you've heard of it as the holy grail for anti-aging. <em>But what if I told you it actually wasn't?<br\/><\/em><\/h2><h3>Before I can explain, we first need to understand why we need a retinoid, and a little bit about the retinoid hierarchy.<\/h3>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_pM4CUT"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_1935.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 0,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_LbmgB3": {
+      "type": "page_content",
+      "blocks": {
+        "text_LfxAKN": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Why do we need a retinoid in our skincare routine? <\/h2><p><\/p><p>Simply put, retinoids stimulate collagen production. The more collagen we have, the younger we look. Now there are other benefits of retinoids such as reducing acne, improving hyperpigmentation, unclogging pores, exfoliating the skin, reducing fine lines and wrinkles<em> (and many many more!),<\/em> but today I’m just going to focus on the collagen aspect to keep things as simple as possible <em>(because not all of us have hyperpigmentation, but my goodness we ALL need collagen!).<\/em><\/p><h2><br\/>What is the retinoid hierarchy?<\/h2><h2><\/h2><p>\"Retinoid\"<strong> <\/strong>is an umbrella term that refers to anything in the vitamin A family. Example retinoids you may have heard of include retinol, retinaldehyde (aka: retinal), retin-A, and tretinoin, just to name a few. <br\/><\/p><p><br\/>Retinoids come in many different forms and strengths, which is the part that can get confusing. The lower the strength, the less collagen stimulation. The higher the strength, the more collagen stimulation. The more collagen stimulation, the younger your skin looks (less fine lines and wrinkles).<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_LfxAKN"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-05-15_at_8.44.03_AM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 19,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_richtext_A9kznR": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_bQJtnY": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 8
+          }
+        },
+        "text_eGPzgf": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>If the higher the strength, the better the results, then why shouldn't everyone use the highest strength?<\/h2><p><\/p><p>Great question! Because retinoids can be very irritating to the skin if not used properly. The higher the strength, the more skin irritation (redness and peeling), the lower the strength, the less skin irritation. So then it becomes a balancing act of finding the highest strength <em>(and thus most collagen stimulation) <\/em>that causes the least amount of skin irritation.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bQJtnY",
+        "text_eGPzgf"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "page_content_gtTAhQ": {
+      "type": "page_content",
+      "blocks": {
+        "text_BChh6K": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>But here's the thing about retinol - <em><strong>it doesn't follow these rules.<\/strong><\/em><\/h2><p>To make things simple, I created this hierarchy chart ranking retinoids by strength and irritation level. <br\/><br\/>If you take a look at retinol, you'll notice it's the lowest strength of all the retinoids (meaning the least results). Usually this would also mean it causes the least amount of skin irritation - <em>but that isn't the case<\/em>. <\/p><p><br\/>As you can see, retinol actually <strong>causes more skin irritation<\/strong> than a higher strength retinoid (retinaldehyde). <\/p><p><br\/><strong>So why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation?<\/strong><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_BChh6K"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-05-15_at_8.34.22_AM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 11,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>What should you use instead of retinol?<\/h2><p><br\/>One step up in strength from retinol is retinaldehyde. If you are not currently on a retinoid, I suggest you start here, and the reason is a bit “science-y”, but bear with me.<\/p><p><br\/>Retinoic acid is the ONLY form of vitamin A our skin can actually use. All retinoids MUST be converted to<em>retinoic acid<\/em>before our skin can use them. Retinol goes through two conversions to become retinoic acid - one conversion from retinol to retinaldehyde, and another conversion from retinaldehyde to retinoic acid. <\/p><p><br\/>But here's the thing…<em>the conversion from retinol to retinaldehyde can be extremely irritating to the skin<\/em>. However, if you bypass that conversion altogether - by using retinaldehyde instead of retinol - you can skip that irritating conversion altogether. This means you can use a stronger retinoid (i.e. more collagen) with less irritation.<\/p><p><br\/>That sounds like a no-brainer, right?<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/YOUR_GUIDE_TO_2.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 19
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Which retinaldehyde is the best one to use?  <\/h2><h4>Meet RET<strong>+<\/strong>, my favorite retinaldehyde, & <span style=\"text-decoration:underline\">your new favorite all-in-one power product<\/span><\/h4><p>Not only does RET+ deliver a high concentration of 0.12% retinaldehyde that is up to 20x more effective than retinol and works up to 11x faster, but it's also packed with tons of additional anti-aging ingredients that will streamline your skincare routine. <\/p><p><br\/>In addition to retinaldehyde, this enhanced formula contains  bakuchiol, THD Ascorbate, palmitoyl tetrapeptide-72, niacinamide, resveratrol, hyaluronic acid, and a probiotic. Keep reading for the low-down on why each of these ingredients were included in RET+. <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_1406_1.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "40437b39-7d2b-4f94-9396-57dc5c4aadde": {
+          "type": "heading",
+          "settings": {
+            "title": "The Science Behind RET+ Ingredients",
+            "text_size": 8
+          }
+        },
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>Retinaldehyde<\/strong><\/h4><p>Ahh, the workhorse of RET+. It typically comes in concentrations of 0.05% (most common) up to 0.1% — the higher the concentration, the more results. RET+ delivers 0.12% retinal. <\/p><p>Retinaldehyde supports healthy skin cell regeneration which promotes plumper and firmer-looking skin where the appearance of fine lines is visibly reduced.<\/p><p><\/p><p>It works up to 20x more effective than retinol, and working up to 11x faster, with significantly less irritation than traditional retinol products.<\/p><h4><br\/>Bakuchiol<\/h4><p>Bakuchiol is a retinoid-alternative because it has a very similar gene expression to retinoids, (meaning it stimulates collagen and elastin to encourage anti-aging benefits), and also has calming and stabilizing properties that actually allow the skin to more easily tolerate retinoids.<\/p><p><\/p><p>It’s no secret that I love Bakuchiol - I love it so much that I made a product, <a href=\"\/products\/bakuchiol\" title=\"Bakuchiol\"><em>SBB Bakuchiol<\/em><\/a>, centered around it, and have always recommended pairing it with your retinoid for maximum results. The ingredient bakuchiol boosts a retinoid’s effectiveness by up to 20X, making it one of the most powerful anti-aging solutions. <br\/><\/p><h4><br\/>THD Abscorbate<\/h4><p>Acting as a stable form of Vitamin C, this ingredient protects against free radicals, brightens skin, improves dark spots, and aids in collagen production.<\/p><p><\/p><p><br\/>While it’s essential to use vitmain C every morning, it is often considered less beneficial in your evening routine. However, recent data shows that UV damage continues for many hours <em>after<\/em> sun exposure, and thus the benefit of using vitamin C at night is more substantial than weoriginally believed. But that just sounds like one more product to add to our routines, right? Wrong — because my mission is to simplify your routine. So of course I packed it into RET+!<br\/><br\/><br\/><\/p><h4>Palmitoyl tetrapeptide-72<\/h4><p>An anti-aging peptide that supports skin’s firmness and elasticity by strengthening its structure, contributing to visibly reducing wrinkles and firmer skin.<\/p><p><br\/>I like to think of this peptides as a foundational peptide that provides the structural framework for skin to look firmer and overall more youthful. Because retinoids play a such a key role in collagen and elastin production, this peptide was a no brainer as the perfect pairing to provide foundational support to the skin.<\/p><p><\/p><h4><br\/>Niacinamide<\/h4><p>Niacinamide, a form of Vitamin B3, is an essential vitamin and a must-have multi-functional ingredient that addresses a diverse range of skin concerns.<\/p><p><br\/>I try to incorporate niacinamide into our products any chance I get because, quite frankly, <em>what doesn’t it do?<\/em><\/p><p><br\/>It helps with redness, dark spots, hydration, acne, inflammation, wrinkles, rosacea, pore size, + more! It was a must for RET+!<\/p><p><\/p><h4><br\/>Resveratrol<\/h4><p>Resveratrol is a powerful natural antioxidant found in many berries and the skin of red grapes <em>(& is the reason why you’ll hear people say red wine is good for you!)<\/em>.<\/p><p><\/p><p><br\/>I fell in love with reservatrol about 10 years ago when I saw first hand how much it improved skin redness. Since retinoids, when used incorrectly, can disrupt the skin barrier and cause redness & inflammation, resveratrol’s anti-inflammatory properties, antioxidant protection, and strengthened skin barrier effects, this much less of a concern. I knew it needed to be included in RET+.<\/p><p><\/p><h4><br\/>Hyaluronic acid<\/h4><p>Hyaluronic acid (HA) is a highly effective moisturizing ingredient, holding up to 1,000 times its weight in water.<\/p><p>Since retinoids can make the skin more dry in some cases, I chose to include HA to ensure the skin remained hydrated and plump no matter the season. <br\/><br\/><br\/><\/p><h4>Probiotic<\/h4><p>Probiotics are used in skincare to support and maintain a balanced skin microbiome which plays a crucial role in maintaining the skin's barrier function and protecting against harmful pathogens.<\/p><p><br\/>Probiotics contribute to the skin's natural healing processes, support the repair of the skin barrier, and aid in the recovery of damaged or compromised skin — all of which are so helpful when using a retinoid.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "40437b39-7d2b-4f94-9396-57dc5c4aadde",
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708": {
+      "type": "page_content",
+      "blocks": {
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>How to incorporate RET+ in your routine<\/h2><p><\/p><p>Since RET+ is great for sensitive and reactive skin types, it is safe to use RET+ every evening. However, if you prefer to ease into it and get your skin acclimated to it, you can start using it 2-3x a week at the beginning. Once you feel your skin is up for it, you can start layering it in your routine every night. <br\/><br\/>This will be the order you apply RET+ with your other products in the PM:<\/p><p>1. Cleanse<\/p><p>2. Tonic<\/p><p>3. Serums<\/p><p>4. Eye Cream<\/p><p>5. RET+<\/p><p>6. Moisturizer<\/p><h3>   <\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-05-15_at_7.36.05_AM.png",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Products that pair perfectly with RET+<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "ret-pairings-blog",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "1695220539793c408e",
+    "page_content_Dg6X68",
+    "page_content_LbmgB3",
+    "section_custom_richtext_A9kznR",
+    "page_content_gtTAhQ",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8",
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

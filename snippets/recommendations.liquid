@@ -1,0 +1,184 @@
+{% assign instruction_text = "You will receive detailed instructions with your order outlining when and how to use each product." %}
+{% assign footer_text = "FOR OPTIMAL RESULTS, TRY THE FULL ROUTINE" %}
+{% assign add_to_cart_text = "ADD ALL TO CART" %}
+{% assign quiz_link = "START OVER" %}
+
+<script>
+var products_info = {
+  "bakuchiol": {
+    type: "COLLAGEN BOOSTER",
+    description: "Boost collagen and elastin to improve skin tone, texture and wrinkles."
+  },
+  "brightening-wash": {
+    type: "CLEANSE",
+    images: [{ src: "https://quizzes-assets.nyc3.cdn.digitaloceanspaces.com/skin-by-blair.myshopify.com/Revision%20Brightening%20Face%20Wash%206.7oz.png" }],
+    description: "Brightens and exfoliates dead cells for smoother, more radiant skin."
+  },
+  "papaya-enzyme-cleanser": {
+    type: "CLEANSE",
+    description: "Removes dead skin cells, makeup and impurities."
+  },
+  "gentle-cleansing-lotion": {
+    type: "CLEANSE",
+    description: "Removes make-up, dirt and debris without irritation."
+  },
+  "purifying-cleansing-gel": {
+    type: "CLEANSE",
+    description: "Oil control cleanser for smooth, brighter skin."
+  },
+  "acne-cleanser": {
+    type: "CLEANSE",
+    description: "Fights acne causing bacteria to clear skin and prevent future breakouts."
+  },
+  "tonic": {
+    type: "TONE",
+    description: "Powerful skin treatment to brighten, lighten, and tighten the skin."
+  },
+  "revox-line-relaxer": {
+    type: "WRINKLES",
+    description: "Advanced, targeted serum to improve fine lines and wrinkles."
+  },
+  "vitamin-c-20": {
+    type: "ANTIOXIDANT",
+    description: "Delivers vitamin C to correct existing damage and prevent future damage."
+  },
+  "c-correcting-complex-30": {
+    type: "ANTIOXIDANT",
+    description: "Delivers vitamin C to correct existing damage and prevent future damage."
+  },
+  "dej-face-cream": {
+    type: "MOISTURIZE",
+    description: "Powerful anti-aging face cream to reduce fine lines, and even skin tone and texture."
+  },
+  "creme-de-la-blair-new": {
+    type: "MOISTURIZE",
+    description: "Strengthens the skin barrier and improves elasticity, fullness, and texture."
+  },
+  "intellishade-original": {
+    type: "SUNSCREEN",
+    description: "Sunscreen, moisturizer and anti-aging treatment."
+  },
+  "intellishade-matte": {
+    type: "SUNSCREEN",
+    description: "Broad spectrum sunscreen, moisturizer and anti-aging treatment all in one."
+  },
+  "intellishade-truphysical": {
+    type: "SUNSCREEN",
+    description: "Sunscreen, moisturizer and anti-aging treatment."
+  },
+  "intellishade-clear": {
+    type: "SUNSCREEN",
+    description: "Broad spectrum sunscreen, moisturizer and anti-aging treatment all in one."
+  },
+  "elta-md-uv-clear": {
+    type: "SUNSCREEN",
+    description: "Protect sensitive skin prone to breakouts and rosacea."
+  },
+  "perfection-protection-powdered-sunscreen": {
+    type: "SUNSCREEN",
+    title: "Perfection Protection SPF Powder",
+    description: "SPF 50 brush applicator broad spectrum protection."
+  },
+  "dej-eye-cream": {
+    type: "EYE CARE",
+    description: "Nourish the skin around the eye to improve the appearance of fine lines and wrinkles."
+  },
+  "elastiderm-eye-serum": {
+    type: "EYE CARE",
+    description: "Revive the eyes with caffeine to brighten dark under-eye circles and reduces puffiness."
+  },
+  "soothing-facial-rinse": {
+    type: "TONE",
+    description: "Moisturizing toner to soothe skin and reduce redness."
+  },
+  "elastiderm-eye-cream": {
+    type: "EYE CARE",
+    description: "Helps restore a youthful glow and extra hydration to the eye area."
+  },
+  "hydrabright-eye-cream": {
+    type: "EYE CARE",
+    description: "Vitamin-rich eye cream to brighten skin around the eyes and reduces fine lines and wrinkles."
+  },
+  "teamine-eye-complex": {
+    type: "EYE CARE",
+    description: "Anti-aging eye cream designed specifically to reduce dark circles."
+  },
+  "nectifirm-advanced": {
+    type: "NECK CARE",
+    description: "Powerful peptide treatment to improve visible signs of aging on the neck and décolletage."
+  },
+  "nectifirm-large": {
+    type: "NECK CARE",
+    description: "Powerful peptide treatment to improve visible signs of aging on the neck and décolletage."
+  },
+  "revox-7": {
+    type: "WRINKLES",
+    description: "Peptide-rich serum minimizes the appearance of expression lines and wrinkles."
+  },
+  "elastiderm-facial-serum": {
+    type: "WRINKLES",
+    description: "Powerful anti-aging serum for firmer, more resilient skin."
+  },
+  "hydrating-serum": {
+    type: "HYDRATION",
+    description: "Boost hydration for a smooth, refreshed appearance."
+  },
+  "pigment-pads-8": {
+    type: "PIGMENT",
+    description: "Correct hyperpigmentation and skin discoloration for a more even skin tone."
+  },
+  "black-mask": {
+    type: "MASK",
+    description: "Deep cleans pores to remove impurities and excess oil."
+  },
+  "retivance-skin-rejuvenating-complex": {
+    type: "RETINOID",
+    description: "Boost collagen and elastin to improve fine lines, wrinkles, and overall skin texture without irritation."
+  },
+  "professional-c-microdermabrasion-polish-mask": {
+    type: "MASK",
+    description: "Minimizes fine lines, hyperpigmentation and sun damage for a youthful glow."
+  },
+  "clarifying-mask": {
+    type: "MASK",
+    description: "Pore cleansing mask that draws out impurities and minimizes the appearance of pores."
+  },
+  "zoe-bliss": {
+    type: "EXFOLIATE",
+    description: "Cleanses and exfoliates to maximize skincare product penetration."
+  },
+  "finishing-touch": {
+    type: "EXFOLIATE",
+    description: "Exfoliates with volcanic black sand to improve complexion, texture and skin tone."
+  },
+  "power-peel-pads": {
+    type: "EXFOLIATE",
+    description: "Exfoliates and brightens skin for a convenient at-home chemical peel."
+  },
+  "antioxidant-mist": {
+    type: "MIST",
+    description: "Soothing hydration and protection from free radical damage."
+  },
+  "dej-daily-boosting-serum": {
+    type: "ANTIOXIDANT",
+    description: "An age-defying serum that rejuvenates and energizes fatigued skin."
+  },
+  "bodifirm-small": {
+    type: "BODY CARE",
+    description: "Firm, sculpt, and tighten crepey skin."
+  },
+  "silk-pillowcase": {
+    type: "SLEEP",
+    images: [{ src: "https://quizzes-assets.nyc3.cdn.digitaloceanspaces.com/skin-by-blair.myshopify.com/Skin%20by%20Blair%20Silk%20Pillow.png" }],
+    description: "Reduce skin damage while sleeping."
+  },
+  "youthful-lip-replenisher": {
+    type: "LIP CARE",
+    description: "Target visible signs of lip aging for beautiful, healthy lips."
+  },
+  "ret-de-la-blair-new": {
+    type: "RETINOID",
+    description: "Boost collagen and elastin to improve fine lines, wrinkles, and overall skin texture without irritation."
+  },
+}
+</script>

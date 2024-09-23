@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "a89d0d5d-0720-4896-bad0-8370d0b88721": {
+      "type": "section-hero",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/service_banner_example.png",
+        "link": "",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "c34ae6c1-c48d-4f2c-915d-01dcfa6210a0": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14642045255764__c34ae6c1-c48d-4f2c-915d-01dcfa6210a0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.content | metafield_tag }}",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14642045255764__c34ae6c1-c48d-4f2c-915d-01dcfa6210a0-text-1"
+      ],
+      "custom_css": [
+        ".custom-rt-hero__rte {max-width: 640px;}",
+        ".custom-rte-hero__content__wrapper {justify-content: center;}",
+        "li,ul {font-size: calc(var(--font-2) * var(--FONT-ADJUST-BODY)); font-weight: 300;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 72,
+        "padding_bottom": 40
+      }
+    },
+    "bb924575-6fab-4744-b0ee-0ead9ba94435": {
+      "type": "section-image-list",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "title": "{{ metaobject.title.value }}",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "68ab5acc-21e9-44f7-b518-b9606fbbefc6": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14642256314452__68ab5acc-21e9-44f7-b518-b9606fbbefc6-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Request an appointment",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14642256314452__68ab5acc-21e9-44f7-b518-b9606fbbefc6-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "a89d0d5d-0720-4896-bad0-8370d0b88721",
+    "c34ae6c1-c48d-4f2c-915d-01dcfa6210a0",
+    "bb924575-6fab-4744-b0ee-0ead9ba94435",
+    "68ab5acc-21e9-44f7-b518-b9606fbbefc6"
+  ]
+}

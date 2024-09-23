@@ -1,0 +1,425 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "05a48600-b9a9-4168-9402-847b4965ab96": {
+      "type": "section-double",
+      "blocks": {
+        "template--14641195483220__05a48600-b9a9-4168-9402-847b4965ab96-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>OUR SERVICES<\/h4><h1>Your beauty is one-of-a-kind. <em>We serve you (<\/em>&<em> your skin) as such.<\/em><\/h1><p>Whatever your skin needs or desires, our services were designed to elevate your self-care experience. When you step foot in our office, you can rest assured we only make recommendations we genuinely believe will work for you.<\/p><p><br\/>Consider us a resource that educates and empowers you to take care of yourself in a way that’s meaningful and holistically transformative.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14641195483220__05a48600-b9a9-4168-9402-847b4965ab96-text-1"
+      ],
+      "custom_css": [
+        "h2 {font-size: calc(var(--font-8) * 0.6);}",
+        "@media only screen and (max-width: 750px) {h2 {font-size: calc(var(--font-8) * 0.9); }}"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/beauty.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e61b3243-2f2f-45bf-92ea-ce90025507b2": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "f593f020-c453-46cd-b91b-1a0e157ec293": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>OUR TREATMENT PHILOSOPHY<\/h4>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "ff1c9b05-32b3-434b-a932-974bc39df081": {
+          "type": "heading",
+          "settings": {
+            "title": "Before any treatments are discussed, we take the time to listen and understand what’s important to you. We offer transparent recommendations, answer questions honestly, and always encourage you to make the decision that’s best for you. We believe that specialization inspires excellence, so you can rest assured that our team is highly skilled in all we offer. And in whatever treatment you choose, we promise never to change you — but rather enhance the natural beauty you already are.",
+            "text_size": 3
+          }
+        },
+        "9900f9ec-eb88-4655-ba12-413d5739f0f8": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "get on the waitlist",
+            "button_url": "shopify:\/\/pages\/request-an-appointment",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "f593f020-c453-46cd-b91b-1a0e157ec293",
+        "ff1c9b05-32b3-434b-a932-974bc39df081",
+        "9900f9ec-eb88-4655-ba12-413d5739f0f8"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "caaf1477-7d6b-4705-89c7-bf973edfefd6": {
+      "type": "section-double",
+      "blocks": {
+        "template--14641195483220__caaf1477-7d6b-4705-89c7-bf973edfefd6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Our aesthetic treatments help you achieve beautiful, youthful, and radiant skin<\/h2><p>Please note, our office appointments are currently at capacity. You can be the first to know about openings when you join our waitlist.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14641195483220__caaf1477-7d6b-4705-89c7-bf973edfefd6-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "get on the waitlist",
+            "button_url": "shopify:\/\/pages\/request-an-appointment",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14641195483220__caaf1477-7d6b-4705-89c7-bf973edfefd6-text-1",
+        "template--14641195483220__caaf1477-7d6b-4705-89c7-bf973edfefd6-buttons-1"
+      ],
+      "custom_css": [
+        "h2 {font-size: calc(var(--font-8) * 0.6);}"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/patient.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 78
+      }
+    },
+    "a410ef12-9e75-4cab-ade2-25d7a4aa259c": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14641195483220__a410ef12-9e75-4cab-ade2-25d7a4aa259c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>We offer services to treat & address various skin concerns and goals<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14641195483220__a410ef12-9e75-4cab-ade2-25d7a4aa259c-text-1"
+      ],
+      "custom_css": [
+        "h2 {max-width: 600px; font-size: calc(var(--font-8) * 0.73);}",
+        "@media only screen and (max-width: 750px) {h2 {max-width: 320px; font-size: calc(var(--font-8) * 0.95); }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fdb3ee5c-aa89-4b10-820a-32febf515a75": {
+      "type": "section-services",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "766a9b81-5dc6-4f19-8f7a-309dcfbe322d": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14641195483220__766a9b81-5dc6-4f19-8f7a-309dcfbe322d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Client Experiences & Transformations<\/h2><h4>words from our patients<\/h4>",
+            "text_size": 9,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14641195483220__766a9b81-5dc6-4f19-8f7a-309dcfbe322d-text-1"
+      ],
+      "custom_css": [
+        "h2 {max-width: 600px; font-size: calc(var(--font-8) * 0.73);}",
+        "@media only screen and (max-width: 750px) {h2 {max-width: 320px; font-size: calc(var(--font-8) * 0.95); }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 20,
+        "padding_bottom": 8
+      }
+    },
+    "adebdd7c-6634-4880-bccc-ad2f58f58a30": {
+      "type": "section-reviews",
+      "blocks": {
+        "80d2c627-d235-42d6-98f1-2b9a40f64c80": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "ASHLEY",
+            "review_text": "“I’ve been seeing Blair now for 4 years and every time the service is just beyond and an overall amazing experience. So much so that I drive in from out of state to see her just for her expertise in cosmetic injecting. She always knows just the right balance to accomplish what I want and at the same time not over doing it or doing too much all at once! ”",
+            "featured_image": "shopify:\/\/shop_images\/4.png",
+            "review_url": ""
+          }
+        },
+        "template--14641195483220__adebdd7c-6634-4880-bccc-ad2f58f58a30-review-1": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "NICOLE",
+            "review_text": "“I don't know how, but Blair has figured out the most perfect blending of all the aspects one would want in an incredible skin care provider. More specifically, she is extremely educated, talented, kind and is someone who truly has your best interest at heart. You would never catch Blair injecting for injecting sake. Instead, she takes the time to learn your specific goals and this is obvious by how she counsels her patients.\"",
+            "featured_image": "shopify:\/\/shop_images\/1_0b77ab64-28d9-4d65-90de-da01f15feefe.png",
+            "review_url": ""
+          }
+        },
+        "template--14641195483220__adebdd7c-6634-4880-bccc-ad2f58f58a30-review-2": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "SELENA",
+            "review_text": "“Blair took her time to listen to my needs and to understand what was most important to me. She was very knowledgeable and offered an array of different options for treatment. She took her time explaining the differences between the options and the pros and cons of each. It was definitely worth the 3.5 hour drive to see her. I loved not feeling like I was at a drive thru being rushed through my visit and given the same standard treatment as everyone else.”",
+            "featured_image": "shopify:\/\/shop_images\/5.png",
+            "review_url": ""
+          }
+        },
+        "a773bc02-6507-4e7e-9949-f9dd31c86853": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "ANDREA",
+            "review_text": "“She has always been super professional but what sets her apart is her attention to detail and approach to her clients. I have never felt pressured to do more than I should and we always chat about what is right for me. Every time I leave her you can see the glow on my face and would never guess that I get botox.”",
+            "featured_image": "shopify:\/\/shop_images\/2_68d74281-158a-4c99-91a2-eb4ddb1df034.png",
+            "review_url": ""
+          }
+        },
+        "835916e5-a97b-4919-beb3-7466c9f77dfd": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "STEPHANIE",
+            "review_text": "“Blair is amazing! She is extremely knowledgeable, and also very kind and displays a wonderful warmth toward her clients. As another reviewer said, “you leave feeling like you have gained a friend”. I travel over 2 hours to see her for treatments and injectables. She has always taken her time with me, never rushing through to the next appointment even though she is busy. I would recommend Skin By Blair without hesitation.”",
+            "featured_image": "shopify:\/\/shop_images\/3.png",
+            "review_url": ""
+          }
+        },
+        "39a2b23b-b942-4e5d-8c2e-c518732fbb44": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "JAMI",
+            "review_text": "“I have been going to Blair for 3 years. Absolutely trust her with any & all injections! She is never pushy, and provides great feedback as to what will work best for my face structure. Beyond that, her office is beautiful, Blair is so sweet & kind, and her skincare products are fantastic as well! I use many of them daily, and have been really pleased with the results!”",
+            "featured_image": "shopify:\/\/shop_images\/6.png",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "80d2c627-d235-42d6-98f1-2b9a40f64c80",
+        "template--14641195483220__adebdd7c-6634-4880-bccc-ad2f58f58a30-review-1",
+        "template--14641195483220__adebdd7c-6634-4880-bccc-ad2f58f58a30-review-2",
+        "a773bc02-6507-4e7e-9949-f9dd31c86853",
+        "835916e5-a97b-4919-beb3-7466c9f77dfd",
+        "39a2b23b-b942-4e5d-8c2e-c518732fbb44"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": false,
+        "text_align": "text-left",
+        "text_size": 5,
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "#848080",
+        "card_bg_color": "#f4f1ef",
+        "padding_top": 0,
+        "padding_bottom": 61,
+        "alternative_style": false
+      }
+    },
+    "f681bfe6-0bf6-42c5-be00-af99f6222402": {
+      "type": "section-double",
+      "blocks": {
+        "template--14641195483220__f681bfe6-0bf6-42c5-be00-af99f6222402-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Ready to unveil your best skin <em>sooner rather than later?<\/em><\/h2><p>You can build an intentional and effective skincare routine with Skin By Blair products today.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "4e5bd58e-1ae2-4899-b7c6-9bd360677a6c": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "go shopping",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14641195483220__f681bfe6-0bf6-42c5-be00-af99f6222402-text-1",
+        "4e5bd58e-1ae2-4899-b7c6-9bd360677a6c"
+      ],
+      "custom_css": [
+        "h2 {font-size: calc(var(--font-8) * 0.6);}"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/mirror.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7e4d17a7-1a5e-47b9-92db-b47de9eba8b7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14557964271700__7e4d17a7-1a5e-47b9-92db-b47de9eba8b7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Elevate your feed with skin & self-care content from an aesthetics professional you can genuinely trust.<\/h2>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14557964271700__7e4d17a7-1a5e-47b9-92db-b47de9eba8b7-text-1"
+      ],
+      "custom_css": [
+        "h2 {max-width: 800px; font-size: calc(var(--font-8) * 0.67);}"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "1692976257fb10dc69": {
+      "type": "apps",
+      "blocks": {
+        "be0e10ad-3ae3-4382-b1e9-4ac213de1020": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "be0e10ad-3ae3-4382-b1e9-4ac213de1020"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "d89866c7-e9e7-4927-b1b4-8eb3f7367161": {
+      "type": "single-line-text",
+      "settings": {
+        "text": "<p>@skinbyblair<\/p>",
+        "align_text": "text-right",
+        "align_text_mobile": "mobile-hero-text-center",
+        "text_style": "font-subheading",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "color": "#282c2e"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "05a48600-b9a9-4168-9402-847b4965ab96",
+    "e61b3243-2f2f-45bf-92ea-ce90025507b2",
+    "caaf1477-7d6b-4705-89c7-bf973edfefd6",
+    "a410ef12-9e75-4cab-ade2-25d7a4aa259c",
+    "fdb3ee5c-aa89-4b10-820a-32febf515a75",
+    "766a9b81-5dc6-4f19-8f7a-309dcfbe322d",
+    "adebdd7c-6634-4880-bccc-ad2f58f58a30",
+    "f681bfe6-0bf6-42c5-be00-af99f6222402",
+    "7e4d17a7-1a5e-47b9-92db-b47de9eba8b7",
+    "1692976257fb10dc69",
+    "d89866c7-e9e7-4927-b1b4-8eb3f7367161"
+  ]
+}

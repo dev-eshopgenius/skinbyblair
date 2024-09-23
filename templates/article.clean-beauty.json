@@ -1,0 +1,691 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_custom_richtext_TeNBBf": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_QFpAj6": {
+          "type": "heading",
+          "settings": {
+            "title": "Should You Be Using \"Clean Beauty\"?",
+            "text_size": 9
+          }
+        },
+        "text_6rAxce": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>Let me guess — you've heard  people on the internet telling you how toxic your products are, how they detoxed and cleaned out their entire beauty routine, and why you should too.<br\/><br\/>But, is there reliable clinical evidence supporting these claims, <em>or<\/em> are they simply using fear as a marketing tactic to get you to purchase <em>their<\/em> products? Let's take a look. <\/p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QFpAj6",
+        "text_6rAxce"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_XncBbY": {
+      "type": "page_content",
+      "blocks": {
+        "text_BXrcph": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>What exactly <em>is<\/em> \"clean beauty\"?<\/h2><p>The term \"clean beauty\" is widely used across various industries, appearing on beauty product labels, household cleaning supplies, influencer endorsements, and even websites of major brands like Sephora.<br\/><br\/>So what exactly does it mean? Well...<em> actually nothing<\/em>.<\/p><p><br\/>There is no standardized definition of \"clean beauty\" by any regulatory body such as the FDA or FTC. This absence of regulation <span style=\"text-decoration:underline\">allows brands to create their own criteria<\/span> for what constitutes as \"clean\", leading to variability and ambiguity (or as I like to call it, <em>smoke and mirrors<\/em>) in the market.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_BXrcph"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/iStock-536656382.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 21,
+        "padding_bottom": 0
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>First things first, let's get a few things clear!<\/h2><p><br\/>Before anyone jumps to conclusions and assumes that my stance on clean beauty is rooted in apathy towards health, let me clarify: nothing could be further from the truth. I am deeply invested in health, both my own and that of others. I care about the health of my patients, and if you're reading this, I care about YOUR health too.<\/p><p><br\/>My frustration arises from witnessing companies resorting to fear mongering tactics and manipulating consumers' health concerns for their own gain, especially when it's based on false claims.<\/p><p><br\/>In case you're not familiar, fear mongering as a marketing tactic involves deliberately invoking fear and anxiety in consumers to influence their behavior, typically to promote a product. It plays on people's primal instincts and vulnerabilities, exploiting their fears to drive sales.<\/p><p><br\/>I've always maintained this stance, and I'll continue to stand by it: I strongly oppose companies exploiting people's insecurities by marketing their products based on feel-good actions and myths. It's unethical and manipulative, and it undermines consumers' trust and confidence in the products they buy. As consumers, you deserve transparency and honesty from companies, not deceptive marketing tactics designed to prey on our vulnerabilities.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-ageless-beauty-collection-final-16.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 0,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_K6YWkh": {
+      "type": "page_content",
+      "blocks": {
+        "text_ChQ8C9": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Those dose <em>always<\/em> makes the poison<\/h2><p><br\/>One of the fundamental issues with the \"clean beauty\" movement is its tendency to categorize ingredients into two simplistic categories like 'clean vs. dirty,' 'toxic vs. non-toxic,' or 'nasty vs. nice,' without considering the crucial factor of <em>dosage<\/em>. This oversimplification fails to acknowledge the nuanced nature of ingredient safety and overlooks the principle that \"the dose makes the poison.\"<\/p><p><br\/>For example, let's look at the ingredient 'water'. In everyday life, consuming water is not only safe, it is, in fact, necessary for proper bodily functions. It's a very 'safe' ingredient, right? <\/p><p>However, if someone were to consume an extreme amount of water within a short amount of time, it can lead to dangerously low sodium levels in the blood and even cause to death. <\/p><p><br\/>So - is water safe? or not? <\/p><p><br\/>You see, the key factor is not whether a substance is inherently \"safe\" or \"unsafe,\" but rather the amount consumed and the frequency of exposure. It is simply impossible to categorize ingredients into 'safe vs. not-safe' or 'toxic vs non-toxic' without also looking at the dose of the ingredient. <br\/><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ChQ8C9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-linen-collection-final-3.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_PdFfwr": {
+      "type": "page_content",
+      "blocks": {
+        "text_ANK6ND": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Hazard vs. Risk<\/h2><p>In toxicology (the science of how good and bad substances are for you), there’s the concept of a hazard versus a risk.<\/p><p>A <strong>hazard<\/strong> refers to something that has the <em>potential to cause harm<\/em>. <strong>Risk<\/strong>, on the other hand, is the<em> likelihood that harm will occur when exposed to that hazard<\/em>.<\/p><p>The <em>risk is a product between exposure and hazard<\/em>, which is just a fancy way of saying that if there is no exposure, even if the hazard is very high, the risk is very low. <\/p><p>And when you come to cosmetic products, it just means that a substance by itself is not good or bad – it is more how you are exposed to this substance that is so critical.<\/p><p>hazard in clean beauty refers to potentially harmful ingredients used in cosmetic products, while risk assesses the likelihood or probability of harm occurring when individuals are exposed to these ingredients. <br\/><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ANK6ND"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-linen-collection-final-3.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 15,
+        "padding_bottom": 0
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>How to tell if a study has <em>reliable findings<\/em>?<\/h2><p>If you want to critically evaluate   the reliability of a study's findings, your first step should be to assess the quality of the study's design. Some studies are so poorly designed that they are <em>scientifically retracted<\/em>. Retraction is a mechanism used by scientific journals to prevent the dissemination of inaccurate or misleading information.<\/p><p><br\/>Many factors of the study's design play a pivotal role in determining the validity and trustworthiness of its results.<\/p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1",
+        "eb77265d-d556-43be-a02b-594364880c74"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_64DTWf": {
+      "type": "page_content",
+      "blocks": {
+        "text_ghnxQF": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Some of the <em>key factors<\/em> that I always assess include:<\/h2><p><strong>• How was the study performed?<\/strong> (Was it done in a way that could distort the results?)<\/p><p><br\/><strong>• How many people participated? <\/strong>(Is that number adequate to reflect meaningful data?)<\/p><p><br\/><strong>• What was the duration of the study?<\/strong> (Was that amount of time able to capture accurate data?)<\/p><p><br\/><strong>• What was the control group? <\/strong>(Were all other variables isolated?)<\/p><p><br\/><strong>• How did they analyze the data? <\/strong>(Did it accurately measure what it intended to measure? Did they generalize the findings beyond the study sample?)<\/p><p><br\/>• And lastly, and arguably the most important factor to evaluate — <strong>who funded the study?<\/strong><\/p><p><br\/>Understanding the source of funding can provide insight into potential biases or conflicts of interest that may influence the study's outcomes. <\/p><p><br\/>If the person that is <strong>paying<\/strong> for the study is the one that is <strong>benefiting from the results<\/strong>, that is an <strong>immediate red flag<\/strong>. <\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ghnxQF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/521ec7ebf9ac644155371eaaf3a5c12c.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 33,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_jc9Wng": {
+      "type": "page_content",
+      "blocks": {
+        "text_UMzD8h": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Let's look at an example of <em>poor data analysis<\/em>:<\/h2><p>Oh, parabens... a prime victim of the clean beauty revolution.<\/p><p><br\/>Parabens, highly effective preservatives often found on 'dirty' lists, owe their vilification to a study from about 10 years ago, with, you guessed it, poor data analysis. The study concluded that parabens were hormonal or endocrine disruptors and would increase breast cancer risk.<\/p><p><br\/><strong>How did they come to that conclusion? <\/strong>By <em>injecting rats<\/em> with parabens.  <\/p><p><strong><br\/>But here's the thing:<\/strong><br\/><em>1. Humans are not rats.<br\/>2. Injecting something into the bloodstream is not the same as applying it topically.<br\/>3. The amount injected into the rat far exceeded any amount someone would realistically be exposed to.<\/em><\/p><p><br\/><strong>So, knowing that — did the study accurately measure what it intended to measure?<\/strong><\/p><p>No. They intended to measure if<strong> <\/strong><em>topical application<\/em><strong> <\/strong>of parabens<strong>  <\/strong>would cause endocrine disruption in <em>humans<\/em>, but the study tested <em>injected application in rats<\/em>.<\/p><p><br\/><strong>Did they generalize the findings beyond the study sample?<\/strong><\/p><p>Absolutely. Based on their findings with high doses of parabens injected into rats, they generalized their findings to topical applications of low doses of parabens in humans. <\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_UMzD8h"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lotion_in_hand.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 0,
+        "padding_bottom": 11
+      }
+    },
+    "section_custom_richtext_6hVp9J": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_GGaVrg": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>My hope is that this discussion has empowered you to make more informed beauty decisions and avoid falling prey to fear-based marketing tactics. <\/h3><h3>By equipping yourself with accurate information and engaging in critical thinking about ingredient safety, you can navigate the beauty product landscape with confidence and autonomy.<\/h3>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "heading_jNxnfj": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "text_GGaVrg",
+        "heading_jNxnfj"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 58
+      }
+    },
+    "page_content_WepKR6": {
+      "type": "page_content",
+      "blocks": {
+        "text_JxtWBt": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>The <em>dose<\/em> makes the poison<\/h2><p>Everything will kill you at a high enough dose. Prime example: water. We need it to live, right? Well, if we have too much water, you can die. Is that saying water is bad? Nope! The dose makes the poison.<br\/><br\/>You can't make a \"dirty\" or \"toxic\" list without dosage. On reports about paraben toxicity, there is no mention about doses. So, take what you see with a grain of salt!<br\/><br\/>They are trying to scare you into buying their products - don't cave. <\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_JxtWBt"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/13d9dc0db28d19a1cdd1ee43814ef576.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 33,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_PJBapM": {
+      "type": "page_content",
+      "blocks": {
+        "text_NrAypU": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>One more thing...does gluten free in skincare matter?<\/h2><p>Oh boy...the infamous question. Gluten is a GI problem, not a skincare problem. Unless you are eating your skincare, you do not need (or even need to know about) gluten free skincare.<br\/><br\/>Products applied topically do not go into your GI tract, so unless you have an anaphylactic reaction to gluten touching you (which you would know way before your skincare products)!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_NrAypU"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pixta_73370331_L_1_1400x_88f7e120-7471-4fb5-b2bb-bf9bb4fb9dec.webp",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 33,
+        "padding_bottom": 11
+      }
+    },
+    "section_custom_richtext_WhmYFW": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_ApCgmV": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Shop <em>science-backed<\/em>, effective skincare<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ApCgmV"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_g3LkcX": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_7e9LdX": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "boost-cell-turnover",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_7e9LdX"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 9,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "section_custom_richtext_TeNBBf",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "page_content_XncBbY",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "page_content_K6YWkh",
+    "page_content_PdFfwr",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "page_content_64DTWf",
+    "page_content_jc9Wng",
+    "section_custom_richtext_6hVp9J",
+    "page_content_WepKR6",
+    "page_content_PJBapM",
+    "section_custom_richtext_WhmYFW",
+    "section_tab_collections_g3LkcX",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

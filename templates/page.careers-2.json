@@ -1,0 +1,595 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "9db29659-d00e-4fb8-821a-5f449a8ec27c": {
+      "type": "section-featured-products",
+      "disabled": true,
+      "settings": {
+        "subheading": "Subheading",
+        "heading": "Best Sellers",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Shop Now",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "product_list": [
+          "product",
+          "acne-prone-bundle-1",
+          "the-age-defying-duo",
+          "elastiderm-facial-serum"
+        ],
+        "style": "grid",
+        "width": "wrapper",
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "dfbb01fa-0fda-415b-8672-ac44869a4fed": {
+      "type": "section-custom-hero",
+      "blocks": {
+        "template--14631786381396__dfbb01fa-0fda-415b-8672-ac44869a4fed-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<h1>Join The SBB Team<\/h1>",
+            "heading_size": 15,
+            "color": "#ffffff",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 4,
+            "mobile_title": "<h1>Join The SBB Team<\/h1>",
+            "mobile_heading_size": 15,
+            "mobile_color": "#ffffff",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 4
+          }
+        },
+        "template--14631786381396__dfbb01fa-0fda-415b-8672-ac44869a4fed-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_id": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button-align-class": "hero-button-center",
+            "mobile_link_text": "",
+            "mobile_link": "",
+            "mobile_button_id": "",
+            "mobile_button_type": "btn--white",
+            "mobile_button_size": "",
+            "mobile_button_style": "btn--solid",
+            "mobile_show_arrow": false,
+            "mobile_color": "#474545",
+            "mobile_button-align-class": "hero-button-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14631786381396__dfbb01fa-0fda-415b-8672-ac44869a4fed-heading-1",
+        "template--14631786381396__dfbb01fa-0fda-415b-8672-ac44869a4fed-button-1"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 750px) {h2 {font-size: calc(var(--font-10) * var(--FONT-ADJUST-HEADING)); }}"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "content_special_margin": 0,
+        "content_width": 100,
+        "mobile_content_width": 100,
+        "image_1": "shopify:\/\/shop_images\/haute-stock-photography-design-studio-final-2_1.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "same_content_as_desktop": true,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_margin_bottom": 0,
+        "flex_align_mobile": "align--bottom-center-mobile",
+        "mobile_content_margin_bottom": 2,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "dd9b0347-3bd9-4cde-8fce-5932c7092e91": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14631786381396__dd9b0347-3bd9-4cde-8fce-5932c7092e91-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Do you have dreams of something bigger and have this little voice inside your head that is nudging you because you know you’re meant for more? Well you may just be the right fit for our team.<\/h3>",
+            "text_size": 15,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14631786381396__dd9b0347-3bd9-4cde-8fce-5932c7092e91-text-1"
+      ],
+      "custom_css": [
+        "h3 {margin-top: -20px; max-width: 950px !important; color: #848080 !important; font-size: 28px !important; padding: 20px;}",
+        "@media only screen and (max-width: 749px) {h3 {font-size: 18px !important; max-width: 900px !important; padding: 25px 5px; padding-bottom: 0px; padding-top: 35px; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "ddf5f3bc-8d25-4ef2-908c-b6eaecd02aad": {
+      "type": "section-double",
+      "blocks": {
+        "template--14631786381396__ddf5f3bc-8d25-4ef2-908c-b6eaecd02aad-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>OUR TEAM<\/h4><h3>When you join our team, you will be joining a world class team who works hard, rejuvenates hard, laughs a lot, and is focused on driving results.<\/h3><p>While we are a young company, we are growing fast and will have ample growth runway for the right candidate. This just might be your dream job if you are mission-driven, highly motivated and committed to personal and professional growth, and are fueled by making an impact.<\/p>",
+            "text_size": 6,
+            "text_style": "font-body"
+          }
+        },
+        "template--14631786381396__ddf5f3bc-8d25-4ef2-908c-b6eaecd02aad-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "LEARN MORE ABOUT US",
+            "button_url": "",
+            "button_type": "btn--senary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14631786381396__ddf5f3bc-8d25-4ef2-908c-b6eaecd02aad-text-1",
+        "template--14631786381396__ddf5f3bc-8d25-4ef2-908c-b6eaecd02aad-buttons-1"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/bathrobe_girls.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "48962685-304c-417c-9713-c51a3aacd672": {
+      "type": "section-double",
+      "blocks": {
+        "template--14631856504916__48962685-304c-417c-9713-c51a3aacd672-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Our Mission<\/h4><h3>Skin By Blair is committed to uplifting women through elevated self-care. Through the development and delivery of innovative and effective skincare and aesthetic services, we help women transform their skin and build self-confidence that radiates from the inside out.<\/h3><p>We believe in the impact of love, care, and respect – for not only others, but yourself – which is why we create resources for those in pursuit of peace over perfection.<\/p>",
+            "text_size": 6,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14631856504916__48962685-304c-417c-9713-c51a3aacd672-text-1"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/relaxing.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 66
+      }
+    },
+    "4da2123f-4d0b-4ca7-88fb-6cf942c53647": {
+      "type": "section-custom-hero",
+      "blocks": {
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<h3>Current Openings<\/h3>",
+            "heading_size": 15,
+            "color": "#ffffff",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 4,
+            "mobile_title": "<p>Current Openings<\/p>",
+            "mobile_heading_size": 11,
+            "mobile_color": "#ffffff",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 4
+          }
+        },
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-text-1": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_style": "font-body",
+            "color": "#848080",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 1,
+            "mobile_description": "",
+            "mobile_text_size": 14,
+            "mobile_text_style": "font-body",
+            "mobile_color": "#848080",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 1
+          }
+        },
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View Open Roles",
+            "link": "",
+            "button_id": "",
+            "button_type": "btn--text-cl",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button-align-class": "hero-button-center",
+            "mobile_link_text": "View Open Roles",
+            "mobile_link": "",
+            "mobile_button_id": "",
+            "mobile_button_type": "btn--text-cl",
+            "mobile_button_size": "",
+            "mobile_button_style": "btn--solid",
+            "mobile_show_arrow": false,
+            "mobile_color": "#474545",
+            "mobile_button-align-class": "hero-button-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-heading-1",
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-text-1",
+        "template--14695493402708__4da2123f-4d0b-4ca7-88fb-6cf942c53647-button-1"
+      ],
+      "custom_css": [
+        ".btn {padding: 14px 30px; width: 90vw; max-width: 400px;}",
+        "@media only screen and (min-width: 750px) {.btn {width: 400px; bottom: 1rem; }}"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "content_special_margin": 0,
+        "content_width": 100,
+        "mobile_content_width": 100,
+        "image_1": "shopify:\/\/shop_images\/current_openings.png",
+        "link": "",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/haute-stock-photography-design-studio-final-2_1_49e45474-4ee0-4f77-a196-8d1905f7272d.png",
+        "same_content_as_desktop": false,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_margin_bottom": 0,
+        "flex_align_mobile": "align--bottom-center-mobile",
+        "mobile_content_margin_bottom": 1,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "8e8c282a-5129-4ef5-856f-2c82c4996025": {
+      "type": "section-careers",
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full-padded",
+        "padding_top": 68,
+        "padding_bottom": 20
+      }
+    },
+    "section_multicolumn_igVazf": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_YCE8Xj": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "",
+            "heading_size": 4,
+            "text": "<h5>We're hiring<\/h5><h3>Digital Marketing Coordinator<\/h3><h5>Full Time | local or remote<\/h5>",
+            "text_size": 3,
+            "button_text": "APPLY HERE",
+            "button_url": "shopify:\/\/pages\/digital-marketing-coordinator-job-listing",
+            "button_type": "btn--text-cl",
+            "button_style": "btn btn--text",
+            "show_arrow": false
+          }
+        },
+        "icon_QWD6DA": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "",
+            "heading_size": 4,
+            "text": "<h5>We're hiring<\/h5><h3>Aesthetic Injector <\/h3><h5>Full Time | Charlotte, NC<\/h5>",
+            "text_size": 3,
+            "button_text": "APPLY HERE",
+            "button_url": "shopify:\/\/metaobjects\/job_positions\/example-position",
+            "button_type": "btn--text-cl",
+            "button_style": "btn btn--text",
+            "show_arrow": false
+          }
+        },
+        "icon_ApjV8B": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "",
+            "heading_size": 4,
+            "text": "<h5>We're hiring<\/h5><h3>Social Media Manager<\/h3><h5>Full Time | local or remote<\/h5>",
+            "text_size": 3,
+            "button_text": "APPLY HERE",
+            "button_url": "shopify:\/\/pages\/social-media-manager",
+            "button_type": "btn--text-cl",
+            "button_style": "btn btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "icon_YCE8Xj",
+        "icon_QWD6DA",
+        "icon_ApjV8B"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "hide_icons": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "carousel"
+      }
+    },
+    "98f53fdf-edd4-4e6b-8126-76e52f12d628": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "divider_hUdgyp": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        },
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 8
+          }
+        },
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Experienced Aesthetic Injector<\/h2>",
+            "text_size": 12,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_PBRCgG": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "shopify:\/\/pages\/aesthetic-injector-opening",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "divider_B8feUV": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "divider_hUdgyp",
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-heading-1",
+        "template--14631786381396__98f53fdf-edd4-4e6b-8126-76e52f12d628-text-1",
+        "buttons_PBRCgG",
+        "divider_B8feUV"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--narrow",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "Careers-anchor",
+        "padding_top": 34,
+        "padding_bottom": 40
+      }
+    },
+    "section_custom_richtext_jMV36d": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_itgzLK": {
+          "type": "heading",
+          "settings": {
+            "title": "No current positions available",
+            "text_size": 8
+          }
+        },
+        "text_3D3KtP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please check again later!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_itgzLK",
+        "text_3D3KtP"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "Careers-anchor",
+        "padding_top": 34,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9db29659-d00e-4fb8-821a-5f449a8ec27c",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "dfbb01fa-0fda-415b-8672-ac44869a4fed",
+    "dd9b0347-3bd9-4cde-8fce-5932c7092e91",
+    "ddf5f3bc-8d25-4ef2-908c-b6eaecd02aad",
+    "48962685-304c-417c-9713-c51a3aacd672",
+    "4da2123f-4d0b-4ca7-88fb-6cf942c53647",
+    "8e8c282a-5129-4ef5-856f-2c82c4996025",
+    "section_multicolumn_igVazf",
+    "98f53fdf-edd4-4e6b-8126-76e52f12d628",
+    "section_custom_richtext_jMV36d"
+  ]
+}

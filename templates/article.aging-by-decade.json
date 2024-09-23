@@ -1,0 +1,516 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "What is skin cell turnover?",
+            "text_size": 9
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>I'm sure you've heard about skin cell turnover in certain stages of life and products that boost the process, so let's talk about the science behind it all!<\/h3>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skin cell turnover is the continuous rate at which the skin sheds off dead skin cells and later replaces them with younger, healthier cells. The rate of skin cell turnover can vary depending on factors such as age, genetics, hormonal changes, and environmental factors. In general, younger individuals tend to have a faster turnover rate, with skin cells being replaced more rapidly, while the turnover rate tends to slow down with age. <\/p><p><br\/>Maintaining a healthy rate of skin cell turnover is crucial for slowing down the visible signs of aging and keeping the skin looking youthful, radiant, and healthy.<br\/><br\/>If dead skin cells accumulate on the skin's surface, the skin can look dull and rough in appearance. Additionally, slow skin cell turnover can also cause a buildup of oil, dirt, and dead skin cells that can clog pores and lead to acne breakouts. <\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen-Shot-2021-02-11-at-4.webp",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_XncBbY": {
+      "type": "page_content",
+      "blocks": {
+        "text_BXrcph": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>How does cell turnover work?<\/h2><p>Skin cell turnover occurs through a simple process known as cell shifting. Cell shifting, also known as desquamation, refers to the movement of skin cells from the deeper layers of the epidermis towards the skin's surface, where they eventually shed. <\/p><p><br\/>As old skin cells are shed from the surface of the skin, new cells continue to be produced in the basal layer, ensuring the continuous renewal of the epidermis. This cycle of cell division, maturation, migration, and shedding is essential for maintaining healthy, youthful-looking skin.<\/p><p><br\/>As we age, this process slows down, leading to a variety of visible changes in the skin, such as dullness, rough texture, uneven pigmentation, and the formation of fine lines and wrinkles. However, adopting a skincare routine that promotes cell turnover, such as exfoliation and the use of topical retinoids, can help mitigate some of these effects and promote healthier, more youthful-looking skin.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_BXrcph"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gold-cosmetic-skin-cell-turnover-cycle_blog-image-2.webp",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Benefits of increased skin cell turnover: <\/h2><p><span style=\"text-decoration:underline\"><strong>Increases collagen production:<\/strong><\/span><strong> <\/strong>Skin cell turnover is closely linked to collagen production. Collagen is a protein that provides structure and firmness to the skin. As old skin cells are shed and replaced with new ones, it stimulates the production of collagen, which helps maintain skin elasticity and prevents sagging.<\/p><p><span style=\"text-decoration:underline\"><strong>Improves repair & healing:<\/strong><\/span><strong> <\/strong>Skin cell turnover is essential for repairing damage caused by environmental factors such as UV radiation, pollution, and oxidative stress. New skin cells replace damaged ones, aiding in the healing process and maintaining skin health.<\/p><p><span style=\"text-decoration:underline\"><strong>Reduces wrinkles:<\/strong><\/span><strong> <\/strong>A faster rate of skin cell turnover can help reduce the appearance of wrinkles and fine lines. New skin cells replace older ones, resulting in smoother, more youthful-looking skin.<\/p><p><span style=\"text-decoration:underline\"><strong>Evens skin tone:<\/strong><\/span> Skin cell turnover also helps improve skin tone by reducing hyperpigmentation and discoloration. As old, damaged cells are shed and replaced with new ones, it can result in a more even complexion.<\/p><p><span style=\"text-decoration:underline\"><strong>Prevents clogged pores & acne:<\/strong><\/span><strong> <\/strong>Increased skin cell turnover helps prevent the buildup of oil, dirt, and dead skin cells that can clog pores and lead to acne breakouts.<\/p><p><span style=\"text-decoration:underline\"><strong>Enhances penetration of skincare products:<\/strong><\/span><strong> <\/strong>By exfoliating the outermost layer of the epidermis, the barriers are removed that may hinder the absorption of beneficial ingredients such as antioxidants, moisturizers, and collagen-boosting peptides. This enhanced penetration can further support skin health and function.<\/p><p><\/p><p><\/p><p><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/iStock-1332654604.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 33,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_K6YWkh": {
+      "type": "page_content",
+      "blocks": {
+        "text_ChQ8C9": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>How to boost skin cell turnover:<\/h2><p>If you've made it this far, you probably want to learn the \"secret\" in boosting your natural cell turnover. Here are my favorite ingredients for increasing the rate of cellular turnover:<\/p><p><strong><br\/>1. HYDROXY ACIDS: <\/strong><br\/>Hydroxy acids, such as glycolic, lactic, and salicylic acid, work by breaking down the bonds that hold dead skin cells together, facilitating their removal from the skin's surface, while also stimulating the skin's natural renewal process. <\/p><p><strong><br\/>2. RETINOIDS: <\/strong><br\/>Retinoids, such as retinol, retinaldehyde, and retinoic acid, are renowned for their ability to increase skin cell turnover. They work by stimulating cell proliferation in the basal layer of the epidermis, where new skin cells are formed, which increases the production of fresh, healthy skin cells.<\/p><p><br\/><strong>3. BAKUCHIOL: <\/strong><br\/>Bakuchiol is a natural compound that has gained attention in skincare for its retinol-like effects without the potential side effects associated with retinoids. It is thought to work by activating pathways involved in regulating cell proliferation, leading to increased cell turnover.<br\/>Other helpful tips are staying hydrated and using sunscreen EVERY DAY (yes, even when it's cloudy out)!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ChQ8C9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_3666.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 15,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_richtext_BctJE3": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_7zQfzT": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Shop products that boost skin cell turnover<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_7zQfzT"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_g3LkcX": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_7e9LdX": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "boost-cell-turnover",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_7e9LdX"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 9,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "page_content_XncBbY",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "page_content_K6YWkh",
+    "section_custom_richtext_BctJE3",
+    "section_tab_collections_g3LkcX",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

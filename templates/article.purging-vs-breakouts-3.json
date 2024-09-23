@@ -1,0 +1,732 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": true,
+        "show_author": true,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "88bc965e-f014-4eed-978a-81c54d98cb4c": {
+          "type": "heading",
+          "settings": {
+            "title": "Understanding The Difference: Breakouts vs. Purging",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "88bc965e-f014-4eed-978a-81c54d98cb4c"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Embarking on a new skincare journey can be exciting yet challenging, especially when it seems like your skin is rebelling against the very products meant to improve it. If you've recently started a new skincare product and noticed an increase in breakouts, you might be wondering if you're on the right track. Fear not, for what you're experiencing might just be a temporary phenomenon known as purging.<\/h3>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-13_at_5.21.45_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "e10604ee-2959-4cfc-b98b-8fc2b04687d7": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14705319870548__e10604ee-2959-4cfc-b98b-8fc2b04687d7-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14705319870548__e10604ee-2959-4cfc-b98b-8fc2b04687d7-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14705319870548__e10604ee-2959-4cfc-b98b-8fc2b04687d7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><em>When it comes to skincare, not all breakouts are created equal. <\/em> It's crucial to differentiate between regular acne breakouts and the process of purging, which occurs after introducing certain active ingredients to your routine.<\/h3><h3><\/h3><h4><strong>ACNE BREAKOUTS:<\/strong><\/h4><p>Acne breakouts occur when your pores become clogged with excess oil, dead skin cells, and bacteria. These blemishes can take the form of whiteheads, blackheads, papules, pustules, or even cysts. Acne breakouts are a result of existing factors within your skin and are not influenced by new products.<\/p><h4><strong>PURGING:<\/strong><\/h4><p>Purging, on the other hand, happens when you introduce a new skincare product that accelerates your skin's cell turnover rate. Ingredients like retinoids, exfoliating acids (aka Tonic!), and some treatments can trigger purging. This process involves bringing underlying impurities to the surface more rapidly, leading to an initial increase in breakouts. However, these breakouts are temporary and should clear up as your skin adjusts to the new product.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14705319870548__e10604ee-2959-4cfc-b98b-8fc2b04687d7-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14705319870548__e10604ee-2959-4cfc-b98b-8fc2b04687d7-subheading-1",
+        "template--14705319870548__e10604ee-2959-4cfc-b98b-8fc2b04687d7-heading-1",
+        "template--14705319870548__e10604ee-2959-4cfc-b98b-8fc2b04687d7-text-1",
+        "template--14705319870548__e10604ee-2959-4cfc-b98b-8fc2b04687d7-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p><p>As you can see, retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/>My #1 recommendation will always be <a href=\"https:\/\/www.skinbyblair.com\/products\/ret-de-la-blair\" title=\"https:\/\/www.skinbyblair.com\/products\/ret-de-la-blair\"><strong>Ret de la Blair<\/strong><\/a> because it stimulates more collagen than retinol with little to no irritation to the skin. This is a great option for dry skin, sensitive skin, acne-prone skin, reactive skin, and\/or those suffering with rosacea. However, Ret de la Blair is still out of stock (you can sign up to be notificed when it's back in stock here!). So in the meantime, <a href=\"https:\/\/www.skinbyblair.com\/products\/retivance-skin-rejuvenating-complex\" title=\"https:\/\/www.skinbyblair.com\/products\/retivance-skin-rejuvenating-complex\"><strong>Obagi Retivance<\/strong><\/a> is another <strong>retinaldehyde <\/strong>that will get you through until Ret restocks<\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1",
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Email_4_-_Ingredient_Breakdown_1400_x_3000_px_-3.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Understanding The Difference: Breakouts vs. Purging<\/h3><p>When it comes to skincare, not all breakouts are created equal. It's crucial to differentiate between regular acne breakouts and the process of purging, which occurs after introducing certain active ingredients to your routine.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>ACNE BREAKOUTS:<\/strong><\/h4><p>Acne breakouts occur when your pores become clogged with excess oil, dead skin cells, and bacteria. These blemishes can take the form of whiteheads, blackheads, papules, pustules, or even cysts. Acne breakouts are a result of existing factors within your skin and are not influenced by new products.<\/p><h4><strong>PURGING:<\/strong><\/h4><p>Purging, on the other hand, happens when you introduce a new skincare product that accelerates your skin's cell turnover rate. Ingredients like retinoids, exfoliating acids (aka Tonic!), and some treatments can trigger purging. This process involves bringing underlying impurities to the surface more rapidly, leading to an initial increase in breakouts. However, these breakouts are temporary and should clear up as your skin adjusts to the new product.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "967819a1-a504-4580-b170-da1a5be9f557": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop ACNE",
+            "button_url": "shopify:\/\/collections\/acne-prone",
+            "button_type": "btn--text-cl",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1",
+        "967819a1-a504-4580-b170-da1a5be9f557"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708": {
+      "type": "page_content",
+      "blocks": {
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Why Does Purging Occur?<\/em><\/h2><p><\/p><p>It's frustrating - I completely get it! So why does it happen? When you introduce a product that promotes cell turnover, your skin goes through a renewal process. This increased turnover can cause clogs and trapped impurities to rise to the surface more quickly than usual. While this might initially result in an influx of breakouts, it's actually a positive sign that your skin is shedding old layers and making way for healthier, clearer skin underneath!<\/p><h3>   <\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Acne_393d950b-8680-4e97-ade9-6a5b2c0473be.png",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "d35dffa5-d86b-400e-b209-a10fd8f12ba4": {
+      "type": "page_content",
+      "blocks": {
+        "b1f39fe4-ef30-45ef-a4f9-bd556ce9e953": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>How Long Does Purging Last?<\/em><\/h2><p>Purging typically lasts anywhere from 6 to 8 weeks, depending on your skin's individual response and the specific product you're using, however could last up to 12 weeks if you are using the product less frequently. This \"purging\" period allows your skin to fully adjust to the new ingredients and settle into its improved state. It's important to note that during this time, it might seem like your skin is getting worse before it gets better, but hang in there – the end results are well worth it!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "b1f39fe4-ef30-45ef-a4f9-bd556ce9e953"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5409471ec5b2df096e456afcb558a467.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 45,
+        "padding_bottom": 11
+      }
+    },
+    "165b7ab1-e827-40e7-a3e5-015fbcba5c01": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "There are two main types of Vitamin C - let's chat through them!",
+            "text_size": 8
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Navigating The Purging Phase<\/em><\/h2><h4><strong>1. Be Patient<\/strong><\/h4><p>Understanding that purging is a temporary phase (and that the results are worth it!) can help you stay patient and committed to your new skincare routine.<\/p><h4><strong>2. Maintain Consistency<\/strong><\/h4><p>Consistency is key when introducing new products. Stick to the recommended usage and application frequency to help your skin adapt more smoothly.<br\/><\/p><h4><strong>3. Hydration is Essential<\/strong><\/h4><p>Keep your skin hydrated, as active ingredients can often lead to skin dryness. A good moisturizer can help balance your skin's hydration levels and keep your skin barrier intact.<\/p><h4><strong>4. Sun Protection<\/strong><\/h4><p>Since your skin might be more sensitive during this period, protecting it from the sun's harmful rays with sunscreen is vital!<\/p><p><\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "403d9c03-b503-4eb1-a5c7-43c8d0fd6c1a": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>The Bright Side To Purging!<\/em><\/h2><p>As daunting as the purging phase may be, it's important to remember that it's a stepping stone toward achieving your skincare goals. The initial breakouts are a testament to the active ingredients' effectiveness in revealing healthier, clearer skin. Once your skin has purged the impurities, you're likely to notice a significant improvement in texture, tone, and overall complexion.<br\/><br\/>In the pursuit of the radiant and flawless skin we are wanting, it's crucial to understand the difference between normal acne breakouts and the temporary purging phase that occurs after introducing certain active ingredients. By staying patient, maintaining consistency, and embracing the journey, you'll emerge with the clear, bright skin you've been longing for. So, if you find yourself in the midst of a purging episode, remember that the road to skincare success is paved with a few initial bumps – but it will be SO worth it once your skin adapts!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-subheading-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-heading-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-text-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-buttons-1",
+        "403d9c03-b503-4eb1-a5c7-43c8d0fd6c1a"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Recommended products<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "e10604ee-2959-4cfc-b98b-8fc2b04687d7",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8",
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708",
+    "d35dffa5-d86b-400e-b209-a10fd8f12ba4",
+    "165b7ab1-e827-40e7-a3e5-015fbcba5c01",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

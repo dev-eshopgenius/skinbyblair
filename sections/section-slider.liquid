@@ -1,0 +1,195 @@
+
+{% style %}
+
+#image-slider--{{ section.id }} button.flickity-button {
+    border-radius: 50%;
+}
+
+#image-slider--{{ section.id }} .flickity-prev-next-button:before {
+    background-color: #DBD3CE;
+}
+
+#image-slider--{{ section.id }} img.borderless-card-img.card-img-slider.card-img-slider {
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+}
+
+p.card-img-slider-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#image-slider--{{ section.id }} .custom-article-cell .borderless-card {
+    padding: 0px !important;
+}
+
+    #image-slider--{{ section.id }} {
+        padding: {{ section.settings.padding_top }}px 0px {{ section.settings.padding_bottom }}px 0px;
+        {%- if section.settings.background_color != blank -%}
+            background-color: {{ section.settings.background_color }} !important;
+        {%- endif -%}
+    }
+
+    #image-slider--{{ section.id }} .carousel-cell.custom-article-cell {
+        width: 25%;
+        height: 100%;
+        margin-right: 28px;
+        background: transparent;
+        border-radius: 5px;
+        counter-increment: carousel-cell;
+    }
+
+    #image-slider--{{ section.id }} .custom-articles-carousel .flickity-viewport {
+        height: 435px;
+    }
+
+    #image-slider--{{ section.id }} .custom-articles-carousel .flickity-page-dots .flickity-page-dot {
+        background: transparent;
+        border: 3px solid white;
+        width: 12px;
+        height: 12px;
+    }
+
+    #image-slider--{{ section.id }} .custom-articles-carousel .flickity-page-dots .flickity-page-dot.is-selected {
+        background: white;
+        border: 3px solid white;
+    }
+
+    
+    #image-slider--{{ section.id }} .card-img-slider-container {
+  width: 100% !important;
+  height: 367px !important;
+}
+
+    @media only screen and (max-width: 749px) {
+        #image-slider--{{ section.id }} .carousel-cell.custom-article-cell {
+            width: 200px !important;
+            height: 100%;
+            margin-right: 28px;
+            background: transparent;
+            border-radius: 5px;
+            counter-increment: carousel-cell;
+        }
+
+        #image-slider--{{ section.id }} .card-img-slider-container {
+            height: 200px !important;
+            width: 200px !important;
+        }
+
+        #image-slider--{{ section.id }} .custom-articles-carousel .flickity-viewport {
+        height: 275px;
+    }
+    #image-slider--{{ section.id }} img.borderless-card-img.card-img-slider.card-img-slider {
+        width: 200px;
+        height: 200px;
+        contain: cover;
+    }
+    #image-slider--{{ section.id }} .custom-article-cell .borderless-card {
+    padding: 0px !important;
+    max-width: 200px !important; 
+    }
+    }
+
+{% endstyle %}
+
+<section id="image-slider--{{ section.id }}">
+    <div class="carousel custom-articles-carousel"
+    data-flickity='{ "wrapAround": true, "pageDots": false, "arrowShape": "M18.5 12H6m0 0l6-6m-6 6l6 6", "setGallerySize": false }'>
+    {% for block in section.blocks %}
+        <div class="carousel-cell custom-article-cell">
+            <div class="borderless-card">
+                <div class="card-img-slider-container"><img class="borderless-card-img card-img-slider" src="{{ block.settings.image_with_text_image | img_url: '367x367' }}" alt="{{ block.settings.content }}"></div>
+                <div class="borderless-card-content">
+                    {% if block.settings.content %}
+                        <p class="card-img-slider-content">{{ block.settings.content }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</section>
+
+<script>
+    document.addEventListener('shopify:section:load', function(event) {
+        if(event.target.id == 'shopify-section-{{ section.id}}') {
+            setTimeout(() => {
+                window.location.reload();
+            }, 1500)
+        }
+    });
+</script>
+
+{% schema %}
+    {
+        "name": "On the Blog",
+        "class": "section-on-the-blog",
+        "settings": [
+            {
+                "type": "range",
+                "id": "padding_top",
+                "label": "Padding Top",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "default": 20
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "label": "Padding Bottom",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "default": 20
+            },
+            {
+                "type": "color",
+                "id": "background_color",
+                "label": "Background Color"
+            }
+        ],
+        "max_blocks": 9,
+        "blocks": [
+            {
+                "type": "card",
+                "name": "Card",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image_with_text_image",
+                        "label": "Image"
+                      },
+                    {
+                        "type": "text",
+                        "id": "content",
+                        "label": "Content"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom image Slider",
+                "category": "Image",
+                "blocks": [
+                    {
+                    "type": "card"
+                    },
+                    {
+                    "type": "card"
+                    },
+                    {
+                    "type": "card"
+                    },
+                    {
+                    "type": "card"
+                    },
+                    {
+                    "type": "card"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

@@ -1,0 +1,643 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_hero_VwfnKb": {
+      "type": "section-custom-hero",
+      "blocks": {
+        "heading_qwJ8nL": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>The Self-Care Crew<\/p>",
+            "heading_size": 13,
+            "color": "#ffffff",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 4,
+            "mobile_title": "<h1>Image banner<\/h1>",
+            "mobile_heading_size": 11,
+            "mobile_color": "#848080",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 4
+          }
+        },
+        "text_cFKhWQ": {
+          "type": "text",
+          "settings": {
+            "description": "Join our journey to radiant skin and inner peace.",
+            "text_style": "font-body",
+            "color": "#ffffff",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 1,
+            "mobile_description": "Tell your brand's story through images.",
+            "mobile_text_size": 16,
+            "mobile_text_style": "font-body",
+            "mobile_color": "#ffffff",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 1
+          }
+        },
+        "button_rAX3Vj": {
+          "type": "button",
+          "settings": {
+            "link_text": "Login to Account",
+            "link": "",
+            "button_id": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button-align-class": "hero-button-center",
+            "mobile_link_text": "Login to Account",
+            "mobile_link": "",
+            "mobile_button_id": "",
+            "mobile_button_type": "btn--primary",
+            "mobile_button_size": "",
+            "mobile_button_style": "btn--solid",
+            "mobile_show_arrow": false,
+            "mobile_color": "#848080",
+            "mobile_button-align-class": "hero-button-center"
+          }
+        },
+        "button_QE3rQV": {
+          "type": "button",
+          "settings": {
+            "link_text": "Sign Up",
+            "link": "",
+            "button_id": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button-align-class": "hero-button-center",
+            "mobile_link_text": "View products",
+            "mobile_link": "",
+            "mobile_button_id": "",
+            "mobile_button_type": "btn--primary",
+            "mobile_button_size": "",
+            "mobile_button_style": "btn--solid",
+            "mobile_show_arrow": false,
+            "mobile_color": "#848080",
+            "mobile_button-align-class": "hero-button-center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qwJ8nL",
+        "text_cFKhWQ",
+        "button_rAX3Vj",
+        "button_QE3rQV"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "content_special_margin": 0,
+        "content_width": 100,
+        "mobile_content_width": 100,
+        "image_1": "shopify:\/\/shop_images\/Rewards_Hero_BG.webp",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "same_content_as_desktop": true,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_margin_bottom": 0,
+        "flex_align_mobile": "align--middle-center-mobile",
+        "mobile_content_margin_bottom": 0,
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "browse_at_glance_YNHxrb": {
+      "type": "browse_at_glance",
+      "settings": {
+        "width": "wrapper",
+        "alternative_style": false,
+        "bg_color": "",
+        "color": "#848080",
+        "desktop_text_alignment": "text-center",
+        "mobile_text_alignment": "mobile-text-center",
+        "title": "As a member of the Self-Care Crew…",
+        "content": "You are at the core of Blair Skincare, and The Self-Care Crew is our way of celebrating you. With exclusive perks, self-care inspiration, and a community built on confidence and compassion, this journey is all about empowering you—because without you, we wouldn’t glow as bright!",
+        "menu": "",
+        "padding_top": 60,
+        "padding_bottom": 32
+      }
+    },
+    "section_custom_richtext_9QFQkc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_mAP89n": {
+          "type": "heading",
+          "settings": {
+            "title": "As a member of the Self Care Crew…",
+            "text_size": 8
+          }
+        },
+        "text_4mCcmf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You are at the core of Blair Skincare, and The Self Care Crew is our way of celebrating you. With exclusive perks, self-care inspiration, and a community built on confidence and compassion, this journey is all about empowering you—because without you, we wouldn’t glow as bright!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mAP89n",
+        "text_4mCcmf"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--narrow",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_richtext_XKL9JB": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_EJEQgC": {
+          "type": "heading",
+          "settings": {
+            "title": "Tiers & Benefits",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_EJEQgC"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_columns_kxxj8G": {
+      "type": "section-columns",
+      "blocks": {
+        "image_A8MtTV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BlairSkincare-Tiers_Benefits.svg",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_A8MtTV"
+      ],
+      "custom_css": [
+        ".column__image {max-height: inherit; width: 940px;}",
+        "@media (max-width: 768px) {.column__image {width: 100%; max-height: inherit; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-left",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "column_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "text_content_padding": false,
+        "layout_mobile": "grid"
+      }
+    },
+    "section_custom_hero_7eF8fe": {
+      "type": "section-custom-hero",
+      "blocks": {
+        "heading_K6AeP6": {
+          "type": "heading",
+          "settings": {
+            "title": "<h1>Image banner<\/h1>",
+            "heading_size": 11,
+            "color": "#848080",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 4,
+            "mobile_title": "<h1>Image banner<\/h1>",
+            "mobile_heading_size": 11,
+            "mobile_color": "#848080",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 4
+          }
+        },
+        "text_gWykgG": {
+          "type": "text",
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_style": "font-body",
+            "color": "#848080",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 1,
+            "mobile_description": "Tell your brand's story through images.",
+            "mobile_text_size": 14,
+            "mobile_text_style": "font-body",
+            "mobile_color": "#848080",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_K6AeP6",
+        "text_gWykgG"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "content_special_margin": 0,
+        "content_width": 100,
+        "mobile_content_width": 100,
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "same_content_as_desktop": true,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_margin_bottom": 0,
+        "flex_align_mobile": "align--middle-center-mobile",
+        "mobile_content_margin_bottom": 0,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_richtext_zBnX3W": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_NqUgdH": {
+          "type": "heading",
+          "settings": {
+            "title": "How The Self-Care Crew Supports Your Journey",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_NqUgdH"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 48
+      }
+    },
+    "section_custom_standard_double_tjBQUi": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_Etw7mt": {
+          "type": "heading",
+          "settings": {
+            "title": "Free Gifts with Each Milestone",
+            "title2": "Free Gifts with Each Milestone",
+            "text_size": 8
+          }
+        },
+        "text_Xrbbbc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a Self-Care Crew member, every milestone brings a special celebration. From birthday surprises to anniversary perks and exclusive merch, enjoy exclusive gifts that elevate your self-care journey.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Etw7mt",
+        "text_Xrbbbc"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify:\/\/shop_images\/Value_Prop_1_-_Free_Gifts.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_WFiBwC": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_pJ8Lda": {
+          "type": "heading",
+          "settings": {
+            "title": "Personalized Self-Care Perks",
+            "title2": "Personalized Self-Care Perks",
+            "text_size": 8
+          }
+        },
+        "text_VNYgUG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Earn points on every purchase and receive tailored rewards that are unique to your skincare goals. Unlock benefits that boost your routine, enhance your confidence, and help you glow from within.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pJ8Lda",
+        "text_VNYgUG"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify:\/\/shop_images\/Value_Prop_2_-_Personalized.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_standard_double_EpEpgQ": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_jEyaH8": {
+          "type": "heading",
+          "settings": {
+            "title": "Access to Blair and Her Community",
+            "title2": "Access to Blair and Her Community",
+            "text_size": 8
+          }
+        },
+        "text_BpgUrr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get more than just great skin—enjoy personalized skincare consultations, early access to product launches, and invitations to Blair Skincare masterclasses and retreats. Your journey is our priority.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jEyaH8",
+        "text_BpgUrr"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify:\/\/shop_images\/Value_Prop_3_Image_-_Access_to_Blair.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "section_custom_richtext_zd94Db": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_dRADQH": {
+          "type": "heading",
+          "settings": {
+            "title": "Have any questions?",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_dRADQH"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 60,
+        "padding_bottom": 32
+      }
+    },
+    "section_accordion_group_p8rEMP": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "question_7HgQ88": {
+          "type": "question",
+          "settings": {
+            "title": "What is The Self-Care Crew?",
+            "content": "<p>The Self-Care Crew is Blair Skincare’s loyalty program designed to reward you for investing in your self-care. The more you shop and engage with Blair Skincare, the more rewards, exclusive experiences, and perks you unlock.<\/p>"
+          }
+        },
+        "question_Y87UMt": {
+          "type": "question",
+          "settings": {
+            "title": "How do I join The Self-Care Crew?",
+            "content": "<p>Joining is easy! Simply create an account with Blair Skincare, and you'll be automatically enrolled in The Self-Care Crew. If you already have an account, you're already part of the program. Just log in to start earning points.<\/p>"
+          }
+        },
+        "question_R4Cp3k": {
+          "type": "question",
+          "settings": {
+            "title": "How do I earn points?",
+            "content": "<p>You can earn points by making purchases and completing challenges, which can include a variety of different activities like subscribing to products, leaving reviews, staying connected via SMS and email,  following us on social media, sharing your birthday and skincare goals, and participating in special challenges or promotions. For every dollar spent, you earn 10 points!<\/p>"
+          }
+        },
+        "question_KHWDzQ": {
+          "type": "question",
+          "settings": {
+            "title": "How do I check my points and rewards?",
+            "content": "<p>You can track your points and see your available rewards by logging into your Blair Skincare account and visiting the loyalty dashboard. Your tier status and rewards will be clearly displayed.<\/p>"
+          }
+        },
+        "question_Y3xfgC": {
+          "type": "question",
+          "settings": {
+            "title": "How is my tier determined?",
+            "content": "<p>Your tier is determined by the total points you've earned. The more points you accumulate, the higher your tier, unlocking exclusive benefits (immediately)  at each level.<\/p>"
+          }
+        },
+        "question_TMtALg": {
+          "type": "question",
+          "settings": {
+            "title": "What rewards do I get at each tier?",
+            "content": "<p>Each tier unlocks different rewards, such as birthday gifts, exclusive skincare consultations, early access to new products, free shipping, and even exclusive Blair Skincare merch! The full list of rewards is available in your dashboard.<\/p>"
+          }
+        },
+        "question_JxXVFt": {
+          "type": "question",
+          "settings": {
+            "title": "Can my points expire?",
+            "content": "<p>Yes, your points will expire 12 months after they were earned. Be sure to keep engaging with The Self-Care Crew to maintain your points and tier status.<\/p>"
+          }
+        },
+        "question_bJHFYC": {
+          "type": "question",
+          "settings": {
+            "title": "What happens if I return a purchase?",
+            "content": "<p>If you return an item, the points earned from that purchase will be deducted from your account. If the return affects your tier status, your tier status may be adjusted accordingly.<\/p>"
+          }
+        },
+        "question_qkAD78": {
+          "type": "question",
+          "settings": {
+            "title": "How do I move up to the next tier?",
+            "content": "<p>To move up a tier, continue earning points by shopping, participating in challenges, or engaging with Blair Skincare. Once you reach a new point threshold, you'll automatically unlock the next tier's rewards and be notified.<\/p>"
+          }
+        },
+        "question_9A8rQG": {
+          "type": "question",
+          "settings": {
+            "title": "What if I have questions or need help?",
+            "content": "<p>Our dedicated Skin Support Line is here to help! As a member of The Self-Care Crew, you can access our support team for personalized advice and skincare recommendations.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_7HgQ88",
+        "question_Y87UMt",
+        "question_R4Cp3k",
+        "question_KHWDzQ",
+        "question_Y3xfgC",
+        "question_TMtALg",
+        "question_JxXVFt",
+        "question_bJHFYC",
+        "question_qkAD78",
+        "question_9A8rQG"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_custom_richtext_McXLBD": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "heading_BtqKLn": {
+          "type": "heading",
+          "settings": {
+            "title": "Need more help?",
+            "text_size": 8
+          }
+        },
+        "buttons_deTX3A": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Send us an email",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BtqKLn",
+        "buttons_deTX3A"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 60,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_custom_hero_VwfnKb",
+    "browse_at_glance_YNHxrb",
+    "section_custom_richtext_9QFQkc",
+    "section_custom_richtext_XKL9JB",
+    "section_columns_kxxj8G",
+    "section_custom_hero_7eF8fe",
+    "section_custom_richtext_zBnX3W",
+    "section_custom_standard_double_tjBQUi",
+    "section_custom_standard_double_WFiBwC",
+    "section_custom_standard_double_EpEpgQ",
+    "section_custom_richtext_zd94Db",
+    "section_accordion_group_p8rEMP",
+    "section_custom_richtext_McXLBD"
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "867c6099-0981-41a7-8ba9-82e1cbc89f4f": {
+      "type": "section-double",
+      "blocks": {
+        "template--14630197395540__867c6099-0981-41a7-8ba9-82e1cbc89f4f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Giving Back<\/h4><h2>Our give-back initiative supports people in need through an intentional & dedicated approach. <\/h2><p>We’ve seen the immense impact you can have on someone’s skin and confidence by serving them in an individualized way, so it only made sense that we take the same approach in our charitable efforts.<\/p><p><br\/>We aim to uplift causes that are genuinely close to home — so you can witness the impact your generous contribution has on someone’s overall quality of life.<\/p>",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14630197395540__867c6099-0981-41a7-8ba9-82e1cbc89f4f-text-1"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/giving_back_image.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "96215795-1e87-4927-a14d-97072610ece8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14633846440020__96215795-1e87-4927-a14d-97072610ece8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Driven by our heart for service<\/h4><h3><br\/>Empower your giving experience by personally selecting the charity of your choice, enabling you to make a meaningful impact on  causes that matter most to you<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14633846440020__96215795-1e87-4927-a14d-97072610ece8-text-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: calc(var(--font-7) * 0.75);}",
+        "h3 {max-width: 740px;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "4a2c1a65-ab6b-44d5-b1ca-73aa6dc73b3d": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "76d247fd-424b-476d-bad2-3344e7b267d9": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>PURPOSE WITH YOUR PURCHASE<\/h4><h3>Empower your giving experience by personally selecting the charity of your choice, <br\/>enabling you to make a meaningful impact on causes that matter most to you.<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "76d247fd-424b-476d-bad2-3344e7b267d9"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "286eb203-9d46-45d7-a1ad-7f38ae71f11d": {
+      "type": "section-slider",
+      "blocks": {
+        "template--14633846440020__286eb203-9d46-45d7-a1ad-7f38ae71f11d-card-1": {
+          "type": "card",
+          "settings": {
+            "image_with_text_image": "shopify:\/\/shop_images\/house_in_fire.png",
+            "content": "CHRISTOPHER'S HAVEN: A home for kids and their families while they battle pediatric cancer"
+          }
+        },
+        "template--14633846440020__286eb203-9d46-45d7-a1ad-7f38ae71f11d-card-2": {
+          "type": "card",
+          "settings": {
+            "image_with_text_image": "shopify:\/\/shop_images\/super_hero_kid.png",
+            "content": "Funding for families to be housed while their child receives medical treatment"
+          }
+        },
+        "template--14633846440020__286eb203-9d46-45d7-a1ad-7f38ae71f11d-card-3": {
+          "type": "card",
+          "settings": {
+            "image_with_text_image": "shopify:\/\/shop_images\/teacher_and_kids_reutilizing_materials.png",
+            "content": "Clearing the list for a deserving teacher"
+          }
+        },
+        "template--14633846440020__286eb203-9d46-45d7-a1ad-7f38ae71f11d-card-4": {
+          "type": "card",
+          "settings": {
+            "image_with_text_image": "shopify:\/\/shop_images\/little_girl_crying.jpg",
+            "content": "Support for an individual who experienced a sudden death in their family"
+          }
+        }
+      },
+      "block_order": [
+        "template--14633846440020__286eb203-9d46-45d7-a1ad-7f38ae71f11d-card-1",
+        "template--14633846440020__286eb203-9d46-45d7-a1ad-7f38ae71f11d-card-2",
+        "template--14633846440020__286eb203-9d46-45d7-a1ad-7f38ae71f11d-card-3",
+        "template--14633846440020__286eb203-9d46-45d7-a1ad-7f38ae71f11d-card-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4e586892-1903-446f-902f-cc8821e6900a": {
+      "type": "section-double",
+      "blocks": {
+        "15e5d42d-248f-4d8e-a2e7-b8c6f84df27c": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>how it works<\/h4>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "61099fdd-48aa-458a-82b7-efd5ed4c74d5": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Ongoing Contributions",
+            "text_size": 8
+          }
+        },
+        "template--14630197395540__4e586892-1903-446f-902f-cc8821e6900a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Ongoing Contributions<\/h2><p>1% of all Skin By Blair sales are donated directly to the charity of your choice. As an SBB customer, you also have the opportunity to contribute an additional gift at your discretion.<\/p>",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "15e5d42d-248f-4d8e-a2e7-b8c6f84df27c",
+        "61099fdd-48aa-458a-82b7-efd5ed4c74d5",
+        "template--14630197395540__4e586892-1903-446f-902f-cc8821e6900a-text-1"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/notebook.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "11ed6a1b-3425-4795-b5cd-fddd26d9a1bd": {
+      "type": "section-double",
+      "blocks": {
+        "template--14630197395540__11ed6a1b-3425-4795-b5cd-fddd26d9a1bd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>how it works<\/h4><h2>Support Your Favorite Causes <\/h2><p>Personally select the charity of your choice and make a meaningful impact on causes that matter most to you.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14630197395540__11ed6a1b-3425-4795-b5cd-fddd26d9a1bd-text-1"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/laptop.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "52fdedf7-614e-451e-b941-e6b2675402c4": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14630197395540__52fdedf7-614e-451e-b941-e6b2675402c4-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3>We’re committed to transparency so you always know exactly who your contributions have impacted. A receipt of all donations is documented AND shared here.<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "c4ace8cc-5d06-4e92-8b2b-68120df88b3c": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "read the receipts",
+            "button_url": "",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14630197395540__52fdedf7-614e-451e-b941-e6b2675402c4-text-1",
+        "c4ace8cc-5d06-4e92-8b2b-68120df88b3c"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__button {margin-top: 15px;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "776eceee-1f83-4d72-b406-d4e536e68c4f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14633846440020__776eceee-1f83-4d72-b406-d4e536e68c4f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>your impact<\/h4><h3>Every dollar counts and inspires meaningful change in our community.<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14633846440020__776eceee-1f83-4d72-b406-d4e536e68c4f-text-1"
+      ],
+      "custom_css": [
+        "h3 {margin-top: -15px;}",
+        "@media only screen and (max-width: 750px) {h3 {max-width: 280px; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "86f90639-6ed2-453e-8356-fd4d5fcefadb": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "template--14630197395540__86f90639-6ed2-453e-8356-fd4d5fcefadb-icon-1": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-shield",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "image": "shopify:\/\/shop_images\/percentage.svg",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>1% of every Skin by Blair sale is donated to the cause that matters most to you<\/p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--14630197395540__86f90639-6ed2-453e-8356-fd4d5fcefadb-icon-2": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-trophy",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "image": "shopify:\/\/shop_images\/checklist.svg",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Contribute an additional amount at checkout to your favorite cause.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--14630197395540__86f90639-6ed2-453e-8356-fd4d5fcefadb-icon-3": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-chat",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#848080",
+            "image": "shopify:\/\/shop_images\/charity.png",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Make a separate contribution for any chosen amount via our online donation fund here.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14630197395540__86f90639-6ed2-453e-8356-fd4d5fcefadb-icon-1",
+        "template--14630197395540__86f90639-6ed2-453e-8356-fd4d5fcefadb-icon-2",
+        "template--14630197395540__86f90639-6ed2-453e-8356-fd4d5fcefadb-icon-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "hide_icons": false,
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
+    "709f436f-fe35-4e8c-8199-5678ebbef5ba": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "c805bbc6-4399-4840-9d26-53d2ad370e64": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Driven by our heart for service<\/h4><h3><em>To serve one another is a gift that inspires deeper connection, <br\/>reveals greater compassion, and increases our capacity to love.<\/em><\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "c805bbc6-4399-4840-9d26-53d2ad370e64"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 4,
+        "padding_bottom": 44
+      }
+    },
+    "c97833d4-38c5-4150-95c4-b444b179db57": {
+      "type": "section-double",
+      "blocks": {
+        "template--14630197395540__c97833d4-38c5-4150-95c4-b444b179db57-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>If you or someone you know is going through a difficult time and in need of support, we invite you to share your story with us.<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "265766de-180c-49f6-af79-453cf27c54b7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We truly care about uplifting individuals near and dear to the hearts of the Skin By Blair community. Complete our support nomination form and if you’re a good fit for the program, our team will get in touch with additional information and next steps.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "9391cc7f-cd72-494b-9c2d-83800038d389": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "NOMINATE SOMEONE IN NEED",
+            "button_url": "",
+            "button_type": "btn--text-cl",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14630197395540__c97833d4-38c5-4150-95c4-b444b179db57-text-1",
+        "265766de-180c-49f6-af79-453cf27c54b7",
+        "9391cc7f-cd72-494b-9c2d-83800038d389"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: calc(var(--font-7) * 0.75);}"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/Hug.png",
+        "image_width": "one-half",
+        "text_alignment": "text-center",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_less": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3ccb1f96-db60-43e9-8ad7-517ad79c424d": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14630197395540__3ccb1f96-db60-43e9-8ad7-517ad79c424d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>UPLIFTED & IMPACTED<\/h4>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "a6921317-3865-4700-b063-856fe25c93da": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Hear the stories of our past partners and find inspiration in their strength & resilience<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14630197395540__3ccb1f96-db60-43e9-8ad7-517ad79c424d-text-1",
+        "a6921317-3865-4700-b063-856fe25c93da"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media only screen and (max-width: 750px) {h3 {max-width: 240px; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 30
+      }
+    },
+    "b23f1f7b-2c60-4b82-86f1-66a656d51b37": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "c577c512-fbed-4df9-b8ad-d31fad479eb2": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify:\/\/shop_images\/FPO_133333de-2d3e-47e4-bf9d-0e933d4879ee.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "title": "",
+            "heading_size": 5,
+            "text": "<h4>Breast Cancer Survivor: Susie’s Journey to Remission<\/h4>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "3b952eda-c267-483e-aee5-d448d6883dc3": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify:\/\/shop_images\/FPO.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "title": "",
+            "heading_size": 4,
+            "text": "<h4>LIFE AFTER LOSS: MARIE’S STORY OF GRIEF & IMPACT<\/h4>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "c577c512-fbed-4df9-b8ad-d31fad479eb2",
+        "3b952eda-c267-483e-aee5-d448d6883dc3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "hide_icons": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "grid"
+      }
+    },
+    "a6676ce9-b5ee-4647-a893-d0f23b16a68a": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14630197395540__a6676ce9-b5ee-4647-a893-d0f23b16a68a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><em>To serve one another is a gift that inspires deeper connection, reveals greater compassion, and increases our capacity to love.<\/em><\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14630197395540__a6676ce9-b5ee-4647-a893-d0f23b16a68a-text-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {max-width: 750px;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1695220539793c408e",
+    "867c6099-0981-41a7-8ba9-82e1cbc89f4f",
+    "96215795-1e87-4927-a14d-97072610ece8",
+    "4a2c1a65-ab6b-44d5-b1ca-73aa6dc73b3d",
+    "286eb203-9d46-45d7-a1ad-7f38ae71f11d",
+    "4e586892-1903-446f-902f-cc8821e6900a",
+    "11ed6a1b-3425-4795-b5cd-fddd26d9a1bd",
+    "52fdedf7-614e-451e-b941-e6b2675402c4",
+    "776eceee-1f83-4d72-b406-d4e536e68c4f",
+    "86f90639-6ed2-453e-8356-fd4d5fcefadb",
+    "709f436f-fe35-4e8c-8199-5678ebbef5ba",
+    "c97833d4-38c5-4150-95c4-b444b179db57",
+    "3ccb1f96-db60-43e9-8ad7-517ad79c424d",
+    "b23f1f7b-2c60-4b82-86f1-66a656d51b37",
+    "a6676ce9-b5ee-4647-a893-d0f23b16a68a"
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": true,
+        "show_author": true,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "Acne Purging vs Breakouts: How to Tell the Difference",
+            "text_size": 8
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Embarking on a new skincare journey can be exciting yet challenging, especially when it seems like your skin is rebelling against the very products meant to improve it. If you've recently started a new skincare product and noticed an increase in breakouts, you might be wondering if you're on the right track. Fear not, for what you're experiencing might just be a temporary phenomenon known as purging.<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>A is for Vitamin A<\/h2><p><br\/>Retinol, retinoid, retin-A, tretinoin - you've heard of them as the holy grail of anti-aging, but are probably confused as to what the ditterence is between them (trust me, you're not alone!). \"Retinoid\" is an umbrella term - it refers to anything in the Vitamin A family. Retinoids come in many ditferent forms and strengths. To make things simple, I created this retinoid hierarchy graphic (below) showing which retinoids are stronger\/weaker than others. The lower the strength, the less collagen is stimulated - the higher the strength, the more collagen is stimulated. And we always want MORE collagen because that means LESS aging and wrinkles!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p><p>As you can see, retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/>My #1 recommendation will always be <a href=\"https:\/\/www.skinbyblair.com\/products\/ret-de-la-blair\" title=\"https:\/\/www.skinbyblair.com\/products\/ret-de-la-blair\"><strong>Ret de la Blair<\/strong><\/a> because it stimulates more collagen than retinol with little to no irritation to the skin. This is a great option for dry skin, sensitive skin, acne-prone skin, reactive skin, and\/or those suffering with rosacea. However, Ret de la Blair is still out of stock (you can sign up to be notificed when it's back in stock here!). So in the meantime, <a href=\"https:\/\/www.skinbyblair.com\/products\/retivance-skin-rejuvenating-complex\" title=\"https:\/\/www.skinbyblair.com\/products\/retivance-skin-rejuvenating-complex\"><strong>Obagi Retivance<\/strong><\/a> is another <strong>retinaldehyde <\/strong>that will get you through until Ret restocks<\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1",
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Email_4_-_Ingredient_Breakdown_1400_x_3000_px_-3.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>B is for Broad Spectrum Sunscreen<\/h2><p>Sunscreen isn't just for beach days; it should be a non-negotiable step in your daily skincare routine. Broad spectrum sunscreen protects your skin from both UVA and UVB rays, which are responsible for causing sunburn, premature aging, and even skin cancer. My goal is to help you find a sunscreen you are EXCITED to put on every morning! Revision has amazing sunscreens (that are always my go-to!) that have anti-aging ingredients to help protect AND treat the skin.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/the-key-three-3.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><a href=\"\/products\/intellishade-original\" title=\"Intellishade Original\">INTELLISHADE ORIGINAL<\/a><\/h5><p><a href=\"https:\/\/www.skinbyblair.com\/products\/intellishade-original\" title=\"https:\/\/www.skinbyblair.com\/products\/intellishade-original\"><br\/><\/a>This is my desert island, must-have product! It's like wearing makeup without having to 1) take the time to apply it, and 2) worry about it matching your skin tone perfectly (because it does that for you!)! Aside from SPF, it also contains antioxidants, peptides, a moisturizers, and foundation. If you like a tinted sunscreen that gives you a nice dewy complexion, this is your new favorite product!<\/p><h5><a href=\"\/products\/intellishade-matte\" title=\"Intellishade Matte\">INTELLISHADE MATTE<\/a><\/h5><p>If you struggle with oily skin or prefer a matte finish, this tinted option is for you. It acts as a sunscreen, moisturizer, anti-aging treatment, and foundation all in one. The sheer color works to match any tone for a beautifully matte finish<\/p><h5><a href=\"\/products\/intellishade-clear\" title=\"Intellishade Clear\">INTELLISHADE CLEAR<\/a><\/h5><p>Don't want a tint in your sunscreen? Then you'll love Intellishade Clear - she's lightweight, oil-free, and anti-aging, all in one product! Formulated with 3 peptides and Vitamin C to brighten your skin. This is also a great one to gift to your husband - he doesn't have to know all the anti-aging benefits!<\/p><h5><a href=\"\/products\/intellishade-truphysical\" title=\"Intellishade TruPhysical\">INTELLISHADE TRUPHYSICAL<\/a><\/h5><p>This 5-in-1 moisturizer is a 100% mineral broad-spectrum sunscreen that corrects, conceals, brightens, and hydrates the skin, and is great for all of my sensitive skin ladies (and gents), or to use on post-procedure skin!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "967819a1-a504-4580-b170-da1a5be9f557": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop SUNSCREENS",
+            "button_url": "shopify:\/\/collections\/spf",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1",
+        "967819a1-a504-4580-b170-da1a5be9f557"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708": {
+      "type": "page_content",
+      "blocks": {
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>C is for Vitamin C<\/h2><p><\/p><p>Vitamin C - a tride and true. You can skip a lot of steps in the morning, but don't let your Vitamin C be one of them! We are bombarded all day with environmental oxidative stress (UV rays, pollution, smoke, etc.) that damage our skin cells & break down our collagen and elastin, contributing heavily to skin aging. So in order to prevent that cycle, we need an ANTI-oxidant -aka: Vitamin C!<\/p><h3>   <\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vitamin_C_20_Serum-routine_46032336-6ff1-49f4-b23a-667012e94304.webp",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "165b7ab1-e827-40e7-a3e5-015fbcba5c01": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "There are two main types of Vitamin C - let's chat through them!",
+            "text_size": 8
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>There are two main types of Vitamin C - let's chat through them!<\/h3><h4><strong>L-asboric Acid<\/strong><\/h4><p>The most common form of vitamin C that has historically been considered the \"gold standard\" due to it's active form (& the one you've probably heard of) is L-ascorbic Acid. You can find it in concentrations of 3-20%, with higher concentrations being more irritating. The problem with Lascorbic acid, and products containing it, is that it has a low pH (less than 3). Our skin is happiest and functions best within a pH range of 4.7-5.7 - and when outside of this range, your skin barrier can become compromised which translates to skin irritation. For those with sensitive skin, this can happen more easily. So it you apply a product with a pH of 2.5-3 to your skin that needs to have a pH of 4.7-5.7, it is much more likely that the product will disrupt your skin barrier and ultimately cause skin irritation.<br\/><br\/>Another common issue with L-ascorbic acid is it's stability (or lack thereof). Unfortunately, the molecule is highly unstable, meaning the anti- oxidant that you purchased can easily become oxidized when exposed to air (aka: opening the bottle) - not ideal! Ever wonder why vitamin C serums are so.dang.expensive? Because bottling this molecule in a stable form is extremely costly (but also vital to it's effectiveness)! This is why it's so important to buy your Vitamin C from a reputable source, such as a medical skincare line (like SBB or Revision) or from your local dermatology office.<\/p><h4><strong>THD Abscorbate<\/strong><\/h4><p>The second most common form of Vitamin C is Tetrahexyldevl Ascorbate (also known as THD Ascorbate). To put it simply, THD Ascorbate is L-ascorbic Acid surrounded by lipid molecules. Once absorbed by the skin, the lipids break away, converting the molecule into L-ascorbic acid. Check out this quick diagram for my fellow science nerds comparing the two molecules below:<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-subheading-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-heading-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-text-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "e55d3577-bae4-4298-95db-ce5527e26812": {
+      "type": "page_content",
+      "blocks": {
+        "template--14688483508308__e55d3577-bae4-4298-95db-ce5527e26812-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text",
+            "text_size": 8
+          }
+        },
+        "template--14688483508308__e55d3577-bae4-4298-95db-ce5527e26812-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>These lipids provide 3 important functions: <\/strong><\/h2><h3><strong>1. Stablizes the Vitamin C molecule<\/strong> <em>(meaning a more effective product and longer shelf life)<\/em><\/h3><h3><strong>2. Neutralizes the pH <\/strong><em>(meaning less skin irritation)<\/em><\/h3><h3><strong>3. Enhances skin penetration <\/strong><em>(meaning more skin benefits and protection)<\/em><\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__e55d3577-bae4-4298-95db-ce5527e26812-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__e55d3577-bae4-4298-95db-ce5527e26812-heading-1",
+        "template--14688483508308__e55d3577-bae4-4298-95db-ce5527e26812-text-1",
+        "template--14688483508308__e55d3577-bae4-4298-95db-ce5527e26812-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vitamin_C_email_ABC_Instagram_Post.jpg",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 8
+      }
+    },
+    "a314e168-7764-4739-abec-2e44e37704db": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14688483508308__a314e168-7764-4739-abec-2e44e37704db-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14688483508308__a314e168-7764-4739-abec-2e44e37704db-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14688483508308__a314e168-7764-4739-abec-2e44e37704db-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>  My top vitamin C product recommendations:<\/h3><h5>- <a href=\"https:\/\/www.skinbyblair.com\/products\/vitamin-c-20\" target=\"_self\">Vitamin C 20% Serum<\/a><\/h5><p>Our Vitamin C 20% is a highly potent serum that combines the best of both worlds L-ascorbic Acid and THD Ascorbate!<\/p><h5><br\/>- <a href=\"\/products\/c-correcting-complex-30\" title=\"C+ Correcting Complex 30%\">C+ Correcting Complex<\/a><a href=\"https:\/\/www.skinbyblair.com\/products\/c-correcting-complex-30\" target=\"_self\"><span style=\"text-decoration:underline\"><strong><br\/><\/strong><\/span><\/a><\/h5><p>Revision's C+ Correcting Complex contains 'THD Ascorbate 30%, making it a great option for those with sensitive or reactive skin, while still being highly potent.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "ecd27767-facd-49ec-a324-7bd53c71fa55": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>The ABC's of skincare should be your building blocks when creating a skincare routine. These are also known as our \"Key 3\". Before you incorporate the more targeted products, be sure your bases are covered with a retinoid, sunscreen, and vitamin C. <\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__a314e168-7764-4739-abec-2e44e37704db-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__a314e168-7764-4739-abec-2e44e37704db-subheading-1",
+        "template--14688483508308__a314e168-7764-4739-abec-2e44e37704db-heading-1",
+        "template--14688483508308__a314e168-7764-4739-abec-2e44e37704db-text-1",
+        "ecd27767-facd-49ec-a324-7bd53c71fa55",
+        "template--14688483508308__a314e168-7764-4739-abec-2e44e37704db-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Recommended products<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8",
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708",
+    "165b7ab1-e827-40e7-a3e5-015fbcba5c01",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "e55d3577-bae4-4298-95db-ce5527e26812",
+    "a314e168-7764-4739-abec-2e44e37704db",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

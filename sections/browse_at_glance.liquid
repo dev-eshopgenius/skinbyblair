@@ -1,0 +1,143 @@
+{%- liquid
+  assign bg_color = section.settings.bg_color
+  assign text_color = section.settings.color
+  assign mobile_alignment = section.settings.mobile_text_alignment
+  assign desktop_alignment = section.settings.desktop_text_alignment
+
+  capture style
+    echo 'padding-top: ' | append: section.settings.padding_top | append: 'px;'
+    echo 'padding-bottom: ' | append: section.settings.padding_bottom | append: 'px;'
+
+    unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank
+      echo 'background-color: ' | append: bg_color | append: ';'
+    endunless
+
+    unless text_color == 'rgba(0,0,0,0)' or text_color == blank
+      echo 'color: ' | append: text_color | append: ';'
+    endunless
+  endcapture
+-%}
+
+<section style="{{ style }}">
+  <div class="{{ section.settings.width }} {{desktop_alignment}} {{mobile_alignment}}">
+    <h2>{{ section.settings.title }}</h2>
+    <p>{{ section.settings.content }}</p>
+    <div class="separator-color">
+      <div class="browse-buttons-container {%if section.settings.alternative_style%} alternative {%endif%}" >
+        {% for link in section.settings.menu.links %}
+          <a href="{{link.url}}" class="custom-quick-add__button btn--qa caps btn btn--outline browse-button">
+            <span class="btn__text custom__grid__btn__text"> {{link.title}}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Browse at a glance",
+  "tag": "section",
+  "class": "browse_at_glance",
+  "settings": [
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full",
+      "options": [
+        { "value": "wrapper--full", "label": "Full width" },
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Normal" },
+        { "value": "wrapper--narrow", "label": "Narrow" }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "label": "Alternative style",
+      "id": "alternative_style",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text",
+      "default": "#848080"
+    },
+    {
+      "type": "select",
+      "id": "desktop_text_alignment",
+      "label": "Alignment on desktop",
+      "default": "text-left",
+      "options": [
+        { "value": "text-left", "label": "Left" },
+        { "value": "text-center", "label": "Centered" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "mobile_text_alignment",
+      "label": "Alignment on mobile",
+      "default": "mobile-text-center",
+      "options": [
+        { "value": "moble-text-left", "label": "Left" },
+        { "value": "mobile-text-center", "label": "Centered" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Browse at a Glance"
+    },
+    {
+      "type": "text",
+      "id": "content",
+      "label": "Content",
+      "default": "Quickly navigate to exactly what you’re looking for, or simply keep scrolling to familiarize yourself with all the need-to-know information regarding your new skincare."
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Browse at a glance"
+    }
+  ]
+}
+{% endschema %}

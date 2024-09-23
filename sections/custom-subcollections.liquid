@@ -1,0 +1,78 @@
+{% style %}
+    #SubCollections--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+        {%- unless section.settings.text_color == 'rgba(0,0,0,0)' or section.settings.text_color == blank -%}
+            color: {{ section.settings.text_color }};
+        {%- endunless -%}
+    }
+
+    {% if collection.metafields.custom.sub_collections == blank %}
+        @media only screen and (max-width: 750px) {
+            #SubCollections--{{ section.id }} {
+                padding-top: {{ section.settings.padding_top | times: 0.7  }}px;
+                padding-bottom: {{ section.settings.padding_bottom }}px;
+            }
+        }
+    {% endif %}
+
+
+{% endstyle %}
+
+<section id="SubCollections--{{ section.id }}" class="sub_collections_section" style="position: relative;">
+    {% if collection.metafields.custom.sub_collections %}
+        <div class="subcollections__wrapper">
+            {% for item in collection.metafields.custom.sub_collections.value %}
+                <a href="{{ item.url }}" class="font-subheading subcollections__item">
+                    {{ item.title }}
+                </a>
+            {% endfor %}
+        </div>
+    {% endif %}
+</section>
+
+
+{% schema %}
+    {
+        "name": "Custom Sub Collections",
+        "templates": ["collection"],
+        "settings": [
+            {
+                "type": "paragraph",
+                "content": "To display sub collections, add them to the Sub Collections metafield on this collection"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 2,
+                "unit": "px",
+                "label": "Padding top",
+                "default": 0
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 2,
+                "unit": "px",
+                "label": "Padding bottom",
+                "default": 0
+            },
+            {
+                "type": "color",
+                "id": "text_color",
+                "label": "Text color",
+                "default": "#848080"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom Sub Collections",
+                "category": "Collection"
+            }
+        ]
+    }
+{% endschema %}

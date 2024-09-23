@@ -1,0 +1,201 @@
+#klaviyo-bis-modal h3.modal-title {
+  font-family: Romie;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 57.6px */
+  justify-content: center;
+  letter-spacing: 1px;
+  color: #848080;
+  text-align: center;
+}
+
+div#klaviyo-bis-modal {
+  max-width: 500px;
+}
+
+#klaviyo-bis-modal #container h3 + p {
+  font-family: Gotham;
+  /* 18.6px */
+  text-align: center;
+  max-width: 260px;
+  margin: auto;
+  margin-top: 13px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 18.6px */
+  letter-spacing: 0.75px;
+  color: #848080;
+}
+
+#klaviyo-bis-modal form button {
+  background: var(--warning-default, #dcbd7e);
+  border-color: var(--warning-default, #dcbd7e);
+  color: var(--grayscale-background, #fff);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 15.6px */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: Gotham;
+}
+
+#klaviyo-bis-modal input#email {
+  padding: 8px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2px;
+  align-self: stretch;
+  display: flex;
+  font-family: Gotham;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  height: 40px;
+  border: 2px solid #dbd3ce;
+}
+
+#klaviyo-bis-modal input#email:focus {
+  border-color: #dbd3ce !important;
+}
+
+#klaviyo-bis-modal input#email::placeholder {
+  color: #dbd3ce;
+}
+
+button.btn.btn-success.btn-lg.col-xs-12,
+input#email {
+  height: 42px;
+}
+
+/* custom fonts  */
+
+/* Gotham Light */
+
+/* custom fonts  */
+
+/* Gotham Light */
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-light-webfont.woff2?v=8744998068527017152")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-light-webfont.woff?v=10147720815667677273")
+      format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Medium - Italic */
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-lightitalic-webfont.woff2?v=4015691675894113054")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-lightitalic-webfont.woff?v=3162998973039644640")
+      format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+/* Gotham */
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-book-webfont.woff2?v=1495030176403472133")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-book-webfont.woff?v=15314929612426964599")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium - Italic */
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-bookitalic-webfont.woff2?v=10715063495914724794")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-bookitalic-webfont.woff?v=14126841787905333154")
+      format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+/* Medium */
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-medium-webfont.woff2?v=5532179860432269547")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-medium-webfont.woff?v=7943993341791930202")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Medium - Italic */
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-mediumitalic-webfont.woff2?v=15005118510861770072")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-mediumitalic-webfont.woff?v=5843478019175796303")
+      format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Bold - Italic */
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-bolditalic-webfont.woff2?v=18325885341579403050")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-bolditalic-webfont.woff?v=13073988782701828371")
+      format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Bold - Italic */
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-bold-webfont.woff2?v=8585586108920748480")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/gotham-bold-webfont.woff?v=13656190546365623421")
+      format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Romie Trial */
+
+/* Normal */
+@font-face {
+  font-family: "Romie";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/Romie-Regular.woff2?v=1228481868504614629")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/Romie-Regular.woff?v=4619278787191704099")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Normal - Italic */
+@font-face {
+  font-family: "Romie";
+  src:
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/Romie-Regular-Italic.woff2?19963")
+      format("woff2"),
+    url("//skin-by-blair.myshopify.com/cdn/shop/files/Romie-Regular-Italic.woff?v=4145151370291431303")
+      format("woff");
+  font-weight: 400;
+  font-style: italic;
+}

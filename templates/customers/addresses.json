@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "d5063d73-a7ec-48b7-92e0-48d9e89cf80a": {
+      "type": "recharge_header",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "customer-addresses",
+      "blocks": {
+        "account": {
+          "type": "account",
+          "settings": {
+          }
+        },
+        "email": {
+          "type": "email",
+          "settings": {
+            "title": "Support",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "account",
+        "email"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "d5063d73-a7ec-48b7-92e0-48d9e89cf80a",
+    "main"
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections",
+      "blocks": {
+        "d73394d6-61cd-423e-b618-1ef0135c488b": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "collection_name": ""
+          }
+        },
+        "98a537c1-6d8e-42ff-9547-ae73d8d6a893": {
+          "type": "collection",
+          "settings": {
+            "collection": "acne-prone",
+            "collection_name": ""
+          }
+        },
+        "d5a11713-0036-4e92-a350-73fd0891aa75": {
+          "type": "collection",
+          "settings": {
+            "collection": "anti-aging",
+            "collection_name": ""
+          }
+        },
+        "e6fe3e54-c46b-4983-b5f2-a2b9021b165d": {
+          "type": "collection",
+          "settings": {
+            "collection": "antioxidants",
+            "collection_name": ""
+          }
+        },
+        "cbe1c9a9-4707-4883-9297-fb97ddc18ad4": {
+          "type": "collection",
+          "settings": {
+            "collection": "bakuchiol",
+            "collection_name": ""
+          }
+        },
+        "6c9bec65-a671-42df-932d-f01862a93b44": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "collection_name": ""
+          }
+        },
+        "b45fb101-9a2c-4b1f-9a65-208b34e3e283": {
+          "type": "collection",
+          "settings": {
+            "collection": "body-care",
+            "collection_name": ""
+          }
+        },
+        "07cb16e6-ca60-4ece-b16c-39a7da90fc74": {
+          "type": "collection",
+          "settings": {
+            "collection": "boost-all",
+            "collection_name": ""
+          }
+        },
+        "095d661f-7b30-4c5a-903a-edab93135472": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles",
+            "collection_name": ""
+          }
+        },
+        "0be20061-5bb3-4836-9487-66ebf65e718d": {
+          "type": "collection",
+          "settings": {
+            "collection": "cleansers",
+            "collection_name": ""
+          }
+        },
+        "1e3c48a3-52a3-4d9c-9e64-d4747782b066": {
+          "type": "collection",
+          "settings": {
+            "collection": "combination-skin",
+            "collection_name": ""
+          }
+        },
+        "23543991-5159-4185-af0b-5fb0fef21285": {
+          "type": "collection",
+          "settings": {
+            "collection": "creepy-skin",
+            "collection_name": ""
+          }
+        },
+        "72f34874-35b9-4ef2-8b3a-607ac314b526": {
+          "type": "collection",
+          "settings": {
+            "collection": "dry-skin",
+            "collection_name": ""
+          }
+        },
+        "73a834a6-92af-4bd9-accd-4a8020a909fe": {
+          "type": "collection",
+          "settings": {
+            "collection": "dullness",
+            "collection_name": ""
+          }
+        },
+        "bccf0982-2293-440c-aff6-17b8f638fbcb": {
+          "type": "collection",
+          "settings": {
+            "collection": "duos",
+            "collection_name": ""
+          }
+        },
+        "57d38959-a35e-4fbc-bb25-e76cfe5f0503": {
+          "type": "collection",
+          "settings": {
+            "collection": "exfoliants",
+            "collection_name": ""
+          }
+        },
+        "74fb6b71-cc23-4901-83f7-062c61751fe1": {
+          "type": "collection",
+          "settings": {
+            "collection": "eye-creams",
+            "collection_name": ""
+          }
+        },
+        "fd8c400a-e004-48a9-8db5-862d0a34bb2b": {
+          "type": "collection",
+          "settings": {
+            "collection": "face",
+            "collection_name": ""
+          }
+        },
+        "78b94b45-8469-446e-ac44-5184b9b4d429": {
+          "type": "collection",
+          "settings": {
+            "collection": "gift-card",
+            "collection_name": ""
+          }
+        },
+        "bfa84f62-bf3c-41d5-ae05-5a0ec84861c4": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts",
+            "collection_name": ""
+          }
+        },
+        "51902d63-ebf5-4fca-bc03-f256b2b0c287": {
+          "type": "collection",
+          "settings": {
+            "collection": "glycolic-acid",
+            "collection_name": ""
+          }
+        },
+        "d3a3ecc7-d73f-449d-aabb-06e298ef3a97": {
+          "type": "collection",
+          "settings": {
+            "collection": "hands",
+            "collection_name": ""
+          }
+        },
+        "d54d9f05-d395-4833-bc88-246b8699bea1": {
+          "type": "collection",
+          "settings": {
+            "collection": "hyaluronic-acid",
+            "collection_name": ""
+          }
+        },
+        "1fa74edd-0bcc-478f-9dd2-cb850a8717b3": {
+          "type": "collection",
+          "settings": {
+            "collection": "hyperpigmentation",
+            "collection_name": ""
+          }
+        },
+        "44a05751-e759-4aa6-98e3-37b6c4dafd18": {
+          "type": "collection",
+          "settings": {
+            "collection": "key-3",
+            "collection_name": ""
+          }
+        },
+        "ba128762-7638-4436-b2eb-cdd3caf66b9c": {
+          "type": "collection",
+          "settings": {
+            "collection": "lactic-acid",
+            "collection_name": ""
+          }
+        },
+        "2083065d-084f-4dbb-bab7-7f8a09ba765d": {
+          "type": "collection",
+          "settings": {
+            "collection": "lips",
+            "collection_name": ""
+          }
+        },
+        "1b9ce5b0-80ac-46df-9921-f5d9e28f2e8d": {
+          "type": "collection",
+          "settings": {
+            "collection": "masks",
+            "collection_name": ""
+          }
+        },
+        "e8028def-7315-40d4-b896-33bcfb61c72a": {
+          "type": "collection",
+          "settings": {
+            "collection": "mature-skin",
+            "collection_name": ""
+          }
+        },
+        "a58d1805-f97a-4156-8e37-05ae536ebf1d": {
+          "type": "collection",
+          "settings": {
+            "collection": "melasma",
+            "collection_name": ""
+          }
+        },
+        "bf5d2035-61e2-472b-8c25-bed0e87af1f4": {
+          "type": "collection",
+          "settings": {
+            "collection": "men",
+            "collection_name": ""
+          }
+        },
+        "e8ef20a4-7107-4e5d-82f9-1a843090631f": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-skincare",
+            "collection_name": ""
+          }
+        },
+        "16dc9e57-d633-43ca-a7fb-6da7564c2a43": {
+          "type": "collection",
+          "settings": {
+            "collection": "moisturizers",
+            "collection_name": ""
+          }
+        },
+        "dcd88a6d-a49a-4724-bae7-ff49d0aa5c64": {
+          "type": "collection",
+          "settings": {
+            "collection": "neck",
+            "collection_name": ""
+          }
+        },
+        "5f3e9267-d9b7-461f-a1d5-9e99f4d58301": {
+          "type": "collection",
+          "settings": {
+            "collection": "niacinimide",
+            "collection_name": ""
+          }
+        },
+        "6947c967-9b15-43db-bf8c-d631a8391501": {
+          "type": "collection",
+          "settings": {
+            "collection": "normal-skin",
+            "collection_name": ""
+          }
+        },
+        "fa01c562-8346-471c-8835-5061c4658cfa": {
+          "type": "collection",
+          "settings": {
+            "collection": "oily-skin",
+            "collection_name": ""
+          }
+        },
+        "5dfc7f66-5c30-4282-8862-6f19a73d6af0": {
+          "type": "collection",
+          "settings": {
+            "collection": "peptides",
+            "collection_name": ""
+          }
+        },
+        "20a22f49-26d3-4838-b9ee-e321af538b90": {
+          "type": "collection",
+          "settings": {
+            "collection": "pores",
+            "collection_name": ""
+          }
+        },
+        "82812cfe-ca42-4a05-a904-e90d829407c3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "d73394d6-61cd-423e-b618-1ef0135c488b",
+        "98a537c1-6d8e-42ff-9547-ae73d8d6a893",
+        "d5a11713-0036-4e92-a350-73fd0891aa75",
+        "e6fe3e54-c46b-4983-b5f2-a2b9021b165d",
+        "cbe1c9a9-4707-4883-9297-fb97ddc18ad4",
+        "6c9bec65-a671-42df-932d-f01862a93b44",
+        "b45fb101-9a2c-4b1f-9a65-208b34e3e283",
+        "07cb16e6-ca60-4ece-b16c-39a7da90fc74",
+        "095d661f-7b30-4c5a-903a-edab93135472",
+        "0be20061-5bb3-4836-9487-66ebf65e718d",
+        "1e3c48a3-52a3-4d9c-9e64-d4747782b066",
+        "23543991-5159-4185-af0b-5fb0fef21285",
+        "72f34874-35b9-4ef2-8b3a-607ac314b526",
+        "73a834a6-92af-4bd9-accd-4a8020a909fe",
+        "bccf0982-2293-440c-aff6-17b8f638fbcb",
+        "57d38959-a35e-4fbc-bb25-e76cfe5f0503",
+        "74fb6b71-cc23-4901-83f7-062c61751fe1",
+        "fd8c400a-e004-48a9-8db5-862d0a34bb2b",
+        "78b94b45-8469-446e-ac44-5184b9b4d429",
+        "bfa84f62-bf3c-41d5-ae05-5a0ec84861c4",
+        "51902d63-ebf5-4fca-bc03-f256b2b0c287",
+        "d3a3ecc7-d73f-449d-aabb-06e298ef3a97",
+        "d54d9f05-d395-4833-bc88-246b8699bea1",
+        "1fa74edd-0bcc-478f-9dd2-cb850a8717b3",
+        "44a05751-e759-4aa6-98e3-37b6c4dafd18",
+        "ba128762-7638-4436-b2eb-cdd3caf66b9c",
+        "2083065d-084f-4dbb-bab7-7f8a09ba765d",
+        "1b9ce5b0-80ac-46df-9921-f5d9e28f2e8d",
+        "e8028def-7315-40d4-b896-33bcfb61c72a",
+        "a58d1805-f97a-4156-8e37-05ae536ebf1d",
+        "bf5d2035-61e2-472b-8c25-bed0e87af1f4",
+        "e8ef20a4-7107-4e5d-82f9-1a843090631f",
+        "16dc9e57-d633-43ca-a7fb-6da7564c2a43",
+        "dcd88a6d-a49a-4724-bae7-ff49d0aa5c64",
+        "5f3e9267-d9b7-461f-a1d5-9e99f4d58301",
+        "6947c967-9b15-43db-bf8c-d631a8391501",
+        "fa01c562-8346-471c-8835-5061c4658cfa",
+        "5dfc7f66-5c30-4282-8862-6f19a73d6af0",
+        "20a22f49-26d3-4838-b9ee-e321af538b90",
+        "82812cfe-ca42-4a05-a904-e90d829407c3"
+      ],
+      "settings": {
+        "display_type": "all",
+        "title": "Collections",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

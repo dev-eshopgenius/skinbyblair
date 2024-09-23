@@ -1,0 +1,420 @@
+{%- comment -%}
+  image-text-section.liquid
+{%- endcomment -%}
+
+{%- liquid
+    assign bg_color = section.settings.bg_color
+    assign text_color = section.settings.color
+  
+    capture style
+      echo 'padding-top: ' | append: section.settings.padding_top | append: 'px;'
+      echo 'padding-bottom: ' | append: section.settings.padding_bottom | append: 'px;'
+  
+      unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank
+        echo 'background-color: ' | append: bg_color | append: ';'
+      endunless
+  
+      unless text_color == 'rgba(0,0,0,0)' or text_color == blank
+        echo 'color: ' | append: text_color | append: ';'
+      endunless
+    endcapture
+  -%}
+
+<div id="PageContent--{{section.id}}" class="PageContent {{ section.settings.width }}" style="{{ style }}">
+    {% assign imageSize = section.settings.image_size | default: '50' %}
+  
+    <div class="image-container {{section.settings.image_position_d}} {{section.settings.image_position_m}} desktop-size-{{imageSize}}">
+      <img src="{{ section.settings.image | img_url: 'master' }}" alt="Section Image">
+    </div>
+  
+    <div class="text-container hero__content padding-less" style="order: 2;">
+        {%- for block in section.blocks -%}
+
+            {%- case block.type -%}
+              {%- when 'heading' -%}
+                {%- if block.settings.title != blank -%}
+                  {%- assign animation_order = animation_order | plus: 1 -%}
+                  {%- assign font_size_class = block.settings.text_size | prepend: 'heading-size-' -%}
+                  {%- assign text_alignment_class = block.settings.text-align-class -%}
+              <h2 class="hero__title section-custom-double__title {{ block.settings.text_style }} {{ font_size_class }} {% unless block.settings.text_alignment == 'inherit' %} {{ block.settings.text_alignment }}{% endunless %}{% unless block.settings.mobile_text_alignment == 'inherit' %} {{ block.settings.mobile_text_alignment }}{% endunless %}"
+                    data-aos="hero"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-order="{{ animation_order }}"
+                    {{ block.shopify_attributes }}>
+                    {{ block.settings.title }}
+                  </h2>
+                {%- endif -%}
+
+              {%- when 'text' -%}
+                {%- if block.settings.text != blank -%}
+                  {%- assign animation_order = animation_order | plus: 1 -%}
+                  {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+                  
+                  <div class="hero__rte custom-section-double__rte {{ font_size_class }} {{ block.settings.text_style }} {% unless block.settings.text_alignment == 'inherit' %} {{ block.settings.text_alignment }}{% endunless %}{% unless block.settings.mobile_text_alignment == 'inherit' %} {{ block.settings.mobile_text_alignment }}{% endunless %}"
+                    data-aos="hero"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-order="{{ animation_order }}"
+                    {{ block.shopify_attributes }}>
+                    {{ block.settings.text }}
+                  </div>
+                {%- endif -%}
+
+              {%- when 'buttons' -%}
+                {%- if block.settings.button_text != blank -%}
+                  {%- liquid
+                    assign prev_index = forloop.index0 | minus: 1
+                    assign next_index = forloop.index0 | plus: 1
+                    assign prev_block = section.blocks[prev_index]
+                    assign next_block = section.blocks[next_index]
+                    assign animation_order = animation_order | plus: 1
+                    assign first_button_of_group = false
+                    assign last_button_of_group = false
+                    if next_block.type == 'buttons' and forloop.index0 == 0 or prev_block.type != 'buttons' and next_index != section.blocks.size and next_block.type == 'buttons'
+                      assign first_button_of_group = true
+                    endif
+
+                    if prev_block.type == 'buttons' and next_block.type != 'buttons' and prev_index != -1 or forloop.index == section.blocks.size and prev_block.type == 'buttons'
+                      assign last_button_of_group = true
+                    endif
+
+                    assign button_style = block.settings.button_style
+                    if button_style == 'btn--text' and block.settings.show_arrow
+                      assign button_style = button_style | append: ' btn--text-no-underline'
+                    endif
+                  -%}
+
+                  {%- if first_button_of_group -%}
+                    <div class="hero__button-group">
+                  {%- endif -%}
+
+                  <div class="hero__button section-custom-double__button"
+                    data-aos="hero"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-order="{{ animation_order }}"
+                    {{ block.shopify_attributes }}>
+                    <a href="{{ block.settings.button_url | default: '#!' }}" class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}">
+                      <span>{{ block.settings.button_text }}</span>
+
+                      {%- if block.settings.show_arrow -%}
+                        {%- render 'icon-arrow-right' -%}
+                      {%- endif -%}
+                    </a>
+                  </div>
+
+                {%- if last_button_of_group -%}
+                  </div>
+                {%- endif -%}
+              {%- endif -%}
+
+            {%- when 'divider' -%}
+              {%- assign animation_order = animation_order | plus: 1 -%}
+              {%- capture attributes -%}
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="{{ animation_order }}"
+              {%- endcapture -%}
+
+              {%- render 'divider' block: block, attributes: attributes -%}
+
+            {%- when 'text-slide' -%}
+              {%- if block.settings.title != blank -%}
+                {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
+                <h2 class="hero__title {{ font_size_class }}">
+                  {{ block.settings.title }}
+                </h2>
+              {%- endif -%}
+
+              {%- if block.settings.text != blank -%}
+                {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+                <div class="hero__rte {{ font_size_class }} {{ block.settings.text_style }}">
+                  {{ block.settings.text }}
+                </div>
+              {%- endif -%}
+
+              {%- if block.settings.button_text != blank -%}
+                {%- liquid
+                  assign button_style = block.settings.button_style
+                  if button_style == 'btn--text' and block.settings.show_arrow
+                    assign button_style = button_style | append: ' btn--text-no-underline'
+                  endif
+                -%}
+
+                <div class="hero__button">
+                  <a href="{{ block.settings.button_url | default: '#!' }}" class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}">
+                    <span>{{ block.settings.button_text }}</span>
+
+                    {%- if block.settings.show_arrow -%}
+                      {%- render 'icon-arrow-right' -%}
+                    {%- endif -%}
+                  </a>
+                </div>
+              {%- endif -%}
+
+            {%- endcase -%}
+            {%endfor%}
+    </div>
+  </div>
+  {% schema %}
+{
+  "name": "Page Content",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Image",
+      "id": "image"
+    },
+    {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper--full-padded",
+        "options": [
+          { "value": "wrapper--full", "label": "Full width" },
+          { "value": "wrapper--full-padded", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Normal" },
+          { "value": "wrapper--narrow", "label": "Narrow" }
+        ]
+      },
+    {
+      "type": "select",
+      "label": "Image Position desktop",
+      "id": "image_position_d",
+      "options": [
+        { "value": "desktop-left", "label": "Left" },
+        { "value": "desktop-right", "label": "Right" }
+      ],
+      "default": "desktop-left"
+    },
+    {
+        "type": "select",
+        "label": "Image Position Mobile",
+        "id": "image_position_m",
+        "options": [
+          { "value": "mobile-up", "label": "Top" },
+          { "value": "mobile-down", "label": "Bottom" }
+        ],
+        "default": "mobile-up"
+      },
+    {
+      "type": "select",
+      "label": "Image Size",
+      "id": "image_size",
+      "options": [
+        { "value": "25", "label": "25%" },
+        { "value": "50", "label": "50%" },
+        { "value": "75", "label": "75%" }
+      ],
+      "default": "50"
+    },
+    {
+        "type": "header",
+        "content": "Section padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 50
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 50
+      }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 8
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "label": "Style",
+          "default": "font-body",
+          "options": [
+            { "value": "font-heading", "label": "Heading" },
+            { "value": "font-subheading", "label": "Subheading" },
+            { "value": "font-body", "label": "Body" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Text",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "button_type",
+          "label": "Color",
+          "default": "btn--primary",
+          "options": [
+            { "value": "btn--primary", "label": "Primary" },
+            { "value": "btn--secondary", "label": "Secondary" },
+            { "value": "btn--tertiary", "label": "Pink" },
+            { "value": "btn--quaternary", "label": "Blue" },
+            { "value": "btn--quinary", "label": "Outline" },
+            { "value": "btn--senary", "label": "White borderless" },
+            { "value": "btn--white", "label": "White" },
+            { "value": "btn--black", "label": "Black" },
+            { "value": "btn--text-cl", "label": "Text" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_size",
+          "label": "Size",
+          "default": "",
+          "options": [
+            { "label": "Small", "value": "btn--small" },
+            { "label": "Medium", "value": "" },
+            { "label": "Large", "value": "btn--large" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Style",
+          "default": "btn--solid",
+          "options": [
+            { "label": "Solid", "value": "btn--solid" },
+            { "label": "Outline", "value": "btn--outline" },
+            { "label": "Text", "value": "btn--text" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "show_arrow",
+          "label": "Show arrow",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "name": "Divider",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Desktop"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_line",
+          "label": "Show line",
+          "default": true
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding top",
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 20
+        },
+        {
+          "type": "header",
+          "content": "Mobile"
+        },
+        {
+          "type": "range",
+          "id": "mobile_padding_top",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding top",
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "mobile_padding_bottom",
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 20
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+        "name": "Page Content",
+        "category": "Custom",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

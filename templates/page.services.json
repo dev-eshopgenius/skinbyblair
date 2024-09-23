@@ -1,0 +1,521 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "eb3ebcb4-5ff1-493d-9592-8cb828b6401b": {
+      "type": "section-custom-hero",
+      "blocks": {
+        "9fc06b67-1351-439d-90bc-c835a9fd5dd9": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h4>OUR SERVICES<\/h4>",
+            "text-align-class": "hero-text-center",
+            "mobile_richtext": "",
+            "mobile_text-align-class": "hero-text-center"
+          }
+        }
+      },
+      "block_order": [
+        "9fc06b67-1351-439d-90bc-c835a9fd5dd9"
+      ],
+      "settings": {
+        "height": "screen-height-one-third",
+        "width": "wrapper--full",
+        "content_special_margin": 0,
+        "content_width": 100,
+        "mobile_content_width": 100,
+        "image_1": "shopify:\/\/shop_images\/New_Header.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "same_content_as_desktop": true,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_margin_bottom": 0,
+        "flex_align_mobile": "align--middle-center-mobile",
+        "mobile_content_margin_bottom": 0,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#848080"
+      }
+    },
+    "aefbfa5a-51dd-4ec5-9345-1547448d1f6c": {
+      "type": "section-columns",
+      "blocks": {
+        "template--14549487583316__aefbfa5a-51dd-4ec5-9345-1547448d1f6c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Botox_Dysport-min.jpg",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "BOTOX\/DYSPORT",
+            "button_url": "shopify:\/\/pages\/botox-dysport",
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--14549487583316__aefbfa5a-51dd-4ec5-9345-1547448d1f6c-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dermal_Filler-min_1-min.jpg",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "DERMAL FILLER",
+            "button_url": "shopify:\/\/pages\/dermal-filler",
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--14549487583316__aefbfa5a-51dd-4ec5-9345-1547448d1f6c-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Aquagold-min_1-min.jpg",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "AQUAGOLD",
+            "button_url": "shopify:\/\/pages\/aquagold",
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487583316__aefbfa5a-51dd-4ec5-9345-1547448d1f6c-image-1",
+        "template--14549487583316__aefbfa5a-51dd-4ec5-9345-1547448d1f6c-image-2",
+        "template--14549487583316__aefbfa5a-51dd-4ec5-9345-1547448d1f6c-image-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "column_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "text_content_padding": false,
+        "layout_mobile": "carousel"
+      }
+    },
+    "9b32ee74-5ce7-46eb-a4c1-2fcb1b214153": {
+      "type": "section-columns",
+      "blocks": {
+        "57b89472-f5f3-4b99-ad31-fd791588da7f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cosmelan_MD_Peel-min.jpg",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "COSMELAN MD PEEL",
+            "button_url": "shopify:\/\/pages\/cosmelan-md",
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "397e1bbe-4e83-4f7e-af22-4d7563cc9cd9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s5.png",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "KYBELLA",
+            "button_url": "shopify:\/\/pages\/kybella",
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "31f6d50b-fe3d-4060-b6ba-81791b10690d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PRP_Facial.jpg",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "PRP FACIAL",
+            "button_url": "shopify:\/\/pages\/prp-facial",
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "57b89472-f5f3-4b99-ad31-fd791588da7f",
+        "397e1bbe-4e83-4f7e-af22-4d7563cc9cd9",
+        "31f6d50b-fe3d-4060-b6ba-81791b10690d"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "column_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "text_content_padding": false,
+        "layout_mobile": "carousel"
+      }
+    },
+    "830b8070-a457-48c5-b19b-398042f30bb6": {
+      "type": "section-columns",
+      "blocks": {
+        "c3237eb9-25b2-4c82-b34f-2dfdf9553dcf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s8.jpg",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "VEIN TREATMENT",
+            "button_url": "shopify:\/\/pages\/vein-treatment",
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "74409335-0a0b-4067-8320-80d9ced64c13": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s9.png",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "NECK REJUVENATION",
+            "button_url": "shopify:\/\/pages\/neck-rejuvenation",
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "0a62a69e-1ebb-42f1-aa59-6bfe854834a6": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PRP_Facial.jpg",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "PRP FACIAL",
+            "button_url": "shopify:\/\/pages\/prp-facial",
+            "button_type": "btn--tertiary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "c3237eb9-25b2-4c82-b34f-2dfdf9553dcf",
+        "74409335-0a0b-4067-8320-80d9ced64c13",
+        "0a62a69e-1ebb-42f1-aa59-6bfe854834a6"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "column_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "text_content_padding": false,
+        "layout_mobile": "carousel"
+      }
+    },
+    "40542feb-b644-4f99-ae6b-2d3c50b63d8c": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "template--14549487583316__40542feb-b644-4f99-ae6b-2d3c50b63d8c-icon-1": {
+          "type": "icon",
+          "settings": {
+            "column_width": 50,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#848080",
+            "title": "Botox\/Dysport",
+            "heading_size": 8,
+            "text": "<p>Botox and Dysport are purified proteins that reduce the activity of wrinkle causing muscles, thus preventing or reversing the signs of aging.<\/p><p><em>Botox\/Dysport Uses<\/em>: forehead wrinkles, frown lines, crows feet, smoker lines, brow lift, bunny lines, TMJ, gummy smile.<\/p>",
+            "text_size": 2
+          }
+        },
+        "template--14549487583316__40542feb-b644-4f99-ae6b-2d3c50b63d8c-icon-2": {
+          "type": "icon",
+          "settings": {
+            "column_width": 50,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "Dermal Filler",
+            "heading_size": 8,
+            "text": "<p>Dermal fillers use hyaluronic acid, a substance that occurs naturally in the body, to help diminish facial lines and restore volume loss and fullness in the face.<\/p><p><em>Dermal Filler Uses:<\/em> plump thin lips, enhance contours, soften facial creases and wrinkles, improve the appearance of recessed scars, and reconstruct contour deformities in the face.<\/p>",
+            "text_size": 2
+          }
+        },
+        "ee03f227-8491-49bb-a352-95b9150c3455": {
+          "type": "icon",
+          "settings": {
+            "column_width": 50,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "Kybella",
+            "heading_size": 8,
+            "text": "<p>Kybella is the only FDA approved injection to treat unwanted fat. Even when individuals eat right, exercise regularly, and overall lead a healthy lifestyle, areas of stubborn fat can remain. Kybella is a great treatment option for those wanting to avoid surgical procedures such as liposuction for fat reduction.<\/p><p><em>Kybella Uses: <\/em>double chin, bra fat, inner and outer thighs, abdomen, knees.<\/p>",
+            "text_size": 2
+          }
+        },
+        "31daa136-1ec4-480b-9f12-51d27bbc4f1a": {
+          "type": "icon",
+          "settings": {
+            "column_width": 50,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "Aquagold",
+            "heading_size": 8,
+            "text": "<p>Uses a 24K gold plated micro-channeling device with customizable formulations to helps plump and rejuvenate skin while also boosting collagen production.<\/p><p><em>AquaGold Uses: <\/em>reduce pore size, decrease sweating and oil production, soften fine lines and wrinkles, hydrate and brighten skin.<\/p>",
+            "text_size": 2
+          }
+        },
+        "3f50ffd4-9e9f-4819-aa29-c88d96770f3a": {
+          "type": "icon",
+          "settings": {
+            "column_width": 50,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "PRP Facial",
+            "heading_size": 8,
+            "text": "<p>Uses concentrated growth factors in your own blood to stimulate new collagen growth in order to treat skin concerns. Often used in conjunction with microneedling in order to stimulate the maximum amount of collagen possible.<\/p><p><em>PRP Uses: <\/em>improve skin texture and tone, reduce pore size, improve acne scarring, reduce fine lines and wrinkles, improve stretch mark.<\/p>",
+            "text_size": 2
+          }
+        },
+        "7417b108-1aea-41dc-b700-eecf5c6bc1cc": {
+          "type": "icon",
+          "settings": {
+            "column_width": 50,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "Cosmelan MD Peel",
+            "heading_size": 8,
+            "text": "<p>Depigmentation treatment used to correct areas of hyperpigmentation and\/or melasma due to factors such as sun exposure, aging, hormonal fluctuations, pregnancy, trauma and acne.<\/p><p><em>Cosmelan Uses: hyperpigmentation, melasma, dark spots, acne scarring, PIH, PIE, sun spots.<\/em><\/p>",
+            "text_size": 2
+          }
+        },
+        "8e87fd91-9efe-4738-96cb-defdd4812e4d": {
+          "type": "icon",
+          "settings": {
+            "column_width": 50,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "Sclerotherapy",
+            "heading_size": 8,
+            "text": "<p>Used to improve the look of spider veins and unsightly blood vessels often present on the upper and lower legs.<\/p><p><em>Sclerotherapy Uses: <\/em>spider veins, mild varicose veins, broken blood vessels.<\/p>",
+            "text_size": 2
+          }
+        },
+        "54b436ba-6648-46f4-9154-07460d7333fc": {
+          "type": "icon",
+          "settings": {
+            "column_width": 50,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "Neck Rejuvenation",
+            "heading_size": 8,
+            "text": "<p>Combine multiple treatment modalities including micro-botox, dermal filler, PRP (platelet rich plasma), microneedling, and collagen stimulators to rejuvenate the neck and décolletage.<\/p>",
+            "text_size": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487583316__40542feb-b644-4f99-ae6b-2d3c50b63d8c-icon-1",
+        "template--14549487583316__40542feb-b644-4f99-ae6b-2d3c50b63d8c-icon-2",
+        "ee03f227-8491-49bb-a352-95b9150c3455",
+        "31daa136-1ec4-480b-9f12-51d27bbc4f1a",
+        "3f50ffd4-9e9f-4819-aa29-c88d96770f3a",
+        "7417b108-1aea-41dc-b700-eecf5c6bc1cc",
+        "8e87fd91-9efe-4738-96cb-defdd4812e4d",
+        "54b436ba-6648-46f4-9154-07460d7333fc"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "carousel"
+      }
+    },
+    "bea58291-245f-4cb1-b946-493fd916eda8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14549487190100__bea58291-245f-4cb1-b946-493fd916eda8-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "NO MORE SKINCARE CONFUSION — WE TELL IT TO YOU STRAIGHT.",
+            "text_size": 6,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14549487190100__bea58291-245f-4cb1-b946-493fd916eda8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Get tips & education straight from an aesthetics professional you can genuinely trust.",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__bea58291-245f-4cb1-b946-493fd916eda8-subheading-1",
+        "template--14549487190100__bea58291-245f-4cb1-b946-493fd916eda8-heading-1"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {section {display: none !important; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "7e4d17a7-1a5e-47b9-92db-b47de9eba8b7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14557964271700__7e4d17a7-1a5e-47b9-92db-b47de9eba8b7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>NO MORE SKINCARE CONFUSION— WE TELL IT TO YOU STRAIGHT.<\/h4><p><br\/><\/p><h2>Get tips & education straight from an aesthetics professional you can genuinely trust.<\/h2>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14557964271700__7e4d17a7-1a5e-47b9-92db-b47de9eba8b7-text-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 749px) {section {display: none !important; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "1692976257fb10dc69": {
+      "type": "apps",
+      "blocks": {
+        "be0e10ad-3ae3-4382-b1e9-4ac213de1020": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "be0e10ad-3ae3-4382-b1e9-4ac213de1020"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "d89866c7-e9e7-4927-b1b4-8eb3f7367161": {
+      "type": "single-line-text",
+      "settings": {
+        "text": "<p>@skinbyblair<\/p>",
+        "align_text": "text-right",
+        "align_text_mobile": "mobile-hero-text-center",
+        "text_style": "font-subheading",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "color": "#282c2e"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "eb3ebcb4-5ff1-493d-9592-8cb828b6401b",
+    "aefbfa5a-51dd-4ec5-9345-1547448d1f6c",
+    "9b32ee74-5ce7-46eb-a4c1-2fcb1b214153",
+    "830b8070-a457-48c5-b19b-398042f30bb6",
+    "40542feb-b644-4f99-ae6b-2d3c50b63d8c",
+    "bea58291-245f-4cb1-b946-493fd916eda8",
+    "7e4d17a7-1a5e-47b9-92db-b47de9eba8b7",
+    "1692976257fb10dc69",
+    "d89866c7-e9e7-4927-b1b4-8eb3f7367161"
+  ]
+}

@@ -1,0 +1,238 @@
+
+{% style %}
+    #OnTheBlog--{{ section.id }} {
+        padding: {{ section.settings.padding_top }}px 0px {{ section.settings.padding_bottom }}px 0px;
+        {%- if section.settings.background_color != blank -%}
+            background-color: {{ section.settings.background_color }} !important;
+        {%- endif -%}
+    }
+
+    .on-the-blog-title {
+        background: {{ section.settings.background_color }} !important;
+        position: relative;
+        z-index: 1;
+    }
+
+    .carousel-cell.custom-article-cell {
+        width: 27%;
+        height: 100%;
+        margin-right: 31px;
+        background: transparent;
+        border-radius: 5px;
+        counter-increment: carousel-cell;
+    }
+
+    .custom-articles-carousel .flickity-viewport {
+        height: 435px;
+    }
+
+    .custom-articles-carousel .flickity-page-dots .flickity-page-dot {
+        background: transparent;
+        border: 3px solid white;
+        width: 12px;
+        height: 12px;
+    }
+
+    .custom-articles-carousel .flickity-page-dots .flickity-page-dot.is-selected {
+        background: white;
+        border: 3px solid white;
+    }
+
+    @media only screen and (max-width: 749px) {
+        .carousel-cell.custom-article-cell {
+            width: 80%;
+            height: 100%;
+            margin-right: 10px;
+            background: transparent;
+            border-radius: 5px;
+            counter-increment: carousel-cell;
+        }
+
+        .custom-articles-carousel .flickity-viewport {
+        height: 413px;
+    }
+    }
+{% endstyle %}
+
+<section id="OnTheBlog--{{ section.id }}">
+    <div class="otb-title-container {{ section.settings.text-align-class }} {{ section.settings.mobile-text-align-class }}">
+        <h3 class="on-the-blog-title {%if section.settings.otb_subtitle != blank %} alternative-on-the-blog-title {%endif%} ">{{ section.settings.title }}</h3>
+        <hr class="on-the-blog-title-line">
+    </div>
+    {%if section.settings.otb_subtitle != blank %}
+    <div class="otb-subtitle-container otb-title-container {{ section.settings.text-align-class }} {{ section.settings.mobile-text-align-class }}">
+        {{section.settings.otb_subtitle }}
+    </div>
+    {%endif%}
+    <div class="carousel custom-articles-carousel"
+    data-flickity='{ "wrapAround": true, "arrowShape": "M18.5 12H6m0 0l6-6m-6 6l6 6", "setGallerySize": false }'>
+    {% for block in section.blocks %}
+        {% assign article = block.settings.article %}
+        <div class="carousel-cell custom-article-cell">
+            <div class="borderless-card">
+                <img class="borderless-card-img" src="{{ article.image | img_url: '600x' }}" alt="{{ article.title }}">
+                <div class="borderless-card-content">
+                    {% if block.settings.subheading %}
+                        <h5 class="custom-article-subtitle">{{ block.settings.subheading }}</h5>
+                    {% endif %}
+                    <h3 class="custom-article-title">{{ article.title }}</h3>
+                </div>
+                <a href="{{ article.url }}" class="btn {{ section.settings.button_style }} {{ section.settings.button_size }} {{ section.settings.button_type }} custom-article-button">{{ block.settings.button_text }}</a>
+            </div>
+        </div>
+    {% endfor %}
+</section>
+
+<script>
+    document.addEventListener('shopify:section:load', function(event) {
+        if(event.target.id == 'shopify-section-{{ section.id}}') {
+            setTimeout(() => {
+                window.location.reload();
+            }, 1500)
+        }
+    });
+</script>
+
+{% schema %}
+    {
+        "name": "On the Blog",
+        "class": "section-on-the-blog",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Heading",
+                "default": "On The Blog"
+            },
+            {
+                "type": "richtext",
+                "id": "otb_subtitle",
+                "label": "Paragraph"
+            },
+            {
+                "type": "select",
+                "id": "text-align-class",
+                "label": "Title alignment",
+                "default": "hero-text-center",
+                "options": [
+                    { "value": "hero-text-center", "label": "Center" },
+                    { "value": "hero-text-left", "label": "Left"},
+                    { "value": "hero-text-right", "label": "Right"},
+                    { "value": "hero-text-justify", "label": "Justify"}
+                ]
+            },
+            {
+                "type": "select",
+                "id": "mobile-text-align-class",
+                "label": "Title alignment for mobile",
+                "default": "mobile-hero-text-center",
+                "options": [
+                    { "value": "mobile-hero-text-center", "label": "Center" },
+                    { "value": "mobile-hero-text-left", "label": "Left"},
+                    { "value": "mobile-hero-text-right", "label": "Right"},
+                    { "value": "mobile-hero-text-justify", "label": "Justify"}
+                ]
+            },
+            {
+                "type": "select",
+                "id": "button_type",
+                "label": "Buttons Color",
+                "default": "btn--secondary",
+                "options": [
+                    { "value": "btn--primary", "label": "Primary" },
+                    { "value": "btn--secondary", "label": "Secondary" },
+                    { "value": "btn--tertiary", "label": "Pink" },
+                    { "value": "btn--quaternary", "label": "Blue" },
+                    { "value": "btn--quinary", "label": "Outline" },
+                    { "value": "btn--senary", "label": "White borderless" },
+                    { "value": "btn--white", "label": "White" },
+                    { "value": "btn--black", "label": "Black" },
+                    { "value": "btn--text-cl", "label": "Text" }
+                ]
+            },
+            {
+                "type": "select",
+                "id": "button_style",
+                "label": "Buttons Style",
+                "default": "btn--solid",
+                "options": [
+                    { "label": "Solid", "value": "btn--solid" },
+                    { "label": "Outline", "value": "btn--outline" },
+                    { "label": "Text", "value": "btn--text" }
+                ]
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "label": "Padding Top",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "default": 20
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "label": "Padding Bottom",
+                "min": 0,
+                "max": 100,
+                "step": 5,
+                "default": 20
+            },
+            {
+                "type": "color",
+                "id": "background_color",
+                "label": "Background Color",
+                "default": "#F4F1EF"
+            }
+        ],
+        "max_blocks": 9,
+        "blocks": [
+            {
+                "type": "article",
+                "name": "Article",
+                "settings": [
+                    {
+                        "type": "article",
+                        "id": "article",
+                        "label": "Article"
+                    },
+                    {
+                        "type": "text",
+                        "id": "subheading",
+                        "label": "Article Subheading"
+                    },
+                    {
+                        "type": "text",
+                        "id": "button_text",
+                        "label": "Button Text",
+                        "default": "READ MORE"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom Articles List",
+                "category": "Image",
+                "blocks": [
+                    {
+                    "type": "article"
+                    },
+                    {
+                    "type": "article"
+                    },
+                    {
+                    "type": "article"
+                    },
+                    {
+                    "type": "article"
+                    },
+                    {
+                    "type": "article"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

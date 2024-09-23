@@ -1,0 +1,590 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "1cb7c158-42fc-4515-99d9-f5dcf108e1f3": {
+      "type": "section-custom-hero",
+      "blocks": {
+        "bcfa8057-ad98-4673-8ae1-acbf3c2505c1": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h5>WELCOME TO SKIN BY BLAIR<\/h5><h1>Where <em>skincare<\/em><br\/>is <em>self-care.<\/em><\/h1>",
+            "text-align-class": "hero-text-right",
+            "mobile_richtext": "<h5>WELCOME TO SKIN BY BLAIR<\/h5><h1>Where <em>skincare<\/em><br\/>is <em>self-care.<\/em><\/h1>",
+            "mobile_text-align-class": "hero-text-center"
+          }
+        }
+      },
+      "block_order": [
+        "bcfa8057-ad98-4673-8ae1-acbf3c2505c1"
+      ],
+      "settings": {
+        "height": "four-fifty-height-hero",
+        "width": "wrapper--full",
+        "content_special_margin": 0,
+        "content_width": 100,
+        "mobile_content_width": 100,
+        "image_1": "shopify:\/\/shop_images\/health-wellbeing-essentials.png",
+        "link": "",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/health-wellbeing-essentials-m.png",
+        "same_content_as_desktop": false,
+        "flex_align_desktop": "align--top-right-desktop",
+        "content_margin_bottom": 0,
+        "flex_align_mobile": "align--top-center-mobile",
+        "mobile_content_margin_bottom": 0,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "68241abe-efba-4911-aab4-726322addab6": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14552178589780__68241abe-efba-4911-aab4-726322addab6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>We were founded on the belief<br\/>that you deserve to feel as loved<br\/> & taken care of as you make<br\/>others feel.<\/h2>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14552178589780__68241abe-efba-4911-aab4-726322addab6-text-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {section {display: none; }}",
+        ".hero__content__wrapper {padding-right: 0.5rem; padding-left: 0.5rem; padding-bottom: 0.5rem;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "e1634bf3-2106-45b2-ae34-752edc9d95f5": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14552178557012__e1634bf3-2106-45b2-ae34-752edc9d95f5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>We were founded on the belief that you deserve to<br\/>feel as loved & taken care of as you make others feel.<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14552178557012__e1634bf3-2106-45b2-ae34-752edc9d95f5-text-1"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 750px) {section {display: none; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "#848080",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "ca0e40d3-eef7-4573-b44f-91ce03da674d": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "template--14554059341908__ca0e40d3-eef7-4573-b44f-91ce03da674d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Dedicating time to fill your own cup looks different for everyone, but the truth is, it’s essential to your health and well-being.<\/h3><h3><\/h3><p>Even if your self-care journey starts with just 5 minutes of skincare a day, you can give yourself a luxurious experience that creates a luminous glow, lifts your spirit, and reminds you how worthy & beautiful you truly are.<br\/><br\/>We know the beauty industry can be full of mixed messages and marketing tactics. So while you may arrive confused about which products and treatments will actually address your skin needs, we ensure you don’t leave that way. Whether you’re coming into our office, engaged with our online community, or shopping our line of effective skincare, we’ll always provide transparent, industry-leading information that will help you foster a beautiful self-care routine that unveils your most confident, radiant self. <\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14554059341908__ca0e40d3-eef7-4573-b44f-91ce03da674d-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop Skincare",
+            "button_url": "shopify:\/\/collections\/frontpage",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        },
+        "fdd31530-1b4f-401b-b324-98c83dba401e": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Aesthetic services",
+            "button_url": "shopify:\/\/pages\/services",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "template--14554059341908__ca0e40d3-eef7-4573-b44f-91ce03da674d-text-1",
+        "template--14554059341908__ca0e40d3-eef7-4573-b44f-91ce03da674d-buttons-1",
+        "fdd31530-1b4f-401b-b324-98c83dba401e"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/womans-skincare-selfcare.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 26,
+        "button_width": 2
+      }
+    },
+    "1f861963-2455-4cad-a950-e289bf9032a1": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "template--14553324519508__1f861963-2455-4cad-a950-e289bf9032a1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Hi, <em>beauty<\/em> — I’m Blair.<\/h2><h3>My journey to owning & operating Skin by Blair was inspired by a <em>calling to care for others.<\/em><\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "4ddc6f49-046f-4923-96b4-529be667393d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>But years ago, my idea of caring for others was narrow-minded. I fell in love with aesthetics in PA school, but struggled to justify the idea of pursuing an area of healthcare that was known for making people ‘pretty.’ I spent my early career torn between what I thought was the right path— emergency medicine — and what I was deeply passionate about — aesthetic medicine.<\/p>",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14553324519508__1f861963-2455-4cad-a950-e289bf9032a1-text-1",
+        "4ddc6f49-046f-4923-96b4-529be667393d"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/skinbyblair-founder-blair-hayes.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 26,
+        "button_width": 1
+      }
+    },
+    "e4c8a2cc-188c-498c-b18b-0f1529ce4d6c": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "c47dee45-a07e-434c-a7b5-9491516bd04e": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>After much consideration and prayer, I realized God <em>gave me this passion for aesthetics for a reason.<\/em><\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "49333fc9-bba0-4b89-bdff-ba9f82cf2c6b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>My gift and calling wasn’t simply to provide treatments that enhanced women’s beauty, but to care for them in a way that inspired confidence and supported them to show up as their best selves. I decided to turn my part-time passion into a full-time career, and soon after, open my own practice.<\/p><p><br\/>The early days of Skin By Blair were full of fast-paced growth and a crash course in business and entrepreneurship. Our reputation was built from hundreds of happy patients and our waitlist quickly grew to thousands.<\/p>",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "c47dee45-a07e-434c-a7b5-9491516bd04e",
+        "49333fc9-bba0-4b89-bdff-ba9f82cf2c6b"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/pretty-white-room.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 26,
+        "button_width": 1
+      }
+    },
+    "a058a382-8622-4ccf-b559-193066390948": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "03f404e4-0209-46cf-9cc4-268919885708": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Hearing from patients about their skin concerns and goals showed me the <em>holes in the market<\/em>.<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "e3816d5e-5d09-49eb-adf9-d8c2df3c01d2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To achieve their desired results, they needed high-quality, effective products that didn’t yet exist on store shelves. So I decided to take on the challenge of developing them myself.<\/p><p><br\/>Now, our product line is extensive and continuing to grow — and in offering elevated skincare to women like you, I wholeheartedly believe I’m living out my purpose.<\/p>",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "03f404e4-0209-46cf-9cc4-268919885708",
+        "e3816d5e-5d09-49eb-adf9-d8c2df3c01d2"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/high-quality-skincare.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "horizontal_padding": 26,
+        "button_width": 1
+      }
+    },
+    "861d7227-e48e-4d4c-9589-f55ab8a031a4": {
+      "type": "section-video",
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/Our Mission Video.mp4",
+        "show_video_popup": false,
+        "video_popup_social": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "We help women transform their skin, encourage self-care, and build self-confidence that radiates from the inside out.",
+        "heading_size": 7,
+        "description": "",
+        "text_size": 3,
+        "use_richtext": true,
+        "richtext": "<p><strong>OUR MISSION<\/strong><\/p><h3>We help women transform their skin,<br\/>encourage self-care, and build self-confidence that radiates from the inside out.<\/h3>",
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false
+      }
+    },
+    "2bb111a7-2bb0-4ab5-90c0-94cd4cb03fb4": {
+      "type": "section-custom-banner-with-text",
+      "blocks": {
+        "template--14553324519508__2bb111a7-2bb0-4ab5-90c0-94cd4cb03fb4-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h4><strong>OUR PROMISE TO YOU<\/strong><\/h4><h3>We seek to uplift women everywhere. We believe that skincare is the finest form of self-care and that it’s essential to your overall health and well-being. We believe that how you treat yourself affects how you show up for others. That when you learn to love what you see in the mirror, your confidence grows, and you <em>glow from the inside out<\/em>.<\/h3>"
+          }
+        },
+        "c4ad8ea0-f308-4df7-ba8c-2d3a6ce802cc": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h3>We know skincare can be confusing but we aim to make it simpler.We believe that you deserve to know <span style=\"text-decoration:underline\">the why<\/span> behind each product on your vanity. <em>And that it should actually do what it says it’s going to do.<\/em>You deserve to feel informed and educated to make the best decision for you personally.<em>Because knowledge is power. <\/em><\/h3>"
+          }
+        },
+        "8b762d59-aeac-4061-99c9-e64548d9c53a": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h3>We believe skincare is personal. That <span style=\"text-decoration:underline\">you’re worthy<\/span> of feeling seen, heard, and understood. That it’s more than okay to want to enhance what’s naturally & beautifully you. <em>And there’s nothing superficial about that.<\/em> We believe that it’s possible to truly feel beautiful in your own skin. <em>And to improve your quality of life as a result.<\/em><\/h3>"
+          }
+        },
+        "5f6541fb-771f-430d-8e01-2423be9fd5a9": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h3>We believe elevated skincare is developed in the details. We’ll <em>always<\/em> refine until we get it exactly right. We’re committed to creating innovative and effective products that <em>consistently deliver results<\/em>.<\/h3>"
+          }
+        },
+        "5cc3696d-2ed5-4b6f-a7db-5f57151ed116": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h3>Above all, we believe in putting God first, being legacy-minded, and <em>developing meaningful relationships<\/em>. Skin by Blair unveils confidence that’s more than skin deep. <\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14553324519508__2bb111a7-2bb0-4ab5-90c0-94cd4cb03fb4-richtext-1",
+        "c4ad8ea0-f308-4df7-ba8c-2d3a6ce802cc",
+        "8b762d59-aeac-4061-99c9-e64548d9c53a",
+        "5f6541fb-771f-430d-8e01-2423be9fd5a9",
+        "5cc3696d-2ed5-4b6f-a7db-5f57151ed116"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {h2 {font-size: calc(var(--font-9) * var(--FONT-ADJUST-HEADING)); }}"
+      ],
+      "settings": {
+        "heading": "The SBB Manifesto",
+        "heading_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/neutral-bedside-decor_2f82f687-044d-4fcc-b212-0b83359d9b74.webp",
+        "overlay_color": "#ffffff",
+        "text_color": "#848080",
+        "content_width": 64,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "section_custom_standard_double_YgWjqH": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "heading_ejXPgU": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "title2": "",
+            "text_size": 8
+          }
+        },
+        "text_idkbn4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Giving Back<\/p>",
+            "text_size": 4,
+            "text_style": "font-subheading"
+          }
+        },
+        "text_fU6ETb": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Purpose<\/em> With Your Purchase<\/h2><p>1% of all Skin By Blair sales are donated directly to the charity of your choosing, enabling you to make a meaningful impact on causes that matter most to you.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_wfrRaG": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "shopify:\/\/pages\/giving-back",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_ejXPgU",
+        "text_idkbn4",
+        "text_fU6ETb",
+        "buttons_wfrRaG"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/Giving_Tuesday_Hands.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "ec48fe1b-ab61-495b-9b30-aa18d6b9d60b": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "79794906-6c3e-45b2-8d09-d8f22e8e92c6": {
+          "type": "heading",
+          "settings": {
+            "title": "Tonic was the product that started it all...",
+            "title2": "",
+            "text_size": 8
+          }
+        },
+        "4f85bfe9-12bb-4c7e-b0b4-e5c6db909aa6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just a few years later, Skin By Blair has developed a line of high-quality skincare & self-care products that are transforming the skin - and confidence - of thousands of women around the globe.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "cd0ee37d-d2cc-485f-91ba-5cf467bfd0e4": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><em><strong>You’re Next.<\/strong><\/em><\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "c4efd288-db52-4a48-86de-2c6608989e38": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop Skincare",
+            "button_url": "https:\/\/www.skinbyblair.com\/collections\/all",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "79794906-6c3e-45b2-8d09-d8f22e8e92c6",
+        "4f85bfe9-12bb-4c7e-b0b4-e5c6db909aa6",
+        "cd0ee37d-d2cc-485f-91ba-5cf467bfd0e4",
+        "c4efd288-db52-4a48-86de-2c6608989e38"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/skinbyblair-tonic.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "moble-text-left",
+        "bg_color": "",
+        "color": "#848080",
+        "custom_id": "",
+        "padding_top": 78,
+        "padding_bottom": 78,
+        "horizontal_padding": 26,
+        "button_width": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1cb7c158-42fc-4515-99d9-f5dcf108e1f3",
+    "68241abe-efba-4911-aab4-726322addab6",
+    "e1634bf3-2106-45b2-ae34-752edc9d95f5",
+    "ca0e40d3-eef7-4573-b44f-91ce03da674d",
+    "1f861963-2455-4cad-a950-e289bf9032a1",
+    "e4c8a2cc-188c-498c-b18b-0f1529ce4d6c",
+    "a058a382-8622-4ccf-b559-193066390948",
+    "861d7227-e48e-4d4c-9589-f55ab8a031a4",
+    "2bb111a7-2bb0-4ab5-90c0-94cd4cb03fb4",
+    "section_custom_standard_double_YgWjqH",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "ec48fe1b-ab61-495b-9b30-aa18d6b9d60b"
+  ]
+}

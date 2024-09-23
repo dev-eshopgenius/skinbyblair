@@ -1,0 +1,96 @@
+{% style %}
+  .pdp-carousel {
+    width: 100%;
+    margin-bottom: 11px;
+    /* border-top: 1px solid #DBD3CE;
+        border-bottom: 1px solid #DBD3CE; */
+  }
+
+  .carousel-cell.pdpt-cell {
+    width: 95%;
+    height: 100%;
+    margin-right: 10px;
+    background: transparent;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+
+  .pdp-carousel .flickity-viewport {
+    height: 80px;
+  }
+
+  .pdp-carousel .next {
+    right: -5%;
+  }
+
+  .pdp-carousel .previous {
+    left: -5%;
+  }
+
+  .pdpt-cell.is-selected {
+    opacity: 1;
+  }
+
+  .pdp-carousel .flickity-prev-next-button {
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .pdp-carousel .flickity-button:disabled {
+    opacity: 0.5;
+    visibility: visible;
+  }
+
+  @media (hover: hover) {
+    .pdp-carousel .flickity-prev-next-button.next {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    .pdp-carousel .flickity-prev-next-button.previous {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .pdp-carousel {
+      width: 100%;
+    }
+
+    .pdp-carousel .flickity-viewport {
+      height: 90px;
+    }
+  }
+{% endstyle %}
+
+{% if product.metafields.custom.product_testimonials %}
+  <div
+    class="carousel pdp-carousel"
+    data-flickity='{ "wrapAround": false, "setGallerySize": false, "pageDots": false, "arrowShape": "M14.2832 5.4292L21.0003 12.4292L14.2832 19.4292" }'
+  >
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'testimonial' %}
+          <div class="carousel-cell pdpt-cell">
+            <div class="pdp-cell-content">
+              {% if block.settings.avatar != blank %}
+                <img src="{{ block.settings.avatar | img_url: '600x' }}" alt="Avatar" class="pdp-cell-avatar">
+              {% else %}
+                <img src="{{ 'icon-sbb.png' | asset_url }}" alt="Avatar" class="pdp-cell-avatar">
+              {% endif %}
+              <div class="pdpt_rte">
+                {{ block.settings.text }}
+              </div>
+            </div>
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+{% endif %}
+{% if product.metafields.okendo.summaryData %}
+  <div data-oke-star-rating data-oke-reviews-product-id="shopify-<{{product.id}}>">
+    {{ product.metafields.okendo.StarRatingSnippet }}
+  </div>
+{%endif%}

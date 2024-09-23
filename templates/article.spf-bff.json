@@ -1,0 +1,505 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "SPF is your BFF",
+            "text_size": 8
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>If you don’t get excited about putting on your sunscreen <em>every.single.day<\/em>, you’ve come to the right place. <em>Welcome!<\/em><\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We all know by now that sunscreen is important - it’s important for skin cancer prevention, as well as prevention of premature aging like hyperpigmentation and wrinkles. I could go into all of the facts and science and data about sunscreen, but I’d rather keep your attention a bit longer as I find this topic extremely important.<\/p><p>You see, many years ago a product changed my life. I’m sure you’ve probably heard me tell this story before, but I literally had a dream about it the first day I used it - it was just that dang good! It is to this day the only product I’ve ever dreamed about. So what was this magic potion that I’m referring to? Yes - <em>it was a sunscreen<\/em> (<a href=\"https:\/\/skin-by-blair.myshopify.com\/collections\/sunscreens\/products\/intellishade-original\" target=\"_blank\">Revision Skincare’s Intellishade<\/a> to be exact, but more details on this later). The day I fell in love with this product was the day I realized that everyone can get excited about applying their sunscreen - they just need to find one that they LOVE!<\/p><p>Well I’m here to help you fall in love with your new BFF -- SPF! I will be sharing my top sunscreen recommendations by category - literally every category you could imagine! Let’s dive in.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-14_at_4.03.16_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>OVERALL TOP PICK:<\/strong><\/p><p>This is my “dream-worthy” product. My desert island must-have. The step in my skincare routine that excites me the post. World, meet <a href=\"https:\/\/skin-by-blair.myshopify.com\/collections\/sunscreens\/products\/intellishade-original\" target=\"_blank\">Intellishade<\/a>. For starters, it’s like wearing makeup with having to do your makeup. I wake up in the morning, throw on my Intellishade, and head out the door without feeling naked. Aside from SPF 45, it also contains antioxidants (prevents premature aging), peptides (signals for the skin to repair), a moisturizer, and foundation. Now I know some of y’all aren’t crazy about tinted sunscreens or you like your sunscreens to mattify your skin as opposed to the dewy look, but not to worry! It comes in different versions for you too!<\/p><p><\/p><ul><li><h4><a href=\"https:\/\/skin-by-blair.myshopify.com\/collections\/sunscreens\/products\/intellishade-original\" target=\"_blank\"><strong>Intellishade Original<\/strong><\/a>: tinted, hydrating, great for all skin types besides oily skin, ideal if you like a “dewy” finish to your skin<\/h4><\/li><li><h4><a href=\"https:\/\/skin-by-blair.myshopify.com\/collections\/sunscreens\/products\/intellishade-matte\" target=\"_blank\"><strong>Intellishade Matte:<\/strong><\/a> also tinted, but mattifies the skin, great for oily skin or for those just wanting a matte finish<\/h4><\/li><li><h4><a href=\"https:\/\/skin-by-blair.myshopify.com\/collections\/sunscreens\/products\/intellishade-truphysical\" target=\"_blank\"><strong>Intellishade TruPhysical<\/strong><\/a><strong>:<\/strong> the tinted physical version of Intellishade Original<\/h4><\/li><li><h4><a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/intellishade-clear\" target=\"_blank\"><strong>Intellishade Clear:<\/strong><\/a><a href=\"https:\/\/skin-by-blair.myshopify.com\/collections\/sunscreens\/products\/multi-protection-broad-spectrum-spf-50\"> <\/a>the non-tinted version of Intelishade Original, very popular among men and those who don’t like color in their sunscreen<\/h4><\/li><\/ul>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-14_at_6.15.23_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>FAVORITE SUNSCREEN FOR ACNE:<\/strong><\/p><p>If you struggle with acne, chances are you probably have a hard time finding a sunscreen that doesn’t break you out. And if you can’t find one that doesn’t break you out, you certainly aren’t inclined to wear SPF every day. I personally struggle with acne and find that<a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/intellishade-clear\" target=\"_blank\">Intellishade Clear <\/a>is the best sunscreen for acne prone skin - not only will it not break you out, but the SPF can help prevent acne scarring as well.<\/p><p><\/p><p><strong>FAVORITE SUNSCREEN FOR MELASMA + HYPERPIGMENTATION:<\/strong><\/p><p>Being out in the sun with melasma or hyperpigmentation can be intimidating. It's important you protect your skin with a high quality SPF. My favorite is the <a href=\"\/products\/cosmelan-sunscreen-draft\" title=\"Melan 130+\">Melan 130+<\/a> - it is tinted and contains a depigmenting ingredient that helps regulate melanin synthesis by reinforcing the preventative anti-spot action. <\/p><p><\/p><p><strong>FAVORITE SPF FOR MEN:<\/strong><\/p><p>When it comes to men, simplicity is key. Generally, the fewer steps the better, so if you can find an all-in-one product that they actually like to use, then I’d consider it a major win. <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/intellishade-clear\" target=\"_blank\">This sunscreen <\/a>has the benefits of 4 different products packed into one tube - moisturizer, antioxidants, peptides, and SPF 50. May as well sneak some anti-aging products into their sunscreen, right ladies?<\/p><p><\/p><p><strong>FAVORITE SPF SETTING SPRAY:<\/strong><\/p><p>While we’re on the topic of SPF ruining your makeup, look no further. I love t<a href=\"https:\/\/www.amazon.com\/dp\/B0B3QNN24J\/ref=cm_sw_r_as_gl_api_gl_i_CHQ9S1QG1WWXMJ819FHC?linkCode=ml1&tag=blairhayes-20\" title=\"https:\/\/www.amazon.com\/dp\/B0B3QNN24J\/ref=cm_sw_r_as_gl_api_gl_i_CHQ9S1QG1WWXMJ819FHC?linkCode=ml1&tag=blairhayes-20\">his makeup setting spray<\/a> and love that it contains SPF 40 even more! If you spend quality time on your makeup routine and can’t stomach the thought of messing it up with reapplying your sunscreen, then how about a sunscreen that actually protects your makeup!<\/p><p><\/p><p><strong>FAVORITE SPF PRIMER:<\/strong><\/p><p>For those who use primers or just like to mix an SPF product into your foundation, I personally love <a href=\"https:\/\/rstyle.me\/+pawCNcZ281BKQ8dWGj1hIA\" target=\"_blank\">Supergoop! Glowscreen<\/a>- not only is it a great primer, but I absolutely love the glow that it gives my skin! It’s super sheer and lightweight while also containing SPF 40.<\/p><p><strong>FAVORITE LIP SPF:<\/strong><\/p><p>Not only is SPF on your face important, but SPF on your lips is equally as important! The lips are an often neglected area when it comes to sunscreen application, so finding an SPF lip product to use during the day is vital. I’ve tried<em>so many<\/em>different SPF lip products and by far my favorite is<a href=\"https:\/\/rstyle.me\/+IxfygjxFRIlCmUlYVLRfhQ\" target=\"_blank\">Jane Iredale LipDrink Lip Balm<\/a>. It’s super hydrating while also giving some color to the lips. I personally use color “flirt” but it comes in 7 different shades, including “sheer” for those who prefer non-tinted.<\/p><p><\/p><p><strong>FAVORITE BODY SUNSCREEN:<\/strong><\/p><p>When it comes to body SPF, people usually have a preference regarding spray vs. lotion - so I’m going to share my favorite of both! It’s safe to say spray sunscreens are more convenient, especially when it comes to your kids. My go-to spray SPF is<a href=\"https:\/\/www.amazon.com\/dp\/B087HBVDYT\/ref=cm_sw_r_as_gl_api_gl_i_50QYPMA04201VJKBF6F9?linkCode=ml1&tag=blairhayes-20\" target=\"_blank\">Supergoop! Antioxidant Body Mist<\/a> - I love that it doesn’t smell like sunscreen, that it’s not sticky, and that it’s very gentle on the skin. Great for all skin types, especially kids and those with sensitive skin. My favorite body bronzing lotion is<a href=\"https:\/\/www.amazon.com\/dp\/B084TNNWF8\/ref=cm_sw_r_as_gl_api_gl_i_ARNM214149C73MHKCETH?linkCode=ml1&tag=blairhayes-20\" target=\"_blank\">Colorscience Sunforgettable Total Body Shield SPF 50<\/a> - I love that it doesn’t feel like sunscreen but more like a good body moisturizer (which is good because its also very moisturizing for the skin). Plus, it has a beautiful, bronzy finish! Lastly, if you plan to be in-and-out of the pool\/ocean or playing outdoor sports where you will be sweating, you may want to use a water-resistant SPF such as (again!) the Supergoop! Anxtioxidant Body Mist.<\/p><p><\/p><p><strong>FAVORITE DRUGSTORE SUNSCREEN:<\/strong><\/p><p>If you’re at the beach and realize you forgot to pack your sunscreen, a good old drugstore SPF will do just fine!<\/p><p>Drugstore spray: <a href=\"https:\/\/www.amazon.com\/gp\/product\/B00ANL8QHA\/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00ANL8QHA&linkCode=as2&tag=blairhayes-20&linkId=4b98e07d45af1dec72c8b7d33705295c\" title=\"https:\/\/www.amazon.com\/gp\/product\/B00ANL8QHA\/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00ANL8QHA&linkCode=as2&tag=blairhayes-20&linkId=4b98e07d45af1dec72c8b7d33705295c\">Neutrogena Beach Defense Spray Sunscreen SPF 70<\/a><\/p><p>Drugstore body lotion: <a href=\"https:\/\/www.amazon.com\/dp\/B00TBJWP9K\/ref=cm_sw_r_as_gl_api_gl_i_EABMWKY8B2GNFDP8SQMP?linkCode=ml1&tag=blairhayes-20\" title=\"https:\/\/www.amazon.com\/dp\/B00TBJWP9K\/ref=cm_sw_r_as_gl_api_gl_i_EABMWKY8B2GNFDP8SQMP?linkCode=ml1&tag=blairhayes-20\">La Roche Posay Cooling Water Lotion<\/a><\/p><p>Drugstore Face SPF: <a href=\"https:\/\/www.amazon.com\/gp\/product\/B00F97FHAW\/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00F97FHAW&linkCode=as2&tag=blairhayes-20&linkId=0cccbee25d032cda90ee6235b8522af2\" title=\"https:\/\/www.amazon.com\/gp\/product\/B00F97FHAW\/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00F97FHAW&linkCode=as2&tag=blairhayes-20&linkId=0cccbee25d032cda90ee6235b8522af2\">Cerave Facial Moisturizing Lotion<\/a><\/p><p><\/p><p><\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "967819a1-a504-4580-b170-da1a5be9f557": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop SUNSCREENS",
+            "button_url": "shopify:\/\/collections\/sunscreens",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1",
+        "967819a1-a504-4580-b170-da1a5be9f557"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Recommended products<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

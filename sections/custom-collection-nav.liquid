@@ -1,0 +1,123 @@
+{% liquid
+    assign enable_sort = section.settings.enable_sort
+    assign enable_filters = section.settings.enable_filters
+    assign filter_layout = section.settings.filter_layout
+
+    if filter_layout == 'inline-open'
+        assign filters_expanded = true
+    endif
+%}
+
+<section class="filters-nav">
+    {%- assign align_classes = '' -%}
+    {%- if enable_sort -%}
+      {%- assign align_classes = align_classes | append: ' collection__nav--sort ' -%}
+    {%- endif -%}
+
+    {%- if enable_filters -%}
+      {% assign align_classes = align_classes | append: ' collection__nav--filter ' %}
+    {%- endif -%}
+
+    {%- if enable_sort or enable_filters -%}
+      <nav class="collection__nav {{ align_classes }} custom-collection__nav" data-collection-nav>
+        {%- if enable_filters -%}
+          {%- liquid
+            assign filter_active_count = 0
+
+            if enable_filters
+              for filter in collection.filters
+                assign filter_active_count = filter_active_count | plus: filter.active_values.size
+              endfor
+            endif
+          -%}
+          <div class="popout--group custom-popout--group">
+            <button
+              type="button"
+              class="custom-filter-button popout__toggle{% unless filter_layout == 'slide-out' %} popout__toggle--filters{% endunless %}"
+              aria-expanded="{% if filters_expanded %}true{% else %}false{% endif %}"
+              aria-controls="filter-groups"
+              data-aria-toggle
+              onclick="openFilters()">
+              {%- render 'icon-filter' -%}
+
+              {%- if filter_layout == 'slide-out' -%}
+                {{ 'collections.general.filters' | t }}
+              {%- else -%}
+                <span class="popout__toggleable-text">
+                  <span class="popout__expanded-show">
+                    {{- 'collections.general.show_filters' | t -}}
+                    <span class="filter-count{% if filter_active_count < 1 %} hidden{% endif %}" data-active-filters>
+                      {{- filter_active_count -}}
+                    </span>
+                  </span>
+
+                  <span class="popout__expanded-hide">
+                    {{- 'collections.general.hide_filters' | t -}}
+                    <span class="filter-count{% if filter_active_count < 1 %} hidden{% endif %}" data-active-filters>
+                      {{- filter_active_count -}}
+                    </span>
+                  </span>
+                </span>
+              {%- endif -%}
+
+              {%- unless filter_layout == 'slide-out' -%}
+                {%- render 'icon-nav-arrow-down' -%}
+              {%- endunless -%}
+            </button>
+            </div>
+          {%- endif -%}
+          <div class="collection__nav__count font-subheading">{{ collection.products_count }} Products</div>
+
+        {%- if enable_sort -%}
+          {% render 'custom-collection-sorting' %}
+        {%- endif -%}
+      </nav>
+    {%- endif -%}
+</section>
+
+<script>
+    function openFilters(){
+        let filters = document.querySelectorAll('.filter-group');
+        filters.forEach( filter => {
+            filter.style.opacity = 1;
+        });
+    }
+</script>
+
+{% schema %}
+    {
+        "name": "Custom C. nav",
+        "templates": ["collection"],
+        "settings": [
+            {
+                "type": "checkbox",
+                "id": "enable_sort",
+                "label": "Show sorting",
+                "default": true
+            },
+            {
+                "type": "checkbox",
+                "id": "enable_filters",
+                "label": "Enable filters",
+                "default": true
+            },
+            {
+                "type": "select",
+                "id": "filter_layout",
+                "label": "Filter layout",
+                "default": "inline-open",
+                "options": [
+                { "label": "Slide out", "value": "slide-out" },
+                { "label": "Inline (closed)", "value": "inline-closed" },
+                { "label": "Inline (open)", "value": "inline-open" }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom c. navbar",
+                "category": "Collection"
+            }
+        ]
+    }
+{% endschema %}

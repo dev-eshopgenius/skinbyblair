@@ -1,0 +1,932 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": true,
+        "show_author": true,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>The Complete Guide to Using Blair's True Loves<\/em><\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Y’all know I’m a fanatic about skincare science. I devote so much time to researching ingredients, products, and results. I just wish there was a way I could share all of this information in an easy-to-understand, easily digestible format with everyone who asks for help! So I started thinking, how can I further provide valuable skincare guidance for every member of the SBB fam?<\/p><p>Introducing my True Loves Collection! I’ve curated a new routine made up of my favorite products, with its own, dedicated web page, to provide a space you can come to and always count on for reliable skincare with proven ingredients that are effective for every skin type! These are the tried and true products I use on my own skin daily and that I recommend most frequently to patients.<br\/><br\/>And for those of you who are like me and want to understand the why behind the effectiveness of these products, I’ve broken down a list of “hero” ingredients, their benefits, and exactly how to use each of my True Loves throughout the rest of this post. My hope is that after reading and digesting this information, you’ll feel empowered to confidently kick off a new skincare regimen!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Tonic<\/h3><p><br\/>Those who know me well know this love is the nearest and dearest to my heart. It may be a toner, but yall… it’s so much more than that. Think of Tonic as an at-home, daily “facial-in-a-bottle”.<br\/><br\/>I spent years developing this product because I wanted to make sure every skin type and concern – from super oily, to super dry, to acne-prone, and even rosacea – could benefit from the product. When we were in the initial development phase, I had many of my amazing patients, representing the whole gamut of skin types and concerns, try out the product themselves. If anyone didn’t have an optimal result, I’d go back to the lab and tweak the formulation accordingly. It’s been a labor of true love from the beginning and that's why it’s a cult favorite among so many of you that have tried it! <a href=\"https:\/\/www.skinbyblair.com\/products\/tonic\" target=\"_self\"><em>(Check out the reviews here!)<\/em><\/a><\/p><p><\/p><p><span style=\"text-decoration:underline\">Ingredient Benefits:<\/span><br\/><br\/>Apply Tonic first thing after cleansing your face using a cotton pad (I personally love <a href=\"https:\/\/www.amazon.com\/White-Rabbit-_Authentic-Unbleached-Fertilizers\/dp\/B01EBK2JLW\/ref=mp_s_a_1_3?crid=30DA0IUSFE0QJ&keywords=white+rabbit+cotton+pads&qid=1677353131&sprefix=white+tabbit%2Caps%2C200&sr=8-3&tag=blairhaye-1-bg-20\" target=\"_blank\">these from Amazon<\/a>, they don’t leave any residue behind on your face!) then continue with the rest of your typical skincare routine. It’s safe to use with retinoids and other “hero” products, has no smell, and is safe while pregnant or nursing!<br\/><br\/>– Lactic acid provides gentle exfoliation and encourages collagen & elastin stimulation.<br\/>– Glycolic acid targets fine lines and wrinkles by increasing collagen production.<br\/>– Mandelic acid helps to reduce acne and hyperpigmentation.<br\/>– Salicylic acid reduces blackheads and acne by unclogging pores and decreasing oil production.Kojic acid lightens areas affected by melasma, hyperpigmentation, and acne scarring.<br\/>– Phytic acid clears the skin to help improve the skin barrier and reveal a brighter complexion.<br\/><br\/>This combination is perfect for virtually every skin concern – acne, blackheads, fine lines, hyperpigmentation, melasma, you name it! And the best part is the fresh, youthful glow it leaves behind after every application.<\/p><p><span style=\"text-decoration:underline\"><strong>Usage Instructions:<\/strong><\/span><br\/><br\/>Exfoliates, brightens, and lightens skin using six of my favorite, most effective skincare acids.<br\/><br\/>If you’re new to Tonic, this is how I recommend starting out:<br\/><br\/>– <span style=\"text-decoration:underline\">Oily Skin:<\/span> Start out applying once a day (I recommend in the morning if you’re using a retinoid at night) and gradually increase to twice a day as tolerated.<br\/>– <span style=\"text-decoration:underline\">Normal\/Combination Skin<\/span>: Start out applying once every other day, and gradually increase to daily as tolerated.<br\/>–  <span style=\"text-decoration:underline\">Sensitive Skin:<\/span> Start out applying 2-3 times a week and gradually increase frequency as tolerated.<\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop tonic",
+            "button_url": "",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1",
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>C+ CORRECTING COMPLEX 30%<\/h3><p><\/p><p>Those of you who have been with me from the beginning know how strongly I feel about the importance of Vitamin C in a skincare routine. If you aren’t using it already, we seriously need to talk… but I’ll save that lecture for another day!<br\/><br\/>Whether you are or aren’t using Vitamin C daily, I cannot recommend Revision’s C+ Correcting Complex enough. It contains the most stable form and highest available concentration of Vitamin C – 30% THD Ascorbate. It combats and corrects damage from free radicals such as the sun’s rays, environmental pollutants, and cigarette smoke, which all lead to accelerated skin aging. But the real difference comes through the “plus” in “C+.” Revision was the first company to figure out how to incorporate glutathione in skin care products without causing them to smell like sulfur (aka rotten eggs!). Using their patent-pending MelaPATH technology, C+ stimulates the body’s natural glutathione production rather than including the ingredient in the product itself! This means brighter skin and better protection against free radical damage.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/the-key-three-3.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><span style=\"text-decoration:underline\">Ingredient Benefits:<\/span><\/h5><p><a href=\"https:\/\/www.skinbyblair.com\/products\/intellishade-original\" title=\"https:\/\/www.skinbyblair.com\/products\/intellishade-original\"><br\/><\/a>– Vitamin C corrects existing damage to brighten and even skin tone while simultaneously defending the skin against future free radicals<br\/>– MelaPATH technology uses a powerful blend of antioxidants to support the skin’s natural production of Vitamins C and E<br\/>– Prebiotics support the microbiome to keep skin balanced and moisturized<\/p><h5><span style=\"text-decoration:underline\">Usage Instructions:<\/span><\/h5><p>Apply one pump evenly across the face every morning (and night for added benefits) after cleansing but before moisturizing.<\/p><h5><\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "967819a1-a504-4580-b170-da1a5be9f557": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop c+ complex",
+            "button_url": "shopify:\/\/collections\/spf",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1",
+        "967819a1-a504-4580-b170-da1a5be9f557"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708": {
+      "type": "page_content",
+      "blocks": {
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>YOUTHFULL LIP REPLENISHER<\/h3><p><\/p><p>Youthfull Lip is my holy grail lip product – while there are tons of lip products on the market, this is hands down the most anti-aging lip product out there. It keeps your lips SO hydrated throughout the seasons, no matter how cold and windy it is outside, delivering that extra special care you need for the thin skin covering your lips that so often gets overlooked. Bonus points for giving the pout a little plumping, too!<\/p><h3>   <\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vitamin_C_20_Serum-routine_46032336-6ff1-49f4-b23a-667012e94304.webp",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "165b7ab1-e827-40e7-a3e5-015fbcba5c01": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "There are two main types of Vitamin C - let's chat through them!",
+            "text_size": 8
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><span style=\"text-decoration:underline\">Ingredient Benefits:<\/span><\/h5><p>– Hyaluronic acid delivers intense hydration, plumping the lips to smooth out fine lines and wrinkles.<br\/>– Anti-aging peptides work to improve lip contour and definition, replenishing the appearance of youthful-looking lips.<br\/>– Antioxidants provide protection against free radicals for aging prevention.<\/p><h5><span style=\"text-decoration:underline\">Usage Instructions:<\/span><\/h5><p>Youthfull Lip leaves behind a luxurious, high-shine gloss to elevate your day-to-day look, but if you prefer a lower shine level, simply apply a thinner layer of product! The ceramic tip and minty flavor will feel cool and refreshing upon application.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop youthfull lip",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-subheading-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-heading-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-text-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "ec305f43-2440-4421-91d1-d175918aac02": {
+      "type": "page_content",
+      "blocks": {
+        "7ba0f6c2-2bc5-48ac-9c8c-e9734c10d802": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "b99dc062-1de0-45a5-b18d-ba8a0a2e3225": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>INTELLISHADE ORIGINAL<\/h3><p><\/p><p>I’ve always considered this my “desert island product.” The one thing I’d take with me when I’m, hypothetically, stranded without any rescue in sight! Why? Well, for starters, you need sunscreen ALL THE TIME. If it's rainy, sunny, cloudy… even if you’re not stepping outside one time all day (and especially on a desert island!) – you still need sunscreen! The only time you have permission to not wear sunscreen is if the sun isn’t up and it’s completely dark outside.<\/p><h3>   <\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "a5d5803d-46fd-4fe8-aaf1-d9a18fb9ead6": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "7ba0f6c2-2bc5-48ac-9c8c-e9734c10d802",
+        "b99dc062-1de0-45a5-b18d-ba8a0a2e3225",
+        "a5d5803d-46fd-4fe8-aaf1-d9a18fb9ead6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vitamin_C_20_Serum-routine_46032336-6ff1-49f4-b23a-667012e94304.webp",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "d5d02559-39dc-45bb-a17a-f1c5f62374d3": {
+      "type": "section-rich-text",
+      "blocks": {
+        "621b196c-f2db-4f77-999e-65d78236049f": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "7e2d61b6-3804-4fed-ac7e-b8308d76fbe6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "There are two main types of Vitamin C - let's chat through them!",
+            "text_size": 8
+          }
+        },
+        "2181d16b-d15d-437a-b0c6-df6d02aa144a": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><span style=\"text-decoration:underline\">Ingredient Benefits:<\/span><\/h5><p>There are a million different SPF options out there, and many are very effective, but Intellishade is special because of its clinically proven, multi-tasking formula that provides five benefits in just one product. Not only does it include SPF 45 (you need 30+ for daily protection), but it also acts as a moisturizer, light foundation, anti-aging treatment, and skin brightener. Yall see why it’s my holy grail?!<br\/><br\/>– Anti-aging peptides improve the appearance of fine lines and wrinkles, making the skin appear firmer and more youthful.<br\/>– Vitamin C evens skin tone and works to prevent further environmental damage that leads to aging.<br\/>– Botanicals enhance skin complexion and encourage overall skin health<br\/>– Zinc Oxide and Titanium Dioxide provide broad-spectrum skin protection from the sun’s damaging UVA & UVB rays.<\/p><h5><span style=\"text-decoration:underline\">Usage Instructions:<\/span><\/h5><p>I use Intellishade every single day as the last step in my morning skincare routine (and before my makeup) to give my skin a dewy, fresh glow and even out my skin tone so I look and feel my best when leaving the house!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "6d167685-aae6-4b3b-bc55-4774847c6b02": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop intellishade",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "621b196c-f2db-4f77-999e-65d78236049f",
+        "7e2d61b6-3804-4fed-ac7e-b8308d76fbe6",
+        "2181d16b-d15d-437a-b0c6-df6d02aa144a",
+        "6d167685-aae6-4b3b-bc55-4774847c6b02"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "9abfbd34-1e92-4cda-b7ba-455fbdaee0fe": {
+      "type": "page_content",
+      "blocks": {
+        "bf9b97c6-1ad8-414e-aede-398e0cd112b8": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>CRÈME DE LA BLAIR<\/h3><p><\/p><p>Crème de la Blair is another one of those products that I always get excited to apply. It’s a rich moisturizer specifically formulated to deliver intense hydration while giving you that luxurious, “just went to the spa” glow. Even though it’s a thicker cream, it still allows my foundation and makeup to go on smoothly. While this is an absolute must-have for my dry skin ladies, it is great for all skin types, and won’t clog your pores or sit on top of your skin like many heavy-duty moisturizers do. It seamlessly seeps into your skin barrier, improving overall skin health and enhancing the appearance of every type of skin.<\/p><h3>   <\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "efa1efa0-729b-4ab0-a9f4-773c16489aae": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "5a79e3e3-4217-4492-ba29-91db0957da33": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "bf9b97c6-1ad8-414e-aede-398e0cd112b8",
+        "efa1efa0-729b-4ab0-a9f4-773c16489aae",
+        "5a79e3e3-4217-4492-ba29-91db0957da33"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vitamin_C_20_Serum-routine_46032336-6ff1-49f4-b23a-667012e94304.webp",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "273885c5-90c4-4dcb-afa2-02386961f574": {
+      "type": "section-rich-text",
+      "blocks": {
+        "3b2773bf-b426-4a9c-9a79-98a005ec3f71": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "476b9835-dcfd-4fc3-8c84-24625853d078": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "There are two main types of Vitamin C - let's chat through them!",
+            "text_size": 8
+          }
+        },
+        "5b36713a-4b39-4303-be77-139ff61fa8cc": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><span style=\"text-decoration:underline\">Ingredient Benefits:<\/span><\/h5><p>– Niacinamide helps defend the skin against moisture loss, minimizes the appearance of large pores, and evens skin tone.<br\/>– Stem cells promote cell turnover and collagen production to improve skin elasticity, fullness, and texture.<br\/>– Ceramides repair and protect the skin while promoting a strong, healthy skin barrier.<br\/>– Hyaluronic acid works to hydrate and plump the skin for a more youthful appearance.<\/p><h5><span style=\"text-decoration:underline\">Usage Instructions:<\/span><\/h5><p>When skin is normal or dry (or your skin barrier feels compromised), apply twice a day, morning and night. If skin is oily, apply once a day at night and opt for a more lightweight moisturizer (such as DEJ Face Cream) in the morning.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "e6455257-b110-4325-b275-523c8efbef2e": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop creme 2.0",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "3b2773bf-b426-4a9c-9a79-98a005ec3f71",
+        "476b9835-dcfd-4fc3-8c84-24625853d078",
+        "5b36713a-4b39-4303-be77-139ff61fa8cc",
+        "e6455257-b110-4325-b275-523c8efbef2e"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "20611628-c991-4a86-a8ae-a348e88340bb": {
+      "type": "page_content",
+      "blocks": {
+        "10412f40-5806-40ba-b543-b447fb57790d": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>BRIGHTENING FACIAL WASH<\/h3><p><\/p><p>If you think a cleanser alone can’t change your skin, then you haven’t tried Revision’s Brightening Wash facial cleanser. This is one of those products that no matter how other cleansers I try, I always come back to it. It feels good, it smells good, and the bottle seriously lasts forever. It effectively removes both the day’s impurities and dead surface skin cells to reveal cleaner, smoother, and brighter skin with every use. The key with an exfoliating cleanser like this is to cleanse and revitalize without disrupting the skin barrier by drying out your face, which Revision has managed to formulate beautifully!<\/p><h3>   <\/h3>",
+            "text_style": "font-body"
+          }
+        },
+        "2c69612e-41ac-4a4f-a3f2-bac7ec62e937": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "6f9d4c4e-7a13-4f7f-ac82-4a25bc7a0ad3": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "10412f40-5806-40ba-b543-b447fb57790d",
+        "2c69612e-41ac-4a4f-a3f2-bac7ec62e937",
+        "6f9d4c4e-7a13-4f7f-ac82-4a25bc7a0ad3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vitamin_C_20_Serum-routine_46032336-6ff1-49f4-b23a-667012e94304.webp",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "23b4729d-827d-4ea3-a7eb-558f05d5c39f": {
+      "type": "section-rich-text",
+      "blocks": {
+        "d6e296c3-2017-4b94-a6e3-684f5a897fe0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "abb99f78-bf39-4a2c-9c6c-47dc65643ec2": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "There are two main types of Vitamin C - let's chat through them!",
+            "text_size": 8
+          }
+        },
+        "ef55ee73-05e7-4488-a45a-ad336903756f": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><span style=\"text-decoration:underline\">Ingredient Benefits:<\/span><\/h5><p>– Salicylic acid provides a deep clean, unclogging pores and removing daily debris.<br\/>– Glycolic acid exfoliates dead skin cells and improves overall skin texture.<br\/>– Vitamin C brightens the skin and provides antioxidant protection to prevent aging.<br\/>– Vitamin E helps to restore moisture and nourishes the skin for a fresh, dewy appearance.<\/p><h5><span style=\"text-decoration:underline\">Usage Instructions:<\/span><\/h5><p>Cleansing should be the first step in your routine morning and night. If you prefer to double cleanse (like me!), you will use a cleansing oil first followed by Brightening Wash second. Use a dime-sized amount of Brightening Wash to gently massage all over your face in a circular motion.<br\/><br\/>– <span style=\"text-decoration:underline\">Oily Skin<\/span>: Start out using once a day and gradually increase frequency to twice daily as tolerated.<br\/>– <span style=\"text-decoration:underline\">Normal\/Combination Skin<\/span>: Start out using once every other day, and gradually increase frequency to once or twice a day as tolerated.<br\/>– <span style=\"text-decoration:underline\">Dry\/Sensitive Skin<\/span>: Start out using once every other or every third day and gradually increase frequency as skin tolerates.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "e0960016-6da5-42d5-831d-9b871853231b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "shop brightening wash",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "d6e296c3-2017-4b94-a6e3-684f5a897fe0",
+        "abb99f78-bf39-4a2c-9c6c-47dc65643ec2",
+        "ef55ee73-05e7-4488-a45a-ad336903756f",
+        "e0960016-6da5-42d5-831d-9b871853231b"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Recommended products<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8",
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708",
+    "165b7ab1-e827-40e7-a3e5-015fbcba5c01",
+    "ec305f43-2440-4421-91d1-d175918aac02",
+    "d5d02559-39dc-45bb-a17a-f1c5f62374d3",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "9abfbd34-1e92-4cda-b7ba-455fbdaee0fe",
+    "273885c5-90c4-4dcb-afa2-02386961f574",
+    "20611628-c991-4a86-a8ae-a348e88340bb",
+    "23b4729d-827d-4ea3-a7eb-558f05d5c39f",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

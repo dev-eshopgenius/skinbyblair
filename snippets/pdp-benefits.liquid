@@ -1,0 +1,25 @@
+<div class="pdp-benefits-global">
+    <h5 class="pdpb-heading">{{ block.settings.heading }}</h5>
+    <div class="pdp-benefits">
+        <div class="pdpb-icons-container">
+            {% if block.settings.icon_1 %}
+                <div class="pdpb-icon-wrapper">
+                    <img class="pdpb-icon" src="{{ block.settings.icon_1 | img_url: '600x' }}" alt="Icon">
+                    <p class="pdpb-icon-text">{{ block.settings.text_1 }}</p>
+                </div>
+            {% endif %}
+            {% if block.settings.icon_2 %}
+                <div class="pdpb-icon-wrapper">
+                    <img class="pdpb-icon" src="{{ block.settings.icon_2 | img_url: '600x' }}" alt="Icon">
+                    <p class="pdpb-icon-text">{{ block.settings.text_2 }}</p>
+                </div>
+            {% endif %}
+            {% if block.settings.icon_3 %}
+                <div class="pdpb-icon-wrapper">
+                    <img class="pdpb-icon" src="{{ block.settings.icon_3 | img_url: '600x' }}" alt="Icon">
+                    <p class="pdpb-icon-text">{{ block.settings.text_3 }}</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

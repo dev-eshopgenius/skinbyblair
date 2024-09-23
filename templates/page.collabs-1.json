@@ -1,0 +1,456 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "f687c47a-8523-4364-8e2f-4cb82acdfced": {
+      "type": "section-hero",
+      "blocks": {
+        "template--14738431443028__f687c47a-8523-4364-8e2f-4cb82acdfced-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop, Share, Earn.",
+            "heading_size": 11
+          }
+        },
+        "template--14738431443028__f687c47a-8523-4364-8e2f-4cb82acdfced-text-1": {
+          "type": "text",
+          "settings": {
+            "description": "We’re building an authentic community of creator partners who align with our mission to uplift women’s confidence through results-driven skincare. From affiliate commission to product gifting, our partners receive various perks for being an ambassador of the Skin By Blair brand!",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "template--14738431443028__f687c47a-8523-4364-8e2f-4cb82acdfced-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "Apply Here",
+            "link": "https:\/\/collabs.shopify.com\/application\/Z2lkOi8vZG92ZXRhbGUtYXBpL0FnZW5jeS85NzYyNg==?origin=THEME_EXTENSION",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14738431443028__f687c47a-8523-4364-8e2f-4cb82acdfced-heading-1",
+        "template--14738431443028__f687c47a-8523-4364-8e2f-4cb82acdfced-text-1",
+        "template--14738431443028__f687c47a-8523-4364-8e2f-4cb82acdfced-button-1"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/haute-stock-photography-subscription-homebody-collection-final-19.jpg",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-homebody-collection-final-4.jpg",
+        "flex_align_desktop": "align--middle-right-desktop",
+        "flex_align_mobile": "align--bottom-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "e2a7342f-fd2d-476f-9491-8f862207f171": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "2e1a3c02-1d92-4b17-9ae4-02db7e8bd275": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Become an Ambassador<\/h4><h2>Who We're Looking For<\/h2><p>Are you passionate about skincare that will make a difference in the lives of the women around you? We are looking for authentic community to bring wellness to the forefront of our everyday rituals.<\/p><p> <br\/>If you have a blog, IG, or Tiktok community, we want you!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "9956b1d8-2937-4397-8a73-dea9a73442b7": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "APPLY NOW",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "5bf7721f-b937-40f7-9c1b-f432b1c078aa": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Already a member? <\/strong><a href=\"\/account\/login\" title=\"\/account\/login\"><strong>Log in<\/strong><\/a><\/p>",
+            "text_size": 1,
+            "text_style": "font-subheading"
+          }
+        }
+      },
+      "block_order": [
+        "2e1a3c02-1d92-4b17-9ae4-02db7e8bd275",
+        "9956b1d8-2937-4397-8a73-dea9a73442b7",
+        "5bf7721f-b937-40f7-9c1b-f432b1c078aa"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 34,
+        "padding_bottom": 38
+      }
+    },
+    "59d8912d-0779-48e9-92f2-d5c4d08c53f1": {
+      "type": "section-custom-standard-double",
+      "blocks": {
+        "template--14738431443028__59d8912d-0779-48e9-92f2-d5c4d08c53f1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "The Perks",
+            "title2": "The Perks",
+            "text_size": 8
+          }
+        },
+        "template--14738431443028__59d8912d-0779-48e9-92f2-d5c4d08c53f1-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14738431443028__59d8912d-0779-48e9-92f2-d5c4d08c53f1-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "margin_top_mobile": 15
+          }
+        },
+        "0c5bb711-0224-4f8b-b6ab-bc2096b31c64": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/png-transparent-shopping-cart-illustration-shopping-cart-computer-icons-online-shopping-icon-grocery-cart-miscellaneous-angle-white-thumbnail.png",
+            "icon_text": "Discounts on SBB products"
+          }
+        },
+        "5bb42bd3-fb80-4c3e-82eb-12d65e002395": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dark-grey-mobile-phone-sign-vector-eps-grey-smartphone-icon-dark-grey-mobile-phone-sign-vector-eps-grey-smartphone-icon-white-145893101.webp",
+            "icon_text": "Chance to be featured on the SBB Instagram page"
+          }
+        },
+        "8ba6d652-6989-48f2-845d-385d74cf930e": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/download_2.png",
+            "icon_text": "Join our growing community of select ambassadors across the country"
+          }
+        },
+        "fbc8311d-b4ca-4baa-8568-87bad9383574": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/2696065.png",
+            "icon_text": "Grow your personal following"
+          }
+        },
+        "e223e6ec-2781-48c3-b026-c2ff9056c06b": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/download_1.png",
+            "icon_text": "Earn cash back on orders from your affiliate link"
+          }
+        }
+      },
+      "block_order": [
+        "template--14738431443028__59d8912d-0779-48e9-92f2-d5c4d08c53f1-heading-1",
+        "template--14738431443028__59d8912d-0779-48e9-92f2-d5c4d08c53f1-text-1",
+        "template--14738431443028__59d8912d-0779-48e9-92f2-d5c4d08c53f1-buttons-1",
+        "0c5bb711-0224-4f8b-b6ab-bc2096b31c64",
+        "5bb42bd3-fb80-4c3e-82eb-12d65e002395",
+        "8ba6d652-6989-48f2-845d-385d74cf930e",
+        "fbc8311d-b4ca-4baa-8568-87bad9383574",
+        "e223e6ec-2781-48c3-b026-c2ff9056c06b"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/haute-stock-photography-subscription-cabin-retreat-collection-final-10.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "mobile_text_alignment": "mobile-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "horizontal_padding": 50,
+        "button_width": 1
+      }
+    },
+    "2753cb86-f650-48a5-9eba-83536e4acfb4": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14738431443028__2753cb86-f650-48a5-9eba-83536e4acfb4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Want more details?<\/h4><h2>Here's How It Works<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14738431443028__2753cb86-f650-48a5-9eba-83536e4acfb4-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "85e62268-3bef-43fb-ba32-89fb882c5a15": {
+      "type": "section-columns",
+      "blocks": {
+        "template--14738431443028__85e62268-3bef-43fb-ba32-89fb882c5a15-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-homebody-collection-final-4_20f3ed12-c65d-4092-a63f-e52053b05e4b.jpg",
+            "title": "",
+            "heading_size": 4,
+            "text": "<h4>1. SHOP<\/h4><p>Shop the products that target your specific skin concerns, at an exclusive discount.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--14738431443028__85e62268-3bef-43fb-ba32-89fb882c5a15-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-05-04_at_7.48.23_PM.png",
+            "title": "",
+            "heading_size": 4,
+            "text": "<h4>2. SHARE<\/h4><p>Share about your skin transformation to your online community.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--14738431443028__85e62268-3bef-43fb-ba32-89fb882c5a15-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-fall-in-the-city-collection-final-9.jpg",
+            "title": "",
+            "heading_size": 4,
+            "text": "<h4>3. EARN<\/h4><p>Earn generous commissions on every sale you generate through your affiliate links.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14738431443028__85e62268-3bef-43fb-ba32-89fb882c5a15-image-1",
+        "template--14738431443028__85e62268-3bef-43fb-ba32-89fb882c5a15-image-2",
+        "template--14738431443028__85e62268-3bef-43fb-ba32-89fb882c5a15-image-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "column_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 13,
+        "text_content_padding": false,
+        "layout_mobile": "grid"
+      }
+    },
+    "e009fea2-3d2f-4377-bcc0-dc2f0adbfcb2": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14653352149076__e009fea2-3d2f-4377-bcc0-dc2f0adbfcb2-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h5>Partnership Opportunities<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14653352149076__e009fea2-3d2f-4377-bcc0-dc2f0adbfcb2-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "df449b86-0488-4d89-bee3-3eca62accc23": {
+      "type": "browse_at_glance",
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full-padded",
+        "alternative_style": true,
+        "bg_color": "",
+        "color": "#848080",
+        "desktop_text_alignment": "text-center",
+        "mobile_text_alignment": "mobile-text-center",
+        "title": "",
+        "content": "",
+        "menu": "collab-menu",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "5a83ff49-1296-4acb-a87c-adbea4aa1ad7": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14738431443028__5a83ff49-1296-4acb-a87c-adbea4aa1ad7-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14738431443028__5a83ff49-1296-4acb-a87c-adbea4aa1ad7-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14738431443028__5a83ff49-1296-4acb-a87c-adbea4aa1ad7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Ready to become part of the SBB family?<\/h4><h2><em>Apply to Join Our Affiliate Team<\/em><\/h2><p><em>Our team will contact you if we'd like to move forward!<\/em><\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14738431443028__5a83ff49-1296-4acb-a87c-adbea4aa1ad7-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "APPLY NOW",
+            "button_url": "https:\/\/collabs.shopify.com\/application\/Z2lkOi8vZG92ZXRhbGUtYXBpL0FnZW5jeS85NzYyNg==?origin=THEME_EXTENSION",
+            "button_type": "btn--text-cl",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14738431443028__5a83ff49-1296-4acb-a87c-adbea4aa1ad7-subheading-1",
+        "template--14738431443028__5a83ff49-1296-4acb-a87c-adbea4aa1ad7-heading-1",
+        "template--14738431443028__5a83ff49-1296-4acb-a87c-adbea4aa1ad7-text-1",
+        "template--14738431443028__5a83ff49-1296-4acb-a87c-adbea4aa1ad7-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 30,
+        "padding_bottom": 36
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f687c47a-8523-4364-8e2f-4cb82acdfced",
+    "e2a7342f-fd2d-476f-9491-8f862207f171",
+    "59d8912d-0779-48e9-92f2-d5c4d08c53f1",
+    "2753cb86-f650-48a5-9eba-83536e4acfb4",
+    "85e62268-3bef-43fb-ba32-89fb882c5a15",
+    "e009fea2-3d2f-4377-bcc0-dc2f0adbfcb2",
+    "df449b86-0488-4d89-bee3-3eca62accc23",
+    "5a83ff49-1296-4acb-a87c-adbea4aa1ad7",
+    "1695220539793c408e"
+  ]
+}

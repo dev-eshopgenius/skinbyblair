@@ -1,0 +1,220 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "08630ef9-4fe4-43f1-9d7f-10764608822f": {
+      "type": "section-custom-hero",
+      "blocks": {
+        "4d2b1681-f423-4f17-99dc-a98c44b71ae2": {
+          "type": "special",
+          "settings": {
+            "text": "",
+            "special_margin": 0,
+            "special_margin_mobile": 0,
+            "color": "#848080"
+          }
+        },
+        "519c0f09-036c-4d6b-afba-5b6139b6b106": {
+          "type": "text",
+          "settings": {
+            "description": "WE’RE HERE TO HELP",
+            "text_style": "font-body",
+            "color": "#848080",
+            "text-align-class": "hero-text-center",
+            "width": 100,
+            "height": 1,
+            "mobile_description": "Tell your brand's story through images.",
+            "mobile_text_size": 14,
+            "mobile_text_style": "font-body",
+            "mobile_color": "#848080",
+            "mobile_text-align-class": "hero-text-center",
+            "mobile_width": 100,
+            "mobile_height": 1
+          }
+        }
+      },
+      "block_order": [
+        "4d2b1681-f423-4f17-99dc-a98c44b71ae2",
+        "519c0f09-036c-4d6b-afba-5b6139b6b106"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "content_special_margin": 0,
+        "content_width": 100,
+        "mobile_content_width": 100,
+        "image_1": "shopify:\/\/shop_images\/New_Header.png",
+        "link": "",
+        "mobile_height": "image-height--mobile",
+        "same_content_as_desktop": true,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_margin_bottom": 0,
+        "flex_align_mobile": "align--middle-center-mobile",
+        "mobile_content_margin_bottom": 0,
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "d56a99ec-248a-46d1-873c-2101afd582e5": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14551138795604__d56a99ec-248a-46d1-873c-2101afd582e5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 9
+          }
+        },
+        "template--14551138795604__d56a99ec-248a-46d1-873c-2101afd582e5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>We love new friends!<\/h2><h2><\/h2><p>EMAIL: <a href=\"https:\/\/www.skinbyblair.com\/pages\/INFO@SKINBYBLAIR.COM\">INFO@SKINBYBLAIR.COM<\/a><\/p><p>PHONE: <a href=\"tel:704-713-0405\">704-713-0405<\/a><\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14551138795604__d56a99ec-248a-46d1-873c-2101afd582e5-heading-1",
+        "template--14551138795604__d56a99ec-248a-46d1-873c-2101afd582e5-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "contact": {
+      "type": "contact-form",
+      "blocks": {
+        "Name": {
+          "type": "text",
+          "settings": {
+            "title": "Name",
+            "required": true
+          }
+        },
+        "c1c517e8-ec32-40ee-98ff-6c37dc46cbc6": {
+          "type": "text",
+          "settings": {
+            "title": "Surname",
+            "required": true
+          }
+        },
+        "Email": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "required": true
+          }
+        },
+        "Message": {
+          "type": "body",
+          "settings": {
+            "title": "How can we help",
+            "required": true
+          }
+        },
+        "d991174b-1cc6-473a-8294-726a43621c0b": {
+          "type": "text",
+          "settings": {
+            "title": "Phone",
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "Name",
+        "c1c517e8-ec32-40ee-98ff-6c37dc46cbc6",
+        "Email",
+        "Message",
+        "d991174b-1cc6-473a-8294-726a43621c0b"
+      ],
+      "settings": {
+        "title": "",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1",
+        "question-2",
+        "question-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--narrow",
+        "bg_color": "#fafafa",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "08630ef9-4fe4-43f1-9d7f-10764608822f",
+    "d56a99ec-248a-46d1-873c-2101afd582e5",
+    "contact",
+    "faq"
+  ]
+}

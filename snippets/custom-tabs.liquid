@@ -1,0 +1,74 @@
+
+{% style %}
+ .custom-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15%;
+}
+
+@media only screen and (min-width: 750px) {
+  .custom-nav {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+    .custom-nav {
+      width: 88%;
+      margin: 10px auto;
+    }
+  }
+
+.custom-nav-item {
+  margin: 0 10px;
+}
+
+.custom-nav-link {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 0;
+  margin-bottom: 7px;
+  color: {{ color }};
+  cursor: pointer;
+}
+
+.custom-nav-link.active {
+  border-bottom: 2px solid {{ color }};
+}
+{% endstyle %}
+
+<nav class="custom-nav">
+    {% for block in blocks %}
+        {% case block.type %}
+            {% when 'heading' %}
+                <a href="#{{ block.id }}" class="custom-nav-item custom-nav-link">{{ block.settings.title }}</a>
+        {% endcase %}
+    {% endfor %}
+</nav>
+
+<script>
+    const navItems = document.querySelectorAll(".custom-nav-link");
+
+    function init () {
+        navItems.forEach(function(item, index) {
+            if (index == 0) {
+                item.classList.add("active");
+            }
+        });
+    }
+
+    function addActiveClass(event) {
+        let activeItem = event.target;
+        navItems.forEach(function(item) {
+            item.classList.remove("active");
+        });
+        activeItem.classList.add("active");
+    }
+
+    navItems.forEach(function(item) {
+        item.addEventListener("click", addActiveClass);
+    });
+
+    init();
+</script>

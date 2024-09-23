@@ -1,0 +1,81 @@
+
+<div class="page-width">
+  {%render 'header_recharge' %}
+  <div class="section-header ">
+
+  <div class="grid myaccount wrapper">
+    <div class="grid__item myaccount__order-history">
+      <h1 class="h3 no_margin_top">Your Orders</h1>
+
+      {% paginate customer.orders by 20 %}
+        {% if customer.orders.size != 0 %}
+
+          <table class="responsive-table">
+            <thead>
+              <tr>
+                <th scope="col">{{ 'customer.orders.order_number' | t }}</th>
+                <th scope="col">{{ 'customer.orders.date' | t }}</th>
+                <th scope="col">{{ 'customer.orders.payment_status' | t }}</th>
+                <th scope="col">{{ 'customer.orders.fulfillment_status' | t }}</th>
+                <th scope="col">{{ 'customer.orders.total' | t }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for order in customer.orders %}
+                <tr>
+                  <th data-label="{{ 'customer.orders.order_number' | t }}" scope="row">
+                    <a href="{{ order.customer_url }}" class="order_button" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">{{ order.name }}</a>
+                  </th>
+                  <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | time_tag: format: 'date' }}</td>
+                  <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
+                  <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
+                  <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+
+        {% else %}
+
+          <p>{{ 'customer.orders.none' | t }}</p>
+
+        {% endif %}
+        {%- if paginate.pages > 1 -%}
+          {% include 'pagination', paginate: paginate %}
+        {%- endif -%}
+      {% endpaginate %}
+    </div>
+    <div class="grid__item myaccount__account-details">
+      {%if customer.billing_address %}
+      <div class="row row_full">
+        BILLING ADDRESS
+         </div>
+         <div class="row row_info">
+         {{ customer.billing_address }}
+       </div>
+       {%endif%}
+      <div class="row row_full">
+       SHIPPING ADDRESS
+        </div>
+        <div class="row row_info">
+        {{ customer.default_address | format_address }}
+      </div>
+      <div class="row row_full">
+      Email
+      </div>
+      <div class="row row_last">
+      {{ customer.email }}
+    </div>
+
+    <div class="row row_edit"> <a style="width: 100%; height: 100%; display: block;" href="{{ routes.account_addresses_url }}">EDIT </a></div>
+
+    </div>
+  </div>
+</div>
+<div class="hero__button hero-button-center  aos-animate" data-aos="hero" data-aos-order="5" style="    margin: 75px auto;">
+</div>
+<style>
+  ul.nav__list--desktop.rc_page-width.rc_card_container li:has(#orders-page) {
+  border-bottom: 2px solid #848080
+}
+</style>

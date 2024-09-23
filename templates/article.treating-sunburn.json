@@ -1,0 +1,541 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "Sunburn SOS: 7 Steps to Sunburn Care",
+            "text_size": 9
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>So you've found yourself with a sunburn... Now what? <\/h4><h3>As a medical provider, I understand the discomfort and frustration that can come with over-exposure to the sun. But rest assured, I'm here to help make the healing process as quick and painless as possible! <\/h3>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_RQPCVH": {
+      "type": "page_content",
+      "blocks": {
+        "text_QtAnBV": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Step 1:<\/em> Assess the damage<\/h2><p>Before diving into remedies,  it's important to first evaluate the extent of your sunburn. Sunburns can vary widely in severity, from mild redness and tenderness to more severe symptoms like blistering, swelling, and even fever.<\/p><p>Mild sunburns typically manifest as red, irritated skin accompanied by slight discomfort. In these cases, self-care measures may suffice to alleviate symptoms. However, if you notice significant blistering, extensive swelling, or systemic symptoms like fever, it's important to seek medical attention.<\/p><p><br\/>A <strong>first-degree sunburn<\/strong> may make your skin color turn anywhere from light pink to bright red, and it will be painful to the touch. With this type of burn, the upper layers of the skin are affected, and the burn should heal within a few days.<\/p><p><br\/>A <strong>second-degree sunburn<\/strong>, which is more serious, causes the skin to become severely red, swollen, and blistered because the dermis, a deeper skin layer, and nerve endings have been damaged. This type of sunburn is more painful and could take about two weeks to heal. Do not pop the blisters—this could impede healing and lead to infection if the dermis is exposed, allowing bacteria to enter. Signs of infection include oozing pus or red streaks on the skin radiating from the blisters.<\/p><p><br\/>Remember, your skin's response to sun exposure can vary based on factors such as skin type, sun intensity, and duration of exposure. By taking the time to assess the severity of your sunburn, you empower yourself to make informed decisions about the best course of action for your skin's overall health.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_QtAnBV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/9b1c5eec693827a917f4734a97828add_1.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_iUm8pC": {
+      "type": "page_content",
+      "blocks": {
+        "text_hVUbUn": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Step 2:<\/em> Apply a cool compress<\/h2><p>The initial phase of sunburn care revolves around soothing the skin and minimizing inflammation. Cool compresses serve as a simple yet effective method to achieve this. Applying a damp cloth or taking a refreshing cold bath can deliver immediate relief by constricting blood vessels and numbing the affected area. The coolness not only alleviates discomfort but also helps to quell the inflammatory response triggered by excessive sun exposure.<\/p><p><br\/><\/p><p><\/p><h2><em>Step 3:<\/em> Aloe Vera<\/h2><p>Aloe vera is a dermatologist-recommended remedy for sunburns, thanks to its soothing and anti-inflammatory properties. Applying pure aloe vera gel to the affected areas can help to calm irritation, reduce redness, and promote healing. Look for products with minimal additives to ensure maximum benefit. For an extra cooling sensation, store your aloe vera gel in the refrigerator before use.<\/p><h2><\/h2>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_hVUbUn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-bed-and-bath-collection-final-7.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_GKiaeV": {
+      "type": "page_content",
+      "blocks": {
+        "text_KWMtti": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Step 4:<\/em> Hydration -  inside & out<\/h2><p>When your skin is sunburned, it loses moisture and becomes dehydrated, exacerbating discomfort and delaying healing. Therefore, prioritizing hydration is key to restoring skin health and promoting recovery.<\/p><h4>external hydration:<\/h4><p>Providing  moisture directly to the sunburned skin is crucial. Opt for gentle, hydrating skincare products that soothe and moisturize without further irritating the skin. Applying a moisturizing lotion to the affected areas multiple times a day helps to replenish lost moisture, soothe dryness, and prevent peeling. <\/p><p>It’s best to avoid petroleum-based moisturizers (like aquaphor and vaseline) because they can trap heat and worsen the sunburn. Instead, use a light moisturizer (a lotion or gel) that contains healing properties, like <a href=\"\/products\/creme-de-la-blair-new\" target=\"_blank\" title=\"Crème de la Blair 2.0\">Créme de la Blair!  <\/a>I also love <a href=\"\/products\/hydrating-serum\" target=\"_blank\" title=\"Hydrating Serum\">Hydrating Serum  <\/a>for burns because of its healing properties. <\/p><h4>internal hydration:<\/h4><p>Sunburn draws moisture away from the skin, leading to dehydration and potential complications. Drinking plenty of water helps to rehydrate the body, and support the skin's natural healing process from the inside out. Try to consume ample water throughout the day, especially if you've been exposed to the sun for an extended period.<\/p><p><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_KWMtti"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-linen-collection-final-3.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_TzDrFq": {
+      "type": "page_content",
+      "blocks": {
+        "text_L9qfzE": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Step 5:<\/em> Avoid actives<\/h2><p>Avoid products with active ingredients (acids, retinol, vitamin c, etc) and don’t exfoliate your skin, either, as both could further irritate the skin. Avoid products with active ingredients (acids, retinol, vitamin c, etc) and don’t exfoliate your skin, either, as both could further irritate the skin.<\/p><p><br\/><\/p><h2><em>Step 6:<\/em> Be sun-smart <\/h2><p>As your sunburn heals, it's essential to take proactive steps to prevent future damage. Sunscreen with broad-spectrum protection and a high SPF is your skin's best defense against UV radiation. Additionally, seek shade during peak sun hours, wear protective clothing, and avoid prolonged sun exposure to minimize the risk of sunburn and skin cancer.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_L9qfzE"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-styled-stock-photo-subscription-paradise-found-final-19.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_K6YWkh": {
+      "type": "page_content",
+      "blocks": {
+        "text_ChQ8C9": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Step 7:<\/em> Do not peel!<\/h2><p>Whether it’s a first- or second-degree sunburn, your skin may start to peel a few days after the initial burn. This means your body is trying to get rid of damaged cells. It’s important to let the skin fall off naturally. For the same reason you don’t want to pop a blister, you also don’t want to peel it yourself because you could introduce bacteria and risk infection. Plus, peeling the dead layers of skin can sometimes lead to a deeper skin injury, which might cause more pain or scarring. As tempting as it may be to pick at your skin, leave it alone and let your body repair on its own!<\/p><p><br\/>However, you can moisturize peeling skin (with hydrating products below), which will help the burn heal faster.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ChQ8C9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/efefc8f1d94afbe0ba52fa235fb9aa30.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 15,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_richtext_BctJE3": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_7zQfzT": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Products that help recover sunburned skin<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_7zQfzT"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_g3LkcX": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_7e9LdX": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunburned-skin",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_7e9LdX"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 9,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "page_content_RQPCVH",
+    "page_content_iUm8pC",
+    "page_content_GKiaeV",
+    "page_content_TzDrFq",
+    "page_content_K6YWkh",
+    "section_custom_richtext_BctJE3",
+    "section_tab_collections_g3LkcX",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

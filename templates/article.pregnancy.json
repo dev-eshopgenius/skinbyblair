@@ -1,0 +1,666 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "Skin + Pregnancy",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Congratulations– you're pregnant! What an exciting time!<\/h3><p><br\/>As I’m sure you’ve noticed, your body is going through so many changes literally every single day, and this includes your skin. Some women experience their acne clearing up during pregnancy, while others experience new or worsening acne. Some experience worsening of their melasma during pregnancy, while others experience melasma for the very first time.  Some who are normally dry become oily, and others who are normally oily become dry. There is no “one-size-fits-all” for pregnancy skin – and that can be frustrating, am I right? <\/p><p>Not only is your skin changing, but the products you’re able to use during pregnancy are different, too. I can only imagine your thoughts – my guess is that they’re going something like this: <em>“What in the world is happening to my skin? What products will help it? And which of those products are pregnancy safe? Which ones do I need to stay away from? And what about when I’m nursing? And once I figure all of that out, then what order do I apply them?” <\/em><\/p><p><\/p><p><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/haute-stock-photography-subscription-baby-bump-collection-final-4.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Girl – I know it’s overwhelming. But I’m here to help!<\/p><p>As a general rule of thumb, here are the skincare 'no-no's of pregnancy, according to the American College of Obstetricians and Gyneocologists:<\/p><p>- No retinols\/retinoids<\/p><p>- No salicylic acid over 2%<\/p><p>- No glycolic acid over 10%<\/p><p>- No hydroquinone<\/p><p>- No benzoyl peroxide<\/p><p>While that may seem like a lot, it leaves so many amazing products that you still CAN use! So let’s go through sample skincare routines for each skin type during pregnancy.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/e22c42c3623d93cd8a52895e38e7694a.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Pregnancy + Melasma<\/strong><\/h3><p>There are few things more frustrating than melasma, especially melasma during pregnancy. As someone who suffers personally from stubborn melasma, I totally understand the frustration. What’s worse is that it just continues to worsen throughout the pregnancy, and most of the “go-to” ingredients that fight melasma best aren’t pregnancy friendly. So until that sweet baby comes and you’re finished nursing, here are some targeted products that can help:<\/p><p>- <a href=\"\/products\/brightening-wash\" title=\"Brightening Facial Wash\">Brightening Wash<\/a> - If you’ve followed me for any time, you know that this cleanser is my holy grail! While it contains both glycolic and salicylic acid, they are under the recommended limits (&gt;10% and &gt;2% respectively) and are great ingredients for exfoliating and reducing pigmentation.<\/p><p><\/p><p>- <a href=\"\/products\/c-correcting-complex-30\" title=\"C+ Correcting Complex 30%\">C+ Correcting Complex<\/a> - This is my go-to vitamin C for all of my melasma patients, pregnant or not, because of it’s unique melaPATH technology. Without getting too “science-y”, it stops the hyperpigmentation process before it even begins. Luckily, all vitamin Cs are pregnancy safe (unless they contain other ingredients such as hydroquinone), so you should be fine continuing whatever vitamin C you were using pre-pregnancy - just make sure you’re using one!<\/p><p><\/p><p><a href=\"\/products\/intellishade-truphysical\" title=\"Intellishade TruPhysical\">Intellishade TruPhysical<\/a> - If you struggle with melasma or hyperpigmentation of any kind, I highly recommend using a physical sunscreen. For those unsure of the difference between the two, it has to do with their mechanism of action. While chemical sunscreens absorb UV rays and convert them to heat (a cause of melasma), physical sunscreen reflect UV rays, thus no heat is induced from the reaction.<\/p><p><\/p><p><a href=\"\/products\/tonic\" title=\"Tonic\">Tonic<\/a> - This toner contains a multitude of brightening and exfoliating acids ideal for hyperpigmentation such as glycolic acid, mandelic acid, kojic acid, phytic acid, salicylic acid, and lactic acid. All ingredients are within the pregnancy safe percentages.<\/p><p><\/p><p><a href=\"\/products\/bakuchiol\" title=\"Bakuchiol\">Bakuchiol<\/a> - Retinoids (such as retin-A) are one of the best topical treatments for hyperpigmentation, but unfortunately are a no-no during pregnancy and nursing. So what's the next best thing? Bakuchiol! This retinol alternative is very similar to retinoids in its hyperpigmentation benefits, but is totally safe for baby!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/edc6f89b1cfa39386454437e031be8f7.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Pregnancy + Acne<\/strong><\/h3><p>Pregnancy oftentimes leaves us with dry skin - not only is the baby taking a lot of our water supply, but our hormone changes can rob our skin of its natural oils as well. Here are some products that can put that hydration and youthful glow back into your skin:<\/p><p>Hormone changes during pregnancy can wreck major havoc on our skin, especially when it comes to acne. If you’re old enough to be having a baby, you shouldn’t still be dealing with acne - can I get an amen? Well unfortunately, that’s not the case. So let’s go over some products that can help you fight that pregnancy induced acne.<\/p><p><a href=\"\/products\/brightening-wash\" title=\"Brightening Facial Wash\">Brightening wash<\/a> - Remember how I called this my holy grail earlier?Well not only is it great for melasma, but it’s amazing for acne, too! The combination of glycolic and salicylic acid (both at pregnancy safe levels) unclog pores, kill bacteria, and exfoliate the skin - all of which decrease the severity and frequency of acne.<\/p><p><a href=\"\/products\/tonic\" title=\"Tonic\">Tonic<\/a> - This toner contains a multitude of acids ideal for combating acne and limiting the red marks it leaves behind, such as glycolic acid, mandelic acid, kojic acid, phytic acid, salicylic acid, and lactic acid. All ingredients are within the pregnancy safe percentages.<\/p><p><\/p><p><a href=\"\/products\/bakuchiol\" title=\"Bakuchiol\">Bakuchiol<\/a> - As we know, retinoids (such as retin-A) are the gold standard topical treatment for acne - but sadly they are not safe during pregnancy and nursing. So what's the next best thing? Bakuchiol! This retinol alternitive is very similar to retinoids in its acne benefits, but is totally safe for baby!<\/p><p><\/p><p><a href=\"\/products\/intellishade-clear\" title=\"Intellishade Clear\">Intellishade Clear<\/a> - For those with acne prone skin that seems to break out with every sunscreen they try, this one is a great option. Very low risk for breakouts at a great price point.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708": {
+      "type": "page_content",
+      "blocks": {
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Pregnancy + Dry Skin<\/strong><\/h3><p>Pregnancy oftentimes leaves us with dry skin - not only is the baby taking a lot of our water supply, but our hormone changes can rob our skin of its natural oils as well. Here are some products that can put that hydration and youthful glow back into your skin:<\/p><p><a href=\"\/products\/papaya-enzyme-cleanser\" title=\"Papaya Enzyme Cleanser\">Papaya Enzyme Cleanser<\/a> - Instead of using stronger acids such as glycolic acid, this cleanser uses fruit enzymes (which are less drying) to gently brighten and cleanse the skin.<\/p><p><\/p><p><a href=\"\/products\/hydrating-serum\" title=\"Hydrating Serum\">Hydrating Serum<\/a> - This serum contains hyaluronic acid - an ingredient that is able to hold 1000x its weight in water! Crazy - right!? Just a tiny bit applied to the skin draws in moisture instantly, leaving the skin ultra hydrated.<\/p><p><\/p><p><a href=\"\/products\/creme-de-la-blair-new\" title=\"Crème de la Blair 2.0\">Crème de la Blair<\/a> - Seal your skincare products in with this ultra-rich moisturizer, ideal for dry skin. Not only will your skin immediately feel and appear dewy, but it soothes any irritation the dryness may have caused.<\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/03f0a909b3544953f55fb040222ea195.jpg",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "0e79f6c0-b8dd-4ec4-99df-e4f0b5b2af7e": {
+      "type": "page_content",
+      "blocks": {
+        "3fe18bc9-d648-4e9b-8fea-7ccace0cd838": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "73b29ad1-6f8b-47d8-8d31-3895c475e761": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Pregnancy + Wrinkles<\/strong><\/h3><p>It seems like all of the best anti-aging products and treatments can’t be used during pregnancy. Injections? Nope. Retin-A? Nope. Lasers? Nope. But instead of focusing on that, let’s focus on what we <em>can <\/em>use for anti-aging during pregnancy.<\/p><p><a href=\"\/products\/brightening-wash\" title=\"Brightening Facial Wash\">Brightening wash<\/a> - While we<em>can’t<\/em>use a retinoid (such as retin-A) to increase cell turnover and stimulate collagen production, we<em>can<\/em>use glycolic acid to do this!<em>(Sidenote: have you noticed how this cleanser has made almost every list??)<\/em><\/p><p><\/p><p><a href=\"\/products\/revox-line-relaxer\" title=\"Revox Line Relaxer\"><em>Revox Line Relaxer<\/em><\/a><em> - <\/em>If you’re missing your quarterly Botox injections, this will be your best friend until you’re reunited with your injector. Often referred to as “botox-in-a-bottle”, it uses peptides to safely relax the muscles contributing to your wrinkles within minutes. This serum is meant to only be applied to your dynamic wrinkles (forehead, frown lines, crows feet, etc.) and<em>not<\/em>to your full face. Results last 8-12 hours, so it is meant to be used twice a day.<\/p><p><\/p><p><a href=\"\/products\/c-correcting-complex-30\" title=\"C+ Correcting Complex 30%\">C+ Correcting Complex<\/a> OR <a href=\"\/products\/vitamin-c-20\" title=\"Vitamin C 20% Serum\">Vitamin C 20% Serum<\/a> - Did you know vitamin C not only protects your skin from collagen breakdown but also helps stimulate collagen production? If you’re not already on one, get on a vitamin C ASAP!<\/p><p><\/p><p><a href=\"\/products\/dej-face-cream\" title=\"DEJ Face Cream\">DEJ Face Cream<\/a> - This moisturizer is <em>so much more<\/em> than just a moisturizer! It is packed full of peptides that target the DEJ (dermal-epidermal junction) to repair our wrinkles, and antioxidants to prevent collagen breakdown and facilitate in collagen production. This is one of my personal favorite products ever!<\/p><p><\/p><p><a href=\"\/products\/bakuchiol\" title=\"Bakuchiol\">Bakuchiol<\/a> - As we know, retinoids (such as retin-A) are the gold standard topical treatment for anti-aging - but sadly they are not safe during pregnancy and nursing. So what's the next best thing? Bakuchiol! This retinol alternative is very similar to retinoids in its anti-aging benefits, but is totally safe for baby!<\/p><p><\/p><p><a href=\"\/products\/bodifirm-small\" title=\"BodiFirm\">BodiFirm<\/a> - While this one doesn’t exactly fall under the “wrinkle” category, I couldn’t leave this gem out of the pregnancy lineup. I am always asked what products can be used for stretch marks on the belly, and while they are largely due to genetics, I do love the anti-aging and moisturizing effects of this body cream. For those wanting their skin to snap back as tight and quickly as possible after baby, use this twice day on your belly and prepare to be amazed.<\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "88ce0f9b-2459-4591-b605-7e0251fddb3b": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "3fe18bc9-d648-4e9b-8fea-7ccace0cd838",
+        "73b29ad1-6f8b-47d8-8d31-3895c475e761",
+        "88ce0f9b-2459-4591-b605-7e0251fddb3b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/0e60f5991f6f4b3a5ede11c19b0b9893.jpg",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "165b7ab1-e827-40e7-a3e5-015fbcba5c01": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "text_size": 3
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "There are two main types of Vitamin C - let's chat through them!",
+            "text_size": 8
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Now that I know which products to use, when do I use them?<\/h3><p>After going through that list, you now have a good idea of which products you want to add into your regimen. But when should you incorporate them into your routine? Let’s take a look:<\/p><p><strong>MORNING<\/strong>:<\/p><p>Cleanse: <strong> <\/strong><a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/brightening-wash\">Brightening Wash<\/a>,<a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/papaya-enzyme-cleanser\"> Papaya Enzyme Cleanser,<\/a> <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/exfoliating-cleanser\">Exfoliating Cleanser<\/a><\/p><p>Tone: <a href=\"\/products\/tonic\" title=\"Tonic\">Tonic<\/a><\/p><p>Vitamin C: <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/c-correcting-complex-30-%E2%84%A2\">C+ Correcting Complex<\/a>, <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/vitamin-ce-ferulic\">Vitamin C 20% Serum<\/a><\/p><p>Targeted treatment: <a href=\"https:\/\/www.skinbyblair.com\/collections\/retinols\/products\/bakuchiol\" target=\"_blank\">Bakuchiol,<\/a><a href=\"https:\/\/www.skinbyblair.com\/collections\/view-all\/products\/revox-line-relaxer\">Revox Line Relaxer<\/a>, <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/hydrating-serum\">Hydrating Serum<\/a>,<a href=\"https:\/\/www.skinbyblair.com\/products\/skin-by-blair-all-in-one-eye-cream\" title=\"All-In-One Eye Cream\">Eye Cream<\/a><\/p><p><\/p><p>Moisturize: <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/creme-de-la-blair\">Creme de la Blair<\/a>,<a href=\"https:\/\/skin-by-blair.myshopify.com\/collections\/pregnancy-safe\/products\/dej-face-cream\">DEJ Face Cream<\/a><\/p><p><\/p><p>Sunscreen: <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/intellishade-truphysical\">Intellishade TruPhysical,<\/a><a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/intellishade-original\">Intellishade Original<\/a>, <a href=\"\/products\/intellishade-clear\" title=\"Intellishade Clear\">Intellishade Clear<\/a><\/p><p><\/p><p>Belly cream: <a href=\"\/products\/bodifirm-small\" title=\"BodiFirm\">BodiFirm<\/a><\/p><p><\/p><p><strong>EVENING: <\/strong><\/p><p>Cleanse: <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/brightening-wash\">Brightening Wash<\/a>,<a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/papaya-enzyme-cleanser\">Papaya Enzyme Cleanser,<\/a><a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/exfoliating-cleanser\">Exfoliating Cleanser<\/a><\/p><p>Tone: <a href=\"\/products\/tonic\" title=\"Tonic\">Tonic<\/a><\/p><p>Vitamin C: <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/c-correcting-complex-30-%E2%84%A2\">C+ Correcting Complex<\/a>,<a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/vitamin-ce-ferulic\">Vitamin C 20% Serum<\/a><\/p><p>Target Treatment: <a href=\"https:\/\/www.skinbyblair.com\/collections\/retinols\/products\/bakuchiol\" target=\"_blank\">Bakuchiol<\/a>,<a href=\"https:\/\/www.skinbyblair.com\/collections\/view-all\/products\/revox-line-relaxer\">Revox Line Relaxer<\/a><a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/revox-7\">,<\/a><a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/hydrating-serum\">Hydrating Serum<\/a>,<a href=\"https:\/\/www.skinbyblair.com\/products\/skin-by-blair-all-in-one-eye-cream\" title=\"All in One Eye Cream\">Eye Cream<\/a><\/p><p>Moisturize: <a href=\"https:\/\/skin-by-blair.myshopify.com\/products\/creme-de-la-blair\">Creme de la Blair<\/a>,<a href=\"https:\/\/skin-by-blair.myshopify.com\/collections\/pregnancy-safe\/products\/dej-face-cream\">DEJ Face Cream<\/a><\/p><p>Belly cream: <a href=\"\/products\/bodifirm-small\" title=\"BodiFirm\">BodiFirm<\/a><\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-subheading-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-heading-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-text-1",
+        "template--14688483508308__165b7ab1-e827-40e7-a3e5-015fbcba5c01-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Recommended products<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8",
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708",
+    "0e79f6c0-b8dd-4ec4-99df-e4f0b5b2af7e",
+    "165b7ab1-e827-40e7-a3e5-015fbcba5c01",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

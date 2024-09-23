@@ -1,0 +1,809 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "The Core 4: Your Skincare Essentials",
+            "text_size": 8
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Skincare can seem complicated, but it doesn't have to be. Before stocking up your vanity, be sure you have the <em>four essential products <\/em>for a good skincare regimen.<\/h3>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>The reason the Core 4 was created<\/h2><p><br\/>One of the most asked questions we get asked is, \"where do I even start?\" This question is <em>so<\/em> valid – there are so many products, opinions, and resources available that it is overwhelming for those just looking to take good care of their skin with a simple routine. To eliminate any unwanted products, the Core 4 has all of the products you <em>need<\/em>, and none that you don't. Once you stay consistent with these four products, THEN we can chat about layering in more targeted products for your specific skin concerns.<\/p><p><\/p><h2><br\/>Understanding the Core 4<\/h2><p>The <a href=\"\/products\/the-key-3-bundle-new\" title=\"Core 4 Bundle\">Core 4<\/a> comprises four essential products: 1. Vitamin C, 2. chemical exfoliant, 3. retinoid, and 4. SPF. These steps collectively create a solid foundation for your skincare routine, paving the way for a radiant complexion.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-01-16_at_4.13.53_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "page_content_XncBbY": {
+      "type": "page_content",
+      "blocks": {
+        "text_BXrcph": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>1. Chemical Exfoliant<\/h2><p>Exfoliation plays a crucial role in shedding dead skin cells, revealing fresh, glowing skin underneath. My personal favorite is <a href=\"\/products\/tonic\" target=\"_blank\" title=\"Tonic\">Tonic<\/a>, our \"facial-in-a-bottle\" that gives you an instant glow while supporting collagen & elastin production - providing both short and long term benefits to the skin.<\/p><p><strong><br\/>Key ingredients:<\/strong> <\/p><p><span style=\"text-decoration:underline\">Lactic Acid:<\/span> brightens skin, gently exfoliates, shown to stimulate collagen and elastin stimulation<\/p><p><span style=\"text-decoration:underline\">Glycolic Acid:<\/span> targets fine lines and wrinkles, exfoliates and hydrates skin, and shown to stimulate collagen<\/p><p><span style=\"text-decoration:underline\">Mandelic Acid: <\/span>targets acne and hyperpigmentation<\/p><p><span style=\"text-decoration:underline\">Salicylic Acid:<\/span> targets blackheads, acne, and sebaceous hyperplasia, reduces oil production, unclogs pores, and reduces pore size<\/p><p><span style=\"text-decoration:underline\">Kojic Acid:<\/span> reduces hyperpigmentation, targets melasma, acne scarring, and hyperpigmentation<\/p><p><span style=\"text-decoration:underline\">Phytic Acid:<\/span> brightens, lightens, and exfoliates skin<\/p><p><\/p><h3>Why do I like this product over other acid blends on the market? <\/h3><p>I tested this product for over two years and adjusted the formula 82 times (I was <em>determined<\/em>, y'all) to make sure it was suitable for ALL skin types. Yep, that includes acne prone, oily, dry, melasma, chronic black heads, etc. - and if it didn't work for one skin type, I adjusted the formula until it was compatible for everyone. It's SBB's best seller for a reason!<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_BXrcph"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_0397_3.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Shop Tonic:<em> our \"facial-in-a-bottle\"<\/em><\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "tonic",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>2. Vitamin C<\/h2><p>Vitamin C stands out as a timeless favorite among skincare ingredients. Backed by an abundance of scientific studies, it consistently proves its efficacy by delivering a range of regenerative benefits for the skin. However, incorporating it into your routine goes beyond drinking a liter of orange juice a day. Like other skincare components, utilizing topical vitamin C offers diverse ways to enjoy its skin-loving rewards, especially for brightening your skin. Here are some of my favorite benefits of daily use:<br\/><br\/><strong>1. Potent Antioxidant Protection<\/strong><\/p><p>Ever wondered about the wonders of antioxidants? They act as shields, providing the skin with protection against free radicals and slowing down cell damage caused by environmental stressors like the sun, pollution, and even secondhand smoke. Vitamin C excels at neutralizing these free radicals, effectively keeping them in check.<br\/><strong><br\/>2. Sun damage defense<\/strong><br\/>Vitamin C isn't a substitute for SPF, but it plays a crucial role in protecting your skin from sun damage. Rather than absorbing or reflecting UV rays, it regulates inflammation and redness caused by sun exposure, making it an ideal companion to your sunscreen. Think of it as the perfect duo to SPF!<\/p><p><\/p><p><strong><br\/>3. Great for targeting pigmentation<\/strong><\/p><p>Copper plays a key role in melanin pigment cell formation. Vitamin C works by reducing the concentration of copper in the skin, resulting in a more even complexion and addressing pigmentation concerns.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__495c5033-7b1f-4165-ac43-b0599ca4ff51-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-01-16_at_4.32.06_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "section_custom_richtext_HzC6Bj": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_rMJDcA": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>My favorite <em>Vitamin C <\/em>recommendations<\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_rMJDcA"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_VntWwW": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_Y9cKYL": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "vitamin-c-1",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_Y9cKYL"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>SBB Vitamin C 20% is great for normal, dry, or combination skin types - or if you prefer a vitamin C serum over a cream and prefer a dewy finish in the AM.<\/p><p><br\/>C+ is great for oily and reactive\/sensitive skin, and helps target redness in the skin. This is the recommended option for acne-prone skin types as well!<\/p>",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_K6YWkh": {
+      "type": "page_content",
+      "blocks": {
+        "text_ChQ8C9": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>3. Retinoid<\/h2><p>Retinoids are the only ingredient that have the scientific backup to their claim to reverse signs of aging by speeding up cell turnover and increasing the production of both collagen and elastin. Retinoic Acid works through specific receptors in the cell that trigger an increase in gene expression and increased production of collagen Typ I, III and IV as well as aquaporin 3 expression. In English, that means that your skins firmness and elasticity increase, while your wrinkles and fine lines decrease. On top of that, retinoid speeds up cell turnover, which leads to younger looking, more even skin and less hyperpigmentation. While many people think of retinol when speaking of a retinoid, my personal (and professional) preference is a retinaldehyde. It is stronger than retinol, yet causes less irritation (aka more results with little to no side effects)! I specifically created RET+ to be one of the <em>strongest<\/em> retinals on the market, delivering up to 20x more results than traditional retinol.<\/p><p><strong><br\/>Benefits:<\/strong> <\/p><p>The benefits of retinal are pretty similar to retinol, however retinal will yield results faster:<\/p><p>• Reducing signs of aging by increasing the rate of cellular renewal, stimulating collagen synthesis<\/p><p>• Decongesting and improving skin texture through increasing cell turnover (this makes it effective for treating acne)<\/p><p>• Evens out skin tone by inhibiting the activity of tyrosinase, the enzyme responsible for the production of melanin<\/p><p>• Hydrating and plumping the skin by reducing water loss stimulation<\/p><p><\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ChQ8C9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_1406_3.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_richtext_BctJE3": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_7zQfzT": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>RET+ : the new and improved Ret de la Blair formula<\/em><\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_7zQfzT"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_g3LkcX": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_7e9LdX": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "retinols",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_7e9LdX"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "page_content_Xh66f4": {
+      "type": "page_content",
+      "blocks": {
+        "text_Y9q9fB": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>4. Sunscreen<\/h2><p>We learn from a young age that we need to wear sunscreen if we want to spend a lot of time in the sun, especially in the south. While most of us are pretty good at applying sunscreen if we’re going to the beach or a long walk in the sun, we can do better.<\/p><p>Applying sunscreen every day should be the foundation of your skin care routine. You already know some of the reasons why sunscreen is so important, but some of them may be new to you.<\/p><p><strong><br\/>Here’s the short version:<\/strong><\/p><p>- Sun damage is the biggest cause of premature ageing<\/p><p>- Sunscreen makes the rest of your skin care routine more effective<\/p><p>- The reasons you don’t like wearing sunscreen go away when you find the right product (aka if you don't like white cast, opt for a clear or tinted version)<\/p><p><br\/>Simply put, sunscreen is your protection from the sun. If you’re not wearing sunscreen, it means your skincare products have to work harder to get results. If you protect your skin from the sun, then your products will be able to work better. <br\/><br\/>Sunscreen is especially important if you use skincare products with actives like AHAs or BHAS (this can be Tonic, Vitamin C, even RET+). Since these ingredients are so potent and exfoliate dead skin cells, it also means that it makes your skin more sensitive to the sun. In other words, if you are spending money on a bunch of products but aren't protecting your skin with SPF daily, your anti-aging skincare will actually make you age faster. <\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Y9q9fB"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/81JEfxiMleL._AC_UF1000_1000_QL80.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "section_custom_richtext_N7JtfC": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_9An8kk": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Shop Intellishade: my holy-grail of sunscreen<\/em><\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_9An8kk"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_YX9gpw": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_gDGB9K": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_gDGB9K"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_richtext_hRnMAM": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "text_V3xKWy": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>Bundle & Save 10%<\/em><\/h2>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "text_CRaNTW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to add in the Core 4 into your routine? <a href=\"\/products\/the-key-3-bundle-new\" title=\"Core 4 Bundle\">Shop the bundle<\/a> with all four products and save 10%. Receive Tonic, Vitamin C 20%, RET+, and your choice of Intellishade (Original, Clear, Matte, or TruPhysical).<\/p>",
+            "text_size": 6,
+            "text_style": "font-body"
+          }
+        },
+        "buttons_iwEpxC": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP CORE 4 BUNDLE",
+            "button_url": "shopify:\/\/products\/core4bundle",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_V3xKWy",
+        "text_CRaNTW",
+        "buttons_iwEpxC"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "page_content_XncBbY",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "495c5033-7b1f-4165-ac43-b0599ca4ff51",
+    "section_custom_richtext_HzC6Bj",
+    "section_tab_collections_VntWwW",
+    "page_content_K6YWkh",
+    "section_custom_richtext_BctJE3",
+    "section_tab_collections_g3LkcX",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "page_content_Xh66f4",
+    "section_custom_richtext_N7JtfC",
+    "section_tab_collections_YX9gpw",
+    "section_custom_richtext_hRnMAM",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}

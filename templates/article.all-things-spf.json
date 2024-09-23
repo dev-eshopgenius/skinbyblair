@@ -1,0 +1,570 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "section > div > div > article > div.article__content__wrapper > div > div {display: none;}",
+        "@media only screen and (min-width: 750px) {h1.article__title.h2 {position: relative; top: -80px; text-align: center; background-color: white; height: 100px; display: flex; justify-content: center; align-items: end; margin-bottom: -80px; }}"
+      ],
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447": {
+      "type": "share-button",
+      "settings": {
+        "width": "wrapper",
+        "show_date": false,
+        "show_author": false,
+        "show_sharing": true,
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "eb77265d-d556-43be-a02b-594364880c74": {
+          "type": "heading",
+          "settings": {
+            "title": "The Ultimate Guide to All Things SPF",
+            "text_size": 8
+          }
+        },
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>As the summer quickly approaches, I know you’re all ready for pool days, boat rides, beach lounging, and in general, enjoying that summertime sunshine.<em>Me too!<\/em>But, it is<em>so important<\/em>that you protect your skin from the sun’s damaging UV rays.<\/h3>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "eb77265d-d556-43be-a02b-594364880c74",
+        "template--14654690558036__bb6b9078-3207-4d61-8f3a-a8dae25fcbdc-text-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b34639fc-65a0-40ef-9819-d64ba710fa36": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "text-align-class": "hero-text-left",
+            "mobile-text-align-class": "mobile-hero-text-center"
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Custom Rich text",
+            "text_size": 8
+          }
+        },
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-subheading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-heading-1",
+        "template--14546072535124__b34639fc-65a0-40ef-9819-d64ba710fa36-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-left",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1695220539793c408e": {
+      "type": "apps",
+      "blocks": {
+        "d010c5da-fc6c-4213-b313-2341a3ae1422": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d010c5da-fc6c-4213-b313-2341a3ae1422"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00": {
+      "type": "page_content",
+      "blocks": {
+        "7f879739-f136-4281-b12f-df47c55aa956": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There are a lot of sunscreen options out there but Ineverrecommend a product or procedure without first testing it out myself. So this sunscreen guide is brought to you by many rounds of online orders, product testing, and evaluation. Check out the links to all my favorites below – from everyday face, to scalp-specific protection, even the best sunscreen for babies – and grab the right SPF for your skin.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "7f879739-f136-4281-b12f-df47c55aa956"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-14_at_5.52.41_PM.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>When it comes to retinoids, it's important to look at two things: <\/h3><p><br\/>The product's strength (aka how effective it will be) and irritation level. Here is a simple breakdown of what that the comparison looks like across different retinoids:<\/p><p>Retinol is the lowest strength retinoid, but causes more skin irritation than a higher strength retinoid - so why would anyone use a less effective + more irritating product when you could use a MORE effective product with LESS skin irritation (aka: retinaldehyde)!? <br\/><br\/><\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "f62d1215-4754-4a3c-828a-815b657cfa5b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--quinary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__5e57f0d9-8709-4ba3-af66-c34fe8d39801-text-1",
+        "f62d1215-4754-4a3c-828a-815b657cfa5b",
+        "8dc52233-01cf-4c7d-b39f-d88e123f44ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_cd2b6f69-8670-4214-b07b-16f6ab56d4e6.png",
+        "width": "wrapper",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "50",
+        "padding_top": 10,
+        "padding_bottom": 11
+      }
+    },
+    "74c4f034-3768-4f89-9e07-4f1ce595653c": {
+      "type": "page_content",
+      "blocks": {
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>WHAT MAKES UP A \"GOOD\" SUNSCREEN?<\/h3><p><br\/>All of the sunscreens I chose meet my skin protection requirements with a minimum of 30 SPF and broad-spectrum coverage (to protect against both UVA “aging” rays<em>and<\/em>UVB “burning” rays). However, it’s up to you to apply and reapply these products correctly to make sure you don’t get burned. The best practice for sunscreen application is to cover the exposed areas of your face and body with about two tablespoons, or one shot glass, of sunscreen, setting aside a nickel-sized dollop for your face alone. You’ll have to repeat this process every two hours for proper reapplication!<\/p><h3><\/h3><h3><\/h3>",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__74c4f034-3768-4f89-9e07-4f1ce595653c-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/revision-skincare-intellishade-matte-cristincooper.jpg",
+        "width": "wrapper",
+        "image_position_d": "desktop-left",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>THE BEST SUNSCREEN FOR EVERYDAY WEAR<\/h3><p><strong>For Anti-Aging Everyday Face (Tinted Sunscreen): <\/strong><a href=\"https:\/\/www.skinbyblair.com\/products\/intellishade-original\"><strong>Revision Intellishade Original<\/strong><\/a><strong><br\/><\/strong><\/p><p>I love that this is a 5-in-1 product - it is hands down my favorite anti-aging sunscreen on the market. Not only is it a sunscreen (SPF 45!), but it is also a moisturizer, foundation (matches virtually every skin tone!), antioxidant, and peptide treatment. This is my “desert island” product - you won’t find me without it! <\/p><h5><\/h5><p><strong>For Anti-Aging Everyday Face + A Matte Finish: <\/strong><a href=\"https:\/\/www.skinbyblair.com\/products\/intellishade-matte\" target=\"_blank\"><strong>Revision Intellishade Matte<\/strong><\/a><\/p><p>This is for my oily girls, or if you just overall like a matte finish to your skin. Same great benefits of Intellishade Original, minus the shine!<\/p><p><\/p><p><strong>For Anti-Aging Everyday Face (Non-Tinted Sunscreen): <\/strong><a href=\"https:\/\/www.skinbyblair.com\/products\/intellishade-clear\" target=\"_blank\"><strong>Revision Intellishade Clear<\/strong><\/a><\/p><p>If you love the idea of Intellishade Original but prefer a non-tinted option, this is it! This is also a favorite among men!<\/p><p><\/p><p><strong>For Sensitive Skin Everyday Face: <\/strong><a href=\"\/products\/intellishade-truphysical-clear\" target=\"_blank\" title=\"Intellishade TruPhysical Clear\"><strong>Revision Intellishade TruPhysical Clear<\/strong><\/a><\/p><p>If you prefer a non-tinted sunscreen free of chemical filters but still anti-aging, this one’s for you!<\/p><p><\/p><p><strong>For Acne-Prone Faces: <\/strong><a href=\"https:\/\/www.skinbyblair.com\/products\/intellishade-clear\" target=\"_blank\"><strong>Revision Intellishade Clear<\/strong><\/a><\/p><p>If you’re acne-prone, chances are you’re probably hesitant to wear sunscreen daily because it seems like they all break you out. Well trust me on this one - this is my go-to for all of my acne-prone patients and you’ve got to try it!<\/p><p><\/p><p><strong>For My Bargain Shoppers: <\/strong><a href=\"https:\/\/rstyle.me\/cz-n\/gguuracjc87\" target=\"_blank\"><strong>Cerave AM Moisturizing Lotion<\/strong><\/a><\/p><p>Affordable (under $15!) yet effective - not to mention convenient. Grab it at the grocery or drug store whenever you’re in a pinch.<\/p><p><\/p><p><\/p><p><strong>For Everyday Body Sunscreen: <\/strong><a href=\"https:\/\/www.amazon.com\/Roche-Posay-Anthelios-Cooling-Lotion-Sunscreen\/dp\/B00TBJWP9K\/ref=mp_s_a_1_3?tag=blairhaye-1-bg-20\" title=\"https:\/\/www.amazon.com\/Roche-Posay-Anthelios-Cooling-Lotion-Sunscreen\/dp\/B00TBJWP9K\/ref=mp_s_a_1_3?tag=blairhaye-1-bg-20\"><strong>La Roche-Posay Anthelios Cooling Water<\/strong><\/a><\/p><p>Feels like a regular body lotion, not a sunscreen!<\/p><p><\/p><p><strong>For All Day Reapplication: <\/strong><a href=\"https:\/\/www.amazon.com\/Colorescience-Sunscreen-Sunforgettable-Sensitive-Protection\/dp\/B00RM4R0K0\/ref=mp_s_a_1_5?crid=M7V1FSHGA839&dib=eyJ2IjoiMSJ9.drcVaGL1L3uVWskAVOnfyxvNG0v2Vjh8IoQF11Uth03RLfGZmWE-Hnfy9DwC42msvqeMNJWMEenKQ-cN_OsKD9KhlmBITnZ-dlLoNji23yiGOE8gYtQwRG5QfTPvQBAOLjOKyHlqifa3xiRDVG-xRHS7qeDmBSMaHhR9j4pA5EqmHFwsSvDPOkKktFeFmC_Pdpvy68fHZJABbPHuJFLrgw.ZUeXucAfcdgNNlrLCU5Tx3MiLPm1NL9ELaeT4RKsrmU&dib_tag=se&keywords=colorescience%2Bsunscreen&psc=1&qid=1713982709&sprefix=color%2Caps%2C85&sr=8-5&tag=blairhaye-1-bg-20&th=1\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/Colorescience-Sunscreen-Sunforgettable-Sensitive-Protection\/dp\/B00RM4R0K0\/ref=mp_s_a_1_5?crid=M7V1FSHGA839&dib=eyJ2IjoiMSJ9.drcVaGL1L3uVWskAVOnfyxvNG0v2Vjh8IoQF11Uth03RLfGZmWE-Hnfy9DwC42msvqeMNJWMEenKQ-cN_OsKD9KhlmBITnZ-dlLoNji23yiGOE8gYtQwRG5QfTPvQBAOLjOKyHlqifa3xiRDVG-xRHS7qeDmBSMaHhR9j4pA5EqmHFwsSvDPOkKktFeFmC_Pdpvy68fHZJABbPHuJFLrgw.ZUeXucAfcdgNNlrLCU5Tx3MiLPm1NL9ELaeT4RKsrmU&dib_tag=se&keywords=colorescience%2Bsunscreen&psc=1&qid=1713982709&sprefix=color%2Caps%2C85&sr=8-5&tag=blairhaye-1-bg-20&th=1\"><strong>Colorescience Brush On Mineral Powder<\/strong><\/a><\/p><p>I don’t leave my house without this guy! Fast, easy reapplication without the mess of a liquid. Great for reapplication over makeup!  Reminder: you’re supposed to reapply sunscreen every 2 hours!<\/p><p><\/p><p><strong>The Best Everyday SPF for Kids: <\/strong><a href=\"https:\/\/rstyle.me\/cz-n\/ggusxpcjc87\" target=\"_blank\"><strong>Supergoop! Play Everyday Lotion<\/strong><\/a><\/p><p>This lotion absorbs easily into the skin and doesn't feel sticky, so kids love it!<\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "d603ec75-e34b-4d1a-b5b9-9aa9bd6e708d": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>THE BEST SUNSCREEN FOR POOL DAYS & VACATIONS<\/h3><p><em>The perfect long-lasting, water-resistant SPF products.<\/em><strong><br\/><\/strong><\/p><p><strong>The Best Sunscreen for Babies: <\/strong><a href=\"https:\/\/rstyle.me\/cz-n\/ggupiucjc87\" target=\"_blank\"><strong>Thinkbaby Mineral Baby Sunscreen<\/strong><\/a><\/p><p><\/p><p><strong>The Best Water Resistant Sunscreen:<\/strong><a href=\"https:\/\/rstyle.me\/cz-n\/gguqd7cjc87\" target=\"_blank\"><strong>La Roche-Posay Anthelios Cooling Water<\/strong><\/a><\/p><p><\/p><p><strong>For Your Lips: <\/strong><a href=\"https:\/\/www.amazon.com\/Supergoop-PLAY-Lip-Balm-Mint\/dp\/B087GZYHP4\/ref=mp_s_a_1_1?crid=1JFOX55W190KD&dib=eyJ2IjoiMSJ9.C878XDKz0t7MOslg0CbRCxpSWtq5GaZDJGTFpMzCVY4fefag2tT6G3iwSTI0GO0wY0xfWFqo8LsU_MjSJUOg8R0zz6Cj-BRk8V6lnoHyIf4SEgrqIxxAAk03BLKPZiEszHKklEdCzUZVT6LWAJdeGKpiOOZus2aNlD7Wm-SSdDT1rM_SkMCLZLqTB_3h6_tLuBlc-Gf64vBYFOOdz2buvw.bnxVgHKQlr3KXUSVs7gd50D8_rBCptgIupiJHBwLtk0&dib_tag=se&keywords=supergoop+lip&qid=1713983806&sprefix=supergoop+lip%2Caps%2C87&sr=8-1&tag=blairhaye-1-bg-20\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/Supergoop-PLAY-Lip-Balm-Mint\/dp\/B087GZYHP4\/ref=mp_s_a_1_1?crid=1JFOX55W190KD&dib=eyJ2IjoiMSJ9.C878XDKz0t7MOslg0CbRCxpSWtq5GaZDJGTFpMzCVY4fefag2tT6G3iwSTI0GO0wY0xfWFqo8LsU_MjSJUOg8R0zz6Cj-BRk8V6lnoHyIf4SEgrqIxxAAk03BLKPZiEszHKklEdCzUZVT6LWAJdeGKpiOOZus2aNlD7Wm-SSdDT1rM_SkMCLZLqTB_3h6_tLuBlc-Gf64vBYFOOdz2buvw.bnxVgHKQlr3KXUSVs7gd50D8_rBCptgIupiJHBwLtk0&dib_tag=se&keywords=supergoop+lip&qid=1713983806&sprefix=supergoop+lip%2Caps%2C87&sr=8-1&tag=blairhaye-1-bg-20\"><strong>Supergoop! Play Lip Balm<\/strong><\/a><\/p><p>This moisturizing lip sunscreen soothes and protects dry, chapped lips!<\/p><p><\/p><p><strong>For Your Scalp:<\/strong><a href=\"https:\/\/www.amazon.com\/Supergoop-Poof-100-Mineral-Powder\/dp\/B091G3N45M\/ref=mp_s_a_1_3?crid=2XAMBTU9TGG5Z&dib=eyJ2IjoiMSJ9.-cNQffsjApNTxmgUlKhJLwVf3mAyyo_ZCfva2tcal0Mfe-K6-WgNocDly6arDsd26aP25uoXh2CQliQ00LY9TtFNQVoQodi5siHqKqXFMzRsKDU6StapPFKud-kijqy9qQMNPKrswQlrYs1SuPMJwxcpqxEMXA5khXuYIf_XikAg04rVsarblT4ZBR7zgJm1LBlnzufizKwUahBg-5XTHw.1i7Cs9Pv5btPMooGsSfcRtM-jL0p9ndlOE3h-7sJd9Y&dib_tag=se&keywords=supergoop+scalp&qid=1713984043&sprefix=supergoop+scalp%2Caps%2C70&sr=8-3&tag=blairhaye-1-bg-20\" target=\"_blank\" title=\"https:\/\/www.amazon.com\/Supergoop-Poof-100-Mineral-Powder\/dp\/B091G3N45M\/ref=mp_s_a_1_3?crid=2XAMBTU9TGG5Z&dib=eyJ2IjoiMSJ9.-cNQffsjApNTxmgUlKhJLwVf3mAyyo_ZCfva2tcal0Mfe-K6-WgNocDly6arDsd26aP25uoXh2CQliQ00LY9TtFNQVoQodi5siHqKqXFMzRsKDU6StapPFKud-kijqy9qQMNPKrswQlrYs1SuPMJwxcpqxEMXA5khXuYIf_XikAg04rVsarblT4ZBR7zgJm1LBlnzufizKwUahBg-5XTHw.1i7Cs9Pv5btPMooGsSfcRtM-jL0p9ndlOE3h-7sJd9Y&dib_tag=se&keywords=supergoop+scalp&qid=1713984043&sprefix=supergoop+scalp%2Caps%2C70&sr=8-3&tag=blairhaye-1-bg-20\"><strong> Supergoop! Poof Part Powder<\/strong><\/a><\/p><p>Feels similar to a dry shampoo while also protecting your scalp!<\/p><p><\/p><p><strong>For My Glam Girls: <\/strong><a href=\"https:\/\/rstyle.me\/cz-n\/gji53wcjc87\" target=\"_blank\"><strong>Supergoop! Resetting Spray<\/strong><\/a><\/p><p>An easy way to reapply your sunscreen without ruining your makeup!<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "967819a1-a504-4580-b170-da1a5be9f557": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/spf",
+            "button_type": "btn--text-cl",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__d3ff8ecf-a3f6-46a3-835c-1810261992c8-text-1",
+        "d603ec75-e34b-4d1a-b5b9-9aa9bd6e708d",
+        "967819a1-a504-4580-b170-da1a5be9f557"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-left",
+        "align_text_mobile": "mobile-hero-text-left",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708": {
+      "type": "page_content",
+      "blocks": {
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "C is for Vitamin C",
+            "text_size": 7
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>WHY YOU SHOULD WEAR SUNSCREEN<\/h3><p>The start of the summer just so happens to align with Skin Cancer Awareness Month. So for those of you who still need convincing to pull the trigger on that sunscreen order, I’ll leave you with a few staggering statistics.<\/p><p><\/p><p>Skin cancer accounts for more than 50% of all cancers combined.<\/p><p>3 people die of skin cancer every hour.<\/p><p>Having 5 or more sunburns doubles your risk for melanoma.<\/p><p>Even one indoor tanning session can increase the risk of developing squamous cell carcinoma by 67%. (Plus, more people develop skin cancer from tanning beds than develop lung cancer from smoking!!)<\/p><p>Indoor tanning before age 35 can increase your risk of melanoma by 59%.<\/p><p>So wear your sunscreen people!!! And don’t forget to schedule your annual body check with a dermatologist!<\/p>",
+            "text_style": "font-body"
+          }
+        },
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop Sunscreens",
+            "button_url": "shopify:\/\/collections\/sunscreens",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-heading-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-text-1",
+        "template--14688483508308__ab10c195-b334-4b09-a4b5-a7a2191e7708-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-14_at_6.08.38_PM.png",
+        "width": "wrapper--full-padded",
+        "image_position_d": "desktop-right",
+        "image_position_m": "mobile-up",
+        "image_size": "25",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d": {
+      "type": "related",
+      "blocks": {
+        "24def079-79a5-48db-bbb8-b88553b3ef19": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "<h5>Recommended products<\/h5>",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "24def079-79a5-48db-bbb8-b88553b3ef19"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "product": "",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8": {
+      "type": "next-article",
+      "settings": {
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Recommended products<\/h5>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "1b56d2a4-59e1-456a-ae82-4c4b74ec019f"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "sunscreens",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14661160960084__5ff7e267-5f75-45cb-a2d1-89dfd4951ba7-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "67a4c364-af63-48ad-98c1-78ed1646a78f": {
+      "type": "section-custom-richtext",
+      "blocks": {
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "EXPLORE MORE",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14654690558036__67a4c364-af63-48ad-98c1-78ed1646a78f-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "content_alignment": "content-center",
+        "align_text": "text-center",
+        "align_text_mobile": "mobile-hero-text-center",
+        "bg_color": "",
+        "color": "",
+        "custom_id": "",
+        "padding_top": 32,
+        "padding_bottom": 60
+      }
+    },
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed": {
+      "type": "section-on-the-blog",
+      "blocks": {
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1": {
+          "type": "article",
+          "settings": {
+            "article": "news\/tonic-a-facial-in-a-bottle",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2": {
+          "type": "article",
+          "settings": {
+            "article": "news\/deep-dive-into-retinoids",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3": {
+          "type": "article",
+          "settings": {
+            "article": "news\/the-key-3-why-you-need-them",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/skinacare-product-gift-guide",
+            "subheading": "SKINCARE EDU",
+            "button_text": "READ MORE"
+          }
+        },
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5": {
+          "type": "article",
+          "settings": {
+            "article": "news\/my-customized-skincare-quiz-is-finally-here",
+            "subheading": "PROUCTS EXPLAINED",
+            "button_text": "READ MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-1",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-2",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-3",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-4",
+        "template--14549487190100__d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed-article-5"
+      ],
+      "custom_css": [
+        "h3 {color: var(--text);}"
+      ],
+      "settings": {
+        "title": "On The Blog",
+        "otb_subtitle": "",
+        "text-align-class": "hero-text-left",
+        "mobile-text-align-class": "mobile-hero-text-center",
+        "button_type": "btn--secondary",
+        "button_style": "btn--solid",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "background_color": "#f4f1ef"
+      }
+    },
+    "4b899623-b979-4358-bb6f-026fa6fc93fe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f4184e2c-e05a-482c-a291-8ac56fc2a447",
+    "bb6b9078-3207-4d61-8f3a-a8dae25fcbdc",
+    "b34639fc-65a0-40ef-9819-d64ba710fa36",
+    "1695220539793c408e",
+    "b0e571f7-4412-4df3-92f5-4fb48778fb00",
+    "5e57f0d9-8709-4ba3-af66-c34fe8d39801",
+    "74c4f034-3768-4f89-9e07-4f1ce595653c",
+    "d3ff8ecf-a3f6-46a3-835c-1810261992c8",
+    "ab10c195-b334-4b09-a4b5-a7a2191e7708",
+    "b0dd9602-7f65-4fab-9020-0d6a07ae897d",
+    "2f67e5c1-bd11-43a4-87ac-82687aba1be8",
+    "f58cb0df-1b98-40df-a1cf-6cb2c23d9dfc",
+    "5ff7e267-5f75-45cb-a2d1-89dfd4951ba7",
+    "67a4c364-af63-48ad-98c1-78ed1646a78f",
+    "d1433e72-a0ef-4ad2-a925-9aaf0d2d1aed",
+    "4b899623-b979-4358-bb6f-026fa6fc93fe"
+  ]
+}
