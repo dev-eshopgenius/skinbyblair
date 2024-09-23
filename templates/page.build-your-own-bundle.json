@@ -1,0 +1,154 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_KcxnbU": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_RKEd6e": {
+          "type": "heading",
+          "settings": {
+            "title": "Build Your Own Custom Routine",
+            "heading_size": 8
+          }
+        },
+        "text_zNYAFK": {
+          "type": "text",
+          "settings": {
+            "description": "Save 15% plus get a FREE mini product when you build your own bundle with 3 or more products.",
+            "text_size": 8,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RKEd6e",
+        "text_zNYAFK"
+      ],
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot2024-03-06at9.37.24AM.png",
+        "link": "",
+        "mobile_height": "image-height--mobile",
+        "flex_align_desktop": "align--top-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#000000"
+      }
+    },
+    "byob_collection_QVaeKC": {
+      "type": "byob-collection",
+      "settings": {
+        "subheading": "Skip This Step",
+        "heading": "Step 1: Cleanse",
+        "image": "shopify://shop_images/Value_Prop_2_-_Personalized.webp",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "vitamin-c-ingredients",
+        "style": "grid",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "byob_collection_At8zKN": {
+      "type": "byob-collection",
+      "settings": {
+        "subheading": "Skip This Step",
+        "heading": "Setp2: Tone",
+        "image": "shopify://shop_images/17.png",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "toner",
+        "style": "grid",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "byob_collection_piWzye": {
+      "type": "byob-collection",
+      "settings": {
+        "subheading": "Skip This Step",
+        "heading": "Step 3: Brighten",
+        "image": "shopify://shop_images/18.png",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "body-care-1",
+        "style": "grid",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_KcxnbU",
+    "byob_collection_QVaeKC",
+    "byob_collection_At8zKN",
+    "byob_collection_piWzye"
+  ]
+}

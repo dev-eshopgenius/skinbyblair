@@ -88,26 +88,36 @@
   class="index-products section-padding"
   data-section-id="{{ section.id }}"
   data-section-type="product-grid">
-
+  {%- if heading != blank -%}
+    {%- assign animation_order = animation_order | plus: 1 -%}
+    <h2 class="grid__heading heading_accordian"
+      data-aos="hero"
+      data-aos-anchor="{{ animation_anchor }}"
+      data-aos-order="{{ animation_order }}">{{ heading }}</h2>
+  {%- endif -%}
+  {%- if section.settings.image != blank -%}
+    <div class="hero__split-image">
+      {%- render 'image-hero',
+        image: section.settings.image,
+        sizes: 'wrapper--full',
+        desktop_height: 'image-height',
+        mobile_height: 'image-height'
+      -%}
+    </div>
+  {%- endif -%}
   <div class="grid-container{% if layout == 'left' %} grid-container--inline{% endif %}{% if style_layout == 'grid' %} {{ section.settings.width }}{% endif %}">
     {%- if has_content -%}
       <div class="grid__heading-holder{% if layout == 'inline' %} grid__heading-holder--inline{% elsif layout == 'left' %} grid__heading-holder--sticky{% elsif layout == 'center' %} text-center {% elsif layout == 'below' %} text-center {% endif %}">
         {%- if subheading != blank or heading != blank or description != blank -%}
           <div class="grid__heading-text">
             {%- if subheading != blank -%}
-              {%- assign animation_order = animation_order | plus: 1 -%}
-              <p class="grid__heading font-subheading"
-                data-aos="hero"
-                data-aos-anchor="{{ animation_anchor }}"
-                data-aos-order="{{ animation_order }}">{{ subheading }}</p>
-            {%- endif -%}
-            {%- if heading != blank -%}
-              {%- assign animation_order = animation_order | plus: 1 -%}
-              <h2 class="grid__heading"
-                data-aos="hero"
-                data-aos-anchor="{{ animation_anchor }}"
-                data-aos-order="{{ animation_order }}">{{ heading }}</h2>
-            {%- endif -%}
+                {%- assign animation_order = animation_order | plus: 1 -%}
+                <div class="grid__heading boyb-subheading"
+                  data-aos="hero"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}">{{ subheading }}</div>
+              {%- endif -%}
+            
 
             {%- if description != blank -%}
               {%- assign animation_order = animation_order | plus: 1 -%}
@@ -205,7 +215,8 @@
 
 {% schema %}
   {
-    "name": "Featured collection",
+    "name": "Byob collection",
+    "class": "byob-collection",
     "settings": [
       {
         "label": "Subheading",
@@ -219,6 +230,11 @@
         "type": "text",
         "default": "Best Sellers"
       },
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+     },
       {
         "type": "richtext",
         "id": "description",
@@ -431,7 +447,7 @@
     "presets": [
       {
         "category": "Collection",
-        "name": "Featured collection"
+        "name": "Byob collection"
       }
     ],
     "disabled_on": {
