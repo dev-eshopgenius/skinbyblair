@@ -67,88 +67,98 @@
     },
     "byob_collection_QVaeKC": {
       "type": "byob-collection",
+      "blocks": {
+        "collection_XPMHRU": {
+          "type": "Collection",
+          "settings": {
+            "subheading": "Skip This Step",
+            "heading": "Step 1: Cleanse",
+            "image": "shopify://shop_images/Value_Prop_2_-_Personalized.webp",
+            "description": "",
+            "layout": "inline",
+            "link_text": "",
+            "link_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "featured_collection": "vitamin-c-ingredients",
+            "style": "grid",
+            "grid": 4,
+            "rows": 3,
+            "width": "wrapper",
+            "layout_mobile": "carousel",
+            "bg_color": "",
+            "color": "",
+            "padding_top": 50,
+            "padding_bottom": 50
+          }
+        },
+        "collection_yHVtRG": {
+          "type": "Collection",
+          "settings": {
+            "subheading": "Skip This Step",
+            "heading": "Step 2: Tone",
+            "image": "shopify://shop_images/17.png",
+            "description": "",
+            "layout": "inline",
+            "link_text": "Shop Now",
+            "link_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "featured_collection": "toner",
+            "style": "grid",
+            "grid": 4,
+            "rows": 3,
+            "width": "wrapper",
+            "layout_mobile": "carousel",
+            "bg_color": "",
+            "color": "",
+            "padding_top": 50,
+            "padding_bottom": 50
+          }
+        },
+        "collection_faUKaR": {
+          "type": "Collection",
+          "settings": {
+            "subheading": "Skip This Step",
+            "heading": "Step 3: Brighten",
+            "image": "shopify://shop_images/18.png",
+            "description": "",
+            "layout": "inline",
+            "link_text": "",
+            "link_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "featured_collection": "body-care",
+            "style": "grid",
+            "grid": 3,
+            "rows": 3,
+            "width": "wrapper",
+            "layout_mobile": "carousel",
+            "bg_color": "",
+            "color": "",
+            "padding_top": 50,
+            "padding_bottom": 50
+          }
+        }
+      },
+      "block_order": [
+        "collection_XPMHRU",
+        "collection_yHVtRG",
+        "collection_faUKaR"
+      ],
       "settings": {
-        "subheading": "Skip This Step",
-        "heading": "Step 1: Cleanse",
-        "image": "shopify://shop_images/Value_Prop_2_-_Personalized.webp",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "featured_collection": "vitamin-c-ingredients",
-        "style": "grid",
-        "grid": 4,
-        "rows": 3,
-        "width": "wrapper",
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "byob_collection_At8zKN": {
-      "type": "byob-collection",
-      "settings": {
-        "subheading": "Skip This Step",
-        "heading": "Setp2: Tone",
-        "image": "shopify://shop_images/17.png",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "featured_collection": "toner",
-        "style": "grid",
-        "grid": 4,
-        "rows": 3,
-        "width": "wrapper",
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "byob_collection_piWzye": {
-      "type": "byob-collection",
-      "settings": {
-        "subheading": "Skip This Step",
-        "heading": "Step 3: Brighten",
-        "image": "shopify://shop_images/18.png",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "featured_collection": "body-care-1",
-        "style": "grid",
-        "grid": 4,
-        "rows": 3,
-        "width": "wrapper",
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     }
   },
   "order": [
     "main",
     "section_hero_KcxnbU",
-    "byob_collection_QVaeKC",
-    "byob_collection_At8zKN",
-    "byob_collection_piWzye"
+    "byob_collection_QVaeKC"
   ]
 }

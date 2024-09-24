@@ -1,23 +1,30 @@
-{%- liquid
+
+<section id="Collection--{{ section.id }}"
+  class="index-products section-padding"
+  data-section-id="{{ section.id }}"
+  data-section-type="product-grid">
+  {% for block in section.blocks %}
+
+    {%- liquid
   assign animation_order = 0
   assign animation_anchor = '#Collection--' | append: section.id
-  assign bg_color = section.settings.bg_color
-  assign text_color = section.settings.color
-  assign style_layout = section.settings.style
-  assign subheading = section.settings.subheading
-  assign heading = section.settings.heading
-  assign description = section.settings.description
-  assign link_text = section.settings.link_text
+  assign bg_color = block.settings.bg_color
+  assign text_color = block.settings.color
+  assign style_layout = block.settings.style
+  assign subheading = block.settings.subheading
+  assign heading = block.settings.heading
+  assign description = block.settings.description
+  assign link_text = block.settings.link_text
   assign has_content = false
   if heading != blank or description != blank or link_text != blank
     assign has_content = true
   endif
 
-  assign grid_columns = section.settings.grid
-  assign grid_rows = section.settings.rows
-  assign layout = section.settings.layout
+  assign grid_columns = block.settings.grid
+  assign grid_rows = block.settings.rows
+  assign layout = block.settings.layout
 
-  assign featured_collection = collections[section.settings.featured_collection]
+  assign featured_collection = collections[block.settings.featured_collection]
   assign limit_products = 50
   assign limit_onboarding = 8
   capture product_grid_classes
@@ -27,7 +34,7 @@
       echo ' grid--slider'
     endif
 
-    if section.settings.layout_mobile == 'carousel'
+    if block.settings.layout_mobile == 'carousel'
       echo ' grid--mobile-slider'
     else
       echo ' grid--mobile-vertical'
@@ -37,7 +44,7 @@
   assign columns_desktop = grid_columns | plus: 0
   assign columns_medium = 3
   assign columns_small = 2
-  assign columns_mobile = section.settings.layout_mobile | plus: 0
+  assign columns_mobile = block.settings.layout_mobile | plus: 0
 
 	if columns_desktop == 2 or columns_desktop == 4
     assign columns_medium = 2
@@ -52,19 +59,19 @@
     endif
   endif
 
-  assign button_style = section.settings.button_style
-  if button_style == 'btn--text' and section.settings.show_arrow
+  assign button_style = block.settings.button_style
+  if button_style == 'btn--text' and block.settings.show_arrow
     assign button_style = button_style | append: ' btn--text-no-underline'
   endif
 -%}
 
 {%- style -%}
  #Collection--{{ section.id }} {
-    --PT: {{ section.settings.padding_top }}px;
-    --PB: {{ section.settings.padding_bottom }}px;
+    --PT: {{ block.settings.padding_top }}px;
+    --PB: {{ block.settings.padding_bottom }}px;
 
     {%- if has_content -%}
-      --PT-MOBILE: max({{ section.settings.padding_top }}px, calc(var(--gutter) * 2));
+      --PT-MOBILE: max({{ block.settings.padding_top }}px, calc(var(--gutter) * 2));
     {%- endif -%}
 
     --COLUMNS: {{ columns_desktop }};
@@ -83,11 +90,7 @@
     {%- endunless -%}
   }
 {%- endstyle -%}
-
-<section id="Collection--{{ section.id }}"
-  class="index-products section-padding"
-  data-section-id="{{ section.id }}"
-  data-section-type="product-grid">
+    <div class="build_box">
   {%- if heading != blank -%}
     {%- assign animation_order = animation_order | plus: 1 -%}
     <h2 class="grid__heading heading_accordian"
@@ -95,17 +98,17 @@
       data-aos-anchor="{{ animation_anchor }}"
       data-aos-order="{{ animation_order }}">{{ heading }}</h2>
   {%- endif -%}
-  {%- if section.settings.image != blank -%}
+  {%- if block.settings.image != blank -%}
     <div class="hero__split-image">
       {%- render 'image-hero',
-        image: section.settings.image,
+        image: block.settings.image,
         sizes: 'wrapper--full',
         desktop_height: 'image-height',
         mobile_height: 'image-height'
       -%}
     </div>
   {%- endif -%}
-  <div class="grid-container{% if layout == 'left' %} grid-container--inline{% endif %}{% if style_layout == 'grid' %} {{ section.settings.width }}{% endif %}">
+  <div class="grid-container{% if layout == 'left' %} grid-container--inline{% endif %}{% if style_layout == 'grid' %} {{ block.settings.width }}{% endif %}">
     {%- if has_content -%}
       <div class="grid__heading-holder{% if layout == 'inline' %} grid__heading-holder--inline{% elsif layout == 'left' %} grid__heading-holder--sticky{% elsif layout == 'center' %} text-center {% elsif layout == 'below' %} text-center {% endif %}">
         {%- if subheading != blank or heading != blank or description != blank -%}
@@ -138,11 +141,11 @@
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}">
-              <a class="btn {{ button_style }} {{ section.settings.button_size }} {{ section.settings.button_type }}"
-                href="{% if section.settings.link_url != blank %}{{ section.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}">
+              <a class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+                href="{% if block.settings.link_url != blank %}{{ block.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}">
                 <span>{{ link_text | escape }}</span>
 
-                {%- if section.settings.show_arrow -%}
+                {%- if block.settings.show_arrow -%}
                   {%- render 'icon-arrow-right' -%}
                 {%- endif -%}
               </a>
@@ -199,11 +202,11 @@
           data-aos="hero"
           data-aos-anchor="{{ animation_anchor }}"
           data-aos-order="{{ animation_order }}">
-          <a class="btn {{ button_style }} {{ section.settings.button_size }} {{ section.settings.button_type }}"
-            href="{% if section.settings.link_url != blank %}{{ section.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}">
+          <a class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+            href="{% if block.settings.link_url != blank %}{{ block.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}">
             <span>{{ link_text | escape }}</span>
 
-            {%- if section.settings.show_arrow -%}
+            {%- if block.settings.show_arrow -%}
               {%- render 'icon-arrow-right' -%}
             {%- endif -%}
           </a>
@@ -211,12 +214,25 @@
       </div>
     {%- endif -%}
   </div>
+  </div>
+  {% endfor %}
 </section>
+
 
 {% schema %}
   {
     "name": "Byob collection",
     "class": "byob-collection",
+    "settings": [
+      {
+      "type": "header",
+      "content": "BuildBox"
+     }
+    ],
+    "blocks": [
+  {
+  "type": "Collection",
+  "name": "collection",
     "settings": [
       {
         "label": "Subheading",
@@ -443,6 +459,8 @@
         "label": "Padding bottom",
         "default": 50
       }
+    ]
+}
     ],
     "presets": [
       {

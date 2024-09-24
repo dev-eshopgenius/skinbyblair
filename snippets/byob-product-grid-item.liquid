@@ -268,42 +268,9 @@
       assign unique = section.id | append: '-' | append: product.id
     -%}
   {%- endif -%}
-  {% if product.available == false %}
-    <button class="quick-add__button btn--qa caps btn {{settings.qa_button_style}} "
-      type="submit"
-      disable
-      disabled
-    >
-      {% assign formatted_price = product.price | money %}
-      {% assign price_parts = formatted_price | split: '.' %}
-      {% assign old_price = product.compare_at_price_max | money | split: '.' %}
-
-      <span class="btn__text">Sold Out | {{ price_parts[0] }}</span>
-      <span class="btn__plus"></span>
-      <span class="btn__added">&nbsp;</span>
-      <span class="btn__loader">
-        <svg height="18" width="18" class="svg-loader">
-          <circle r="7" cx="9" cy="9" />
-          <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
-        </svg>
-      </span>
-      <span class="btn__error" data-message-error>&nbsp;</span>
-    </button>
-    {%endif%}
+ 
 {%- endcapture -%}
 
-{%- liquid
-  capture product_item_cutline
-    if settings.show_cutline and product.metafields.theme.cutline != blank and product.metafields.theme.cutline.type == 'single_line_text_field'
-      assign product_title_downcase = product.title | strip_html | escape | downcase
-      assign cutline_downcase = product.metafields.theme.cutline.value | downcase
-
-      unless product_title_downcase contains cutline_downcase
-        echo product.metafields.theme.cutline.value
-      endunless
-    endif
-  endcapture
--%}
 
 {%- capture image_animations -%}
   data-aos="img-in"
