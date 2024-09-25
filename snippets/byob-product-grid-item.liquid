@@ -271,7 +271,6 @@
  
 {%- endcapture -%}
 
-
 {%- capture image_animations -%}
   data-aos="img-in"
   data-aos-delay="{{ aos_image_delay }}"
@@ -333,7 +332,10 @@
             {{- 'products.product.pre_order' | t -}}
           </span>
         {%- elsif on_sale and sold_out == false -%}
-          <marquee scrollamount="3" behavior="scroll" style="width:140px; font-weight: 600; text-overflow:clip;"
+          <marquee
+            scrollamount="3"
+            behavior="scroll"
+            style="width:140px; font-weight: 600; text-overflow:clip;"
             class="sale-box {%- if product.metafields.custom.bundle %} bundle-save-box {%endif%}"
             data-aos="fade"
             data-aos-delay="{{ aos_image_delay }}"
@@ -341,8 +343,9 @@
             data-aos-anchor="{{ aos_anchor }}"
           >
             {%- if product.metafields.custom.bundle %}
-              BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE
-BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE
+              BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE &
+              SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE
+              BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE
             {% else %}
               {{ 'products.product.on_sale' | t }}
             {% endif -%}
@@ -405,7 +408,14 @@ BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & S
         <div class="product-item__bg__sibling" data-product-image-sibling></div>
       {%- endif -%}
     </a>
+    <div data-variant="{{ product.selected_or_first_available_variant.id }}" class="byob-product-card__label add-item-box">+</div>
+  <div class="byob-product-card__label--checked" style="display:none">
+    <svg class="sh-icon icon-bag" aria-hidden="true" focusable="false" role="presentation" data-name="Icon / Bag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.97 53.26"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="Subtraction_3" data-name="Subtraction 3" d="M52 53.26H0l4.43-38.12h43.19L52 53.26zM8.82 20l-3.3 28.54h41.12L43.22 20z"></path><path class="bag-loop loop-1" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px" d="M16.51 25.56V10.7c0-4.26 4-8.2 9.48-8.2s9.47 3.84 9.47 8.2v14.86"></path><path class="bag-loop loop-2" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px" d="M16.51 17.46v13.28c0 3.81 4 7.33 9.48 7.33s9.47-3.44 9.47-7.33V17.46"></path></g></g></svg>
+
+          <span>1</span>
   </div>
+  
+    </div>
 
   <div class="product-information" data-product-information>
     <div class="product-item__info">
@@ -417,9 +427,8 @@ BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & S
       >
         <p class="product-item__title">{{ product.title | strip_html | escape }}</p>
         <div class="product-item__price__holder{% if has_siblings %} has-siblings{% endif %}">
-          
-                      <div class="product-item__price" data-product-price>
-                        {% comment %} Price on product grid item {% endcomment %}
+          <div class="product-item__price" data-product-price>
+            {% comment %} Price on product grid item {% endcomment %}
 
             {%- liquid
               if settings.currency_code_enable
@@ -463,10 +472,17 @@ BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & S
               {% endcapture %}
               <br>
               <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
-              <span class="unit small">{% if settings.currency_code_enable %}{{ current_variant.unit_price | money_with_currency }}{% else %}{{ current_variant.unit_price | money }}{% endif %}{{ unit_price_separator }}{{ unit_price_base_unit }}</span>
+              <span class="unit small">
+                {%- if settings.currency_code_enable -%}
+                  {{- current_variant.unit_price | money_with_currency -}}
+                {%- else -%}
+                  {{- current_variant.unit_price | money -}}
+                {%- endif -%}
+                {{- unit_price_separator -}}
+                {{- unit_price_base_unit -}}
+              </span>
             {% endif %}
-                      </div>
-          
+          </div>
 
           {{ over_image_content }}
         </div>
