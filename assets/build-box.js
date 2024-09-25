@@ -26,6 +26,7 @@ $(document).ready(function(){
           var currentItems = $(".byob-main__progress-bar-item img[src!='']").length;
           if (currentItems >= 5) {
             console.log(currentItems,"----currentItems");
+            $(".byob-main__progress-bar-item--additional").show();
           }
         });
      // Handle the delete button click
