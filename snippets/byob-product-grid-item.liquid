@@ -486,6 +486,9 @@
 
           {{ over_image_content }}
         </div>
+        {% if product.metafields.custom.product_description != blank %}
+        {{product.metafields.custom.product_description}}
+        {% endif %}
       </a>
 
       {%- if siblings_html != blank -%}

@@ -84,7 +84,7 @@
             "show_arrow": false,
             "featured_collection": "cleanse",
             "style": "grid",
-            "grid": 4,
+            "grid": 3,
             "rows": 3,
             "width": "wrapper",
             "layout_mobile": "carousel",
@@ -110,7 +110,7 @@
             "show_arrow": false,
             "featured_collection": "tone",
             "style": "grid",
-            "grid": 4,
+            "grid": 3,
             "rows": 3,
             "width": "wrapper",
             "layout_mobile": "carousel",
@@ -145,12 +145,38 @@
             "padding_top": 50,
             "padding_bottom": 50
           }
+        },
+        "collection_ghyBfU": {
+          "type": "Collection",
+          "settings": {
+            "subheading": "Skip this Step",
+            "heading": "Step: 4 Correct",
+            "description": "",
+            "layout": "inline",
+            "link_text": "",
+            "link_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "featured_collection": "correct",
+            "style": "grid",
+            "grid": 3,
+            "rows": 3,
+            "width": "wrapper",
+            "layout_mobile": "carousel",
+            "bg_color": "",
+            "color": "",
+            "padding_top": 50,
+            "padding_bottom": 50
+          }
         }
       },
       "block_order": [
         "collection_XPMHRU",
         "collection_yHVtRG",
-        "collection_faUKaR"
+        "collection_faUKaR",
+        "collection_ghyBfU"
       ],
       "settings": {
       }
