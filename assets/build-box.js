@@ -24,9 +24,14 @@ $(document).ready(function(){
           }
 
           var currentItems = $(".byob-main__progress-bar-item img[src!='']").length;
+          console.log(currentItems);
+          setTimeout(function(){
+          $(".byob-main__progress-bar-item.byob_main_box_"+currentItems).show();
+            },1000)
           if (currentItems >= 5) {
             console.log(currentItems,"----currentItems");
             $(".byob-main__progress-bar-item--additional").show();
+            $(".add-to-bag-item").removeAttr("disabled");
           }
         });
      // Handle the delete button click
@@ -67,4 +72,33 @@ $(document).ready(function(){
     $lastItem.find("input.box-variant").val("");
     $lastItem.find(".byob-main__progress-bar-delete-btn").hide();
   }
+  $(".add-to-bag-item").click(function(event){
+    var unique_data = parseInt(event.timeStamp);
+    var varaint_data =[];
+    $(".box-variant").each(function(){
+        if($(this).val() != ''){
+        var variant_id = $(this).val();
+        varaint_data.push({id:variant_id,quantity:1,properties:{_build_box:'buildBox',_box_line_item:'boxline'+unique_data}})
+        }
+    });
+    console.log(varaint_data);
+    let formData = {
+        'items': varaint_data
+    };
+    fetch('/cart/add.js', {
+        method: 'POST',
+        headers: {
+        'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+        })
+        .then((response) => response.json())
+        .then(response => {
+        //this.cartNotification.renderContents2(response);
+         //window.location.href="/cart";
+        })
+        .catch((error) => {
+        console.error('Error:', error);
+        });
+    })
 });  

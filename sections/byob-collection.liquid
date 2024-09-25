@@ -223,11 +223,11 @@
   <div class="byob-main__progress-bar-box">
     <div class="byob-main__progress-bar-inner">
       {% for i in (1..8) %}
-      <div class="byob-main__progress-bar-item"{% if i > 5 %} style="display:none" {% endif %}>
+      <div class="byob-main__progress-bar-item byob_main_box_{{i}}"{% if i > 5 %} style="display:none" {% endif %}>
         <img class="box_image_{{i}}" src="" alt="">
 
         <span class="byob-main__progress-bar-index">{{i}}</span>
-        <input type="hidden" class="box-variant box-var-{{i}}".value="">
+        <input type="hidden" class="box-variant box-var-{{i}}" value="">
 
         <button  style="display:none" type="button" class="byob-main__progress-bar-delete-btn" aria-label="Delete product from progress bar">
           <svg
@@ -260,7 +260,7 @@
         </div>
         </div>
     </div>
-    <button type="button" class="btn  btn--primary add-to-bag-item">Add to Bag</button>
+    <button type="button" class="btn  btn--primary add-to-bag-item" disabled>Add to Bag</button>
   </div>
 </div>
 
