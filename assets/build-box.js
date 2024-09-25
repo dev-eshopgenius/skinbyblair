@@ -22,6 +22,11 @@ $(document).ready(function(){
             $emptyItem.find("input.box-variant").val(variant_id);
             $emptyItem.find(".byob-main__progress-bar-delete-btn").show();
           }
+
+          var currentItems = $(".byob-main__progress-bar-item img[src!='']").length;
+          if (currentItems >= 5) {
+            console.log(currentItems,"----currentItems");
+          }
         });
      // Handle the delete button click
   $(".byob-main__progress-bar-delete-btn").click(function(){

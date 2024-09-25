@@ -223,7 +223,7 @@
   <div class="byob-main__progress-bar-box">
     <div class="byob-main__progress-bar-inner">
       {% for i in (1..8) %}
-      <div class="byob-main__progress-bar-item">
+      <div class="byob-main__progress-bar-item"{% if i > 5 %} style="display:none" {% endif %}>
         <img class="box_image_{{i}}" src="" alt="">
 
         <span class="byob-main__progress-bar-index">{{i}}</span>
@@ -254,6 +254,7 @@
       </div> 
       {% endfor %}
     </div>
+    <button type="button" class="btn  btn--primary add-to-bag-item">Add to Bag</button>
   </div>
 </div>
 
