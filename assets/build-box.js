@@ -23,4 +23,42 @@ $(document).ready(function(){
             $emptyItem.find(".byob-main__progress-bar-delete-btn").show();
           }
         });
+     // Handle the delete button click
+  $(".byob-main__progress-bar-delete-btn").click(function(){
+    var $item = $(this).closest('.byob-main__progress-bar-item');
+    removeAndShiftItems($item);
+  });
+
+  function removeAndShiftItems($item) {
+    $item.find("img").attr("src", "");
+    $item.find("input.box-variant").val("");
+    $item.find(".byob-main__progress-bar-delete-btn").hide();
+
+    // Shift remaining items up
+    var items = $(".byob-main__progress-bar-item").toArray();
+    var index = items.indexOf($item[0]);
+
+    for (var i = index; i < items.length - 1; i++) {
+      var $currentItem = $(items[i]);
+      var $nextItem = $(items[i + 1]);
+
+      var nextImageSrc = $nextItem.find("img").attr("src");
+      var nextVariant = $nextItem.find("input.box-variant").val();
+      
+      $currentItem.find("img").attr("src", nextImageSrc);
+      $currentItem.find("input.box-variant").val(nextVariant);
+      
+      if (nextImageSrc) {
+        $currentItem.find(".byob-main__progress-bar-delete-btn").show();
+      } else {
+        $currentItem.find(".byob-main__progress-bar-delete-btn").hide();
+      }
+    }
+
+    // Clear the last item
+    var $lastItem = $(items[items.length - 1]);
+    $lastItem.find("img").attr("src", "");
+    $lastItem.find("input.box-variant").val("");
+    $lastItem.find(".byob-main__progress-bar-delete-btn").hide();
+  }
 });  
