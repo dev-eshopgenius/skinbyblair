@@ -37,6 +37,10 @@ $(document).ready(function(){
      // Handle the delete button click
   $(".byob-main__progress-bar-delete-btn").click(function(){
     var $item = $(this).closest('.byob-main__progress-bar-item');
+    var variantId = $item.find("input.box-variant").val();
+    console.log(variantId);
+    $(".byob-product-card__label.add-item-box[data-variant='"+variantId+"']").show();
+    $(".byob-product-card__label.add-item-box[data-variant='"+variantId+"']").closest(".product-item__image").find(".byob-card__label--checked").hide();
     removeAndShiftItems($item);
   });
 
