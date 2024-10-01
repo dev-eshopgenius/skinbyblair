@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -31,18 +22,19 @@
       "type": "section-hero",
       "blocks": {
         "heading_RKEd6e": {
-          "type": "heading",
+          "type": "text",
           "settings": {
-            "title": "Build Your Own Custom Routine",
-            "heading_size": 8
+            "description": "Tell your brand's story through images.",
+            "text_size": 7,
+            "text_style": "font-subheading"
           }
         },
         "text_zNYAFK": {
           "type": "text",
           "settings": {
             "description": "Save 15% plus get a FREE mini product when you build your own bundle with 3 or more products.",
-            "text_size": 8,
-            "text_style": "font-body"
+            "text_size": 7,
+            "text_style": "font-heading"
           }
         }
       },
@@ -53,7 +45,7 @@
       "settings": {
         "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Screenshot2024-03-06at9.37.24AM.png",
+        "image_1": "shopify:\/\/shop_images\/New_Project.jpg",
         "link": "",
         "mobile_height": "image-height--mobile",
         "flex_align_desktop": "align--top-center-desktop",
@@ -62,7 +54,7 @@
         "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
-        "color": "#000000"
+        "color": "#848080"
       }
     },
     "byob_collection_QVaeKC": {
@@ -72,8 +64,8 @@
           "type": "Collection",
           "settings": {
             "subheading": "Skip This Step",
-            "heading": "Step 1: Cleanse",
-            "image": "shopify://shop_images/Value_Prop_2_-_Personalized.webp",
+            "heading": "<em>Step 1:<\/em> Cleanse",
+            "image": "shopify:\/\/shop_images\/Value_Prop_2_-_Personalized.webp",
             "description": "",
             "layout": "inline",
             "link_text": "",
@@ -88,8 +80,8 @@
             "rows": 3,
             "width": "wrapper",
             "layout_mobile": "carousel",
-            "bg_color": "",
-            "color": "",
+            "bg_color": "#dddee0",
+            "color": "#848080",
             "padding_top": 50,
             "padding_bottom": 50
           }
@@ -99,7 +91,7 @@
           "settings": {
             "subheading": "Skip This Step",
             "heading": "Step 2: Tone",
-            "image": "shopify://shop_images/17.png",
+            "image": "shopify:\/\/shop_images\/17.png",
             "description": "",
             "layout": "inline",
             "link_text": "",
@@ -125,7 +117,7 @@
           "settings": {
             "subheading": "Skip This Step",
             "heading": "Step 3: Brighten",
-            "image": "shopify://shop_images/18.png",
+            "image": "shopify:\/\/shop_images\/18.png",
             "description": "",
             "layout": "inline",
             "link_text": "",
@@ -151,6 +143,7 @@
           "settings": {
             "subheading": "Skip this Step",
             "heading": "Step: 4 Correct",
+            "image": "shopify:\/\/shop_images\/DSC_3245.jpg",
             "description": "",
             "layout": "inline",
             "link_text": "",
@@ -179,6 +172,8 @@
         "collection_ghyBfU"
       ],
       "settings": {
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
       }
     }
   },

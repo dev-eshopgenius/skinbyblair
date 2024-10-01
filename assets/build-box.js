@@ -25,6 +25,7 @@ $(document).ready(function(){
 
           var currentItems = $(".byob-main__progress-bar-item img[src!='']").length;
           console.log(currentItems);
+          $(".box_image_"+currentItems).css("opacity","1");
           setTimeout(function(){
           $(".byob-main__progress-bar-item.byob_main_box_"+currentItems).show();
             },1000)
@@ -33,11 +34,41 @@ $(document).ready(function(){
             $(".byob-main__progress-bar-item--additional").show();
             $(".add-to-bag-item").removeAttr("disabled");
           }
+          if (currentItems >= 8) {
+            $(".byob-product-card__label.add-item-box").addClass("disabled");
+            $(".byob-main__progress-bar-item--additional").hide();
+          }else{
+            
+          }
+          if(currentItems == 3){
+          $('.byob_main_box_3').append('<span class="discount_price"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">'+
+                    '<path id="circlePath" fill="transparent" d="M 10, 50 a 40,40 0 1,1 80,0 40,40 0 1,1 -80,0"></path>'+
+                    '<text>'+
+                      '<textPath href="#circlePath">10% OFF</textPath>'+
+                    '</text>'+
+                  '</svg></span>');
+          }
+          if(currentItems == 4){
+          $('.byob_main_box_4').append('<span class="discount_price"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">'+
+                    '<path id="circlePath" fill="transparent" d="M 10, 50 a 40,40 0 1,1 80,0 40,40 0 1,1 -80,0"></path>'+
+                    '<text>'+
+                      '<textPath href="#circlePath">12% OFF</textPath>'+
+                    '</text>'+
+                  '</svg></span>');
+          }
+          if(currentItems == 5){
+          $('.byob_main_box_5').append('<span class="discount_price"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">'+
+                    '<path id="circlePath" fill="transparent" d="M 10, 50 a 40,40 0 1,1 80,0 40,40 0 1,1 -80,0"></path>'+
+                    '<text>'+
+                      '<textPath href="#circlePath">15% OFF</textPath>'+
+                    '</text>'+
+                  '</svg></span>');
+          }
         });
      // Handle the delete button click
   $(".byob-main__progress-bar-delete-btn").click(function(){
     var $item = $(this).closest('.byob-main__progress-bar-item');
-    var variantId = $item.find("input.box-variant").val();
+     var variantId = $item.find("input.box-variant").val();
     console.log(variantId);
     $(".byob-product-card__label.add-item-box[data-variant='"+variantId+"']").show();
     $(".byob-product-card__label.add-item-box[data-variant='"+variantId+"']").closest(".product-item__image").find(".byob-card__label--checked").hide();
@@ -48,6 +79,7 @@ $(document).ready(function(){
     $item.find("img").attr("src", "");
     $item.find("input.box-variant").val("");
     $item.find(".byob-main__progress-bar-delete-btn").hide();
+    //$item.find(".discount_price").remove();
 
     // Shift remaining items up
     var items = $(".byob-main__progress-bar-item").toArray();
@@ -63,6 +95,7 @@ $(document).ready(function(){
       $currentItem.find("img").attr("src", nextImageSrc);
       $currentItem.find("input.box-variant").val(nextVariant);
       
+      
       if (nextImageSrc) {
         $currentItem.find(".byob-main__progress-bar-delete-btn").show();
       } else {
@@ -75,14 +108,30 @@ $(document).ready(function(){
     $lastItem.find("img").attr("src", "");
     $lastItem.find("input.box-variant").val("");
     $lastItem.find(".byob-main__progress-bar-delete-btn").hide();
+
+
+    var imgSrc_3 = $('.box_image_3').attr('src');
+    if (imgSrc_3 === undefined || imgSrc_3.trim() === '') {
+      $(".byob_main_box_3").find(".discount_price").remove();
+    }
+    var imgSrc_4 = $('.box_image_4').attr('src');
+    if (imgSrc_4 === undefined || imgSrc_4.trim() === '') {
+      $(".byob_main_box_4").find(".discount_price").remove();
+    }
+
+     var imgSrc_5 = $('.box_image_5').attr('src');
+    if (imgSrc_5 === undefined || imgSrc_5.trim() === '') {
+      $(".byob_main_box_5").find(".discount_price").remove();
+    }
+
   }
   $(".add-to-bag-item").click(function(event){
     var unique_data = parseInt(event.timeStamp);
     var varaint_data =[];
-    $(".box-variant").each(function(){
+    $(".box-variant").each(function(index){
         if($(this).val() != ''){
         var variant_id = $(this).val();
-        varaint_data.push({id:variant_id,quantity:1,properties:{_build_box:'buildBox',_box_line_item:'boxline'+unique_data}})
+        varaint_data.push({id:variant_id,quantity:1,properties:{_build_box:'buildBox',_box_line_item:'boxline'+unique_data,_index:'product_'+index}})
         }
     });
     console.log(varaint_data);
@@ -105,4 +154,12 @@ $(document).ready(function(){
         console.error('Error:', error);
         });
     })
+  $(".heading_accordian").click(function(){
+    $(this).hide();
+    $(this).closest(".build_box").find(".box-wrap").slideDown();
+});
+  $(".skip-this").click(function(){
+   $(this).closest(".build_box").find(".box-wrap").slideUp(); 
+   $(this).closest(".build_box").find(".heading_accordian ").show(); 
+})
 });  

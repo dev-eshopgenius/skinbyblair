@@ -1,284 +1,369 @@
 <script src="{{ 'build-box.js' | asset_url }}" defer="defer"></script>
 
-<section id="Collection--{{ section.id }}"
-  class="index-products section-padding"
+<section
+  id="Collection--{{ section.id }}"
+  class="index-products section-padding-no"
   data-section-id="{{ section.id }}"
-  data-section-type="product-grid">
+  data-section-type="product-grid"
+>
   {% for block in section.blocks %}
-
     {%- liquid
-  assign animation_order = 0
-  assign animation_anchor = '#Collection--' | append: section.id
-  assign bg_color = block.settings.bg_color
-  assign text_color = block.settings.color
-  assign style_layout = block.settings.style
-  assign subheading = block.settings.subheading
-  assign heading = block.settings.heading
-  assign description = block.settings.description
-  assign link_text = block.settings.link_text
-  assign has_content = false
-  if heading != blank or description != blank or link_text != blank
-    assign has_content = true
-  endif
+      assign animation_order = 0
+      assign animation_anchor = '#Collection--' | append: section.id
+      assign bg_color = block.settings.bg_color
+      assign text_color = block.settings.color
+      assign style_layout = block.settings.style
+      assign subheading = block.settings.subheading
+      assign heading = block.settings.heading
+      assign description = block.settings.description
+      assign link_text = block.settings.link_text
+      assign has_content = false
+      if heading != blank or description != blank or link_text != blank
+        assign has_content = true
+      endif
 
-  assign grid_columns = block.settings.grid
-  assign grid_rows = block.settings.rows
-  assign layout = block.settings.layout
+      assign grid_columns = block.settings.grid
+      assign grid_rows = block.settings.rows
+      assign layout = block.settings.layout
 
-  assign featured_collection = collections[block.settings.featured_collection]
-  assign limit_products = 50
-  assign limit_onboarding = 8
-  capture product_grid_classes
-    echo 'grid'
+      assign featured_collection = collections[block.settings.featured_collection]
+      assign limit_products = 50
+      assign limit_onboarding = 8
+      capture product_grid_classes
+        echo 'grid'
 
-    if style_layout == 'slider'
-      echo ' grid--slider'
-    endif
+        if style_layout == 'slider'
+          echo ' grid--slider'
+        endif
 
-    if block.settings.layout_mobile == 'carousel'
-      echo ' grid--mobile-slider'
-    else
-      echo ' grid--mobile-vertical'
-    endif
-  endcapture
+        if block.settings.layout_mobile == 'carousel'
+          echo ' grid--mobile-slider'
+        else
+          echo ' grid--mobile-vertical'
+        endif
+      endcapture
 
-  assign columns_desktop = grid_columns | plus: 0
-  assign columns_medium = 3
-  assign columns_small = 2
-  assign columns_mobile = block.settings.layout_mobile | plus: 0
+      assign columns_desktop = grid_columns | plus: 0
+      assign columns_medium = 3
+      assign columns_small = 2
+      assign columns_mobile = block.settings.layout_mobile | plus: 0
 
-	if columns_desktop == 2 or columns_desktop == 4
-    assign columns_medium = 2
-  endif
+      if columns_desktop == 2 or columns_desktop == 4
+        assign columns_medium = 2
+      endif
 
-  if style_layout == 'grid'
-    assign limit_products = grid_columns | times: grid_rows
-    assign limit_onboarding = limit_products
+      if style_layout == 'grid'
+        assign limit_products = grid_columns | times: grid_rows
+        assign limit_onboarding = limit_products
 
-    if grid_columns == 2 or grid_columns == 4
-      assign columns_medium = 2
-    endif
-  endif
+        if grid_columns == 2 or grid_columns == 4
+          assign columns_medium = 2
+        endif
+      endif
 
-  assign button_style = block.settings.button_style
-  if button_style == 'btn--text' and block.settings.show_arrow
-    assign button_style = button_style | append: ' btn--text-no-underline'
-  endif
--%}
+      assign button_style = block.settings.button_style
+      if button_style == 'btn--text' and block.settings.show_arrow
+        assign button_style = button_style | append: ' btn--text-no-underline'
+      endif
+    -%}
 
-{%- style -%}
- #Collection--{{ section.id }} {
-    --PT: {{ block.settings.padding_top }}px;
-    --PB: {{ block.settings.padding_bottom }}px;
+    {%- style -%}
+      #Collection--{{ section.id }} {
+         --PT: {{ block.settings.padding_top }}px;
+         --PB: {{ block.settings.padding_bottom }}px;
 
-    {%- if has_content -%}
-      --PT-MOBILE: max({{ block.settings.padding_top }}px, calc(var(--gutter) * 2));
-    {%- endif -%}
+         {%- if has_content -%}
+           --PT-MOBILE: max({{ block.settings.padding_top }}px, calc(var(--gutter) * 2));
+         {%- endif -%}
 
-    --COLUMNS: {{ columns_desktop }};
-    --COLUMNS-MEDIUM: {{ columns_medium }};
-    --COLUMNS-SMALL: {{ columns_small }};
-    --COLUMNS-MOBILE: {{ columns_mobile }};
+         --COLUMNS: {{ columns_desktop }};
+         --COLUMNS-MEDIUM: {{ columns_medium }};
+         --COLUMNS-SMALL: {{ columns_small }};
+         --COLUMNS-MOBILE: {{ columns_mobile }};
 
-    {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
-      --bg: {{ bg_color }};
-    {%- endunless -%}
+         {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+           --bg: {{ bg_color }};
+         {%- endunless -%}
 
-    {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
-      --text: {{ text_color }};
-      --text-light: {{ text_color | color_mix: settings.bg_color, 70 }};
-      --text-dark: {{ text_color | color_saturate: 10 | color_darken: 15 }};
-    {%- endunless -%}
-  }
-{%- endstyle -%}
+         {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+           --text: {{ text_color }};
+           --text-light: {{ text_color | color_mix: settings.bg_color, 70 }};
+           --text-dark: {{ text_color | color_saturate: 10 | color_darken: 15 }};
+         {%- endunless -%}
+       }
+    {%- endstyle -%}
     <div class="build_box">
-  {%- if heading != blank -%}
-    {%- assign animation_order = animation_order | plus: 1 -%}
-    <h2 class="grid__heading heading_accordian"
-      data-aos="hero"
-      data-aos-anchor="{{ animation_anchor }}"
-      data-aos-order="{{ animation_order }}">{{ heading }}</h2>
-  {%- endif -%}
-  {%- if block.settings.image != blank -%}
-    <div class="hero__split-image">
-      {%- render 'image-hero',
-        image: block.settings.image,
-        sizes: 'wrapper--full',
-        desktop_height: 'image-height',
-        mobile_height: 'image-height'
-      -%}
-      <div class="banner_heading">{{ heading }}</div>
-    </div>
-  {%- endif -%}
-  <div class="grid-container{% if layout == 'left' %} grid-container--inline{% endif %}{% if style_layout == 'grid' %} {{ block.settings.width }}{% endif %}">
-    {%- if has_content -%}
-      <div class="grid__heading-holder{% if layout == 'inline' %} grid__heading-holder--inline{% elsif layout == 'left' %} grid__heading-holder--sticky{% elsif layout == 'center' %} text-center {% elsif layout == 'below' %} text-center {% endif %}">
-        {%- if subheading != blank or heading != blank or description != blank -%}
-          <div class="grid__heading-text">
-            {%- if subheading != blank -%}
-                {%- assign animation_order = animation_order | plus: 1 -%}
-                <div class="grid__heading boyb-subheading"
-                  data-aos="hero"
-                  data-aos-anchor="{{ animation_anchor }}"
-                  data-aos-order="{{ animation_order }}">{{ subheading }}</div>
-              {%- endif -%}
-            
-
-            {%- if description != blank -%}
-              {%- assign animation_order = animation_order | plus: 1 -%}
-              <div class="grid__description"
-                data-aos="hero"
-                data-aos-anchor="{{ animation_anchor }}"
-                data-aos-order="{{ animation_order }}">
-                {{ description }}
-              </div>
-            {%- endif -%}
-          </div>
-        {%- endif -%}
-
-        {%- if link_text != blank -%}
-          {% if layout != 'below' %}
-            {%- assign animation_order = animation_order | plus: 1 -%}
-            <div class="grid__heading-actions"
-              data-aos="hero"
-              data-aos-anchor="{{ animation_anchor }}"
-              data-aos-order="{{ animation_order }}">
-              <a class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
-                href="{% if block.settings.link_url != blank %}{{ block.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}">
-                <span>{{ link_text | escape }}</span>
-
-                {%- if block.settings.show_arrow -%}
-                  {%- render 'icon-arrow-right' -%}
-                {%- endif -%}
-              </a>
-            </div>
-          {%- endif -%}
-        {%- endif -%}
-      </div>
-    {%- endif -%}
-
-    <div class="grid__items-holder">
-      <div class="grid-outer">
-        <div
-          class="{{ product_grid_classes }}"
-          {% if style_layout == 'slider' %}
-            data-slider="ProductGridSlider--{{ section.id }}"
-            data-options='{"watchCSS": true, "cellAlign": "left", "pageDots": false, "prevNextButtons": true, "adaptiveHeight": false, "wrapAround": false, "groupCells": true}'
-            data-equalize-height="true"
-            data-arrow-position-middle
-          {% endif %}>
-            {%- if featured_collection != blank -%}
-              {%- if featured_collection.products_count > 0 -%}
-                {%- for product in featured_collection.products limit: limit_products -%}
-                  {%- assign animation_delay = forloop.index0 | times: 1 -%}
-
-                  {%- if style_layout == 'grid' -%}
-                    {%- assign grid_int = grid_columns | times: 1 -%}
-                    {%- assign animation_delay = forloop.index0 | modulo: grid_int | times: 1 -%}
-                  {%- endif -%}
-
-                  {%- assign layout_slide_attributes = 'data-slide="' | append: forloop.index0 | append: '" data-slide-index="' | append: forloop.index0 | append: '"' -%}
-
-                  {%- render 'byob-product-grid-item', product: product, animation_delay: animation_delay, additional_attributes: layout_slide_attributes, index: forloop.index -%}
-                {%- endfor -%}
-              {%- else -%}
-                <div class="no-results">
-                  <p><strong>{{ 'collections.general.no_matches' | t }}</strong></p>
-                </div>
-              {%- endif -%}
-            {%- else -%}
-              {%- for i in (1..limit_onboarding) -%}
-                {%- assign layout_slide_attributes = 'data-slide="' | append: forloop.index0 | append: '" data-slide-index="' | append: forloop.index0 | append: '"' -%}
-
-                {%- render 'onboarding-product-grid-item', additional_attributes: layout_slide_attributes, index: forloop.index, animation_delay: forloop.index0, placeholder_root: 'product-' -%}
-              {%- endfor -%}
-            {%- endif -%}
-        </div>
-      </div>
-    </div>
-
-    {% if layout == 'below' %}
-      <div class="grid__heading-holder text-center">
+      {%- if heading != blank -%}
         {%- assign animation_order = animation_order | plus: 1 -%}
-        <div class="grid__heading-actions"
+        <h2
+          class="grid__heading heading_accordian"
           data-aos="hero"
           data-aos-anchor="{{ animation_anchor }}"
-          data-aos-order="{{ animation_order }}">
-          <a class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
-            href="{% if block.settings.link_url != blank %}{{ block.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}">
-            <span>{{ link_text | escape }}</span>
+          data-aos-order="{{ animation_order }}"
+          {% if forloop.first %}
+            style="display:none"
+          {% else %}
+            style="display:block"
+          {% endif %}
+        >
+          {{ heading }}
+        </h2>
+      {%- endif -%}
+      <div
+        class="box-wrap"
+        {% if forloop.first %}
+          style="display:block"
+        {% else %}
+          style="display:none"
+        {% endif %}
+      >
+        {%- if block.settings.image != blank -%}
+          <div class="hero__split-image">
+            {%- render 'image-hero',
+              image: block.settings.image,
+              sizes: 'wrapper--full',
+              desktop_height: 'image-height',
+              mobile_height: 'image-height'
+            -%}
+            <div class="banner_heading h2">{{ heading }}</div>
+          </div>
+        {%- endif -%}
+        <div class="grid-container{% if layout == 'left' %} grid-container--inline{% endif %}{% if style_layout == 'grid' %} {{ block.settings.width }}{% endif %}">
+          {%- if has_content -%}
+            <div class="grid__heading-holder{% if layout == 'inline' %} grid__heading-holder--inline{% elsif layout == 'left' %} grid__heading-holder--sticky{% elsif layout == 'center' %} text-center {% elsif layout == 'below' %} text-center {% endif %}">
+              {%- if subheading != blank or heading != blank or description != blank -%}
+                <div class="grid__heading-text">
+                  {%- if subheading != blank -%}
+                    {%- assign animation_order = animation_order | plus: 1 -%}
+                    <div
+                      class="grid__heading skip-this boyb-subheading"
+                      data-aos="hero"
+                      data-aos-anchor="{{ animation_anchor }}"
+                      data-aos-order="{{ animation_order }}"
+                    >
+                      {{ subheading }}
+                    </div>
+                  {%- endif -%}
 
-            {%- if block.settings.show_arrow -%}
-              {%- render 'icon-arrow-right' -%}
-            {%- endif -%}
-          </a>
+                  {%- if description != blank -%}
+                    {%- assign animation_order = animation_order | plus: 1 -%}
+                    <div
+                      class="grid__description"
+                      data-aos="hero"
+                      data-aos-anchor="{{ animation_anchor }}"
+                      data-aos-order="{{ animation_order }}"
+                    >
+                      {{ description }}
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- if link_text != blank -%}
+                {% if layout != 'below' %}
+                  {%- assign animation_order = animation_order | plus: 1 -%}
+                  <div
+                    class="grid__heading-actions"
+                    data-aos="hero"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-order="{{ animation_order }}"
+                  >
+                    <a
+                      class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+                      href="{% if block.settings.link_url != blank %}{{ block.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}"
+                    >
+                      <span>{{ link_text | escape }}</span>
+
+                      {%- if block.settings.show_arrow -%}
+                        {%- render 'icon-arrow-right' -%}
+                      {%- endif -%}
+                    </a>
+                  </div>
+                {%- endif -%}
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+          <div class="grid__items-holder">
+            <div class="grid-outer">
+              <div
+                class="{{ product_grid_classes }}"
+                {% if style_layout == 'slider' %}
+                  data-slider="ProductGridSlider--{{ section.id }}"
+                  data-options='{"watchCSS": true, "cellAlign": "left", "pageDots": false, "prevNextButtons": true, "adaptiveHeight": false, "wrapAround": false, "groupCells": true}'
+                  data-equalize-height="true"
+                  data-arrow-position-middle
+                {% endif %}
+              >
+                {%- if featured_collection != blank -%}
+                  {%- if featured_collection.products_count > 0 -%}
+                    {%- for product in featured_collection.products limit: limit_products -%}
+                      {%- assign animation_delay = forloop.index0 | times: 1 -%}
+
+                      {%- if style_layout == 'grid' -%}
+                        {%- assign grid_int = grid_columns | times: 1 -%}
+                        {%- assign animation_delay = forloop.index0 | modulo: grid_int | times: 1 -%}
+                      {%- endif -%}
+
+                      {%- assign layout_slide_attributes = 'data-slide="'
+                        | append: forloop.index0
+                        | append: '" data-slide-index="'
+                        | append: forloop.index0
+                        | append: '"'
+                      -%}
+
+                      {%- render 'byob-product-grid-item',
+                        product: product,
+                        animation_delay: animation_delay,
+                        additional_attributes: layout_slide_attributes,
+                        index: forloop.index
+                      -%}
+                    {%- endfor -%}
+                  {%- else -%}
+                    <div class="no-results">
+                      <p>
+                        <strong>{{ 'collections.general.no_matches' | t }}</strong>
+                      </p>
+                    </div>
+                  {%- endif -%}
+                {%- else -%}
+                  {%- for i in (1..limit_onboarding) -%}
+                    {%- assign layout_slide_attributes = 'data-slide="'
+                      | append: forloop.index0
+                      | append: '" data-slide-index="'
+                      | append: forloop.index0
+                      | append: '"'
+                    -%}
+
+                    {%- render 'onboarding-product-grid-item',
+                      additional_attributes: layout_slide_attributes,
+                      index: forloop.index,
+                      animation_delay: forloop.index0,
+                      placeholder_root: 'product-'
+                    -%}
+                  {%- endfor -%}
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+
+          {% if layout == 'below' %}
+            <div class="grid__heading-holder text-center">
+              {%- assign animation_order = animation_order | plus: 1 -%}
+              <div
+                class="grid__heading-actions"
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="{{ animation_order }}"
+              >
+                <a
+                  class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+                  href="{% if block.settings.link_url != blank %}{{ block.settings.link_url }}{% else %}{{ featured_collection.url }}{% endif %}"
+                >
+                  <span>{{ link_text | escape }}</span>
+
+                  {%- if block.settings.show_arrow -%}
+                    {%- render 'icon-arrow-right' -%}
+                  {%- endif -%}
+                </a>
+              </div>
+            </div>
+          {%- endif -%}
         </div>
       </div>
-    {%- endif -%}
-  </div>
-  </div>
+    </div>
   {% endfor %}
 </section>
 <div class="byob-main__progress-bar">
   <div class="byob-main__progress-bar-box">
     <div class="byob-main__progress-bar-inner">
       {% for i in (1..8) %}
-      <div class="byob-main__progress-bar-item byob_main_box_{{i}}"{% if i > 5 %} style="display:none" {% endif %}>
-        <img class="box_image_{{i}}" src="" alt="">
+        <div
+          class="byob-main__progress-bar-item byob_main_box_{{i}}"
+          {% if i > 5 %}
+            style="display:none"
+          {% endif %}
+        >
+          <img class="box_image_{{i}}" src="" alt="">
 
-        <span class="byob-main__progress-bar-index">{{i}}</span>
-        <input type="hidden" class="box-variant box-var-{{i}}" value="">
+          <span class="byob-main__progress-bar-index">{{ i }}</span>
+          <input type="hidden" class="box-variant box-var-{{i}}" value="">
 
-        <button  style="display:none" type="button" class="byob-main__progress-bar-delete-btn" aria-label="Delete product from progress bar">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-trash"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+          <button
+            style="display:none"
+            type="button"
+            class="byob-main__progress-bar-delete-btn"
+            aria-label="Delete product from progress bar"
           >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 7l16 0"></path>
-            <path d="M10 11l0 6"></path>
-            <path d="M14 11l0 6"></path>
-            <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
-            <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
-          </svg>
-          <label for=""></label>
-        </button>
-      </div> 
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-trash"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 7l16 0"></path>
+              <path d="M10 11l0 6"></path>
+              <path d="M14 11l0 6"></path>
+              <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
+              <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
+            </svg>
+            <label for=""></label>
+          </button>
+        </div>
       {% endfor %}
       <div class="byob-main__progress-bar-item byob-main__progress-bar-item--additional" style="display:none">
         <span class="byob-main__progress-bar-index">+</span>
-        <div class="byob-main__progress-bar-additional-item">
-          Add More
-        </div>
-        </div>
+        <div class="byob-main__progress-bar-additional-item">Add More</div>
+      </div>
     </div>
     <button type="button" class="btn  btn--primary add-to-bag-item" disabled>Add to Bag</button>
   </div>
 </div>
 
 <style>
-  .byob-product-card__label.add-item-box {
-    background: #000;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 13px;
-    cursor: pointer;
-}
+    .byob-product-card__label.add-item-box {
+      background: #000;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 13px;
+      cursor: pointer;
+  }
 </style>
+
 {% schema %}
   {
     "name": "Byob collection",
     "class": "byob-collection",
     "settings": [
+      {
+      "type": "header",
+      "content": "Overlay"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Opacity",
+      "info": "Increase contrast for legible text.",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#000"
+    },
       {
       "type": "header",
       "content": "BuildBox"

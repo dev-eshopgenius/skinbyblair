@@ -286,136 +286,143 @@
   {{ additional_attributes }}
 >
   <div class="product-item__image{% if double_img %} double__image{% endif %}" data-product-image>
-    <a
-      class="product-link"
-      href="{{ product_url }}"
-      aria-label="{{ product.title | strip_html | escape }}"
-      data-product-link="{{ product_url }}"
+    <div
+      style="
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: end;
+      "
     >
-      <div
-        style="
-          width: 100%;
-          position: relative;
-          display: flex;
-          justify-content: end;
-        "
-      >
-        {%- if sold_out == true -%}
-          <span
-            class="badge-box sold-out-box"
-            data-aos="fade"
-            data-aos-delay="{{ aos_image_delay }}"
-            data-aos-duration="{{ aos_duration }}"
-            data-aos-anchor="{{ aos_anchor }}"
-            >SOLD OUT</span
-          >
-        {%- endif -%}
+      {%- if sold_out == true -%}
+        <span
+          class="badge-box sold-out-box"
+          data-aos="fade"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ aos_duration }}"
+          data-aos-anchor="{{ aos_anchor }}"
+          >SOLD OUT</span
+        >
+      {%- endif -%}
 
-        {%- if badge != '' and sold_out == false -%}
-          <span
-            class="badge-box"
-            data-aos="fade"
-            data-aos-delay="{{ aos_image_delay }}"
-            data-aos-duration="{{ aos_duration }}"
-            data-aos-anchor="{{ aos_anchor }}"
-          >
-            {{- badge -}}
-          </span>
-        {%- elsif preorder and sold_out == false -%}
-          <span
-            class="preorder-box"
-            data-aos="fade"
-            data-aos-delay="{{ aos_image_delay }}"
-            data-aos-duration="{{ aos_duration }}"
-            data-aos-anchor="{{ aos_anchor }}"
-          >
-            {{- 'products.product.pre_order' | t -}}
-          </span>
-        {%- elsif on_sale and sold_out == false -%}
-          <marquee
-            scrollamount="3"
-            behavior="scroll"
-            style="width:140px; font-weight: 600; text-overflow:clip;"
-            class="sale-box {%- if product.metafields.custom.bundle %} bundle-save-box {%endif%}"
-            data-aos="fade"
-            data-aos-delay="{{ aos_image_delay }}"
-            data-aos-duration="{{ aos_duration }}"
-            data-aos-anchor="{{ aos_anchor }}"
-          >
-            {%- if product.metafields.custom.bundle %}
-              BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE &
-              SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE
-              BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE
-            {% else %}
-              {{ 'products.product.on_sale' | t }}
-            {% endif -%}
-          </marquee>
+      {%- if badge != '' and sold_out == false -%}
+        <span
+          class="badge-box"
+          data-aos="fade"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ aos_duration }}"
+          data-aos-anchor="{{ aos_anchor }}"
+        >
+          {{- badge -}}
+        </span>
+      {%- elsif preorder and sold_out == false -%}
+        <span
+          class="preorder-box"
+          data-aos="fade"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ aos_duration }}"
+          data-aos-anchor="{{ aos_anchor }}"
+        >
+          {{- 'products.product.pre_order' | t -}}
+        </span>
+      {%- elsif on_sale and sold_out == false -%}
+        <marquee
+          scrollamount="3"
+          behavior="scroll"
+          style="width:140px; font-weight: 600; text-overflow:clip;"
+          class="sale-box {%- if product.metafields.custom.bundle %} bundle-save-box {%endif%}"
+          data-aos="fade"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ aos_duration }}"
+          data-aos-anchor="{{ aos_anchor }}"
+        >
+          {%- if product.metafields.custom.bundle %}
+            BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE &
+            SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE
+            BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE BUNDLE & SAVE
+          {% else %}
+            {{ 'products.product.on_sale' | t }}
+          {% endif -%}
+        </marquee>
+      {%- endif -%}
+    </div>
+    {%- if product.media.size > 0 -%}
+      <div class="product-item__bg" data-product-image-default>
+        {%- render 'image',
+          image: product.featured_media.preview_image,
+          aspect_ratio: aspect_ratio,
+          sizes: sizes,
+          widths: widths,
+          attributes: image_animations,
+          cover: true
+        -%}
+
+        {%- if settings.color_swatches and current_variant -%}
+          {%- assign image_inner_empty = true -%}
+          {%- for variant in product.variants -%}
+            {%- if variant.featured_image != blank -%}
+              {%- assign image_inner_empty = false -%}
+              {%- assign variant_title = variant.title | replace: '"', "'" -%}
+              <div class="product-item__bg__inner hidden" data-variant-title="{{ variant_title }}">
+                {%- render 'image',
+                  image: variant.featured_image,
+                  aspect_ratio: aspect_ratio,
+                  sizes: sizes,
+                  widths: widths,
+                  cover: true
+                -%}
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if image_inner_empty -%}
+            &nbsp;
+          {%- endif -%}
+        {%- else -%}
+          &nbsp;
         {%- endif -%}
       </div>
-      {%- if product.media.size > 0 -%}
-        <div class="product-item__bg" data-product-image-default>
+
+      {%- if double_img -%}
+        <deferred-image class="product-item__bg__under hidden">
           {%- render 'image',
-            image: product.featured_media.preview_image,
+            image: product.media[1].preview_image,
             aspect_ratio: aspect_ratio,
             sizes: sizes,
             widths: widths,
-            attributes: image_animations,
             cover: true
           -%}
-
-          {%- if settings.color_swatches and current_variant -%}
-            {%- assign image_inner_empty = true -%}
-            {%- for variant in product.variants -%}
-              {%- if variant.featured_image != blank -%}
-                {%- assign image_inner_empty = false -%}
-                {%- assign variant_title = variant.title | replace: '"', "'" -%}
-                <div class="product-item__bg__inner hidden" data-variant-title="{{ variant_title }}">
-                  {%- render 'image',
-                    image: variant.featured_image,
-                    aspect_ratio: aspect_ratio,
-                    sizes: sizes,
-                    widths: widths,
-                    cover: true
-                  -%}
-                </div>
-              {%- endif -%}
-            {%- endfor -%}
-            {%- if image_inner_empty -%}
-              &nbsp;
-            {%- endif -%}
-          {%- else -%}
-            &nbsp;
-          {%- endif -%}
-        </div>
-
-        {%- if double_img -%}
-          <deferred-image class="product-item__bg__under hidden">
-            {%- render 'image',
-              image: product.media[1].preview_image,
-              aspect_ratio: aspect_ratio,
-              sizes: sizes,
-              widths: widths,
-              cover: true
-            -%}
-          </deferred-image>
-        {%- endif -%}
-      {%- else -%}
-        {%- comment -%} Show Empty image if product has no media {%- endcomment -%}
-        <div class="product-item__bg image--empty" data-product-image-default></div>
+        </deferred-image>
       {%- endif -%}
+    {%- else -%}
+      {%- comment -%} Show Empty image if product has no media {%- endcomment -%}
+      <div class="product-item__bg image--empty" data-product-image-default></div>
+    {%- endif -%}
 
-      {%- if has_siblings -%}
-        <div class="product-item__bg__sibling" data-product-image-sibling></div>
-      {%- endif -%}
-    </a>
-    <div data-variant="{{ product.selected_or_first_available_variant.id }}" class="byob-product-card__label add-item-box">+</div>
-  <div class="byob-card__label--checked" style="display:none">
-    <svg class="sh-icon icon-bag" aria-hidden="true" focusable="false" role="presentation" data-name="Icon / Bag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.97 53.26"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="Subtraction_3" data-name="Subtraction 3" d="M52 53.26H0l4.43-38.12h43.19L52 53.26zM8.82 20l-3.3 28.54h41.12L43.22 20z"></path><path class="bag-loop loop-1" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px" d="M16.51 25.56V10.7c0-4.26 4-8.2 9.48-8.2s9.47 3.84 9.47 8.2v14.86"></path><path class="bag-loop loop-2" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px" d="M16.51 17.46v13.28c0 3.81 4 7.33 9.48 7.33s9.47-3.44 9.47-7.33V17.46"></path></g></g></svg>
-
-          <span>1</span>
-  </div>
-  
+    {%- if has_siblings -%}
+      <div class="product-item__bg__sibling" data-product-image-sibling></div>
+    {%- endif -%}
+    <div
+      data-variant="{{ product.selected_or_first_available_variant.id }}"
+      class="byob-product-card__label add-item-box"
+    >
+      +
     </div>
+    <div class="byob-card__label--checked" style="display:none">
+      <svg
+        class="sh-icon icon-bag"
+        aria-hidden="true"
+        focusable="false"
+        role="presentation"
+        data-name="Icon / Bag"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 51.97 53.26"
+      >
+        <defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="Subtraction_3" data-name="Subtraction 3" d="M52 53.26H0l4.43-38.12h43.19L52 53.26zM8.82 20l-3.3 28.54h41.12L43.22 20z"></path><path class="bag-loop loop-1" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px" d="M16.51 25.56V10.7c0-4.26 4-8.2 9.48-8.2s9.47 3.84 9.47 8.2v14.86"></path><path class="bag-loop loop-2" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px" d="M16.51 17.46v13.28c0 3.81 4 7.33 9.48 7.33s9.47-3.44 9.47-7.33V17.46"></path></g></g>
+      </svg>
+
+      <span>1</span>
+    </div>
+  </div>
 
   <div class="product-information" data-product-information>
     <div class="product-item__info">
@@ -487,7 +494,7 @@
           {{ over_image_content }}
         </div>
         {% if product.metafields.custom.product_description != blank %}
-        {{product.metafields.custom.product_description}}
+          {{ product.metafields.custom.product_description }}
         {% endif %}
       </a>
 
